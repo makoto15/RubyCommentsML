@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces an active electrical component. # # @return [String] # # @example # Faker::ElectricalComponents.active #=> "Transistor" # # @faker.version 1.9.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a passive electrical component. # # @return [String] # # @example # Faker::ElectricalComponents.passive #=> "Resistor" # # @faker.version 1.9.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces an electromechanical electrical component. # # @return [String] # # @example # Faker::ElectricalComponents.electromechanical #=> "Toggle Switch" # # @faker.version 1.9.0

@@ -1,0 +1,5 @@
+UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl def UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl # data (hash) fetched from geocoding service
+UNK UNK UNK on_nl on_ignored_nl def UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK on_op UNK on_nl end # true if result came from cache, false if from request to geocoding # service; nil if cache is not configured
+def UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK on_op UNK on_nl end on_nl on_ignored_nl def UNK UNK ## # Takes a hash of data from a parsed geocoding service response. #
+def UNK UNK UNK on_op UNK UNK UNK on_ignored_nl UNK UNK UNK UNK on_op on_tstring_beg on_tstring_end on_nl UNK on_op on_tstring_beg ## # A string in the given format. # # This default implementation dumbly follows the United States address # format and will return incorrect results for most countries. Some APIs # return properly formatted addresses and those should be funneled # through this method. #
+def UNK on_nl UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK ## # A two-element array: [lat, lon]. #

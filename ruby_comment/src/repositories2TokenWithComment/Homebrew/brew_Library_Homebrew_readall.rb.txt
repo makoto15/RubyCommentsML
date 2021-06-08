@@ -1,0 +1,6 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_nl UNK on_op UNK on_nl UNK UNK on_lparen UNK on_rparen on_ignored_nl # frozen_string_literal: true
+failed on_op true UNK UNK on_lparen UNK on_rparen on_nl end on_nl on_op failed on_nl end on_nl on_ignored_nl UNK UNK on_lparen # As a side effect, print syntax errors/warnings to `$stderr`.
+UNK on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl UNK UNK on_nl failed on_op true on_nl end on_nl on_op failed on_nl # rubocop:disable Lint/RescueException
+UNK on_comma UNK on_comma UNK on_op UNK on_lparen UNK on_comma UNK UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma # Retrieve messages about syntax errors/warnings printed to `$stderr`.
+UNK on_op UNK on_period UNK on_ignored_nl on_period UNK on_lparen UNK on_tstring_content UNK on_rparen on_ignored_nl on_period UNK on_nl on_ignored_nl UNK on_period # Ignore unnecessary warning about named capture conflicts. # See https://bugs.ruby-lang.org/issues/12359.
+on_op UNK on_period UNK on_op on_op UNK on_period UNK on_period UNK on_nl end on_nl end on_nl end on_nl EMP EMP # Only syntax errors result in a non-zero status code. To detect syntax # warnings we also need to inspect the output to `$stderr`.

@@ -1,0 +1,2 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK # The method strips the characters preceding a special margin character. # Useful for HEREDOCs and other multi-line strings. # # @example # # code = <<-END.strip_margin('|') # |def test # | some_method # | other_method # |end # END # # #=> "def\n some_method\n \nother_method\nend"

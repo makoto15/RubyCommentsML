@@ -1,0 +1,2 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl UNK on_const on_nl UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK on_const UNK UNK UNK UNK # Checks for comma (,) preceded by space. # # @example # # bad # [1 , 2 , 3] # a(1 , 2) # each { |a , b| } # # # good # [1, 2, 3] # a(1, 2) # each { |a, b| }

@@ -1,0 +1,5 @@
+UNK UNK UNK UNK on_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # Represents a read only version of an App Store Connect Versions State History
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # @return (String) the state
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK UNK UNK on_ignored_nl UNK # @return (String) The name of the user who made the change
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK UNK UNK on_ignored_nl UNK UNK UNK UNK on_symbeg UNK # @return (String) the email of the user or nil
+UNK on_symbeg UNK on_nl on_ignored_nl UNK UNK UNK on_ignored_nl UNK UNK UNK UNK on_symbeg UNK UNK on_ignored_nl UNK UNK UNK # @return (Integer) the date of the state

@@ -1,0 +1,11 @@
+UNK on_const on_op on_op on_const on_op on_const on_nl UNK UNK UNK on_nl on_ignored_nl def UNK on_nl UNK on_op UNK on_nl # Rack compatible server. # # It is run with: # # `bundle exec hanami server` # # It runs the application, by using the server specified in your `Gemfile` # (eg. Puma or Unicorn). # # @since 0.8.0 # @api private
+UNK UNK UNK on_nl on_ignored_nl def UNK on_nl UNK on_op UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl # @api private
+def UNK on_nl UNK on_op UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_op on_const on_period UNK # @since 0.8.0 # @api private # # @see Hanami::Environment#initialize
+def UNK on_nl UNK on_op on_const on_period UNK UNK on_op UNK UNK UNK on_op UNK on_lbracket UNK on_rbracket on_op on_lbracket # Primarily this removes the ::Rack::Chunked middleware # which is the cause of Safari content-length bugs. # # @since 0.8.0
+def UNK on_nl UNK on_nl UNK on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl def UNK on_nl UNK UNK UNK on_nl # @api private
+def UNK on_nl UNK UNK UNK on_nl UNK on_op on_const on_op on_const on_period UNK UNK UNK UNK on_nl end on_nl # @api private
+def UNK on_nl on_const on_lbracket UNK UNK UNK on_rbracket on_nl end on_nl on_ignored_nl def UNK on_nl on_const on_period UNK on_nl # @api private
+def UNK on_nl on_const on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_period UNK on_period UNK on_nl end # @since 0.8.0 # @api private
+def UNK on_nl UNK on_period UNK on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK on_nl on_const on_period # @api private
+def UNK on_nl UNK UNK on_nl on_const on_period UNK on_nl on_const on_period UNK on_nl UNK on_ignored_nl on_const on_period UNK on_nl # @api private
+def UNK on_nl UNK on_period UNK on_period UNK UNK on_ignored_nl UNK UNK UNK on_ignored_nl UNK UNK on_period UNK UNK on_ignored_nl # Options for Rack::Server superclass # # @since 0.8.0 # @api private

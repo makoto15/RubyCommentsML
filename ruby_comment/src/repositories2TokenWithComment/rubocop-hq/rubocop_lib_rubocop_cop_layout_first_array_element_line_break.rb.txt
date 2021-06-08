@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK # This cop checks for a line break before the first element in a # multi-line array. # # @example # # # bad # [ :a, # :b] # # # good # [ # :a, # :b] #

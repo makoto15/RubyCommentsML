@@ -1,0 +1,6 @@
+UNK on_symbeg UNK do on_ignored_nl faces on_op UNK on_period instance_variable_get on_lparen on_symbeg on_ivar on_rparen on_nl on_ivar on_op faces on_period UNK # To prevent conflicts with other specs that use faces, we must save and restore global state. # Because there are specs that do 'describe Puppet::Face[...]', we must restore the same objects otherwise # the 'subject' of the specs will differ.
+faces on_op UNK on_period instance_variable_get on_lparen on_symbeg on_ivar on_rparen on_nl on_ivar on_op faces on_period UNK on_nl faces on_period each do # Save FaceCollection's global state
+on_ivar on_op on_lbracket on_rbracket on_nl on_gvar on_period each do on_op path on_op on_ignored_nl on_ivar on_op path UNK path on_op UNK # Save the already required face files
+on_ivar on_op on_const on_op on_const on_op on_const on_period instance_variable_get on_lparen on_symbeg on_ivar on_rparen on_period UNK on_nl end on_nl on_ignored_nl UNK # Save Autoload's global state
+UNK on_period UNK on_symbeg on_ivar on_comma on_ivar on_nl UNK on_period UNK on_symbeg on_ivar on_comma on_ivar on_nl on_gvar on_period UNK on_lbrace # Restore global state
+subject on_period instance_variable_get on_lparen on_symbeg on_ivar on_rparen on_period UNK on_nl subject on_period UNK on_lparen on_symbeg on_ivar on_comma UNK on_rparen on_nl # Before each test, clear the faces

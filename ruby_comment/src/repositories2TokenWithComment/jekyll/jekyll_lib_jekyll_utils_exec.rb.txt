@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
+UNK UNK UNK on_op UNK UNK UNK UNK on_comma UNK on_comma UNK on_comma UNK on_op UNK on_period UNK UNK on_op # Runs a program in a sub-shell. # # *args - a list of strings containing the program name and arguments # # Returns a Process::Status and a String of output in an array in # that order.

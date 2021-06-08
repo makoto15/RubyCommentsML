@@ -1,0 +1,2 @@
+on_ignored_nl expect on_lparen app on_period batch_actions on_rparen on_period to eq false on_nl expect on_lparen ns on_period batch_actions on_rparen on_period to # Note: the default initializer would set it to true
+expect on_lparen post_resource on_period batch_actions on_rparen on_period UNK UNK on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP # inherited from namespace

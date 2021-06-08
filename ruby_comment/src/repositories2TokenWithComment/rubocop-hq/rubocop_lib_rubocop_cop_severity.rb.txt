@@ -1,0 +1,13 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK on_tstring_content UNK on_tstring_content # frozen_string_literal: true
+UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content UNK # Severity class is simple value object about severity
+on_const on_op UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content UNK on_period UNK on_nl on_ignored_nl on_const on_op UNK # @api private
+on_const on_op UNK UNK on_symbeg UNK UNK UNK on_symbeg UNK UNK on_ignored_nl UNK on_symbeg UNK UNK UNK on_symbeg UNK UNK # @api private
+UNK on_symbeg name on_nl on_ignored_nl def UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl name on_op UNK on_period UNK on_nl on_const # @api public # # @!attribute [r] name # # @return [Symbol] # severity. # any of `:refactor`, `:convention`, `:warning`, `:error` or `:fatal`.
+def UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl name on_op UNK on_period UNK on_nl on_const UNK name UNK on_op name # @api private
+def UNK on_lparen UNK on_rparen on_ignored_nl name on_op on_const on_period UNK on_lparen UNK on_rparen on_nl UNK on_const UNK UNK on_tstring_content # @api private
+def UNK on_nl UNK on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_period UNK UNK UNK UNK on_period # @api private
+def UNK on_nl UNK on_period UNK UNK UNK UNK on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_const on_period # @api private
+def UNK on_nl on_const on_period UNK on_lparen name on_rparen on_op UNK on_nl end on_nl on_ignored_nl def on_op on_lparen other on_rparen # @api private
+def on_op on_lparen other on_rparen on_ignored_nl UNK on_op UNK other on_period UNK on_lparen on_const on_rparen on_nl other on_nl UNK on_ignored_nl # @api private
+def UNK on_nl UNK on_period UNK on_nl end on_nl on_ignored_nl def on_op on_lparen other on_rparen on_ignored_nl UNK on_op other on_period # @api private
+def on_op on_lparen other on_rparen on_ignored_nl UNK on_op other on_period UNK on_nl end on_nl end on_nl end on_nl end on_nl # @api private

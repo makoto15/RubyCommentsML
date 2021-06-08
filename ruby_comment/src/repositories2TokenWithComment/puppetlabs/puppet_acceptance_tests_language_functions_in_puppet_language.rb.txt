@@ -1,0 +1,2 @@
+on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK do on_ignored_nl on master on_comma on_tstring_beg on_tstring_content on_tstring_end on_nl on master on_comma on_tstring_beg on_tstring_content # use mk_tmp_environment_with_teardown helper for environment construction
+step on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl rc on_op on master on_comma UNK on_lparen on_tstring_beg on_tstring_content UNK manifest UNK on_tstring_content on_tstring_end # This should fail

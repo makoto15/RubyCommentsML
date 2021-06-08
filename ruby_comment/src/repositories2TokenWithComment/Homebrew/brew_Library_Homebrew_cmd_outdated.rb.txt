@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
+on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_ignored_nl f on_period UNK on_period to_s on_nl end on_nl on_ignored_nl UNK on_op UNK on_ignored_nl on_period # There is a newer HEAD but the version number has not changed.

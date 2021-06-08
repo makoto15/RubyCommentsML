@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_op on_const UNK UNK UNK on_symbeg UNK UNK UNK UNK on_symbeg UNK # HP-UX packaging.
+on_lbracket on_rbracket on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK on_const on_comma UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK # TODO: This is very hard on HP-UX!
+UNK UNK on_nl UNK on_const on_comma UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK on_lbracket on_symbeg UNK on_rbracket on_nl UNK # source and name are required

@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl def UNK on_nl context on_op on_const # frozen_string_literal: true
+assert_equal on_lparen on_int on_comma file_system on_period UNK on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl context on_op on_const on_op on_const # Technically what we care about is that the file was parsed twice, # but measuring file reads is an OK proxy for this.

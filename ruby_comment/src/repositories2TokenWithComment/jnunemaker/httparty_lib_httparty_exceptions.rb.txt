@@ -1,0 +1,8 @@
+class on_const on_op on_const UNK end on_nl on_ignored_nl class on_const on_op on_const UNK end on_nl on_ignored_nl class on_const on_op on_const # @abstact Exceptions raised by HTTParty inherit from Error
+class on_const on_op on_const UNK end on_nl on_ignored_nl class on_const on_op on_const UNK end on_nl on_ignored_nl class on_const on_op on_const # Exception raised when you attempt to set a non-existent format
+class on_const on_op on_const UNK end on_nl on_ignored_nl class on_const on_op on_const on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK # Exception raised when using a URI scheme other than HTTP or HTTPS
+class on_const on_op on_const on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl # @abstract Exceptions which inherit from ResponseError contain the Net::HTTP # response object accessible via the {#response} method.
+UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK UNK on_nl # Returns the response of the last request # @return [Net::HTTPResponse] A subclass of Net::HTTPResponse, e.g. # Net::HTTPOK
+UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK UNK on_nl end on_nl end on_nl on_ignored_nl # Instantiate an instance of ResponseError with a Net::HTTPResponse object # @param [Net::HTTPResponse]
+class on_const on_op on_const UNK end on_nl on_ignored_nl class on_const on_op on_const UNK end on_nl end on_nl EMP EMP EMP # Exception that is raised when request has redirected too many times. # Calling {#response} returns the Net:HTTP response object.
+class on_const on_op on_const UNK end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Exception that is raised when request redirects and location header is present more than once

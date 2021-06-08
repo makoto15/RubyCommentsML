@@ -1,0 +1,10 @@
+def UNK on_lparen cookie on_rparen on_ignored_nl __deprecated__ on_symbeg add on_nl cookie on_period UNK on_period UNK UNK UNK on_const on_comma on_tstring_beg # See HTTP::CookieJar#add.
+def UNK on_lparen UNK on_comma on_op options on_rparen on_ignored_nl __deprecated__ on_symbeg save on_nl save on_lparen UNK on_comma on_op options on_rparen # See HTTP::CookieJar#save.
+def UNK on_nl __deprecated__ on_symbeg UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl __deprecated__ on_symbeg UNK on_nl on_ivar # See HTTP::CookieJar#clear.
+def UNK on_nl __deprecated__ on_symbeg UNK on_nl on_ivar on_period UNK on_lparen on_symbeg on_ivar on_rparen on_nl end on_nl on_ignored_nl def UNK # See HTTP::CookieJar#store.
+def UNK on_lparen io on_rparen on_ignored_nl __deprecated__ on_symbeg UNK on_nl UNK on_lparen io on_comma on_symbeg UNK on_rparen on_nl end on_nl # See HTTP::CookieJar#load.
+def UNK on_lparen io on_rparen on_ignored_nl __deprecated__ on_symbeg save on_nl save on_lparen io on_comma on_symbeg UNK on_rparen on_nl end on_nl # See HTTP::CookieJar#save.
+end on_nl UNK on_period add on_lparen cookie on_rparen on_nl on_rbrace on_nl on_ignored_nl yaml on_op on_const on_period UNK on_lparen UNK on_period # convert max_age to expires
+yaml on_period UNK on_lparen UNK on_tstring_content UNK on_rparen on_lbrace on_ignored_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_rbrace on_nl yaml on_period # a gross hack
+UNK on_period UNK on_lbrace on_op cookie on_op on_ignored_nl add on_lparen cookie on_rparen on_nl on_rbrace on_nl when on_const on_nl UNK on_period # Forward compatibility
+UNK on_op on_const on_op on_const on_period UNK on_lparen on_symbeg UNK on_comma UNK on_rparen on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl # Compatibility for Ruby 1.8/1.9

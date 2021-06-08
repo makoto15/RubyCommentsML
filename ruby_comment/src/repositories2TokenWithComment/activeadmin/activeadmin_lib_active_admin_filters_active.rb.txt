@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # Instantiate a `Active` object containing collection of current active filters
+UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK # @param resource [ActiveAdmin::Resource] current resource # @param search [Ransack::Search] search object # # @see ActiveAdmin::ResourceController::DataAcces#apply_filtering

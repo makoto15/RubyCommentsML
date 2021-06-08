@@ -1,0 +1,6 @@
+UNK UNK on_period UNK on_period UNK on_period UNK on_period UNK UNK UNK UNK UNK UNK on_period UNK on_period UNK on_period # Be sure to restart your server when you modify this file. # # This file contains migration options to ease your Rails 5.0 upgrade. # # Read the Rails 5.0 release notes for more info on each option.
+UNK on_period UNK on_period UNK on_period UNK on_period UNK UNK UNK UNK UNK UNK on_period UNK on_period UNK on_period UNK # Enable per-form CSRF tokens. Previous versions had false.
+UNK on_period UNK on_period UNK on_period UNK on_period UNK UNK UNK UNK UNK UNK on_period UNK UNK UNK UNK UNK # Enable origin-checking CSRF mitigation. Previous versions had false.
+UNK on_period UNK UNK UNK UNK UNK UNK on_period UNK on_period UNK on_period UNK on_period UNK UNK UNK UNK UNK # Make Ruby 2.4 preserve the timezone of the receiver when calling `to_time`. # Previous versions had false.
+UNK on_period UNK on_period UNK on_period UNK on_period UNK UNK UNK UNK UNK UNK on_period UNK on_period UNK on_period UNK # Require `belongs_to` associations by default. Previous versions had false.
+UNK on_period UNK on_period UNK on_period UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Configure SSL options to enable HSTS with subdomains. Previous versions had false.

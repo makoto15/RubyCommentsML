@@ -1,0 +1,1 @@
+env on_lbracket on_symbeg ui on_rbracket on_period UNK on_nl on_ignored_nl env on_lbracket on_symbeg ui on_rbracket on_period UNK on_lparen on_const on_period UNK # Clear the line one last time since the progress meter doesn't disappear # immediately.

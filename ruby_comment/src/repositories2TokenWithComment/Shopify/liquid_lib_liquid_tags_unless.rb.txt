@@ -1,0 +1,4 @@
+on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK UNK on_op UNK on_nl UNK UNK on_lparen UNK UNK # frozen_string_literal: true
+UNK UNK on_op UNK on_nl UNK UNK on_lparen UNK UNK UNK on_rparen on_ignored_nl UNK on_op UNK on_period UNK on_nl UNK # Unless is a conditional just like 'if' but works on the inverse logic. # # {% unless x < 0 %} x is greater than zero {% endunless %} #
+UNK on_op UNK on_period UNK on_nl UNK UNK on_period UNK on_lparen UNK on_rparen on_nl UNK UNK on_period UNK on_period UNK # First condition is interpreted backwards ( if not )
+UNK UNK UNK on_op on_op UNK UNK on_period UNK UNK on_op UNK on_op on_ignored_nl UNK UNK on_period UNK on_lparen UNK # After the first condition unless works just like if

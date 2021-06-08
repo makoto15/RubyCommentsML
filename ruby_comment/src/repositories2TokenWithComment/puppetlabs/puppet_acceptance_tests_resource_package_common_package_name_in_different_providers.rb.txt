@@ -1,0 +1,7 @@
+agents on_period UNK do on_op agent on_op on_ignored_nl UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK UNK on_lparen agent on_comma on_tstring_beg # PUP-5227 # Skipping tests if facter finds this is an ec2 host, PUP-7774
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_op on_const on_op on_const on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const # Uses a provider that depends on AIO packaging
+UNK agent on_comma on_tstring_beg on_embexpr_beg UNK on_embexpr_end on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen UNK on_rparen on_period UNK on_lparen on_regexp_beg on_tstring_content # Note yum lists packages as <name>.<arch>
+agents on_period UNK do on_op agent on_op on_ignored_nl UNK agent on_comma UNK on_nl UNK agent on_comma UNK on_nl UNK agent # Setup repo and package
+UNK on_op UNK on_nl on_tstring_content UNK on_ignored_nl UNK on_lparen agents on_comma UNK on_comma on_symbeg UNK on_op on_lbracket UNK on_rbracket on_rparen # Test error trying to install duplicate packages
+UNK on_op UNK on_nl on_tstring_content on_embexpr_beg gem_provider on_embexpr_end on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content UNK on_ignored_nl UNK on_lparen agents on_comma UNK # Test successful parallel installation
+UNK on_op UNK on_nl on_tstring_content on_embexpr_beg gem_provider on_embexpr_end on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content UNK on_ignored_nl UNK on_lparen agents on_comma UNK # Test removal

@@ -1,0 +1,5 @@
+UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK args on_nl on_ignored_nl UNK UNK on_nl on_ivar on_op # The path (relative to the machine root) to a local script that will be # executed. # @return [String]
+UNK UNK UNK on_nl on_ignored_nl UNK UNK args on_nl on_ignored_nl UNK UNK on_nl on_ivar on_op on_const on_nl on_ivar on_op on_const # The command (as a string) to execute. # @return [String]
+UNK UNK args on_nl on_ignored_nl UNK UNK on_nl on_ivar on_op on_const on_nl on_ivar on_op on_const on_nl on_ivar on_op on_const on_nl # The arguments to provide when executing the script. # @return [Array<String>]
+UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_period UNK on_period UNK on_period UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl # Determine if the given string is "missing" (blank) # @return [true, false]
+UNK UNK on_nl UNK UNK if on_op args on_nl UNK UNK if args on_period UNK on_lparen on_const on_rparen on_nl UNK # Args are optional, but if they're provided we only support them as a # string or as an array.

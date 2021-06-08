@@ -1,0 +1,2 @@
+event on_op create_event on_nl on_ivar on_period receive on_lparen on_lbracket event on_rbracket on_rparen on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end # Need to create an event otherwise event_created_within? returns nil
+on_ivar on_period options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end # Evaluate the output as number and detect a new lowest value

@@ -1,0 +1,2 @@
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK # Base class for a host in Vagrant. A host class contains functionality # that is specific to a specific OS that is running Vagrant. This # abstraction is done because there is some host-specific logic that # Vagrant must do in some cases.
+UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP # This returns true/false depending on if the current running system # matches the host class. # # @return [Boolean]

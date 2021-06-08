@@ -1,0 +1,2 @@
+UNK on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK # -*- coding: utf-8 -*-
+allow on_lparen io on_rparen on_period to receive on_lparen on_symbeg read_nonblock on_rparen on_period and_raise on_lparen on_const on_rparen on_nl allow on_lparen io # Ensure that we don't get stuck in a loop

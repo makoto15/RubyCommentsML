@@ -1,0 +1,5 @@
+def UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK on_nl UNK UNK on_nl UNK on_nl UNK UNK # Inspired by Kaminari
+on_op on_const on_period UNK on_op UNK on_nl end on_nl on_ignored_nl UNK defined? on_lparen on_op on_const on_op on_const on_op on_const on_op # The deprecated `sass` gem:
+on_op on_const on_op on_const on_op on_const on_op on_const on_period UNK on_op UNK UNK on_comma on_op on_const on_op on_const on_op on_const # bootstrap requires minimum precision of 8, see https://github.com/twbs/bootstrap-sass/issues/409
+def UNK on_nl UNK on_op on_const on_period UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_const on_period UNK on_lparen UNK on_rparen on_nl end # Paths
+def UNK on_nl defined? on_lparen on_op on_const on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl defined? on_lparen on_op on_const on_op # Environment detection helpers

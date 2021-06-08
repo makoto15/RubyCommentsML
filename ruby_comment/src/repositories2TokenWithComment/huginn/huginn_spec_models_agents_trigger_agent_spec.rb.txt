@@ -1,0 +1,9 @@
+on_const on_op on_const on_period UNK on_lparen on_ivar on_period UNK on_comma on_lbracket on_ivar on_period UNK on_rbracket on_rparen on_nl expect on_lparen on_ivar # no events have ever been received
+UNK on_op on_int on_period UNK on_period UNK on_nl UNK on_lparen on_const on_rparen on_period UNK on_lbrace UNK on_rbrace on_nl expect on_lparen # Events received
+end on_nl end on_nl on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_ivar on_period payload # too much time has passed
+on_ignored_nl expect on_lbrace on_ignored_nl on_ivar on_period receive on_lparen on_lbracket on_ivar on_rbracket on_rparen on_nl on_rbrace on_period to change on_lbrace on_const on_period # 5 > 4
+on_ignored_nl expect on_lbrace on_ignored_nl on_ivar on_period receive on_lparen on_lbracket on_ivar on_rbracket on_rparen on_nl on_rbrace on_period to change on_lbrace on_const on_period # 2 !> 4
+on_ignored_nl on_ignored_nl on_ivar on_period options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_ivar on_period payload on_lbracket # but the first one matches
+on_ignored_nl expect on_lbrace on_ignored_nl on_ivar on_period receive on_lparen on_lbracket on_ivar on_rbracket on_rparen on_nl on_rbrace on_period to change on_lbrace on_const on_period # 5 > 4
+on_ignored_nl expect on_lbrace on_ignored_nl on_ivar on_period receive on_lparen on_lbracket on_ivar on_rbracket on_rparen on_nl on_rbrace on_period not_to change on_lbrace on_const on_period # 2 !> 4
+end on_nl end on_nl on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK do on_ignored_nl on_ivar on_period options on_lbracket on_tstring_beg on_tstring_content # only 1 matches, we needed 2

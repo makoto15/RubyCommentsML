@@ -1,0 +1,1 @@
+UNK on_const UNK on_const on_nl UNK UNK UNK UNK on_comma UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK # This class asks the user to confirm the destruction of a machine # that Vagrant manages. This is provided as a built-in on top of # {Confirm} because it sets up the proper keys and such so that # `vagrant destroy -f` works properly.

@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK UNK # frozen_string_literal: true
+return UNK on_lparen on_ignored_nl env on_comma on_ignored_nl neighbor on_period UNK on_comma on_ignored_nl neighbor on_period endpoint on_nl on_rparen if neighbor on_op # If neighbor exists and request method is OPTIONS, # return response by using #call_with_allow_headers.

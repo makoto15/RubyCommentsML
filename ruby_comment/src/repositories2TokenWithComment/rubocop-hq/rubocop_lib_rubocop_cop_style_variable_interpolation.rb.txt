@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK # This cop checks for variable interpolation (like "#@ivar"). # # @example # # bad # "His name is #$name" # /check #$pattern/ # "Let's go to the #@store" # # # good # "His name is #{$name}" # /check #{$pattern}/ # "Let's go to the #{@store}"

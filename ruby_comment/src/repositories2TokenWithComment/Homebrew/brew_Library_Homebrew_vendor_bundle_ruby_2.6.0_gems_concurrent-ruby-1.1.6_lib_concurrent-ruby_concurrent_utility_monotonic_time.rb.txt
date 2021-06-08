@@ -1,0 +1,6 @@
+UNK UNK on_nl on_const on_period UNK UNK on_const on_op on_const UNK on_nl end on_nl UNK on_const on_period UNK on_nl UNK # @!visibility private
+UNK UNK on_nl UNK on_period UNK on_period on_const on_period UNK UNK UNK on_op UNK on_nl end on_nl UNK on_ignored_nl on_ignored_nl # @!visibility private
+UNK UNK on_nl UNK UNK on_ignored_nl UNK on_op on_const on_period UNK on_period UNK on_nl UNK UNK on_op UNK on_nl UNK # @!visibility private
+UNK on_op UNK on_nl end on_nl end on_nl end on_nl on_ignored_nl end on_nl end on_nl on_ignored_nl on_const on_op UNK on_period # clock has moved back in time
+on_const on_op UNK on_period UNK on_nl UNK UNK on_const on_nl on_ignored_nl UNK UNK on_nl on_const on_period UNK on_nl end on_nl # Clock that cannot be set and represents monotonic time since # some unspecified starting point. # # @!visibility private
+UNK UNK on_nl on_const on_period UNK on_nl end on_nl on_ignored_nl UNK UNK UNK on_nl end on_nl EMP EMP EMP EMP # @!macro monotonic_get_time # # Returns the current time a tracked by the application monotonic clock. # # @return [Float] The current monotonic time since some unspecified # starting point # # @!macro monotonic_clock_warning

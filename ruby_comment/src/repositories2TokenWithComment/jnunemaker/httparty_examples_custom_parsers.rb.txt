@@ -1,0 +1,5 @@
+class on_const on_op on_const on_op on_const on_op on_const on_nl on_const on_period UNK on_lparen UNK on_tstring_beg on_tstring_content on_tstring_end on_op UNK UNK # Support Atom along with the default parsers: xml, json, etc.
+UNK UNK on_nl body on_period UNK on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_op on_const on_nl end on_nl on_ignored_nl # perform atom parsing on body
+class on_const on_op on_const on_op on_const on_op on_const on_nl on_const on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_op UNK UNK UNK on_nl # Only support Atom
+UNK UNK on_nl body on_period UNK on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_op on_const on_nl end on_nl on_ignored_nl # perform atom parsing on body
+class on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK on_nl body on_nl end on_nl end on_nl on_ignored_nl UNK # Parse the response body however you like

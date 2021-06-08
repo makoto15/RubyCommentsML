@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_period UNK UNK UNK UNK UNK UNK do on_ignored_nl UNK do on_ignored_nl # frozen_string_literal: true
+UNK on_period UNK on_lparen UNK on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK UNK on_tstring_content UNK on_tstring_content on_tstring_end UNK UNK on_period UNK # Simulate behavior PT 4, which used to save the string version of # enums to `object_changes`

@@ -1,0 +1,3 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Be sure to restart your server when you modify this file.
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # This file contains settings for ActionController::ParamsWrapper which # is enabled by default.
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP # Enable parameter wrapping for JSON. You can disable this by setting :format to an empty array.

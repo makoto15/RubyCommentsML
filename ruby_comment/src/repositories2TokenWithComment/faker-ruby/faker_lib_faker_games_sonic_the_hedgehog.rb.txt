@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a character from Sonic the Hedgehog. # # @return [String] # # @example # Faker::Games::SonicTheHedgehog.character #=> "Sonic the Hedgehog" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a zone from Sonic the Hedgehog. # # @return [String] # # @example # Faker::Games::SonicTheHedgehog.zone #=> "Green Hill Zone" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces the name of a game from the Sonic the Hedgehog series. # # @return [String] # # @example # Faker::Games::SonicTheHedgehog.game #=> "Waku Waku Sonic Patrol Car" # # @faker.version 1.9.2

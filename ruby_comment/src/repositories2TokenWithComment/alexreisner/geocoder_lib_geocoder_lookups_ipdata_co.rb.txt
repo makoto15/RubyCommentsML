@@ -1,0 +1,4 @@
+on_tstring_beg UNK UNK UNK on_tstring_content UNK UNK UNK on_tstring_content UNK query on_period UNK UNK on_tstring_content UNK UNK on_period UNK UNK # Ipdata.co requires that the API key be sent as a query parameter. # It no longer supports API keys sent as headers.
+on_ignored_nl def UNK on_lparen query on_rparen on_ignored_nl UNK on_lparen query on_rparen on_nl end on_nl on_ignored_nl def UNK on_lparen query on_rparen # ---------------------------------------------------------------
+UNK UNK UNK on_lparen query on_period UNK on_rparen UNK UNK query on_period UNK on_nl on_lparen UNK on_op UNK on_lparen query # don't look up a loopback or private address, just return the stored result
+on_lparen UNK on_op UNK on_lparen query on_rparen on_rparen on_op UNK UNK UNK on_op UNK UNK on_nl end on_nl on_ignored_nl def # note: Ipdata.co returns plain text on bad request

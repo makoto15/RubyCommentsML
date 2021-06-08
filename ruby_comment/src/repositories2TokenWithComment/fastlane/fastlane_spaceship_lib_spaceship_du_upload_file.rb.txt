@@ -1,0 +1,5 @@
+UNK on_const on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl UNK # a wrapper around the concept of file required to make uploads to DU
+UNK on_op on_const on_op on_const on_period UNK on_lparen path on_rparen on_nl path on_op UNK on_lparen path on_rparen UNK on_const on_period # md5 from original. keeping track of md5s allows to skip previously uploaded in deliver
+UNK UNK on_lparen UNK on_rparen on_ignored_nl path on_op on_tstring_beg on_tstring_content UNK on_const on_op on_const on_period UNK on_lparen UNK on_rparen UNK # As things like screenshots and app icon shouldn't contain the alpha channel # This will copy the image into /tmp to remove the alpha channel there # That's done to not edit the original image
+UNK on_tstring_content UNK path UNK on_tstring_content on_tstring_end UNK on_tstring_content UNK path UNK on_tstring_content on_tstring_end on_nl end on_nl UNK path on_nl # sips is only available on macOS
+UNK on_tstring_content UNK path UNK on_tstring_content on_tstring_end on_nl end on_nl UNK path on_nl end on_nl on_ignored_nl UNK UNK on_nl on_lparen # &> /dev/null since there is warning because of the extension

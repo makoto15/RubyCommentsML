@@ -1,0 +1,4 @@
+on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
+UNK on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl end on_nl on_ignored_nl def output_stream on_nl on_ivar on_op # Meaning, no cucumber.yml exists
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_op UNK on_nl UNK on_op on_int on_nl on_ignored_nl UNK on_ignored_nl given_cucumber_yml_defined_as on_lparen UNK # rubocop:disable Style/GlobalVars
+on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl given_cucumber_yml_defined_as on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl options on_period # rubocop:enable Style/GlobalVars

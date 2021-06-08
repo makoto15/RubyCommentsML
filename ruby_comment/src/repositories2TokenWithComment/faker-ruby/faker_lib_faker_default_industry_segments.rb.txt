@@ -1,0 +1,5 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of an industry. # # @return [String] # # @example # Faker::IndustrySegments.industry #=> "Basic Materials" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a super-sector of an industry. # # @return [String] # # @example # Faker::IndustrySegments.super_sector #=> "Basic Resources" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a sector of an industry. # # @return [String] # # @example # Faker::IndustrySegments.sector #=> "Industrial Metals & Mining" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces the name of a subsector of an industry. # # @return [String] # # @example # Faker::IndustrySegments.industry #=> "Basic Materials" # # @faker.version 1.9.2

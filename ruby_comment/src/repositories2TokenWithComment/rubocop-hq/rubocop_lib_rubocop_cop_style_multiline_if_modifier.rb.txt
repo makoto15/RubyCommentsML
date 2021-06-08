@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_tstring_beg on_tstring_content on_tstring_end # Checks for uses of if/unless modifiers with multiple-lines bodies. # # @example # # # bad # { # result: 'this should not happen' # } unless cond # # # good # { result: 'ok' } if cond

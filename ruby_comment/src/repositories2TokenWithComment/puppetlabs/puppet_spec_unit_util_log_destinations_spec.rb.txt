@@ -1,0 +1,2 @@
+describe on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg UNK on_op on_const on_period features on_period UNK do on_ignored_nl UNK on_symbeg UNK do on_ignored_nl # these tests can only be run when syslog is present, because # we can't stub the top-level Syslog module
+expect on_lparen on_const on_period UNK on_lparen result on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_rparen on_rparen on_period to UNK on_op on_lparen on_const # timestamp should be within 10 seconds

@@ -1,0 +1,5 @@
+on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
+UNK on_const on_nl UNK on_const on_nl on_ignored_nl UNK UNK on_ignored_nl UNK UNK UNK on_ignored_nl UNK UNK UNK on_ignored_nl UNK UNK # Global configuration affecting all threads. Some thread-specific # configuration can be found in `paper_trail.rb`, others in `controller.rb`.
+on_ivar on_op on_const UNK UNK on_nl on_ivar on_op UNK on_nl on_ignored_nl on_ivar on_op on_const on_op on_const on_op on_const on_nl on_ivar # Variables which affect all threads, whose access is synchronized.
+on_ivar on_op on_const on_op on_const on_op on_const on_nl on_ivar on_op UNK UNK on_nl UNK on_nl on_ignored_nl UNK UNK on_nl on_ivar # Variables which affect all threads, whose access is *not* synchronized.
+UNK UNK on_nl on_ivar UNK UNK UNK on_op on_op on_ivar UNK on_nl UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK # Indicates whether PaperTrail is on or off. Default: true.

@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK # frozen_string_literal: true
+UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl on_const on_op UNK on_ignored_nl UNK UNK UNK on_nl # This cop checks for cases when you could use a block # accepting version of a method that does automatic # resource cleanup. # # @example # # # bad # f = File.open('file') # # # good # File.open('file') do |f| # # ... # end

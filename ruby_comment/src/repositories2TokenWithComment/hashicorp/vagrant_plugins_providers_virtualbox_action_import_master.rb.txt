@@ -1,0 +1,7 @@
+UNK on_op env on_lbracket on_symbeg machine on_rbracket on_period box on_nl UNK on_ivar on_period UNK on_lparen env on_rparen on_nl end on_nl # If we don't have a box, nothing to do
+UNK on_op on_const on_op on_const on_period UNK on_lparen env on_lbracket on_symbeg machine on_rbracket on_period box on_period UNK on_rparen on_nl env # Do the import while locked so that nobody else imports # a master at the same time. This is a no-op if we already # have a master that exists.
+UNK env on_lbracket on_symbeg UNK on_rbracket on_nl on_ivar on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_nl end on_nl # If we got interrupted, then the import could have been # interrupted and its not a big deal. Just return out.
+on_ivar on_period UNK on_lparen env on_rparen on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK on_lparen env on_rparen on_ignored_nl UNK # Import completed successfully. Continue the chain
+env on_lbracket on_symbeg clone_id on_rbracket on_op UNK on_period UNK on_period UNK UNK UNK on_period UNK on_nl on_ignored_nl UNK env on_lbracket # Read the master ID if we have it in the file.
+UNK env on_lbracket on_symbeg clone_id on_rbracket on_op env on_lbracket on_symbeg machine on_rbracket on_period UNK on_period UNK on_period UNK on_lparen env # If we have the ID and the VM exists already, then we # have nothing to do. Success!
+UNK on_op env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_lparen on_const UNK env on_period UNK on_period UNK on_lparen UNK UNK # Import the virtual machine

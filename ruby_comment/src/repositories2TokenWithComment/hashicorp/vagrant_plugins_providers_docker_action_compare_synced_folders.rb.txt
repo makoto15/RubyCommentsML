@@ -1,0 +1,4 @@
+UNK on_op UNK on_lparen UNK on_comma UNK UNK on_rparen on_nl UNK on_op UNK on_lparen UNK on_rparen on_nl on_ignored_nl UNK on_op # Get the synced folders that are cached, and those that aren't
+UNK on_op UNK UNK on_nl UNK on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl UNK on_period UNK UNK on_op # Build up a mapping of existing setup synced folders
+UNK on_op UNK UNK on_nl UNK on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl UNK on_period UNK UNK on_op # Remove the matching folders, and build up non-matching or # new synced folders.
+UNK on_op UNK on_period UNK on_op on_op UNK on_period UNK on_nl UNK on_period UNK on_period UNK on_lparen on_const on_period UNK # If we have invalid entries, these are changed or new entries. # If we have existing entries, then we removed some entries.

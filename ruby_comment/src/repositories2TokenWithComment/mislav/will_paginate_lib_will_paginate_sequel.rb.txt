@@ -1,0 +1,2 @@
+UNK on_const on_nl UNK on_const on_op on_const on_nl on_ignored_nl def UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl # Sequel already supports pagination; we only need to make the # resulting dataset look a bit more like WillPaginate::Collection
+def UNK on_nl UNK UNK on_op UNK UNK on_op UNK on_nl end on_nl end on_nl on_ignored_nl on_const on_op on_const on_op # Current offset of the paginated collection

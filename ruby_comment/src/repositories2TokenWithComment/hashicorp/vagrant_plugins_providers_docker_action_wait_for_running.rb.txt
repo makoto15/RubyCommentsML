@@ -1,0 +1,3 @@
+UNK UNK on_period UNK on_lparen UNK on_rparen UNK on_op UNK on_nl on_ignored_nl machine on_period UNK on_period UNK on_lparen on_const on_period # If we're not waiting, just return
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK machine on_period UNK on_period state on_period UNK on_op on_symbeg UNK on_nl UNK # First, make sure it leaves the stopped state if its supposed to.
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_nl state on_op machine on_period UNK on_period state on_nl UNK UNK # Then, wait for it to become running

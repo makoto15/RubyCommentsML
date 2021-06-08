@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_const on_op UNK on_tstring_content UNK on_period UNK # frozen_string_literal: true
+UNK on_const on_nl on_const on_op UNK on_tstring_content UNK on_period UNK on_nl on_ignored_nl def UNK on_lparen UNK on_comma UNK on_comma UNK # A class that injects a require directive into the root RuboCop file. # It looks for other directives that require files in the same (cop) # namespace and injects the provided one in alpha

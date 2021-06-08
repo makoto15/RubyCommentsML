@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl def UNK on_nl UNK UNK on_period UNK UNK # don't delegate_all here because it helps to identify things we # have to delegate for ActiveModel compatibility
+UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl def UNK on_nl UNK UNK on_period UNK UNK UNK # need to delegate attribute methods for AM::Serialization # need to delegate id and new_record? for AR::Base#== (Rails 3.0 only)

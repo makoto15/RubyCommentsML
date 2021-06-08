@@ -1,0 +1,5 @@
+on_ignored_nl UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl on_ivar # frozen_string_literal: true
+def UNK on_nl assert on_ivar on_period UNK on_lparen UNK UNK on_tstring_content UNK on_rparen on_period match on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen # test good match
+def UNK on_nl UNK on_const UNK on_ignored_nl on_ivar on_period UNK on_lparen UNK UNK on_tstring_content UNK on_rparen on_nl end on_nl end # test error on no match
+def UNK on_nl assert on_ivar on_period UNK on_lparen UNK UNK on_tstring_content UNK on_rparen on_period match on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen # test good match
+def UNK on_nl UNK on_const UNK on_ignored_nl on_ivar on_period UNK on_lparen UNK UNK on_tstring_content UNK on_rparen on_nl end on_nl end # test error on no match

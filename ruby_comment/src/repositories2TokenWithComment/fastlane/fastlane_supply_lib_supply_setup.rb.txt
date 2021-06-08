@@ -1,0 +1,5 @@
+on_const on_period UNK on_lparen UNK on_period UNK on_period UNK on_rparen on_nl UNK on_const on_period UNK on_lparen UNK on_period UNK on_rparen # IMAGE_TYPES are stored in locale/images location
+on_const on_period UNK on_lparen UNK on_period UNK on_rparen on_nl end on_nl on_ignored_nl on_const on_period message on_lparen on_tstring_beg on_tstring_content on_embexpr_beg image_type # SCREENSHOT_TYPES go under their respective folders.
+UNK on_period each do on_op UNK on_op on_ignored_nl if on_const on_period UNK on_lparen image_type on_rparen UNK on_op on_tstring_beg on_embexpr_beg path # Used to prefix the downloaded files, so order is preserved.
+UNK on_op on_tstring_beg on_embexpr_beg path on_embexpr_end on_tstring_content on_embexpr_beg on_const on_period UNK on_lparen UNK on_rparen on_embexpr_end on_tstring_end on_nl UNK UNK on_op # IMAGE_TYPES are stored in locale/images
+UNK on_op on_const on_period join on_lparen path on_comma on_tstring_beg on_embexpr_beg UNK on_embexpr_end on_tstring_content on_embexpr_beg listing on_period language on_embexpr_end on_tstring_content on_embexpr_beg # SCREENSHOT_TYPES are stored in locale/images/<screensho_types>

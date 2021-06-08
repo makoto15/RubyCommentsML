@@ -1,0 +1,2 @@
+end on_nl on_ivar on_period can? on_lparen on_symbeg read on_comma on_symbeg UNK on_rparen on_period should on_op true on_nl end on_nl on_ignored_nl # TODO test that sym is nil when no instance is passed
+on_ivar on_period unauthorized_message on_lparen on_symbeg update on_comma on_const on_rparen on_period should on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ivar on_period unauthorized_message on_lparen # old syntax for now in case testing with old I18n

@@ -1,0 +1,2 @@
+UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK on_nl UNK on_nl end # frozen_string_literal: true
+UNK UNK on_nl UNK on_nl end on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Checkbox components do not use the required html tag. # More info: https://github.com/heartcombo/simple_form/issues/340#issuecomment-2871956

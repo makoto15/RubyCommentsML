@@ -1,0 +1,4 @@
+logger on_period level on_op on_const on_op on_const on_op on_const on_nl assert_equal on_lparen on_const on_op on_const on_op on_const on_comma logger on_period # change daemon logger side level
+assert_equal on_lparen on_const on_op on_const on_op on_const on_comma log on_period level on_rparen on_nl end on_nl on_ignored_nl on_const on_op on_int on_op # check fluentd log side level is also changed
+msg2 on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_int on_nl log on_period info msg2 on_nl c on_op on_const on_period read on_lparen path # create log.0
+UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_int on_nl log on_period info UNK on_nl c on_op on_const on_period read on_lparen path # rotate

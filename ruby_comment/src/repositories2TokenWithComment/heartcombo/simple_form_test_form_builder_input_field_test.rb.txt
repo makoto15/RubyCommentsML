@@ -1,0 +1,2 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const UNK on_const UNK on_const on_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl with_input_field_for # frozen_string_literal: true
+UNK on_const UNK on_const UNK on_const on_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl with_input_field_for on_ivar on_comma on_symbeg name on_nl on_ignored_nl # Tests for f.input_field

@@ -1,0 +1,4 @@
+subject on_period UNK on_lparen subject on_period UNK on_period UNK on_lparen conditions on_rparen on_period UNK on_rparen on_nl end on_nl on_ignored_nl UNK # To avoid hitting the db, retrieve the raw Mongo selector from # the Mongoid Criteria and use Mongoid::Matchers#matches?
+UNK on_ivar on_period UNK on_op UNK on_op on_ivar UNK UNK UNK on_period conditions on_period UNK on_lparen on_const on_op on_const on_rparen # return no records in Mongoid
+UNK on_op on_ivar on_period UNK UNK on_op rule on_op rule on_period conditions on_period UNK on_op rule on_period UNK UNK on_nl # we only need to process can rules if # there are no rules with empty conditions
+UNK on_const on_op on_const on_op on_const on_nl UNK on_const on_op on_const on_op on_const on_nl end on_nl EMP EMP EMP EMP # simplest way to add `accessible_by` to all Mongoid Documents

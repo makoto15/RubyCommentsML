@@ -1,0 +1,6 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK on_const # frozen_string_literal: true
+assert_equal on_lparen on_int on_comma t on_period profiler on_lbracket on_int on_rbracket on_period UNK on_rparen on_nl assert_equal on_lparen on_int on_comma t on_period # {{ 'a string' | upcase }}
+assert_equal on_lparen on_int on_comma t on_period profiler on_lbracket on_int on_rbracket on_period UNK on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl # {{ increment test }}
+assert_equal on_lparen on_int on_comma UNK on_lbracket on_int on_rbracket on_period UNK on_rparen on_nl assert_equal on_lparen on_int on_comma UNK on_lbracket on_int on_rbracket # {% assign template_name = 'a_template' %}
+assert_equal on_lparen on_int on_comma UNK on_lbracket on_int on_rbracket on_period UNK on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl t on_op # {{ template_name }}
+assert_equal on_lparen on_int on_comma t on_period profiler on_lbracket on_int on_rbracket on_period children on_period length on_rparen on_nl end on_nl on_ignored_nl def # Will profile each invocation of the for block

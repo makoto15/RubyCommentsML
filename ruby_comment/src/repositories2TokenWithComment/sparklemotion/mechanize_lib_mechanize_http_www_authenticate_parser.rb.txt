@@ -1,0 +1,14 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK UNK on_ignored_nl # coding: BINARY
+on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK UNK on_ignored_nl on_ignored_nl def UNK on_nl on_ivar on_op nil ## # Parses the WWW-Authenticate HTTP header into separate challenges.
+on_ignored_nl on_ignored_nl def UNK on_nl on_ivar on_op nil on_nl end on_nl on_ignored_nl on_ignored_nl def UNK UNK on_nl UNK on_op UNK # :nodoc:
+on_ignored_nl def UNK on_nl on_ivar on_op nil on_nl end on_nl on_ignored_nl on_ignored_nl def UNK UNK on_nl UNK on_op UNK UNK ## # Creates a new header parser for WWW-Authenticate headers
+on_ignored_nl def UNK UNK on_nl UNK on_op UNK UNK on_nl on_ivar on_op on_const on_period UNK UNK on_nl on_ignored_nl UNK UNK ## # Parsers the header. Returns an Array of challenges as strings
+challenge on_period UNK on_op UNK UNK UNK on_comma on_ivar on_period pos UNK on_period UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma on_tstring_beg # rewind
+UNK on_nl UNK on_ignored_nl UNK UNK name UNK on_op UNK on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl on_ivar on_period scan # a token should be next, new challenge
+on_ignored_nl def UNK on_nl on_ivar on_period scan on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen on_nl end on_nl on_ignored_nl on_ignored_nl def UNK on_nl ## # 1*SP # # Parses spaces
+on_ignored_nl def UNK on_nl on_ivar on_period scan on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen on_nl end on_nl on_ignored_nl on_ignored_nl def UNK on_nl ## # scans a comma followed by spaces # needed for Negotiation, NTLM #
+on_ignored_nl def UNK on_nl on_ivar on_period scan on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen on_nl end on_nl on_ignored_nl on_ignored_nl UNK UNK UNK ## # token = 1*<any CHAR except CTLs or separators> # # Parses a token
+on_ignored_nl UNK UNK UNK on_nl on_ignored_nl on_ignored_nl def UNK on_nl return nil unless name on_op UNK on_nl return nil unless ## # auth-scheme = token # # Parses an auth scheme (a token)
+on_ignored_nl def UNK on_nl return nil unless name on_op UNK on_nl return nil unless on_ivar on_period scan on_lparen on_regexp_beg on_tstring_content ## # auth-param = token "=" ( token | quoted-string ) # # Parses an auth parameter
+on_ignored_nl def UNK on_nl return nil unless on_ivar on_period scan on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen on_nl on_ignored_nl UNK on_op on_tstring_beg ## # quoted-string = ( <"> *(qdtext | quoted-pair ) <"> ) # qdtext = <any TEXT except <">> # quoted-pair = "\" CHAR # # For TEXT, the rules of RFC 2047 are ignored.
+on_ignored_nl if UNK then on_ignored_nl UNK on_op UNK on_nl on_ignored_nl UNK on_op on_ivar on_period UNK if on_ignored_nl UNK on_period UNK # not "

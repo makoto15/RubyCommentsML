@@ -1,0 +1,5 @@
+end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen provider on_rparen on_period to receive on_lparen on_symbeg opkg on_rparen #empty, no package list
+end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen provider on_rparen on_period UNK receive on_lparen on_symbeg opkg on_rparen # With a pre-downloaded package list
+allow on_lparen on_const on_op on_const on_op on_const on_rparen on_period to receive on_lparen on_symbeg execute on_rparen on_period UNK on_lparen on_const on_op # Emulate the `opkg` command returning a non-zero exit value
+end on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen provider on_rparen on_period to # end when source is specified
+on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen provider on_rparen on_period to receive # end when installing

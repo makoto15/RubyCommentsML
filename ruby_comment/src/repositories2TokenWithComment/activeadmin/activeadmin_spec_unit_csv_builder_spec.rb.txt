@@ -1,0 +1,2 @@
+expect on_lparen csv_builder on_period columns on_lbracket UNK on_rbracket on_period name on_rparen on_period to eq UNK on_nl end on_nl end on_nl # First col is always id
+end on_nl end on_period tap on_lparen on_op on_symbeg exec_columns on_rparen on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # nothing

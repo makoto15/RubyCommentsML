@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl on_const on_op on_const on_period UNK on_lparen UNK on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep # frozen_string_literal: true
+on_const on_op on_const on_period UNK on_lparen UNK on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep # https://github.com/github/markup#markups

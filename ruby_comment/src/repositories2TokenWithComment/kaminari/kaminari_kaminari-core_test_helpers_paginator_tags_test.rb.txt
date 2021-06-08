@@ -1,0 +1,4 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_op on_const on_op on_const on_nl UNK on_const on_op on_const on_op on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_lparen on_op on_rparen on_ignored_nl UNK on_nl UNK on_op on_lbracket # A test paginator that can detect instantiated tags inside
+assert_equal on_lbracket on_symbeg first_page on_comma on_symbeg prev_page on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_symbeg gap # the 3rd page doesn't become a gap because it's a single gap
+assert_equal on_lbracket on_symbeg first_page on_comma on_symbeg prev_page on_comma on_int on_comma on_symbeg gap on_comma on_int on_comma on_int on_comma on_int on_comma on_int # the 9th page doesn't become a gap because it's a single gap

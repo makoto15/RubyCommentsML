@@ -1,0 +1,4 @@
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK UNK on_nl UNK on_op UNK on_ignored_nl UNK UNK UNK on_ignored_nl # Provides access to runtime implementations. # # @api private
+UNK on_op UNK name UNK on_ignored_nl UNK on_op UNK UNK name UNK on_nl UNK on_const UNK UNK UNK UNK name # Get a runtime implementation. # # @param name [Symbol] the name of the implementation # @return [Object] the runtime implementation # @api private
+UNK on_op UNK name UNK UNK UNK on_ignored_nl UNK UNK name UNK on_op UNK on_nl end on_nl on_ignored_nl UNK UNK # Register a runtime implementation. # # @param name [Symbol] the name of the implementation # @param impl [Object] the runtime implementation # @api private
+UNK UNK on_nl UNK on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Clears all implementations. This is used for testing. # # @api private

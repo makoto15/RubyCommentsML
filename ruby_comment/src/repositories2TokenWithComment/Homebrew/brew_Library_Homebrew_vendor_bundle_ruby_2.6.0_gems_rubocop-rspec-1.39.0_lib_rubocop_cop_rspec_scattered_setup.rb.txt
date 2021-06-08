@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK # frozen_string_literal: true
+UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_rparen # Checks for setup scattered across multiple hooks in an example group. # # Unify `before`, `after`, and `around` hooks when possible. # # @example # # bad # describe Foo do # before { setup1 } # before { setup2 } # end # # # good # describe Foo do # before do # setup1 # setup2 # end # end #

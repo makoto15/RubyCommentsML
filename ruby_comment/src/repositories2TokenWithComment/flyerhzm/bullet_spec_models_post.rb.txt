@@ -1,0 +1,4 @@
+on_ignored_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_symbeg UNK on_comma UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_nl # frozen_string_literal: true
+UNK on_symbeg UNK on_nl UNK UNK on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_lparen UNK UNK # see association_spec.rb 'should not detect newly assigned object in an after_save'
+UNK UNK UNK on_nl on_ignored_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP # this triggers self to be "possible", even though it's # not saved yet
+UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # category should NOT whine about not being pre-loaded, because # it's obviously attached to a new object

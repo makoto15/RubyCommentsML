@@ -1,0 +1,17 @@
+on_int on_period UNK do on_ignored_nl r on_op s on_period UNK on_lparen on_int on_rparen on_nl assert on_lbrace r on_op on_int on_op # default enabled w/ 0.125
+on_ignored_nl assert_equal on_symbeg UNK on_comma s on_period UNK on_nl UNK on_op s on_period start on_nl on_ignored_nl assert_equal on_int on_comma s # attr_reader :title, :start, :steps, :next_time, :timeout_at, :current, :secondary_transition_at, :secondary_transition_times
+dummy_current_time on_op s on_period start on_nl override_current_time on_lparen s on_comma dummy_current_time on_rparen on_nl on_ignored_nl assert_equal dummy_current_time on_comma s on_period current_time # threshold 0.8
+assert on_op s on_period secondary? on_nl on_ignored_nl s on_period step on_nl assert_equal on_int on_comma s on_period steps on_nl assert_equal s # 78
+assert s on_period secondary? on_nl on_ignored_nl s on_period step on_nl assert_equal on_lparen s on_period current_time on_op on_int on_rparen on_comma s # 80
+assert s on_period secondary? on_nl on_ignored_nl s on_period step on_nl assert_equal s on_period timeout_at on_comma s on_period next_time on_nl assert # 98
+i on_op on_int on_nl while i on_op on_int on_nl s on_period step on_nl assert_equal i on_comma s on_period steps on_nl # 0.1 * (2 ** (10 - 1)) == 0.1 * 2 ** 9 == 51.2 # 0.1 * (2 ** (11 - 1)) == 0.1 * 2 ** 10 == 102.4
+on_ignored_nl override_current_time on_lparen s on_comma s on_period next_time on_rparen on_nl s on_period step on_nl assert_equal on_int on_comma s on_period steps # 1 + 1 + 2 + 4 (=8)
+on_ignored_nl override_current_time on_lparen s on_comma s on_period next_time on_rparen on_nl s on_period step on_nl assert_equal on_int on_comma s on_period steps # + 8 (=16) > 12
+dummy_current_time on_op s on_period start on_nl override_current_time on_lparen s on_comma dummy_current_time on_rparen on_nl on_ignored_nl assert_equal dummy_current_time on_comma s on_period current_time # threshold 0.8
+i on_op on_int on_nl while i on_op on_int on_nl override_current_time on_lparen s on_comma s on_period next_time on_rparen on_nl assert on_op # 1, 1(2), 2(4), 4(8), 8(16), 16(32), 32(64), (80), (81), (83), (87), (95), (100)
+assert on_op s on_period secondary? on_nl on_ignored_nl s on_period step on_nl assert_equal on_int on_comma s on_period steps on_nl assert_equal s # 64
+assert s on_period secondary? on_nl on_ignored_nl s on_period step on_nl assert_equal on_int on_comma s on_period steps on_nl assert_equal s on_period # 80
+j on_op on_int on_nl while j on_op on_int on_nl override_current_time on_lparen s on_comma s on_period next_time on_rparen on_nl assert s # 81, 82, 84, 88, 96, 100
+assert s on_period secondary? on_nl on_ignored_nl s on_period step on_nl assert_equal s on_period timeout_at on_comma s on_period next_time on_nl assert # 96
+dummy_current_time on_op s on_period start on_nl override_current_time on_lparen s on_comma dummy_current_time on_rparen on_nl on_ignored_nl UNK on_op on_int on_nl on_int on_period # threshold 0.8
+UNK on_lparen on_const on_rparen on_lbrace s on_period step on_rbrace on_nl assert_equal on_lparen dummy_current_time on_op on_lparen on_int on_op on_lparen on_int on_op # With this setting, 1025+ number causes inf in `calc_interval`, so 1024 value is used for next_time

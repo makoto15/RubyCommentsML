@@ -1,0 +1,18 @@
+on_ignored_nl UNK on_op UNK on_op UNK on_nl UNK on_op UNK on_op UNK UNK UNK UNK UNK UNK on_period UNK UNK # frozen_string_literal: true
+UNK on_op UNK on_op UNK UNK UNK UNK UNK UNK on_period UNK UNK on_symbeg on_op UNK on_nl on_ignored_nl UNK UNK # TODO: Inherit from the 5.0 Migration class directly when we drop support for Rails 4.
+t on_period string on_symbeg UNK on_comma on_label UNK on_comma on_label UNK UNK on_nl t on_period string on_symbeg UNK on_comma on_label ## Database authenticatable
+t on_period string on_symbeg UNK on_nl t on_period datetime on_symbeg UNK on_nl on_ignored_nl t on_period datetime on_symbeg UNK on_nl on_ignored_nl ## Recoverable
+t on_period datetime on_symbeg UNK on_nl on_ignored_nl t on_period UNK on_symbeg UNK on_comma on_label UNK on_nl t on_period datetime on_symbeg ## Rememberable
+t on_period UNK on_symbeg UNK on_comma on_label UNK on_nl t on_period datetime on_symbeg UNK on_nl t on_period datetime on_symbeg UNK ## Trackable
+t on_period string on_symbeg UNK on_nl t on_period datetime on_symbeg UNK on_nl t on_period datetime on_symbeg UNK on_nl on_ignored_nl t ## Confirmable
+on_ignored_nl t on_period UNK on_symbeg UNK on_comma on_label UNK t on_period string on_symbeg UNK t on_period datetime on_symbeg UNK on_nl # t.string :unconfirmed_email # Only if using reconfirmable
+t on_period UNK on_symbeg UNK on_comma on_label UNK t on_period string on_symbeg UNK t on_period datetime on_symbeg UNK on_nl on_ignored_nl ## Lockable
+t on_period string on_symbeg UNK t on_period datetime on_symbeg UNK on_nl on_ignored_nl t on_period UNK on_label UNK on_nl UNK on_nl # Only if lock strategy is :failed_attempts
+t on_period datetime on_symbeg UNK on_nl on_ignored_nl t on_period UNK on_label UNK on_nl UNK on_nl on_ignored_nl UNK on_symbeg UNK UNK # Only if unlock strategy is :email or :both
+t on_period string on_symbeg UNK on_comma on_label UNK on_nl t on_period string on_symbeg UNK on_comma on_label UNK on_nl on_ignored_nl t ## Database authenticatable
+t on_period string on_symbeg UNK on_nl t on_period datetime on_symbeg UNK on_nl on_ignored_nl t on_period datetime on_symbeg UNK on_nl on_ignored_nl ## Recoverable
+t on_period datetime on_symbeg UNK on_nl on_ignored_nl t on_period string on_symbeg UNK on_nl t on_period datetime on_symbeg UNK on_nl t ## Rememberable
+t on_period string on_symbeg UNK on_nl t on_period datetime on_symbeg UNK on_nl t on_period datetime on_symbeg UNK on_nl t on_period ## Confirmable
+on_ignored_nl t on_period datetime on_symbeg UNK on_nl on_ignored_nl t on_period UNK on_symbeg UNK on_comma on_label UNK on_nl on_ignored_nl t on_period # Only if using reconfirmable
+t on_period datetime on_symbeg UNK on_nl on_ignored_nl t on_period UNK on_symbeg UNK on_comma on_label UNK on_nl on_ignored_nl t on_period UNK ## Lockable
+t on_period UNK on_symbeg UNK on_comma on_label UNK on_nl on_ignored_nl t on_period UNK on_label UNK on_nl UNK on_nl UNK on_nl ## Attribute for testing route blocks

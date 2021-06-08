@@ -1,0 +1,3 @@
+UNK UNK UNK UNK on_comma UNK on_op UNK on_comma UNK on_op UNK UNK on_ignored_nl on_ivar on_op UNK on_nl on_ivar on_comma # Instantiates a new module dependency with a +full_module_name+ (e.g. # "myuser-mymodule"), and optional +version_requirement+ (e.g. "0.0.1") and # optional repository (a URL string).
+on_ivar on_comma on_ivar on_op on_const on_op on_const on_period UNK UNK UNK UNK on_nl on_ivar on_op UNK on_nl on_ivar on_op UNK # TODO: add error checking, the next line raises ArgumentError when +full_module_name+ is invalid
+UNK on_op UNK UNK UNK on_ignored_nl UNK on_period UNK on_op UNK on_period UNK on_nl end on_nl on_ignored_nl UNK on_symbeg UNK # We override Object's ==, eql, and hash so we can more easily find identical # dependencies.

@@ -1,0 +1,6 @@
+require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_period UNK UNK # shouldn't Bundler do this already?
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_nl UNK on_period UNK on_nl end on_nl end on_nl end on_nl # Working around CVE-2012-5664 requires us to convert all ID params # to strings. Let's switch to using string IDs in tests, otherwise # SuperModel and/or RR will fail (as strings are not fixnums).
+on_ignored_nl UNK UNK on_period UNK UNK UNK UNK UNK on_op UNK UNK on_ignored_nl UNK UNK on_period UNK on_op on_tstring_beg on_tstring_content # why doesn't SuperModel do this automatically?
+UNK on_nl UNK on_ignored_nl UNK on_nl end on_nl end on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_op on_const on_op # hack to simulate ActiveRecord
+on_ignored_nl UNK UNK on_period UNK UNK UNK UNK UNK on_op UNK UNK on_ignored_nl UNK UNK on_period UNK on_op on_tstring_beg on_tstring_content # why doesn't SuperModel do this automatically?
+UNK on_nl UNK on_ignored_nl UNK on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # hack to simulate ActiveRecord

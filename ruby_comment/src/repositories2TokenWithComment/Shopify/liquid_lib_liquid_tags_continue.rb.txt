@@ -1,0 +1,2 @@
+UNK UNK on_const on_nl UNK on_const UNK on_const on_nl UNK UNK on_nl on_const UNK UNK on_nl UNK on_nl UNK on_nl # frozen_string_literal: true
+UNK on_const UNK on_const on_nl UNK UNK on_nl on_const UNK UNK on_nl UNK on_nl UNK on_nl UNK on_const UNK UNK # Continue tag to be used to break out of a for loop. # # == Basic Usage: # {% for item in collection %} # {% if item.condition %} # {% continue %} # {% endif %} # {% endfor %} #

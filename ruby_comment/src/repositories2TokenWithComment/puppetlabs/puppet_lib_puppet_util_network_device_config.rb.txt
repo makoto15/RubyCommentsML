@@ -1,0 +1,6 @@
+end on_nl on_ignored_nl def UNK on_lparen UNK on_op UNK on_rparen on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK # force reading at start
+def UNK on_lparen UNK on_op UNK on_rparen on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK on_ivar on_period UNK # Read the configuration file.
+file_line_count on_op UNK on_nl UNK on_nl when UNK on_tstring_content UNK file_line_count on_op UNK on_nl UNK on_nl when UNK on_tstring_content UNK # skip comments
+file_line_count on_op UNK on_nl UNK on_nl when UNK on_tstring_content UNK name on_op UNK on_nl name on_period UNK on_nl UNK devices # skip blank lines
+name on_op UNK on_nl name on_period UNK on_nl UNK devices on_period UNK on_lparen name on_rparen on_nl UNK on_op on_const on_op # [device.fqdn]
+UNK on_const on_op on_const on_nl on_const on_period UNK _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op on_lbrace on_label on_ivar on_rbrace on_nl #raise Puppet::Error, "Cannot read #{@config}"

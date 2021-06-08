@@ -1,0 +1,2 @@
+UNK on_op UNK on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK # Use this to just setup the configuration attribute and set it later somewhere else
+on_const on_op on_const on_op on_const on_nl on_const on_op on_const on_op on_const on_nl on_const on_op on_const UNK UNK UNK on_const UNK # you gotta love Ruby: Helper.* should use the Helper class contained in FastlaneCore

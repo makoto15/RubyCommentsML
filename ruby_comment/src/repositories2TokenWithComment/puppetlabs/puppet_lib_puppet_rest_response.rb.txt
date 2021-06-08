@@ -1,0 +1,2 @@
+UNK on_const on_op on_const on_nl UNK on_const on_nl def UNK UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_nl end on_nl # @deprecated Use {Puppet::HTTP::Client} instead.
+UNK on_const on_nl def UNK UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar # This is a wrapper for the HTTP::Message class of the HTTPClient # gem. It is designed to wrap a message sent as an HTTP response.

@@ -1,0 +1,2 @@
+UNK on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_comma on_const on_period search on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_lbracket on_const on_comma on_const # legacy
+on_const on_period search on_lparen on_label on_lbracket on_const on_comma on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_rparen on_nl end on_nl UNK error on_period UNK # legacy protection

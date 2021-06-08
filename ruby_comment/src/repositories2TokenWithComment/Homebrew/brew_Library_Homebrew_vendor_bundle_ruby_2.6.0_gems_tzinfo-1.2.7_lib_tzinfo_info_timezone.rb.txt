@@ -1,0 +1,5 @@
+UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK on_nl UNK # A Timezone based on a TimezoneInfo. # # @private
+on_ignored_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK #:nodoc:
+UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK # Constructs a new InfoTimezone with a TimezoneInfo instance.
+UNK UNK on_nl UNK UNK UNK on_nl end on_nl on_ignored_nl UNK on_nl UNK UNK on_nl UNK on_nl end on_nl on_ignored_nl # The identifier of the timezone, e.g. "Europe/Paris".
+UNK UNK on_nl UNK on_nl end on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl end on_nl # The TimezoneInfo for this Timezone.

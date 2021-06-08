@@ -1,0 +1,4 @@
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen on_const on_period settings on_period setting on_lparen on_symbeg UNK on_rparen on_period UNK on_rparen # See #1232
+expect on_lparen on_const on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period UNK on_lparen on_const on_op on_const on_rparen on_rparen on_period to UNK on_lparen # this causes it to ignore the setting
+expect on_lparen on_const on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_rparen on_period to eq on_lparen path on_rparen on_nl end on_nl end on_nl # this causes it to ignore the setting
+on_ignored_nl UNK on_op on_const on_op on_const on_op on_const on_op on_const on_period UNK on_nl expect on_lparen UNK on_lbracket on_tstring_beg on_tstring_content on_tstring_end # this causes it to ignore the setting

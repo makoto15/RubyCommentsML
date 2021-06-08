@@ -1,0 +1,1 @@
+on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op true on_comma on_ignored_nl on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content # [ '~1.2.3', '1.2.4' ] => true, Awaits fix for PUP-6242

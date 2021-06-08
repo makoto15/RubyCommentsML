@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK UNK on_comma # This cop checks for calling a block within a stub. # # @example # # bad # allow(foo).to receive(:bar) { |&block| block.call(1) } # # # good # expect(foo).to be(:bar).and_yield(1)

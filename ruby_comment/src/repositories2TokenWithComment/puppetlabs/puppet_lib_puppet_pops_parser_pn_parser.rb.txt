@@ -1,0 +1,12 @@
+on_ignored_nl def next_token on_nl UNK on_nl s on_op on_ivar on_nl c on_op UNK on_nl on_ignored_nl UNK on_ivar on_lbracket c on_rbracket # All methods below belong to the PN lexer
+on_ivar on_op on_op on_ivar on_nl else on_ignored_nl UNK on_lparen s on_rparen on_nl end on_nl on_ignored_nl when on_const on_nl UNK on_nl # consume float or integer
+on_ivar on_op on_int on_nl UNK on_lparen s on_comma c on_rparen on_nl else on_ignored_nl on_ivar on_op on_ivar on_lbracket s on_op on_ivar # '.'
+c on_op UNK on_nl UNK c on_nl when on_int b on_op on_tstring_beg on_tstring_content on_tstring_end on_nl when on_int b on_op on_tstring_beg # '\'
+b on_op on_tstring_beg on_tstring_content on_tstring_end on_nl when on_int b on_op on_tstring_beg on_tstring_content on_tstring_end on_nl when on_int b on_op on_tstring_beg on_tstring_content # 't'
+b on_op on_tstring_beg on_tstring_content on_tstring_end on_nl when on_int b on_op on_tstring_beg on_tstring_content on_tstring_end on_nl when on_const on_nl b on_op on_tstring_beg # 'r'
+b on_op on_tstring_beg on_tstring_content on_tstring_end on_nl when on_const on_nl b on_op on_tstring_beg on_tstring_content on_tstring_end on_nl when on_int b on_op on_tstring_beg # 'n'
+b on_op on_tstring_beg on_tstring_content on_tstring_end on_nl when on_int c on_op on_int on_nl on_int on_period UNK do on_ignored_nl n on_op UNK # '\'
+c on_op on_int on_nl on_int on_period UNK do on_ignored_nl n on_op UNK on_nl if on_int on_op n on_op n on_op # 'o'
+if c on_op on_int on_op c on_op on_int on_ivar on_op on_int on_nl parse_error on_lparen _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # '.'
+on_ivar on_op on_int on_nl parse_error on_lparen _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rparen if UNK on_op on_int on_nl c on_op # 'E' or 'e'
+on_ivar on_op on_int on_nl c on_op peek_cp on_nl end on_nl on_ignored_nl UNK on_ivar on_lbracket c on_rbracket on_op on_const do on_ignored_nl # '-' or '+'

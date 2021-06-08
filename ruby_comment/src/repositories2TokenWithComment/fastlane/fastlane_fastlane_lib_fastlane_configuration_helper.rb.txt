@@ -1,0 +1,2 @@
+UNK on_const on_op on_const on_period UNK on_lparen action on_period UNK UNK UNK on_rparen on_nl UNK UNK on_nl on_const on_period UNK # default use case
+on_const on_op on_const on_period UNK on_lparen action on_period UNK UNK UNK UNK on_rparen on_nl UNK UNK on_nl UNK on_op UNK # No parameters... we still need the configuration object array

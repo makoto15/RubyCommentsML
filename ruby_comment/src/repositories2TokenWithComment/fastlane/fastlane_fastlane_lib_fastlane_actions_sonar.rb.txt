@@ -1,0 +1,3 @@
+on_const on_op on_const on_period UNK on_lparen UNK on_comma on_label UNK on_comma on_label true on_rparen on_nl end on_nl on_ignored_nl def self # hide command, as it may contain credentials
+on_ignored_nl def self on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def self on_period UNK on_nl on_lbracket on_ignored_nl ##################################################### # @!group Documentation #####################################################
+on_label true on_comma on_ignored_nl on_label UNK UNK on_op UNK on_op on_ignored_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end # default is enforced by sonar-scanner binary

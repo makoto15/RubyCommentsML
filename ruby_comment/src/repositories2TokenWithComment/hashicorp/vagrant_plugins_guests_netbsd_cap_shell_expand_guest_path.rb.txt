@@ -1,0 +1,2 @@
+UNK on_const on_op on_const on_op on_const on_nl end on_nl UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end # If no real guest path was detected, this is really strange # and we raise an exception because this is a bug.
+UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP # Chomp the string so that any trailing newlines are killed

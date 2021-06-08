@@ -1,0 +1,1 @@
+UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK UNK value UNK UNK # A specialization of the file setting to allow boolean values. # # The autosign value can be either a boolean or a file path, and if the setting # is a file path then it may have a owner/group/mode specified. # # @api private

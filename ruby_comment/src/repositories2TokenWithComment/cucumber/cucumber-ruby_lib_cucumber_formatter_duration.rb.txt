@@ -1,0 +1,2 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK # Helper method for formatters that need to # format a duration in seconds to the UNIX # <tt>time</tt> format.

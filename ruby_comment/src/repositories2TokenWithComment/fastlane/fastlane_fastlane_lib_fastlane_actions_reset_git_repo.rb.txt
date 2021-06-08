@@ -1,0 +1,3 @@
+UNK on_const on_op on_const on_nl def self on_period UNK on_lparen params on_rparen on_ignored_nl UNK params on_lbracket on_symbeg UNK on_rbracket on_op # Does a hard reset and clean on the repo
+UNK params on_lbracket on_symbeg exclude on_rbracket on_period UNK on_lparen on_const on_rparen on_nl params on_lbracket on_symbeg exclude on_rbracket on_op on_lbracket params # we want to make sure that we have an array of patterns, and no nil values
+UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_op params on_lbracket on_symbeg exclude on_rbracket on_period UNK UNK on_op exclude on_op on_tstring_beg on_tstring_content on_tstring_end # attach our exclude patterns to the command

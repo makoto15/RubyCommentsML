@@ -1,0 +1,1 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_op UNK UNK on_op UNK UNK # These stub the translation methods normally brought in # by FastGettext. Used when Gettext could not be properly # initialized.

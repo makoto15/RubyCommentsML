@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK on_op UNK UNK UNK UNK UNK on_op UNK on_op UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK on_op UNK UNK UNK UNK UNK on_op UNK on_op UNK UNK UNK on_nl UNK UNK UNK # Extract the name of the missing constant from the exception message. # # begin # HelloWorld # rescue NameError => e # e.missing_name # end # # => "HelloWorld"
+UNK on_op UNK UNK UNK UNK UNK on_op UNK on_op UNK UNK UNK on_nl UNK UNK UNK UNK UNK on_op # Since ruby v2.3.0 `did_you_mean` gem is loaded by default. # It extends NameError#message with spell corrections which are SLOW. # We should use original_message message instead.
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_op UNK on_nl UNK UNK # Was this exception raised because the given name was missing? # # begin # HelloWorld # rescue NameError => e # e.missing_name?("HelloWorld") # end # # => true

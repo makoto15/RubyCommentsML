@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK on_tstring_content UNK # frozen_string_literal: true
+UNK on_const on_op on_const on_nl on_const on_op UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_op on_ignored_nl on_const on_op on_const on_op on_ignored_nl # Checks if examples are focused. # # @example # # bad # describe MyClass, focus: true do # end # # describe MyClass, :focus do # end # # fdescribe MyClass do # end # # # good # describe MyClass do # end

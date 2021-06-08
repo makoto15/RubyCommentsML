@@ -1,0 +1,2 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op on_tstring_beg on_tstring_content # frozen_string_literal: false
+UNK UNK src on_nl UNK on_lparen on_rparen on_nl md on_op UNK on_nl UNK src on_period match on_lparen on_const on_rparen on_nl # <!ENTITY name SYSTEM "..."> # <!ENTITY name "...">

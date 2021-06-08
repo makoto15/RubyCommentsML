@@ -1,0 +1,2 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK UNK # Avoid describing symbols. # # @example # # bad # describe :my_method do # # ... # end # # # good # describe '#my_method' do # # ... # end # # @see https://github.com/rspec/rspec-core/issues/1610

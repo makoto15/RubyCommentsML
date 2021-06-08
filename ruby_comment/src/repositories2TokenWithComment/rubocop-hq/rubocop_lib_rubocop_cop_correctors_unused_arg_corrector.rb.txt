@@ -1,0 +1,3 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen UNK # This auto-corrects unused arguments.
+node on_period UNK on_period UNK on_lparen UNK UNK UNK UNK UNK UNK on_rparen on_nl end on_nl UNK on_period UNK on_lparen # Extract only a var name without splat (`*`)

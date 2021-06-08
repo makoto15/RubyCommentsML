@@ -1,0 +1,6 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK # A generator of titles of operas by Verdi, Rossini, Donizetti and Bellini
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the title of an opera by Giuseppe Verdi. # # @return [String] # # @example # Faker::Music::Opera.verdi #=> "Il Trovatore" # # @faker.version 1.9.4
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the title of an opera by Gioacchino Rossini. # # @return [String] # # @example # Faker::Music::Opera.rossini #=> "Il Barbiere di Siviglia" # # @faker.version 1.9.4
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the title of an opera by Gaetano Donizetti. # # @return [String] # # @example # Faker::Music::Opera.donizetti #=> "Lucia di Lammermoor" # # @faker.version 1.9.4
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces the title of an opera by Vincenzo Bellini. # # @return [String] # # @example # Faker::Music::Opera.bellini #=> "Norma" # # @faker.version 1.9.4

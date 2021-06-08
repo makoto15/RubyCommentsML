@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # A general Vagrant system implementation for "solaris 11". # # Contributed by Jan Thomas Moldung <janth@moldung.no>
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP # for solaris derived guests like openindiana

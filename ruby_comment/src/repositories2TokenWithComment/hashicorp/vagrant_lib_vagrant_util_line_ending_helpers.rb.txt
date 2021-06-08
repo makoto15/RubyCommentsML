@@ -1,0 +1,1 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK # Converts line endings to unix-style line endings in the # given string. # # @param [String] string Original string # @return [String] The fixed string

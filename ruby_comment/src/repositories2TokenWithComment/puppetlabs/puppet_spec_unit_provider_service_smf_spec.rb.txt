@@ -1,0 +1,2 @@
+on_ivar on_op on_const on_op on_const on_period UNK on_lparen on_symbeg UNK on_rparen on_period new on_lparen on_ignored_nl on_symbeg name on_op on_tstring_beg on_tstring_content # Create a mock resource
+expect on_lparen instances on_period UNK on_rparen on_period to eq on_lparen on_int on_rparen on_nl expect on_lparen instances on_lbracket on_int on_rbracket on_rparen # we dont manage legacy

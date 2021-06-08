@@ -1,0 +1,1 @@
+output on_op on_const on_op on_const on_op on_const on_period scrub on_lparen input on_rparen on_nl expect on_lparen output on_rparen on_period to eq #bogus_output = "First line\nsecond line\n\n indented line\n\nlast line"

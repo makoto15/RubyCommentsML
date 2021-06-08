@@ -1,0 +1,4 @@
+UNK on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_period UNK # given # copy TargetAbsolutePath-Info.plist to /tmp/fastlane_get_version_number_action_spec/
+result on_op on_const on_op on_const on_period new on_period parse on_lparen on_tstring_beg on_tstring_content on_embexpr_beg path on_embexpr_end on_tstring_content on_tstring_end on_rparen on_period runner # when
+expect on_lparen result on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_ignored_nl on_const on_period UNK on_lparen UNK # then
+on_const on_period UNK on_lparen UNK on_rparen on_nl expect on_lparen on_const on_period UNK on_lparen UNK on_rparen on_rparen on_period to UNK UNK # after # remove /tmp/fastlane_get_version_number_action_spec/

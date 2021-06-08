@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_const UNK on_const # Versions of OpenBSD prior to 5.7 require the -h option to be # provided with the -p option. Later options allow the -h to # be optional.
+end on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Do nothing, because it probably means the machine shut down # and SSH connection was lost.

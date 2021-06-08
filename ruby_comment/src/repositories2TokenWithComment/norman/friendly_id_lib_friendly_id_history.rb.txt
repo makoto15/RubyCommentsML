@@ -1,0 +1,3 @@
+def UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl UNK on_period UNK UNK on_ignored_nl UNK on_symbeg slugs on_comma UNK UNK UNK # Configures the model instance to use the History add-on.
+def UNK on_nl relation on_op UNK on_period UNK on_lparen on_symbeg slugs on_rparen on_nl UNK UNK on_nl relation on_op relation on_period # If we're updating, don't consider historic slugs for the same record # to be conflicts. This will allow a record to revert to a previously # used slug.
+relation on_op slugs on_period where on_lparen on_symbeg UNK on_op UNK on_rparen on_nl if friendly_id_config on_period UNK on_lparen on_symbeg UNK on_rparen # Allow reversion back to a previously used slug

@@ -1,0 +1,2 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK # Retain this method for backwards compatibility, deprecated in favour of modifying the # devise/shared/error_messages partial

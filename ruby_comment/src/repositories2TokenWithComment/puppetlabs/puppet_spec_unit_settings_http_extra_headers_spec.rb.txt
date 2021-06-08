@@ -1,0 +1,1 @@
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect UNK on_ignored_nl subject on_period munge on_lparen UNK on_rparen on_nl UNK on_period to UNK # Ruby 2.3 reports the class of these objects as Fixnum, whereas later ruby versions report them as Integer

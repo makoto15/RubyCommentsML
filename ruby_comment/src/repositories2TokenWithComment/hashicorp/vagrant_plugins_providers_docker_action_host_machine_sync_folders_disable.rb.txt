@@ -1,0 +1,5 @@
+UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK on_lparen UNK on_comma env on_rparen # This action disables the synced folders we created.
+UNK on_op env on_lbracket on_symbeg machine on_rbracket on_period UNK on_period UNK on_lparen UNK UNK UNK on_rparen on_nl UNK UNK on_period # Read our random ID for this instance
+UNK on_op UNK on_lparen host_machine on_comma UNK UNK on_rparen on_nl UNK UNK on_nl UNK on_period UNK UNK on_op UNK on_comma # Read the existing folders that are setup
+UNK UNK UNK on_period UNK on_nl on_ignored_nl UNK on_op host_machine on_period UNK on_period UNK on_nl UNK on_period UNK on_lbracket on_symbeg # Nothing to do if we have no bad folders
+UNK on_op host_machine on_period UNK on_period UNK on_nl UNK on_period UNK on_lbracket on_symbeg UNK on_rbracket on_op UNK on_nl UNK on_period # Create a UI for this machine that stays at the detail level

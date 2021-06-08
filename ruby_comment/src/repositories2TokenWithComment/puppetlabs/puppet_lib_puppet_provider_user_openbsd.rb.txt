@@ -1,0 +1,4 @@
+on_const on_period UNK on_lparen value on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl UNK on_comma on_ignored_nl on_symbeg # OpenBSD uses a format like "january 1 1970"
+on_lparen on_const on_period UNK on_lparen UNK on_comma UNK on_comma UNK on_rparen on_op value on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end # Expiry is days after 1970-01-01
+UNK on_ignored_nl UNK UNK on_lparen UNK on_comma UNK on_period UNK on_lparen method on_rparen on_rparen on_nl UNK on_nl on_const on_period UNK # ruby-shadow may not be new enough (< 2.4.1) and therefore lack the # sp_loginclass field.
+on_const on_period UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op UNK UNK method UNK on_nl end on_nl end on_nl end #TRANSLATORS 'ruby-shadow' is a Ruby gem library

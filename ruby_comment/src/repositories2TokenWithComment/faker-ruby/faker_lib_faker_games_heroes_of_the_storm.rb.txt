@@ -1,0 +1,5 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a battleground from Heroes of the Storm. # # @return [String] # # @example # Faker::Games::HeroesOfTheStorm.battleground #=> "Towers of Doom" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a class from Heroes of the Storm. # # @return [String] # # @example # Faker::Games::HeroesOfTheStorm.class #=> "Support" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a hero from Heroes of the Storm. # # @return [String] # # @example # Faker::Games::HeroesOfTheStorm.hero #=> "Illidan" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Heroes of the Storm. # # @return [String] # # @example # Faker::Games::HeroesOfTheStorm.quote #=> "MEAT!!!" # # @faker.version 1.9.2

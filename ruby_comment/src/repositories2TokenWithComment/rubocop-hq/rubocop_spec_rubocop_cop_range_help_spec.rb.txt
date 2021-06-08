@@ -1,0 +1,2 @@
+on_ignored_nl on_const on_period UNK on_const on_op on_const on_op on_const do on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const on_op on_const # frozen_string_literal: true
+let on_lparen on_symbeg begin_pos on_rparen on_lbrace source on_period UNK on_lparen input_source on_rparen on_rbrace on_nl let on_lparen on_symbeg end_pos on_rparen on_lbrace # `input_source` defined in contexts

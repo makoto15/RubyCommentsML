@@ -1,0 +1,2 @@
+UNK UNK on_const UNK on_const UNK on_const on_nl UNK UNK on_const UNK UNK UNK on_const UNK on_const UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_const UNK UNK UNK on_const UNK on_const UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK # This STI parent class specifically does not call `has_paper_trail`. # Of its sub-classes, only `Car` and `Bicycle` are versioned.

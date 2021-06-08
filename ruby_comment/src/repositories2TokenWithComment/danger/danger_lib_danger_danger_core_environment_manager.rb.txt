@@ -1,0 +1,4 @@
+def self on_period UNK on_lparen env on_rparen on_ignored_nl on_const on_period UNK on_period UNK UNK on_op UNK on_op UNK on_period UNK # Finds a Danger::CI class based on the ENV
+def self on_period UNK on_lparen env on_rparen on_ignored_nl UNK on_lparen env on_rparen on_period UNK on_lparen env on_rparen on_nl end on_nl # Uses the current Danger::CI subclass, and sees if it is a PR
+def self on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_period freeze on_nl end on_nl on_ignored_nl def self on_period UNK on_nl on_tstring_beg # @return [String] danger's default head branch
+def self on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_period freeze on_nl end on_nl on_ignored_nl def UNK on_lparen env on_comma ui # @return [String] danger's default base branch

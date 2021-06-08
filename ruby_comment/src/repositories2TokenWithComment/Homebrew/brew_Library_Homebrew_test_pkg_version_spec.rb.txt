@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl describe on_const do on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content # frozen_string_literal: true
+expect on_lparen described_class on_period new on_lparen nil on_comma on_int on_rparen on_op described_class on_period new on_lparen on_const on_period create on_lparen on_tstring_beg # This one used to fail due to dereferencing a null `self`

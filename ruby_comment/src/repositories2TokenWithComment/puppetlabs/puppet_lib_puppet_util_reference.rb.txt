@@ -1,0 +1,7 @@
+UNK on_const on_op on_const on_op on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl # Manage Reference Documentation.
+UNK on_period UNK UNK on_op name on_op on_ignored_nl UNK on_op UNK on_lparen name on_rparen UNK UNK _ on_lparen on_tstring_beg on_tstring_content # Use the minimum depth
+on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK UNK on_nl UNK on_op UNK on_embexpr_beg UNK on_embexpr_end on_tstring_end # There used to be an attempt to use secure_open / replace_file to secure # the target, too, but that did nothing: the race was still here. We can # get exactly the same benefit from running this effort:
+on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_ignored_nl UNK on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl end on_nl on_ignored_nl # Now convert to pdf
+on_ivar on_op _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op UNK on_label on_ivar on_period UNK on_period UNK UNK on_nl on_ivar on_op # Now handle the defaults
+def UNK on_lparen text on_comma UNK on_rparen on_ignored_nl text on_period UNK on_lparen UNK on_tstring_content UNK on_comma UNK on_rparen on_period UNK # Indent every line in the chunk except those which begin with '..'.
+text on_op UNK on_lparen on_ivar on_comma UNK on_rparen on_nl text on_op _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl text # First the header

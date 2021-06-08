@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
+on_tstring_beg on_tstring_content on_embexpr_beg dep on_period name on_embexpr_end on_tstring_end on_nl end on_nl UNK args on_period UNK on_nl dep on_period UNK on_period # This shouldn't happen, but we'll put something here to help debugging

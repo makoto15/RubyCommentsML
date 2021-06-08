@@ -1,0 +1,1 @@
+on_ignored_nl expect UNK on_const on_period UNK on_period UNK UNK on_period to UNK on_lparen on_const on_comma UNK on_tstring_content UNK on_rparen on_nl # this resolves `code` again AND configures Hanami::Model so we can connect to the db

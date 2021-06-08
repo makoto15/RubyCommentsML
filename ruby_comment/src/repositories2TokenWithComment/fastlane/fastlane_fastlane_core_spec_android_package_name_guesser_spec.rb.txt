@@ -1,0 +1,1 @@
+expect on_lparen on_const on_op on_const on_period guess_package_name on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_lbracket on_rbracket on_rparen on_rparen on_period to UNK on_nl # this might also fail if the environment or config files are not clean

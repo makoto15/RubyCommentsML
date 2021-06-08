@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK # frozen_string_literal: true
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP # Check further if the ZIP is a JAR/WAR.

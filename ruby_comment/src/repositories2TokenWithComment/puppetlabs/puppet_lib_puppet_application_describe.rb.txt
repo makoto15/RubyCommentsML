@@ -1,0 +1,4 @@
+UNK text if text on_op UNK on_tstring_content UNK on_nl on_ignored_nl if text on_op UNK on_tstring_content UNK on_nl indent on_op UNK # For text with no carriage returns, there's nothing to do.
+if text on_op UNK on_tstring_content UNK on_nl indent on_op UNK on_nl UNK text on_period UNK on_lparen UNK on_tstring_content on_embexpr_beg indent # If we can match an indentation, then just remove that same level of # indent from every line.
+def UNK on_lparen type on_comma UNK on_rparen on_ignored_nl UNK on_op on_lbrace on_rbrace on_nl type on_period UNK on_period each UNK on_op # List details about attributes
+def UNK on_lparen type on_comma UNK on_rparen on_ignored_nl UNK on_op on_lbracket on_rbracket on_nl type on_period UNK on_period each UNK on_op # List the names of attributes

@@ -1,0 +1,1 @@
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen subject on_rparen on_period to receive on_lparen on_symbeg safe_puts on_rparen on_period with on_lparen # This is for a bug where JSON parses are frozen and an # exception was being raised.

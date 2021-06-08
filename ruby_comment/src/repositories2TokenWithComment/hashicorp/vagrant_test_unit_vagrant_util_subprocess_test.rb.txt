@@ -1,0 +1,5 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end UNK on_period UNK do on_op UNK on_op on_ignored_nl UNK on_op on_const on_op # ensure we have `cat` and `echo` in our PATH so that we can run these # tests successfully.
+stdin on_period UNK on_nl end on_nl on_ignored_nl expect on_lparen UNK on_period UNK on_rparen on_period to UNK on_lparen UNK on_rparen on_nl # We should be able to close STDIN without raising an exception
+expect on_lparen UNK on_period UNK on_rparen on_period to UNK on_lparen UNK on_rparen on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end # we should exit successfully.
+expect on_lparen UNK on_period UNK on_rparen on_period to UNK on_lparen UNK on_rparen on_nl on_ignored_nl expect on_lparen UNK on_period UNK on_rparen # we should exit successfully.
+expect on_lparen UNK on_period UNK on_rparen on_period to UNK on_lparen UNK on_rparen on_nl end on_nl on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end # we should see our data as the output from `cat`

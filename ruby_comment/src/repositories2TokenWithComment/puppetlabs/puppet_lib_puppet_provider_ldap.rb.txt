@@ -1,0 +1,14 @@
+class on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK UNK on_nl on_ignored_nl class on_op self # The base class for LDAP providers.
+def self on_period UNK on_nl UNK on_op manager on_period UNK on_nl UNK on_lbracket on_rbracket unless UNK on_nl on_ignored_nl UNK on_period # Look up all instances at our location. Yay.
+def self on_period UNK on_lparen on_op UNK on_rparen on_ignored_nl on_ivar on_op on_const on_op on_const on_op on_const on_op on_const on_period UNK # Specify the ldap manager for this provider, which is # used to figure out how we actually interact with ldap.
+UNK on_nl on_ivar on_nl end on_nl on_ignored_nl def self on_period UNK on_lparen UNK on_rparen on_ignored_nl UNK on_period UNK UNK on_op # Set up our getter/setter methods.
+def self on_period UNK on_lparen UNK on_rparen on_ignored_nl UNK on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl result on_op # Query all of our resources from ldap.
+def UNK on_nl on_ivar on_period UNK on_lparen on_symbeg UNK on_rparen on_nl on_ivar on_period UNK on_lparen on_symbeg UNK on_rparen on_nl manager # Apply our changes to ldap, yo.
+on_ivar on_period UNK on_lparen on_symbeg UNK on_rparen on_nl on_ivar on_period UNK on_lparen on_symbeg UNK on_rparen on_nl manager on_period UNK on_lparen # Just call the manager's update() method.
+UNK result unless self on_period class on_period UNK on_period UNK on_lparen param on_rparen on_nl on_ignored_nl UNK on_op self on_period class # Skip any attributes we don't manage.
+if UNK on_period UNK on_op on_const on_op on_const UNK UNK on_period UNK on_op on_symbeg UNK on_nl result on_lbracket param on_rbracket # Only use the first value if the attribute class doesn't manage # arrays of values.
+on_ivar on_op on_ivar on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_period UNK on_nl end on_nl on_ignored_nl def # Make a duplicate, so that we have a copy for comparison # at the end.
+def UNK on_nl on_ivar on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl if on_ivar on_period UNK on_nl on_ivar on_op # Return the current state of ldap.
+def UNK on_nl if on_ivar on_period UNK on_nl on_ivar on_op UNK on_op on_lbrace on_symbeg ensure on_op on_symbeg UNK on_rbrace on_nl # Return (and look up if necessary) the desired state.
+def UNK on_nl UNK on_op manager on_period UNK on_lparen UNK on_rparen on_nl unless UNK on_nl on_ivar on_op on_lbrace on_rbrace on_nl # Collect the current attributes from ldap. Returns # the results, but also stores the attributes locally, # so we have something to compare against when we update. # LAK:NOTE This is normally not used, because we rely on prefetching.
+UNK on_op manager on_period UNK on_lparen UNK on_rparen on_nl unless UNK on_nl on_ivar on_op on_lbrace on_rbrace on_nl UNK UNK on_nl # Use the module function.

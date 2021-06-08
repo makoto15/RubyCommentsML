@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_comma on_const UNK on_const on_period # Do not use `expect` in hooks such as `before`. # # @example # # bad # before do # expect(something).to eq 'foo' # end # # # bad # after do # expect_any_instance_of(Something).to receive(:foo) # end # # # good # it do # expect(something).to eq 'foo' # end

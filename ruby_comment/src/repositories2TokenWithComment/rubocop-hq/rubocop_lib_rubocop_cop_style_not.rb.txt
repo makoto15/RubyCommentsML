@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl on_const on_op UNK on_ignored_nl # This cop checks for uses of the keyword `not` instead of `!`. # # @example # # # bad - parentheses are required because of op precedence # x = (not something) # # # good # x = !something #

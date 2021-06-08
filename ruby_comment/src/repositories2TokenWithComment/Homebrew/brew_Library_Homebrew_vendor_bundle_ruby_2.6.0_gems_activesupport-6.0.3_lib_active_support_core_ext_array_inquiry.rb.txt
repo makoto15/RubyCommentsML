@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP # Wraps the array in an +ArrayInquirer+ object, which gives a friendlier way # to check its string-like contents. # # pets = [:cat, :dog].inquiry # # pets.cat? # => true # pets.ferret? # => false # # pets.any?(:cat, :ferret) # => true # pets.any?(:ferret, :alligator) # => false

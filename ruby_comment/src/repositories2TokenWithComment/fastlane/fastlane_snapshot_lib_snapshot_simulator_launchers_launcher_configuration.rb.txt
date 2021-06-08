@@ -1,0 +1,5 @@
+attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl # both
+attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK # xcode 8
+attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK # runner
+attr_accessor on_symbeg UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op snapshot_config on_lbracket # xcode 9
+UNK launch_arguments UNK UNK on_op UNK on_nl on_ivar on_op on_lbracket on_lbracket UNK UNK on_rbracket on_rbracket on_nl UNK launch_arguments UNK UNK # if more than 1 set of arguments, use a tuple with an index

@@ -1,0 +1,4 @@
+UNK UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK on_const on_nl # Implements a standard visitor patter for the Puppet Type system.
+UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK on_const on_nl UNK # # An instance of this module is passed as an argument to the {PAnyType#accept} # method of a Type instance. That type will then use the {TypeAcceptor#visit} callback # on the acceptor and then pass the acceptor to the `accept` method of all contained # type instances so that the it gets a visit from each one recursively. #
+UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK on_const on_nl UNK on_const on_nl UNK # @param type [PAnyType] the type that we accept a visit from # @param guard [RecursionGuard] the guard against self recursion
+UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP # An acceptor that does nothing

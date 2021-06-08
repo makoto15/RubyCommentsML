@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK # frozen_string_literal: true
+UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl # Functions for checking the alignment of the `end` keyword.
+UNK on_period UNK UNK end_loc on_period line on_op UNK UNK on_op UNK UNK UNK on_nl end on_nl on_ignored_nl def UNK # Discard modifier forms of if/while/until.

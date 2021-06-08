@@ -1,0 +1,5 @@
+UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK UNK count on_op UNK UNK on_ignored_nl on_const on_op on_const UNK # @!macro count_down_latch # @!visibility private # @!macro internal_implementation_note
+UNK UNK UNK count on_op UNK UNK on_ignored_nl on_const on_op on_const UNK UNK count on_nl on_const on_op on_const UNK UNK # @!macro count_down_latch_method_initialize
+UNK UNK UNK UNK on_op UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK UNK on_ivar on_op UNK UNK UNK # @!macro count_down_latch_method_wait
+UNK UNK on_nl UNK UNK on_ignored_nl on_ivar on_op UNK UNK on_ivar on_op UNK on_nl UNK UNK on_ivar on_op UNK on_nl # @!macro count_down_latch_method_count_down
+UNK count on_nl UNK UNK on_ivar UNK on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK UNK count UNK on_ignored_nl # @!macro count_down_latch_method_count

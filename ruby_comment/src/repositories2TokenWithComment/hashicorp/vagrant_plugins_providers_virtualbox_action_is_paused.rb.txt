@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK # Set the result to be true if the machine is paused.
+UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP # Call the next if we have one (but we shouldn't, since this # middleware is built to run with the Call-type middlewares)

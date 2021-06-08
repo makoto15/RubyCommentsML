@@ -1,0 +1,4 @@
+on_ignored_nl UNK on_period UNK UNK on_op UNK on_op UNK on_op UNK UNK on_symbeg UNK do on_ignored_nl UNK on_lparen on_symbeg UNK # frozen_string_literal: true
+result_src on_op on_heredoc_beg on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_heredoc_end new_source on_op autocorrect_source on_lparen src on_rparen on_nl expect on_lparen # Just 1, 2 is not valid Ruby.
+result_src on_op on_heredoc_beg on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_heredoc_end new_source on_op autocorrect_source on_lparen src on_rparen on_nl expect on_lparen # :a => 1, :b => 2 is not valid Ruby
+result_src on_op on_heredoc_beg on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_heredoc_end new_source on_op autocorrect_source on_lparen src on_rparen on_nl expect on_lparen # :a => 1, :b => 2 is not valid Ruby

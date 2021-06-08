@@ -1,0 +1,2 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK # This cop checks for the use of the send method. # # @example # # bad # Foo.send(:bar) # quuz.send(:fred) # # # good # Foo.__send__(:bar) # quuz.public_send(:fred)

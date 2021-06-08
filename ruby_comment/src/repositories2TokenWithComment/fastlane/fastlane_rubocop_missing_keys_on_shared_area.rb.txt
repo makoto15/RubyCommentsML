@@ -1,0 +1,2 @@
+add_offense on_lparen node on_comma on_symbeg expression on_comma on_const on_rparen unless UNK on_lparen node on_rparen on_nl UNK node on_period UNK UNK # A single method
+UNK on_op node on_period UNK on_lparen on_symbeg UNK on_rparen on_period UNK UNK on_op UNK on_op UNK on_lparen UNK on_rparen UNK # Multiple methods

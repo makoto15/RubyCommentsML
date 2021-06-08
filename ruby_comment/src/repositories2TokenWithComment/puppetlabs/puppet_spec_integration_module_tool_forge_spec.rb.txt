@@ -1,0 +1,2 @@
+UNK on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_period UNK on_lparen UNK UNK UNK on_period UNK on_rparen on_nl # create a temp cacert bundle
+on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op UNK on_rparen do on_ignored_nl UNK on_op UNK on_lparen UNK UNK # override path to system cacert bundle, this must be done before # the SSLContext is created and the call to X509::Store.set_default_paths

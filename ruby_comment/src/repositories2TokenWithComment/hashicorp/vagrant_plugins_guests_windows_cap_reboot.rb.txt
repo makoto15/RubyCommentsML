@@ -1,0 +1,1 @@
+machine on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_label UNK on_comma on_label UNK UNK on_rparen on_nl end on_nl # This re-establishes our symbolic links if they were # created between now and a reboot

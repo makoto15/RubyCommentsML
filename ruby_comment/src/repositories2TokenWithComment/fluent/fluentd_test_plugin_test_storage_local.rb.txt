@@ -1,0 +1,8 @@
+on_ignored_nl on_ivar on_period UNK on_semicolon on_ivar on_period UNK on_semicolon on_ivar on_period UNK on_semicolon on_ivar on_period UNK on_semicolon on_ivar on_period UNK # on-memory storage does nothing...
+on_ivar on_op on_const on_period new on_nl on_ivar on_period configure on_lparen conf on_rparen on_nl on_ivar on_period start on_nl on_ivar on_op on_ivar # re-create to reload storage contents
+on_ignored_nl assert on_const on_period UNK on_lparen storage_path on_rparen on_nl on_ignored_nl on_ivar on_period put on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_int on_rparen # stores all data into file
+on_ivar on_op on_const on_period new on_nl on_ivar on_period configure on_lparen conf on_rparen on_nl on_ivar on_period start on_nl on_ivar on_op on_ivar # re-create to reload storage contents
+on_ignored_nl assert on_const on_period UNK on_lparen expected_storage_path on_rparen on_nl on_ignored_nl on_ivar on_period put on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_int on_rparen # stores all data into file
+on_ivar on_op on_const on_period new on_nl on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op root_dir on_rparen do on_ignored_nl # re-create to reload storage contents
+on_ignored_nl assert on_const on_period UNK on_lparen storage_path on_rparen on_nl assert_equal on_int on_comma on_lparen on_const on_period UNK on_lparen storage_path on_rparen on_period # stores all data into file
+on_ignored_nl UNK on_op UNK on_period UNK on_nl on_tstring_content UNK assert_equal UNK on_comma on_const on_period read on_lparen storage_path on_rparen on_nl end # stores all data into file

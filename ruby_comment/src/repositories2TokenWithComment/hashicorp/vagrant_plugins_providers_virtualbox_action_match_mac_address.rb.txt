@@ -1,0 +1,2 @@
+UNK UNK on_period UNK on_lparen env on_rparen UNK env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_period UNK on_period UNK on_nl # If we cloned, we don't need a base mac, it is already set!
+env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_const on_period UNK on_lparen UNK UNK UNK on_rparen on_nl env on_lbracket on_symbeg UNK # Create the proc which we want to use to modify the virtual machine

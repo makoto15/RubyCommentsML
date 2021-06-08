@@ -1,0 +1,12 @@
+expect on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period to have_file_content on_lparen UNK on_tstring_content UNK on_rparen on_nl on_ignored_nl expect on_lparen on_tstring_beg on_tstring_content # # .hanamirc #
+expect on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period to have_file_content UNK on_nl on_tstring_content UNK end on_nl end on_nl end on_ignored_nl UNK # # apps/web/templates/application.html.erb #
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl project on_op on_tstring_beg on_tstring_content on_tstring_end on_nl output # erb
+expect on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period to have_file_content on_lparen UNK on_tstring_content UNK on_rparen on_nl on_ignored_nl expect on_lparen on_tstring_beg on_tstring_content # # .hanamirc #
+expect on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period to have_file_content UNK on_nl on_tstring_content UNK end on_nl end on_nl end on_ignored_nl UNK # # apps/web/templates/application.html.haml #
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl project on_op on_tstring_beg on_tstring_content on_tstring_end on_nl output # haml
+expect on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period to have_file_content on_lparen UNK on_tstring_content UNK on_rparen on_nl on_ignored_nl expect on_lparen on_tstring_beg on_tstring_content # # .hanamirc #
+expect on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period to have_file_content UNK on_nl on_tstring_content UNK end on_nl end on_nl end on_ignored_nl UNK # # apps/web/templates/application.html.slim #
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl output on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl # slim
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl output on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl # missing
+end end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # unknown
+end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # template

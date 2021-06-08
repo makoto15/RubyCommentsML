@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_period UNK UNK on_op UNK on_op UNK on_op UNK do on_ignored_nl UNK on_lparen UNK cop on_rparen UNK UNK # frozen_string_literal: true
+expect on_lparen corrected on_rparen on_period to eq on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_op # next iteration fixes this

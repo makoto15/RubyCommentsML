@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl on_ivar # frozen_string_literal: true
+UNK on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const UNK on_ignored_nl on_const on_period UNK on_lparen UNK on_lparen sample on_rparen on_rparen # The error raised here is changed in Ruby 2.7.

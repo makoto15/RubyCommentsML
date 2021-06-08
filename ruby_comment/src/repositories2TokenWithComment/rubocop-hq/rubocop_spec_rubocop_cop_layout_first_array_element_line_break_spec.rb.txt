@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_period UNK UNK on_op UNK on_op UNK on_op UNK do on_ignored_nl UNK on_lparen UNK UNK on_rparen UNK UNK # frozen_string_literal: true
+UNK on_lparen corrected on_rparen on_period UNK UNK on_lparen on_heredoc_beg on_rparen on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_heredoc_end end on_nl # Alignment for the first element is set by IndentationWidth cop, # the rest of the elements should be aligned using the ArrayAlignment cop.

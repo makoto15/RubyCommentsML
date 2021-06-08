@@ -1,0 +1,4 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_lparen node on_rparen on_ignored_nl UNK UNK node on_period # frozen_string_literal: true
+UNK UNK on_nl UNK UNK on_lparen node on_rparen on_ignored_nl UNK UNK node on_period UNK on_period UNK on_lparen UNK UNK on_rparen # Classes that include this module just implement functions to determine # what is an offense and how to do auto-correction. They get help with # adding offenses for the faulty string nodes, and with filtering out # nodes.
+UNK UNK node on_period UNK on_period UNK on_lparen UNK UNK on_rparen UNK node on_period UNK on_period UNK on_nl UNK UNK # Constants like __FILE__ are handled as strings, # but don't respond to begin.
+node on_period UNK on_period UNK UNK UNK UNK UNK UNK UNK on_period UNK UNK on_period UNK on_lparen UNK UNK UNK # A :begin node inside a :dstr node is an interpolation.

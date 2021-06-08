@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK UNK on_nl UNK name on_nl UNK UNK UNK UNK UNK name UNK on_nl UNK on_ignored_nl # frozen_string_literal: true
+UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK on_op UNK UNK on_nl end on_nl # Uses an integer of seconds to hold the length of the song

@@ -1,0 +1,6 @@
+index on_period UNK on_period UNK UNK on_op UNK on_op on_ignored_nl if source on_lbracket UNK on_rbracket on_nl source on_lbracket UNK on_rbracket # conversions
+if on_op UNK on_nl index on_period UNK on_period UNK UNK on_op field on_op on_ignored_nl if on_op source on_period UNK on_lparen # hack to prevent generator field doesn't exist error
+index on_period UNK on_period UNK UNK on_op field on_op on_ignored_nl if source on_lbracket field on_rbracket on_nl if on_op source on_lbracket # locations
+source on_lbracket field on_rbracket on_op source on_lbracket field on_rbracket on_period UNK on_lbrace on_op UNK on_op UNK on_lparen UNK on_rparen on_rbrace # multiple locations
+def UNK on_lparen obj on_rparen on_ignored_nl UNK obj on_nl UNK on_const on_nl obj on_period UNK on_nl UNK on_const on_nl obj # change all BigDecimal values to floats due to # https://github.com/rails/rails/issues/6033 # possible loss of precision :/
+if v on_period is_a? on_lparen on_const on_rparen on_nl obj on_lbracket UNK on_rbracket on_op v on_period UNK on_nl UNK v on_period # performance

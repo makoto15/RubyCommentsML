@@ -1,0 +1,4 @@
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # This class is used to delay execution until the end of # a configured stack
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl # @param [Object] callable The object to call (must respond to #call)
+UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl # Allow the rest of the call stack to execute
+UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP # Now call our delayed stack

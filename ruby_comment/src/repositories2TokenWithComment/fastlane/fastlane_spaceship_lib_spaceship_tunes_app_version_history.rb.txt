@@ -1,0 +1,8 @@
+UNK on_const on_op on_const on_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # Represents a read only version of an App Store Connect Versions State History
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg items on_nl on_ignored_nl # @return (Spaceship::Tunes::Application) A reference to the application # this version is for
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg items on_nl on_ignored_nl UNK on_lparen UNK on_ignored_nl on_tstring_beg # @return (String) The version in string format (e.g. "1.0")
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg items on_nl on_ignored_nl UNK on_lparen UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_op on_symbeg UNK # @return (String) The platform value of this version.
+UNK on_symbeg items on_nl on_ignored_nl UNK on_lparen UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_op on_symbeg UNK UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end # @return ([Spaceship::Tunes::AppVersionStatesHistory]) the array of version states
+UNK items on_nl UNK on_op UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl items on_op UNK UNK on_tstring_beg on_tstring_content on_tstring_end # Returns an array of all builds that can be sent to review
+UNK UNK on_nl items on_op UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl UNK on_op UNK on_lparen items on_rparen UNK items # Private methods
+items on_op UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl UNK on_op UNK on_lparen items on_rparen UNK items on_nl end on_nl # Properly parse the AppStatus

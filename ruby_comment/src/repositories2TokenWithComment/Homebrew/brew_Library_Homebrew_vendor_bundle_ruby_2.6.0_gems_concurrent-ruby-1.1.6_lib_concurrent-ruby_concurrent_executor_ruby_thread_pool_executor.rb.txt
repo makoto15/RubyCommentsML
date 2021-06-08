@@ -1,0 +1,51 @@
+UNK on_const on_op on_const on_nl on_ignored_nl on_const on_op on_int on_ignored_nl on_const on_op on_int on_nl on_ignored_nl on_const on_op on_int on_nl on_ignored_nl # @!macro thread_pool_executor # @!macro thread_pool_options # @!visibility private
+on_const on_op on_int on_ignored_nl on_const on_op on_int on_nl on_ignored_nl on_const on_op on_int on_nl on_ignored_nl on_const on_op on_int on_nl on_ignored_nl UNK # @!macro thread_pool_executor_constant_default_max_pool_size
+on_ignored_nl on_const on_op on_int on_nl on_ignored_nl on_const on_op on_int on_nl on_ignored_nl on_const on_op on_int on_nl on_ignored_nl UNK on_symbeg UNK on_nl # java.lang.Integer::MAX_VALUE
+on_const on_op on_int on_nl on_ignored_nl on_const on_op on_int on_nl on_ignored_nl on_const on_op on_int on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # @!macro thread_pool_executor_constant_default_min_pool_size
+on_const on_op on_int on_nl on_ignored_nl on_const on_op on_int on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # @!macro thread_pool_executor_constant_default_max_queue_size
+on_const on_op on_int on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # @!macro thread_pool_executor_constant_default_thread_timeout
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # @!macro thread_pool_executor_attr_reader_max_length
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_lparen opts on_op # @!macro thread_pool_executor_attr_reader_min_length
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_lparen opts on_op on_lbrace on_rbrace on_rparen on_ignored_nl UNK # @!macro thread_pool_executor_attr_reader_idletime
+UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_lparen opts on_op on_lbrace on_rbrace on_rparen on_ignored_nl UNK on_lparen opts on_rparen on_nl end # @!macro thread_pool_executor_attr_reader_max_queue
+def UNK on_lparen opts on_op on_lbrace on_rbrace on_rparen on_ignored_nl UNK on_lparen opts on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl # @!macro thread_pool_executor_method_initialize
+def UNK on_nl synchronize on_lbrace on_ivar on_rbrace on_nl end on_nl on_ignored_nl def UNK on_nl synchronize on_lbrace on_ivar on_rbrace on_nl end # @!macro thread_pool_executor_attr_reader_largest_length
+def UNK on_nl synchronize on_lbrace on_ivar on_rbrace on_nl end on_nl on_ignored_nl def UNK on_nl synchronize on_lbrace on_ivar on_rbrace on_nl end # @!macro thread_pool_executor_attr_reader_scheduled_task_count
+def UNK on_nl synchronize on_lbrace on_ivar on_rbrace on_nl end on_nl on_ignored_nl def UNK on_nl synchronize on_lbrace UNK on_rbrace on_nl end # @!macro thread_pool_executor_attr_reader_completed_task_count
+def UNK on_nl synchronize on_lbrace UNK on_rbrace on_nl end on_nl on_ignored_nl def length on_nl synchronize on_lbrace on_ivar on_period length on_rbrace # @!macro executor_service_method_can_overflow_question
+def length on_nl synchronize on_lbrace on_ivar on_period length on_rbrace on_nl end on_nl on_ignored_nl def UNK on_nl synchronize on_lbrace on_ivar on_period # @!macro thread_pool_executor_attr_reader_length
+def UNK on_nl synchronize on_lbrace on_ivar on_period length on_rbrace on_nl end on_nl on_ignored_nl def UNK on_nl synchronize UNK on_ignored_nl if # @!macro thread_pool_executor_attr_reader_queue_length
+def UNK on_nl synchronize UNK on_ignored_nl if UNK on_nl on_ivar on_op on_ivar on_period length on_nl else on_ignored_nl on_op on_int on_nl # @!macro thread_pool_executor_attr_reader_remaining_capacity
+def UNK on_lparen worker on_rparen on_ignored_nl synchronize on_lbrace UNK worker on_rbrace on_nl end on_nl on_ignored_nl def UNK on_lparen worker on_rparen # @!visibility private
+def UNK on_lparen worker on_rparen on_ignored_nl synchronize on_lbrace UNK worker on_rbrace on_nl end on_nl on_ignored_nl def UNK on_lparen worker on_rparen # @!visibility private
+def UNK on_lparen worker on_rparen on_ignored_nl synchronize on_lbrace UNK worker on_rbrace on_nl end on_nl on_ignored_nl def UNK on_lparen worker on_rparen # @!visibility private
+def UNK on_lparen worker on_rparen on_ignored_nl synchronize on_lbrace UNK worker on_rbrace on_nl end on_nl on_ignored_nl def UNK on_nl synchronize on_lbrace # @!visibility private
+def UNK on_nl synchronize on_lbrace on_ivar on_op on_int on_rbrace on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl def UNK on_lparen opts # @!visibility private
+def UNK on_lparen opts on_rparen on_ignored_nl on_ivar on_op opts on_period fetch on_lparen on_symbeg UNK on_comma on_const on_rparen on_period UNK on_nl # @!visibility private
+on_ivar on_op on_lbracket on_rbracket on_ivar on_op on_lbracket on_rbracket on_ivar on_op on_int on_nl on_ivar on_op on_int on_nl on_ivar on_op on_int on_nl # all workers
+on_ivar on_op on_lbracket on_rbracket on_ivar on_op on_int on_nl on_ivar on_op on_int on_nl on_ivar on_op on_int on_nl on_ivar on_op on_int on_nl # used as a stash (most idle worker is at the start)
+on_ivar on_op on_int on_nl on_ivar on_op on_int on_nl on_ivar on_op on_int on_nl on_ivar on_op on_int on_nl on_ivar on_op UNK on_ignored_nl # used as queue # @ready or @queue is empty at all times
+on_ignored_nl on_ivar on_op opts on_period fetch on_lparen on_symbeg UNK on_comma on_ivar on_op UNK on_rparen on_period UNK on_ivar on_op on_const on_period # detects if Ruby has forked
+on_ivar on_op on_const on_period monotonic_time on_op on_ivar on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_int on_nl end on_nl # undocumented
+def UNK on_nl on_ivar on_op on_int on_nl end on_nl on_ignored_nl def UNK on_lparen on_op args on_comma on_op task on_rparen on_ignored_nl # @!visibility private
+def UNK on_lparen on_op args on_comma on_op task on_rparen on_ignored_nl UNK on_nl on_ignored_nl if UNK on_lparen on_op args on_comma on_op # @!visibility private
+def UNK on_nl UNK on_nl on_ignored_nl if on_ivar on_period UNK on_nl UNK on_period UNK on_nl end on_nl on_ignored_nl if on_ivar # @!visibility private
+UNK on_period UNK on_nl end on_nl on_ignored_nl if on_ivar on_period UNK on_nl on_ivar on_period UNK on_lparen on_op on_symbeg stop on_rparen # nothing to do
+on_ivar on_period UNK on_lparen on_op on_symbeg stop on_rparen on_nl end on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_period UNK # no more tasks will be accepted, just stop all workers
+def UNK on_nl on_ivar on_period UNK on_lparen on_op on_symbeg UNK on_rparen on_nl on_ivar on_period UNK on_nl on_ivar on_period UNK on_nl # @!visibility private
+on_ivar on_period UNK on_lparen on_op on_symbeg UNK on_rparen on_nl on_ivar on_period UNK on_nl on_ivar on_period UNK on_nl end on_nl on_ignored_nl # TODO log out unprocessed tasks in queue # TODO try to shutdown first?
+def UNK on_lparen on_op args on_comma on_op task on_rparen on_ignored_nl worker on_op on_lparen on_ivar on_period UNK if on_ivar on_period UNK # tries to assign task to a worker, tries to get one from @ready or to create new one # @return [true, false] if task is assigned to a worker # # @!visibility private
+worker on_op on_lparen on_ivar on_period UNK if on_ivar on_period UNK on_op on_ivar on_rparen on_op UNK on_nl if worker on_nl worker # keep growing if the pool is not at the minimum yet
+UNK UNK on_nl end on_nl on_ignored_nl def UNK on_lparen on_op args on_comma on_op task on_rparen on_ignored_nl if on_op UNK on_op # Raised when the operating system refuses to create the new thread
+def UNK on_lparen on_op args on_comma on_op task on_rparen on_ignored_nl if on_op UNK on_op on_ivar on_period UNK on_op on_ivar on_nl # tries to enqueue task # @return [true, false] if enqueued # # @!visibility private
+def UNK on_lparen worker on_rparen on_ignored_nl UNK worker on_nl UNK on_op UNK on_nl UNK UNK on_comma UNK if UNK on_nl # @!visibility private
+def UNK on_nl UNK if on_ivar on_period UNK on_op on_ivar on_nl on_ignored_nl on_ivar on_op on_int on_nl on_ivar on_op on_lparen worker # creates new worker which has to receive work to do after it's added # @return [nil, Worker] nil of max capacity is reached # # @!visibility private
+def UNK on_lparen worker on_comma UNK on_op UNK on_rparen on_ignored_nl UNK on_op on_ivar on_period UNK on_nl if UNK on_nl worker # handle ready worker, giving it new job or assigning back to @ready # # @!visibility private
+if UNK on_nl on_ivar on_period UNK on_lparen worker on_rparen on_nl else on_ignored_nl worker on_period stop on_nl end on_nl end on_nl # stop workers when !running?, do not return them to @ready
+def UNK on_lparen worker on_rparen on_ignored_nl on_ivar on_period UNK on_lparen worker on_rparen on_nl UNK on_nl end on_nl on_ignored_nl def UNK # returns back worker to @ready which was not idle for enough time # # @!visibility private
+on_ivar on_period UNK on_lparen worker on_rparen on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_lparen worker on_rparen on_ignored_nl on_ivar on_period # let's put workers coming from idle_test back to the start (as the oldest worker)
+def UNK on_lparen worker on_rparen on_ignored_nl on_ivar on_period UNK on_lparen worker on_rparen on_nl UNK on_period UNK if on_ivar on_period UNK # removes a worker which is not in not tracked in @ready # # @!visibility private
+def UNK on_nl UNK if on_ivar on_period UNK on_op on_ivar on_nl on_ignored_nl UNK on_op on_ivar on_period UNK on_nl UNK on_op # try oldest worker if it is idle for enough time, it's returned back at the start # # @!visibility private
+UNK on_const on_nl UNK on_const on_op on_const on_nl on_ignored_nl def UNK on_lparen pool on_comma UNK on_rparen on_ignored_nl on_ivar on_op on_const # @!visibility private
+on_ivar on_op on_const on_period new on_nl on_ivar on_op pool on_nl on_ivar on_op UNK on_ivar on_comma pool on_comma pool on_period UNK # instance variables accessed only under pool's lock so no need to sync here again
+UNK on_const on_comma UNK on_nl UNK on_const on_op UNK on_nl UNK on_const on_comma UNK on_nl pool on_period UNK on_lparen self # let it fail

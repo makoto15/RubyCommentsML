@@ -1,0 +1,1 @@
+describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_symbeg UNK on_rparen do on_ignored_nl on_ivar on_period add_cookies on_lparen on_label on_tstring_beg on_tstring_content # The regexen are required because Hashes aren't ordered, so a test against # a hardcoded string was randomly failing.

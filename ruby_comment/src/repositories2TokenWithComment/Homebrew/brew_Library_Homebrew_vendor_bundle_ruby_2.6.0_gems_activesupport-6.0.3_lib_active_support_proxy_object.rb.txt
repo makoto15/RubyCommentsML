@@ -1,0 +1,3 @@
+UNK UNK UNK on_nl UNK UNK on_op on_op UNK on_nl UNK UNK on_op on_nl UNK UNK UNK on_nl UNK UNK # frozen_string_literal: true
+UNK UNK on_op on_op UNK on_nl UNK UNK on_op on_nl UNK UNK UNK on_nl UNK UNK UNK UNK on_op UNK # A class with no predefined methods that behaves similarly to Builder's # BlankSlate. Used for proxy classes.
+UNK UNK UNK on_op UNK UNK UNK on_op UNK UNK UNK UNK UNK UNK UNK on_op UNK UNK on_nl UNK # Let ActiveSupport::ProxyObject at least raise exceptions.

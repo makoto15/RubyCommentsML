@@ -1,0 +1,6 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_op UNK on_nl def UNK on_lparen UNK on_op on_const on_comma # frozen_string_literal: true
+end on_nl end on_nl on_ignored_nl def UNK on_lparen length on_rparen on_ignored_nl UNK on_op UNK on_nl on_lparen on_int on_op length on_period # recursive base case
+UNK on_lparen on_int on_rparen on_comma UNK on_lparen on_int on_rparen on_comma UNK on_lparen on_int on_op on_int on_rparen on_rbracket on_rparen on_period UNK # latin alphabet
+UNK on_lparen on_int on_rparen on_comma UNK on_lparen on_int on_op on_int on_rparen on_rbracket on_rparen on_period UNK on_lparen on_const on_op on_const on_rparen # 7-bit ASCII
+UNK on_lparen on_int on_op on_int on_rparen on_rbracket on_rparen on_period UNK on_lparen on_const on_op on_const on_rparen on_nl end on_nl end on_nl # utf-8 codepoints below utf-16 surrogate halves
+on_rbracket on_rparen on_period UNK on_lparen on_const on_op on_const on_rparen on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP # utf-8 codepoints above utf-16 surrogate halves

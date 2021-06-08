@@ -1,0 +1,4 @@
+on_ignored_nl UNK on_const on_nl UNK UNK UNK on_op UNK UNK on_ignored_nl UNK on_op on_const on_period UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const on_nl UNK UNK UNK on_op UNK UNK on_ignored_nl UNK on_op on_const on_period UNK UNK UNK UNK UNK on_nl # RuboCop can be run in contexts where unexpected other libraries are included, # which may interfere with its normal behavior. In order to test those # situations, it may be necessary to require another library for the duration # of one spec
+UNK UNK UNK on_const UNK on_nl on_const on_period UNK UNK UNK UNK on_const on_period UNK UNK UNK on_nl on_const on_period # Need to write coverage result under different name
+UNK UNK UNK UNK on_period UNK UNK on_nl UNK on_ignored_nl UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK # assert that the block did not fail

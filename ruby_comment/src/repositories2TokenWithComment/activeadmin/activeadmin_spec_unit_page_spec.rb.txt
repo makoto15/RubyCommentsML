@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_symbeg UNK on_rparen on_lbrace namespace on_period UNK on_const on_rbrace on_nl UNK # context "with belongs to config" do
+on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen config on_period UNK on_rparen on_period to UNK on_nl end on_nl end # context "with optional belongs to config" do

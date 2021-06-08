@@ -1,0 +1,14 @@
+on_ignored_nl UNK on_const on_op on_op on_const on_op on_const on_op on_const on_nl on_const on_op on_lbracket on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl # frozen_string_literal: true
+UNK on_const on_op on_op on_const on_op on_const on_op on_const on_nl on_const on_op on_lbracket on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_tstring_beg # Parts of this migration must be kept in sync with # `lib/generators/paper_trail/templates/create_versions.rb` # # Starting with AR 5.1, we must specify which version of AR we are using. # I tried using `const_get` but I got a `NameError`, then I learned about # `::ActiveRecord::Migration::Current`.
+create_table on_symbeg UNK on_comma on_label true do on_op t on_op on_ignored_nl t on_period string on_symbeg name on_comma on_label false on_nl # Classes: Vehicle, Car, Truck
+t on_period integer on_symbeg UNK on_nl t on_period string on_symbeg UNK on_nl t on_period string on_symbeg UNK on_nl t on_period # Metadata columns.
+t on_period string on_symbeg UNK on_nl t on_period string on_symbeg UNK on_nl end on_nl add_index on_symbeg UNK on_comma on_qsymbols_beg on_tstring_content # Controller info columns.
+t on_period string on_symbeg UNK on_nl t on_period string on_symbeg UNK on_nl end on_nl add_index on_symbeg UNK on_comma on_qsymbols_beg on_tstring_content # Controller info columns.
+create_table on_symbeg UNK on_comma on_label true do on_op t on_op on_ignored_nl t on_period string on_symbeg UNK on_comma on_label false on_comma # Uses custom versions table `no_object_versions`.
+create_table on_symbeg UNK on_comma on_label true do on_op t on_op on_ignored_nl t on_period string on_symbeg item_type on_comma on_label false on_nl # This table omits the `object` column.
+end on_nl on_ignored_nl create_table on_symbeg UNK on_comma on_label true do on_op t on_op on_ignored_nl t on_period integer on_symbeg UNK on_nl # single table inheritance column
+create_table on_symbeg UNK on_comma on_label false on_comma on_label true do on_op t on_op on_ignored_nl t on_period UNK on_symbeg UNK on_comma # custom_primary_key_records use a uuid column (string)
+create_table on_symbeg UNK on_comma on_label true do on_op t on_op on_ignored_nl t on_period string on_symbeg item_type on_comma on_label false on_nl # and custom_primary_key_record_versions stores the uuid in item_id, a string
+t on_period string on_symbeg UNK t on_period integer on_symbeg UNK on_nl t on_period integer on_symbeg UNK on_nl end on_nl end # For STI support
+t on_period integer on_symbeg UNK on_nl t on_period integer on_symbeg UNK on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_nl # Only used for celebrity families
+UNK on_const on_op on_const on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK UNK on_label UNK on_ignored_nl UNK on_op UNK # Not actually irreversible, but there is no need to maintain this method.

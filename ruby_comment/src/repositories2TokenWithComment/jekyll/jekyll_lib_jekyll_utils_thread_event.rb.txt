@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl on_ivar UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl on_ivar UNK UNK on_period UNK on_nl on_ivar UNK UNK # Based on the pattern and code from # https://emptysqua.re/blog/an-event-synchronization-primitive-for-ruby/

@@ -1,0 +1,4 @@
+on_ignored_nl UNK on_const on_nl UNK on_const UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_const UNK # :nodoc:
+UNK UNK UNK on_period UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_period UNK on_nl on_ignored_nl UNK on_period UNK UNK # try loading the class/module
+UNK on_period UNK UNK UNK on_period UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_ignored_nl UNK UNK on_nl UNK # if it is an IO we need to go back to read the object

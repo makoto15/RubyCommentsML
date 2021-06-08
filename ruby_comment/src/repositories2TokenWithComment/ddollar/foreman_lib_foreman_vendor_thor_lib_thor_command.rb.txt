@@ -1,0 +1,12 @@
+UNK on_lparen UNK on_rparen on_nl UNK on_period options on_op UNK on_period options on_period UNK if UNK on_period options on_nl end #:nodoc:
+def UNK on_lparen instance on_comma UNK on_op on_lbracket on_rbracket on_rparen on_ignored_nl UNK on_op UNK on_nl on_ignored_nl if UNK on_lparen instance # By default, a command invokes a method in the thor class. You can change this # implementation to create custom commands.
+def UNK on_lparen klass on_comma namespace on_op UNK on_comma UNK on_op false on_rparen on_ignored_nl if namespace on_nl namespace on_op klass # Returns the formatted usage by injecting given required arguments # and required options into the given usage.
+formatted on_op if klass on_op on_op klass on_period UNK on_period empty? on_nl usage on_period to_s on_period UNK on_lparen on_regexp_beg on_tstring_content # Add usage with required arguments
+formatted on_op on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_end on_nl on_ignored_nl formatted on_period UNK on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl # Add required options
+formatted on_period UNK on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl def UNK on_lparen instance on_rparen on_ignored_nl on_op on_lparen instance on_period # Strip and go!
+def UNK on_lparen instance on_rparen on_op on_lparen instance on_period UNK on_op on_lbracket name on_period to_s on_comma name on_period UNK on_rbracket # Given a target, checks if this class name is a public method.
+on_op on_lparen instance on_period UNK on_op on_lbracket name on_period to_s on_comma name on_period UNK on_rbracket on_rparen on_period empty? on_nl end #:nodoc:
+UNK on_op UNK on_period UNK UNK on_op UNK on_op UNK on_op on_const on_op on_lparen UNK on_op on_regexp_beg on_tstring_content on_regexp_end on_op #:nodoc:
+UNK on_period empty? on_op on_lparen UNK on_period UNK on_op UNK on_op on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl # Ruby 1.9 always include the called method in the backtrace
+class on_const on_op on_const on_nl def UNK on_nl UNK on_nl end on_nl end on_nl on_const on_op on_const on_nl on_ignored_nl class # A command that is hidden in help messages but still invocable.
+class on_const on_op on_const on_nl def UNK on_lparen name on_comma options on_op UNK on_rparen on_ignored_nl UNK on_lparen name on_period to_s # A dynamic command that handles method missing scenarios.

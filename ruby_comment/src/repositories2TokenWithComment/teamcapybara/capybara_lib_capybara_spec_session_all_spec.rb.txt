@@ -1,0 +1,4 @@
+on_ignored_nl on_const on_op on_const on_period UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK do on_ignored_nl on_ivar on_period visit on_lparen on_tstring_beg on_tstring_content # frozen_string_literal: true
+expect on_lparen paras on_lbracket on_int on_rbracket on_rparen on_period to UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl expect on_lparen paras on_lbracket # Ensure page has started to reload
+expect on_lbrace paras on_lbracket on_int on_rbracket on_period text on_rbrace on_period to raise_error do on_op err on_op on_ignored_nl expect on_lparen err # Ensure page has started to reload
+expect on_lparen on_ivar on_period all on_lparen on_symbeg css on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_label false on_comma on_label true on_rparen on_period # Also need visible: false so visibility is ignored

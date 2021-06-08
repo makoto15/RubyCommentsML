@@ -1,0 +1,6 @@
+UNK on_comma UNK on_op on_const on_op on_const on_op on_const on_period UNK on_nl on_ignored_nl if UNK on_period UNK on_tstring_beg on_tstring_content on_tstring_end # Get file/line information from the puppet stack (where call comes from in puppet source) # If relayed via other puppet functions in ruby that do not nest their calls, the source position # will be in the original puppet source. #
+UNK on_op on_const on_op on_const on_op on_const on_op on_const on_period UNK on_period UNK on_nl UNK on_period UNK on_lparen on_const on_op # cannot find current evaluator, so use another
+UNK on_period UNK on_lparen on_const on_op on_const on_op on_const on_op on_const on_rparen on_nl end on_nl on_ignored_nl UNK on_period UNK UNK # optionally fails depending on configured severity of issue
+UNK on_op UNK on_period UNK on_lparen on_const on_rparen on_op UNK on_op UNK UNK UNK on_nl on_const on_op on_const on_op on_const # Add support for iteration if title is an array
+on_symbeg UNK on_op UNK on_period UNK on_comma on_symbeg UNK on_op UNK on_nl on_rparen on_nl end on_period UNK on_nl on_rparen on_nl # wide open to various data types, must be correct
+on_symbeg UNK on_op UNK on_nl on_rparen on_nl end on_period UNK on_nl on_rparen on_nl end on_period UNK on_period UNK on_nl end # TODO: support :line => line, :file => file,

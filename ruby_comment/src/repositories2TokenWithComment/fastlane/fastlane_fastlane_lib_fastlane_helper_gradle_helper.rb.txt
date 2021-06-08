@@ -1,0 +1,4 @@
+UNK on_symbeg gradle_path on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_lparen on_label nil # Path to the gradle script
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_lparen on_label nil on_rparen on_ignored_nl self on_period gradle_path # Read-only path to the shell-escaped gradle script, suitable for use in shell commands
+UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_lparen on_label nil on_rparen on_ignored_nl self on_period gradle_path on_op gradle_path on_nl end on_nl # All the available tasks
+def UNK on_lparen on_label nil on_comma on_label nil on_comma on_label nil on_comma on_label UNK on_comma on_label UNK on_rparen on_ignored_nl UNK # Run a certain action

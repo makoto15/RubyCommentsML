@@ -1,0 +1,10 @@
+UNK on_comma UNK on_op content on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_period UNK UNK on_op UNK on_op # Tidy whitespace
+UNK on_period UNK UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_op UNK end on_nl on_ignored_nl def UNK on_nl on_ivar on_op UNK on_ignored_nl # Split into key/value and strip whitespace
+UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_op UNK end on_nl on_ignored_nl def UNK on_nl on_ivar on_op UNK on_ignored_nl content on_op on_ivar # Downcase the key
+end on_nl on_ignored_nl def UNK on_nl on_ivar on_op UNK on_ignored_nl content on_op on_ivar on_period UNK on_nl content on_period gsub! on_lparen # Rejoin
+content on_period gsub! on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen content on_period gsub! on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma # Make sure we have no random CRs
+content on_period gsub! on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen content on_period gsub! on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma # Convert to CRLF
+content on_period gsub! on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen content on_period gsub! on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma # Tidy whitespace
+content on_period gsub! on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma on_tstring_beg on_tstring_end on_rparen content on_period gsub! on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma on_tstring_beg # Remove trailing whitespace
+content on_period gsub! on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen content on_nl end on_nl end on_nl on_ignored_nl def # Remove trailing lines
+content on_nl end on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_const on_period UNK on_lparen on_const on_op on_const on_period # Add a final newline

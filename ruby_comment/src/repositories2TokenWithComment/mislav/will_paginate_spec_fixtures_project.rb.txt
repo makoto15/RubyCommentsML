@@ -1,0 +1,1 @@
+UNK UNK on_symbeg UNK UNK on_symbeg UNK UNK on_symbeg UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # :finder_sql => 'SELECT * FROM topics WHERE (topics.project_id = #{id})', # :counter_sql => 'SELECT COUNT(*) FROM topics WHERE (topics.project_id = #{id})'

@@ -1,0 +1,6 @@
+UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl # We assume that the `up` plugin exists and that we'll have access # to this.
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op UNK on_nl on_ignored_nl UNK on_lparen options on_comma UNK on_rparen on_nl # Parse the options
+UNK on_lparen options on_comma UNK on_rparen on_nl on_ignored_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_op UNK # Validate the provisioners
+UNK on_period UNK UNK on_op m on_op on_ignored_nl UNK UNK on_op m on_period UNK on_period UNK on_period UNK on_nl UNK # Output the post-up messages that we have, if any
+UNK on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_end on_comma UNK UNK on_rparen on_nl on_ignored_nl m on_period UNK on_period UNK on_lparen # Add a newline to separate things.
+UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

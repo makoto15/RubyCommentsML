@@ -1,0 +1,1 @@
+session on_op on_lbrace on_symbeg foo on_op on_symbeg bar on_rbrace on_nl get on_tstring_beg on_tstring_content on_tstring_end on_comma on_lbrace on_rbrace on_comma on_tstring_beg on_tstring_content # this is tested because previously it led to clearing the session

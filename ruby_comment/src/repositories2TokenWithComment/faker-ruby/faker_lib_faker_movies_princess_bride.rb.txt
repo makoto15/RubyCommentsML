@@ -1,0 +1,3 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from The Princess Bride. # # @return [String] # # @example # Faker::Movies::PrincessBride.character #=> "Dread Pirate Roberts" # # @faker.version 1.9.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from The Princess Bride. # # @return [String] # # @example # Faker::Movies::PrincessBride.quote # #=> "Hello. My name is Inigo Montoya. You killed my father. Prepare to die!" # # @faker.version 1.9.0

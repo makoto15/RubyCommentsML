@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK UNK UNK on_nl on_ignored_sp on_tstring_content UNK UNK on_nl on_ignored_nl UNK UNK on_tstring_content UNK UNK on_ignored_nl UNK UNK UNK # This case is corrected to a modifier form by `Style/IfUnlessModifier` cop. # Therefore, this cop does not handle it.

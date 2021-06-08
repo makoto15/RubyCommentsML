@@ -1,0 +1,3 @@
+UNK on_op on_lbracket on_ignored_nl on_tstring_beg on_tstring_content on_embexpr_beg rdp_info on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_content on_embexpr_beg rdp_info on_lbracket on_symbeg UNK on_rbracket # Setup password
+UNK on_op on_lbracket on_tstring_beg on_tstring_content on_embexpr_beg rdp_info on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_content on_embexpr_beg rdp_info on_lbracket on_symbeg UNK on_rbracket on_embexpr_end # Build up the args to mstsc
+on_const on_op on_const on_op on_const UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_op UNK UNK on_nl end on_nl end on_nl # Launch it

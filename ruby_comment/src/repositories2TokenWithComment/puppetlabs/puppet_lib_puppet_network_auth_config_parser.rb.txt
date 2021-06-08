@@ -1,0 +1,4 @@
+when on_regexp_beg on_tstring_content on_regexp_end UNK on_op UNK on_period UNK on_nl right on_op UNK on_period UNK on_lparen UNK on_comma count on_comma # skip comments and blank lines
+UNK on_op UNK on_period UNK on_nl right on_op UNK on_period UNK on_lparen UNK on_comma count on_comma UNK on_rparen on_nl when # "path /path" or "path ~ regex"
+UNK on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op on_ignored_nl on_lbrace on_label on_const on_op on_const on_op on_const #TRANSLATORS "path" is a configuration file entry and should not be translated
+UNK on_period UNK on_lbrace on_op UNK on_comma UNK on_op on_ignored_nl UNK on_period UNK on_nl on_rbrace on_nl UNK on_nl end on_nl # Verify each of the rights are valid. # We let the check raise an error, so that it can raise an error # pointing to the specific problem.

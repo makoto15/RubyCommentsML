@@ -1,0 +1,2 @@
+context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl before on_symbeg each do on_ignored_nl on_const on_lbracket on_symbeg # See PUP-8008
+context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl before on_lparen on_symbeg each on_rparen do on_ignored_nl stub_request on_lparen on_symbeg get on_comma on_regexp_beg on_tstring_content # See PUP-8008

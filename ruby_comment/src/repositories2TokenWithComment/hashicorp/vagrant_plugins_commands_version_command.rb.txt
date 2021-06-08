@@ -1,0 +1,6 @@
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op UNK on_nl on_ignored_nl on_ivar on_period ui on_period UNK on_lparen on_const # Parse the options
+on_ivar on_period ui on_period UNK on_lparen on_const on_period UNK on_lparen on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_const on_op on_const on_rparen # Output the currently installed version instantly.
+UNK on_op on_const on_op on_const on_op on_const on_period UNK on_period UNK on_nl UNK on_op UNK on_nl on_ivar on_period ui on_period # Load the latest information
+on_ivar on_period ui on_period UNK on_lparen on_const on_period UNK on_lparen on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_comma UNK latest on_rparen on_rparen on_nl # Output latest version
+UNK on_op on_const on_op on_const on_period UNK on_lparen on_const on_op on_const on_rparen on_nl latest on_op on_const on_op on_const on_period UNK # Determine if its a new version, and if so, output some more # information.
+on_ivar on_period ui on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op on_const on_period UNK on_lparen on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_comma UNK # Out of date! Let the user know how to upgrade.

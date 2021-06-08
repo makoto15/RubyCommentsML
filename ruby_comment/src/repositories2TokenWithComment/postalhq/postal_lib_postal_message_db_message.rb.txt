@@ -1,0 +1,59 @@
+def UNK on_nl on_ivar on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op self on_period UNK on_op on_const # # Return the server for this message #
+def UNK on_nl on_ivar on_op self on_period UNK on_op on_const on_period UNK on_lparen self on_period UNK on_rparen on_op nil on_nl # # Return the credential for this message #
+def UNK on_nl on_ivar on_op self on_period UNK on_op on_const on_period UNK on_lparen self on_period UNK on_rparen on_op nil on_nl # # Return the route for this message #
+def UNK on_nl on_ivar on_op begin on_ignored_nl if self on_period UNK on_op self on_period UNK on_nl self on_period UNK on_period # # Return the endpoint for this message #
+def UNK on_nl on_ivar on_op self on_period UNK on_op on_const on_period UNK on_lparen self on_period UNK on_rparen on_op nil on_nl # # Return the credential for this message #
+def UNK on_nl if self on_period raw_message on_nl self on_period UNK on_op self on_period headers on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket # # Copy appropriate attributes from the raw message to the message itself #
+def timestamp on_nl on_ivar on_op on_ivar on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_const on_period UNK on_period UNK on_lparen on_ivar on_lbracket # # Return the timestamp for this message #
+def UNK on_nl on_ivar on_op on_ivar on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_const on_period UNK on_period UNK on_lparen on_ivar on_lbracket # # Return the time that the last delivery was attempted #
+def UNK on_nl on_ivar on_op on_ivar on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_const on_period UNK on_period UNK on_lparen on_ivar on_lbracket # # Return the hold expiry for this message #
+def UNK on_nl on_op on_op on_lparen UNK on_op UNK on_rparen on_nl end on_nl on_ignored_nl def UNK on_lparen status on_comma options # # Has this message been read? #
+def UNK on_lparen status on_comma options on_op on_lbrace on_rbrace on_rparen on_ignored_nl UNK on_op on_const on_period UNK on_lparen self on_comma options # # Add a delivery attempt for this message #
+def UNK on_nl on_ivar on_op begin on_ignored_nl on_ivar on_period select on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg where on_op on_lbrace on_symbeg # # Return all deliveries for this object #
+def clicks on_nl on_ivar on_op begin on_ignored_nl clicks on_op on_ivar on_period select on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg where on_op # # Return all the clicks for this object #
+def UNK on_nl on_ivar on_op begin on_ignored_nl UNK on_op on_ivar on_period select on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg where on_op # # Return all the loads for this object #
+def UNK on_nl on_ivar on_op on_lparen UNK on_op clicks on_op UNK on_rparen on_period UNK on_lparen on_op on_symbeg timestamp on_rparen on_nl # # Return all activity entries #
+def UNK on_lparen name on_comma UNK on_op nil on_comma on_op UNK on_rparen on_ignored_nl if on_ivar on_period UNK on_lparen name on_period # # Provide access to set and get acceptable attributes #
+def UNK on_nl on_op on_ivar on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK # # Has this message been persisted to the database yet? #
+def UNK on_nl UNK on_nl UNK on_op UNK on_op UNK on_nl self on_nl end on_nl on_ignored_nl def update on_lparen UNK # # Save this message #
+def update on_lparen UNK on_rparen on_ignored_nl on_ivar on_op on_ivar on_period UNK on_lparen database on_period UNK on_lparen UNK on_rparen on_rparen on_nl # # Update this message #
+def UNK on_nl if UNK on_nl on_ivar on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg where on_op on_lbrace on_symbeg id # # Delete the message from the database #
+def UNK on_nl if self on_period raw_table on_nl on_ivar on_op on_ivar on_period select on_lparen self on_period raw_table on_comma on_symbeg where # # Return the headers #
+def UNK on_nl if self on_period raw_table on_nl on_ivar on_op on_ivar on_period select on_lparen self on_period raw_table on_comma on_symbeg where # # Return the full raw message body for this message. #
+def raw_message on_nl on_ivar on_op on_tstring_beg on_embexpr_beg UNK on_embexpr_end on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_end on_nl end on_nl on_ignored_nl def UNK # # Return the full raw message for this message #
+def UNK on_lparen UNK on_rparen on_ignored_nl on_ivar on_op UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl on_ignored_nl # # Set the raw message ready for saving later #
+def UNK on_nl if on_ivar on_nl self on_period UNK on_op on_ivar on_period UNK on_nl UNK on_op on_const on_period UNK on_nl # # Save the raw message to the database as appropriate #
+def UNK on_nl on_op on_op self on_period raw_table on_nl end on_nl on_ignored_nl def UNK on_nl mail on_op UNK on_nl end # # Is there a raw message? #
+def UNK on_nl mail on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl mail on_op UNK on_nl end on_nl on_ignored_nl # # Return the plain body for this message #
+def UNK on_nl mail on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_period UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end # # Return the HTML body for this message #
+def UNK on_nl UNK on_period UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma on_tstring_beg on_tstring_end on_rparen on_nl end on_nl on_ignored_nl def UNK # # Return the HTML body with any tracking links #
+def UNK on_nl mail on_op UNK on_op on_lbracket on_rbracket on_nl end on_nl on_ignored_nl def headers on_nl on_ivar on_op begin on_ignored_nl # # Return all attachments for this message #
+def headers on_nl on_ivar on_op begin on_ignored_nl mail on_op on_const on_period new on_lparen self on_period UNK on_rparen on_nl mail on_period # # Return the headers for this message #
+end on_nl end on_nl end on_nl end on_nl on_ignored_nl def UNK on_nl self on_period UNK on_op self on_period UNK on_period # Never mind, move on to the next header
+def UNK on_nl self on_period UNK on_op self on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_op # # Return the recipient domain for this message #
+def UNK on_lparen options on_op on_lbrace on_rbrace on_rparen on_ignored_nl on_const on_period UNK on_lparen on_symbeg UNK on_op self on_comma on_symbeg server_id # # Create a new item in the message queue for this message #
+def UNK on_nl UNK self on_period UNK on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl key on_op on_tstring_beg on_tstring_content on_tstring_end on_nl key # # Return a suitable batch key for this message #
+def UNK on_nl on_ivar on_op self on_period id on_op on_const on_period where on_lparen on_symbeg message_id on_op self on_period id on_comma # # Return the queued message #
+def UNK on_nl UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_op on_int on_nl UNK on_op on_int on_op on_tstring_beg on_tstring_content on_tstring_end on_op # # Return the spam status #
+def UNK on_nl status on_op on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def UNK on_nl on_op on_op on_lparen UNK on_op # # Has this message been held? #
+def UNK on_nl on_op on_op on_lparen UNK on_op on_regexp_beg on_tstring_content on_regexp_end on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl headers # # Does this message have our DKIM header yet? #
+def UNK on_nl headers on_op on_lbracket on_rbracket on_nl if self on_period UNK on_nl UNK on_op on_const on_op on_const on_period new # # Add dkim header #
+def UNK on_lparen on_op headers on_rparen on_ignored_nl UNK on_op headers on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_op # # Append a header to the existing headers #
+def UNK on_nl on_ivar on_op on_lbrace on_ignored_nl on_symbeg id on_op self on_period id on_comma on_ignored_nl on_symbeg token on_op self on_period # # Return a suitable #
+def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg UNK on_op on_tstring_beg on_tstring_content on_embexpr_beg UNK on_period # # Mark this message as bounced #
+def UNK on_nl self on_period UNK on_op on_int on_op self on_period UNK on_period UNK on_nl end on_nl on_ignored_nl def UNK # # Should bounces be sent for this message? #
+def UNK on_lparen UNK on_rparen on_ignored_nl update on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op on_const on_period UNK on_period to_f on_rparen if UNK # # Add a load for this message #
+def UNK on_lparen UNK on_rparen on_ignored_nl hash on_op on_const on_op on_const on_period UNK on_lparen UNK on_period to_s on_rparen on_nl token # # Create a new link #
+def UNK on_nl UNK nil UNK self on_period UNK on_op on_int on_nl UNK on_op raw_message on_period UNK on_lparen on_regexp_beg on_tstring_content # # Return a message object that this message is a reply to #
+def UNK on_nl on_op on_op on_lparen UNK on_op on_regexp_beg on_tstring_content on_embexpr_beg on_const on_period UNK on_lparen on_const on_period UNK on_period UNK # # Was thsi message sent to a return path? #
+def UNK on_nl if result on_op on_const on_period new on_lparen self on_period raw_message on_comma self on_period UNK on_op UNK on_rparen # # Inspect this message #
+update on_lparen on_symbeg UNK on_op on_int on_comma on_symbeg UNK on_op result on_period UNK on_comma on_symbeg UNK on_op result on_period UNK # Update the messages table with the results of our inspection
+self on_period database on_period UNK on_lparen on_symbeg UNK on_comma on_lbracket on_symbeg message_id on_comma on_symbeg UNK on_comma on_symbeg UNK on_comma on_symbeg # Add any spam details into the spam checks database
+result on_nl end on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op self on_period database on_period select on_lparen on_symbeg UNK # Return the result
+def UNK on_nl on_ivar on_op self on_period database on_period select on_lparen on_symbeg UNK on_comma on_symbeg where on_op on_lbrace on_symbeg message_id # # Return all spam checks for this message #
+def UNK on_nl if self on_period status on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg UNK # # Cancel the hold on this message #
+def UNK on_nl parse_result on_op on_const on_op on_const on_period new on_lparen self on_rparen on_nl if parse_result on_period UNK on_nl on_ivar # # Parse the contents of this message #
+on_ivar on_period update on_lparen self on_period raw_table on_comma on_lbrace on_symbeg UNK on_op parse_result on_period UNK on_rbrace on_comma on_symbeg where on_op # Somethign was changed, update the raw message
+def UNK on_nl self on_period UNK on_op on_int on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_op UNK on_op headers # # Has this message been parsed? #
+def UNK on_nl UNK on_op UNK on_op headers on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl # # Should this message be parsed? #
+on_ivar on_op UNK on_op on_const on_period new on_lparen raw_message on_rparen on_op nil on_nl end on_nl on_ignored_nl end on_nl end on_nl # This version of mail is only used for accessing the bodies.

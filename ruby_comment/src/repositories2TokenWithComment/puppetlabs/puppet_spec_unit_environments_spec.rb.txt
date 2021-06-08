@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_op on_const on_op on_const on_period a_directory on_lparen UNK on_comma on_lbracket on_ignored_nl on_const on_op on_const on_period a_directory on_lparen on_tstring_beg # force the environment.conf to be read
+UNK UNK UNK on_ivar on_period UNK on_lparen env_name on_rparen on_nl on_ivar on_op env_name on_nl on_ivar on_period UNK on_nl end on_nl # make expired? idempotent

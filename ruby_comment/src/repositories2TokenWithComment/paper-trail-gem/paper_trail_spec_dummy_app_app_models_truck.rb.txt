@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # frozen_string_literal: true
+UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # This STI child class specifically does not call `has_paper_trail`. # Of the sub-classes of `Vehicle`, only `Car` and `Bicycle` are versioned.

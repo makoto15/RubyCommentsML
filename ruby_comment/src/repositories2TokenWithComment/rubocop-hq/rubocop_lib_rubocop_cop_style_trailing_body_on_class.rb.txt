@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
+UNK on_const UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const UNK UNK UNK UNK on_nl on_ignored_nl UNK # This cop checks for trailing code after the class definition. # # @example # # bad # class Foo; def foo; end # end # # # good # class Foo # def foo; end # end #

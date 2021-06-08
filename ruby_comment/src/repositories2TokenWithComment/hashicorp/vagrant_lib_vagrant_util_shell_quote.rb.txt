@@ -1,0 +1,1 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # This will auto-escape the text with the given quote mark type. # # @param [String] text Text to escape # @param [String] quote The quote character, such as "

@@ -1,0 +1,2 @@
+def UNK on_nl UNK on_nl end on_nl on_ignored_nl def on_op UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_period UNK on_op # Used to expose a local binding for use in ERB templating # # rubocop:disable Style/AccessorMethodName
+on_ignored_nl def on_op UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_period UNK on_op on_ignored_nl on_ivar on_op UNK on_period UNK on_op # rubocop:enable Style/AccessorMethodName

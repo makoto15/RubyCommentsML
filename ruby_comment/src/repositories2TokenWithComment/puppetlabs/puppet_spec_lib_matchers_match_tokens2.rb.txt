@@ -1,0 +1,7 @@
+on_const on_op on_const on_period UNK UNK UNK UNK on_op on_op UNK on_op on_ignored_nl UNK UNK on_op UNK on_op on_ignored_nl UNK # Matches tokens produced by lexer # The given exepected is one or more entries where an entry is one of # - a token symbol # - an Array with a token symbol and the text value # - an Array with a token symbol and a Hash specifying all attributes of the token # - nil (ignore) #
+if zipped_expected on_period UNK on_lparen on_const on_rparen on_op zipped_expected on_lbracket on_int on_rbracket on_op zipped_expected on_lbracket on_int on_rbracket on_period UNK on_lparen # If expectation has options, output them
+return UNK if on_op e on_nl on_ignored_nl return UNK if on_op a on_nl on_ignored_nl return UNK if a on_lbracket on_int # if expected ends before actual
+return UNK if on_op a on_nl on_ignored_nl return UNK if a on_lbracket on_int on_rbracket on_op e on_nl on_ignored_nl if e # If actual ends before expected
+return UNK if a on_lbracket on_int on_rbracket on_op e on_nl on_ignored_nl if e on_period UNK on_const on_nl return UNK UNK # Simple - only expect token to match
+if e on_period UNK on_const on_nl return UNK UNK a on_lbracket on_int on_rbracket on_op e on_lbracket on_int on_rbracket on_nl if # Expect value and optional attributes to match
+return UNK UNK a on_lbracket on_int on_rbracket on_op e on_lbracket on_int on_rbracket on_nl if e on_lbracket on_int on_rbracket on_period UNK # tokens must match

@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_nl UNK UNK on_nl on_ivar on_op on_const on_period new # frozen_string_literal: true
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl expected on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert_equal expected on_comma on_ivar on_period # no support for symlinks on Windows
+UNK on_lparen UNK on_rparen on_period UNK UNK on_lparen on_symbeg UNK on_rparen on_ignored_nl on_period UNK on_lparen on_const on_period UNK on_lparen on_tstring_beg # the directory for this theme should not exist

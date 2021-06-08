@@ -1,0 +1,2 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK # This cop looks for uses of flip-flop operator. # flip-flop operator is deprecated since Ruby 2.6.0. # # @example # # bad # (1..20).each do |x| # puts x if (x == 5) .. (x == 10) # end # # # good # (1..20).each do |x| # puts x if (x >= 5) && (x <= 10) # end

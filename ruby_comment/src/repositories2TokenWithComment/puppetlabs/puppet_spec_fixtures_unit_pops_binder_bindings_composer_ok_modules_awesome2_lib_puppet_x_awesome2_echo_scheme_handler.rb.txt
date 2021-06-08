@@ -1,0 +1,2 @@
+UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK on_lparen UNK UNK UNK UNK UNK on_rparen # A binding scheme that echos its path # 'echo:/quick/brown/fox' becomes key '::quick::brown::fox' => 'echo: quick brown fox'. # (silly class for testing loading of extension) #
+UNK on_nl UNK on_nl UNK on_nl UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP ### , nil)

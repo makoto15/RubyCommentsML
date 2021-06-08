@@ -1,0 +1,5 @@
+UNK UNK on_period UNK on_nl UNK on_op UNK on_nl UNK on_ignored_nl UNK on_op UNK on_period UNK on_nl end on_nl on_ignored_nl # If the source is relative then we add the file as-is to the include # directory. Otherwise, we copy only the file into the root of the # include directory. Kind of strange, but seems to match what people # expect based on history.
+UNK on_lbracket UNK on_rbracket on_op UNK on_nl end on_nl on_ignored_nl UNK env on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl UNK on_lbracket # Assign the mapping
+UNK on_lbracket env on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl UNK on_period UNK # Vagrantfiles are treated special and mapped to a specific file
+UNK on_period UNK UNK on_op UNK UNK UNK on_op on_ignored_nl UNK on_const on_op on_const on_op on_const UNK on_ignored_nl UNK UNK # Verify the mapping
+env on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op UNK on_nl on_ignored_nl UNK on_period UNK UNK env UNK on_nl end on_nl end # Save the mapping

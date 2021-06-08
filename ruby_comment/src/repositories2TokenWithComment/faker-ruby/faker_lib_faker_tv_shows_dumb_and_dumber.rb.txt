@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces an actor from Dumb and Dumber. # # @return [String] # # @example # Faker::TvShows::DumbAndDumber.actor #=> "Jim Carrey" # # @faker.version 1.8.5
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Dumb and Dumber. # # @return [String] # # @example # Faker::TvShows::DumbAndDumber.character #=> "Harry Dunne" # # @faker.version 1.8.5
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Dumb and Dumber. # # @return [String] # # @example # Faker::TvShows::DumbAndDumber.quote # #=> "Why you going to the airport? Flying somewhere?" # # @faker.version 1.8.5

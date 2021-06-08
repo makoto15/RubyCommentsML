@@ -1,0 +1,2 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP # Produces a Chuck Norris Fact. # Original list of facts: # https://github.com/jenkinsci/chucknorris-plugin/blob/master/src/main/java/hudson/plugins/chucknorris/FactGenerator.java # # @return [String] # # @example # Faker::ChuckNorris.fact # #=> "Chuck Norris can solve the Towers of Hanoi in one move." # # @faker.version 1.6.4

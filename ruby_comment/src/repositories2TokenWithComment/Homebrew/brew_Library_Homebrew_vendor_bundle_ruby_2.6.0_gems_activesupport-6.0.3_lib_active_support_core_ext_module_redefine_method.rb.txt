@@ -1,0 +1,6 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_lparen method on_rparen on_ignored_nl UNK UNK on_lparen method on_rparen on_op UNK on_lparen method on_rparen # frozen_string_literal: true
+UNK UNK on_lparen method on_rparen on_ignored_nl UNK UNK on_lparen method on_rparen on_op UNK on_lparen method on_rparen on_nl UNK method on_comma # Marks the named method as intended to be redefined, if it exists. # Suppresses the Ruby method redefinition warning. Prefer # #redefine_method where possible.
+UNK method on_comma method on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_lparen method on_comma on_op UNK on_rparen on_ignored_nl UNK # This suppresses the "method redefined" warning; the self-alias # looks odd, but means we don't need to generate a unique name
+UNK UNK on_lparen method on_comma on_op UNK on_rparen on_ignored_nl UNK on_op UNK on_lparen method on_rparen on_nl UNK on_lparen method on_rparen # Replaces the existing method definition, if there is one, with the passed # block as its body.
+UNK UNK on_lparen method on_comma on_op UNK on_rparen on_ignored_nl UNK UNK UNK on_lparen method on_comma on_op UNK on_rparen on_nl end # Replaces the existing singleton method definition, if there is one, with # the passed block as its body.
+UNK on_ignored_nl UNK UNK on_lparen method on_rparen on_nl UNK UNK on_nl UNK UNK on_lparen method on_rparen on_nl UNK UNK on_nl # :nodoc:

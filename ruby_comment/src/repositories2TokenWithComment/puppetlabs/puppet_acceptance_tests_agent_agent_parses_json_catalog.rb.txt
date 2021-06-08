@@ -1,0 +1,6 @@
+on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK # tests defined catalog format
+on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl # There is no OS specific risk here.
+UNK on_op UNK on_op UNK on_op UNK UNK UNK on_lparen agent on_rparen on_nl on_ignored_nl UNK on_lparen agent on_comma UNK on_lparen # Path to a ruby binary
+UNK on_lparen agent on_comma UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rparen on_nl on_ignored_nl UNK on_op UNK UNK UNK on_lparen agent # Refresh the catalog
+UNK on_op UNK UNK UNK on_lparen agent UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl # The catalog file should be parseable JSON
+UNK on_lparen agent on_comma UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rparen on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP # Can the agent parse it as JSON?

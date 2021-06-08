@@ -1,0 +1,1 @@
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_op on_const on_op on_const on_period UNK on_lparen on_const on_period UNK on_rparen on_nl expect # test that there is a sane version number to avoid accidental 0.0.0 again

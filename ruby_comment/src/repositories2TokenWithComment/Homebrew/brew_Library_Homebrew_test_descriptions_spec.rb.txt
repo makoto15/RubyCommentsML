@@ -1,0 +1,1 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK UNK on_ignored_nl UNK on_lbrace UNK on_period UNK on_lparen descriptions_hash on_rparen on_rbrace # frozen_string_literal: true

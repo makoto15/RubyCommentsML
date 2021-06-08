@@ -1,0 +1,2 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl # frozen_string_literal: true
+UNK UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl end on_nl UNK UNK end on_nl UNK # A node extension for `irange` and `erange` nodes. This will be used in # place of a plain node when the builder constructs the AST, making its # methods available to all `irange` and `erange` nodes within RuboCop.

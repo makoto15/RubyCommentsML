@@ -1,0 +1,4 @@
+on_const on_period UNK on_lparen test_path on_rparen on_nl UNK on_op on_const on_period join on_lparen UNK on_comma UNK on_rparen on_nl UNK on_op # Set up example info.plist
+on_const on_period UNK on_lparen UNK on_comma UNK on_rparen on_nl on_const on_period UNK on_lparen on_const on_period join on_lparen test_path on_comma plist_path # Copy .xcodeproj fixture, as it will be modified during the test
+UNK on_op UNK test_path on_comma UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_embexpr_beg plist_path on_embexpr_end on_tstring_end UNK on_period join # This is path update_info_plist creates to locate the plist file.
+on_const on_period UNK on_lparen on_const on_period join on_lparen test_path on_comma plist_path on_rparen on_rparen on_nl on_const on_period UNK on_lparen xcodeproj on_rparen # Clean up files

@@ -1,0 +1,1 @@
+assert c on_period read on_lparen on_label on_symbeg gzip on_rparen on_period size on_op on_lbracket on_ivar on_comma on_ivar on_rbracket on_period UNK on_lparen # check chunk is compressed

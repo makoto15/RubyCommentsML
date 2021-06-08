@@ -1,0 +1,1 @@
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_ivar on_period save on_lparen on_ivar on_rparen on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end # LAK:NOTE This is stupid, because the code is so short it doesn't # make sense to split it out, which means I just do the same test # three times so the spec looks right.

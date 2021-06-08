@@ -1,0 +1,6 @@
+command on_op shell_upload_command if on_const on_op on_const on_period windows? on_nl command on_op shell_upload_command if on_const on_op on_const on_period UNK on_op # If we are on Windows, switch to shell script command
+command on_op shell_upload_command if on_const on_op on_const on_period UNK on_op on_const on_op on_const on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content # If we are on Mac with Xcode 6.x, switch to shell script command
+command on_op UNK if on_const on_op on_const on_period UNK on_op on_const on_op on_const on_period UNK on_lparen UNK on_rparen on_nl expect # If we are on Mac with Xcode >= 9, switch to newer java command
+command on_op shell_download_command if on_const on_op on_const on_period windows? on_nl command on_op shell_download_command if on_const on_op on_const on_period UNK on_op # If we are on Windows, switch to shell script command
+command on_op shell_download_command if on_const on_op on_const on_period UNK on_op on_const on_op on_const on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content # If we are on Mac with Xcode 6.x, switch to shell script command
+command on_op UNK if on_const on_op on_const on_period UNK on_op on_const on_op on_const on_period UNK on_lparen UNK on_rparen on_nl expect # If we are on Mac with Xcode >= 9, switch to newer java command

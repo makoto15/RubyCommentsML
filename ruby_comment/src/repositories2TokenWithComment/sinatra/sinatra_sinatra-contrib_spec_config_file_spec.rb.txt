@@ -1,0 +1,4 @@
+config_file on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbrace UNK on_symbeg foo on_op on_int UNK on_symbeg UNK on_op on_symbeg UNK on_rbrace on_nl # first let's check the test is actually working properly
+config_file on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbrace UNK on_symbeg foo on_op on_int UNK on_symbeg UNK on_op on_symbeg UNK on_rbrace on_nl # now test it
+config_file on_tstring_beg on_tstring_content on_tstring_end on_nl expect on_lparen settings on_period foo on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # first let's check the test is actually working properly
+config_file on_tstring_beg on_tstring_content on_tstring_end on_nl expect on_lparen settings on_period foo on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # now test it

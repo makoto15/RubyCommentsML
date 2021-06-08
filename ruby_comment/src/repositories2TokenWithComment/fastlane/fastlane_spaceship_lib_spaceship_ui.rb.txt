@@ -1,0 +1,5 @@
+UNK on_const on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl # All User Interface related code lives in this class
+UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl UNK # Access the client this UserInterface object is for
+UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl UNK UNK on_const on_nl on_const UNK # Is called by the client to generate one instance of UserInterface
+UNK on_const on_nl on_const UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP # Public getter for all UI related code # rubocop:disable Style/MethodName
+end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # rubocop:enable Style/MethodName

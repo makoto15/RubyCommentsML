@@ -1,0 +1,2 @@
+UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_op on_const on_period execute on_lparen UNK on_comma on_lbrace on_symbeg failonfail on_op # Get a pid for $CHILD_STATUS to latch on to
+resource on_lbracket on_symbeg ensure on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl allow on_lparen on_gvar on_rparen on_period to receive on_lparen on_symbeg exitstatus # Should install also check if the version installed is the same version we are asked to install? or should we rely on puppet for that?

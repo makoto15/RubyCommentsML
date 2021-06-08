@@ -1,0 +1,4 @@
+UNK UNK UNK UNK on_op UNK on_period UNK UNK on_ignored_nl UNK on_op UNK on_period UNK UNK UNK UNK UNK UNK # Returns an array of links to use in a breadcrumb
+UNK on_op UNK on_period UNK UNK UNK UNK UNK UNK on_period UNK UNK on_op UNK UNK UNK UNK UNK on_op # remove leading "/" and split up the URL # and remove last since it's used as the page title
+UNK UNK on_op UNK UNK UNK on_op UNK UNK UNK on_op UNK UNK on_nl UNK on_op UNK on_period UNK on_period # 1. try using `display_name` if we can locate a DB object # 2. try using the model name translation # 3. default to calling `titlecase` on the URL fragment
+UNK on_op UNK on_op UNK on_period UNK on_period UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK # Don't create a link if the resource's show action is disabled

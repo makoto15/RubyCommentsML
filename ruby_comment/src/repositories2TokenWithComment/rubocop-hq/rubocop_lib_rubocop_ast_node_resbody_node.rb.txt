@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl # frozen_string_literal: true
+UNK UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK on_nl UNK # A node extension for `resbody` nodes. This will be used in place of a # plain node when the builder constructs the AST, making its methods # available to all `resbody` nodes within RuboCop.
+UNK UNK on_nl UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK # Returns the body of the `rescue` clause. # # @return [Node, nil] The body of the `resbody`.
+UNK UNK on_nl UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP # Returns the exception variable of the `rescue` clause. # # @return [Node, nil] The exception variable of the `resbody`.

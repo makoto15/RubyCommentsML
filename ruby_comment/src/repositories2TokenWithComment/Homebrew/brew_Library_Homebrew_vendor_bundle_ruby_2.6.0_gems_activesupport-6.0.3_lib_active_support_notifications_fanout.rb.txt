@@ -1,0 +1,11 @@
+on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
+class on_const on_nl UNK on_const on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_const on_period new on_lbrace on_op UNK on_comma UNK # This is a default queue implementation that ships with Notifications. # It just pushes events to all registered log subscribers. # # This class is thread safe. All methods are reentrant.
+on_ivar on_lbracket name on_rbracket on_op UNK UNK on_ignored_nl on_ivar on_lbracket name on_rbracket on_op on_ignored_nl on_ivar on_lbracket name on_rbracket on_op on_ivar # this is correctly done double-checked locking (Concurrent::Map's lookups have volatile semantics)
+on_ivar on_lbracket name on_rbracket on_op on_ignored_nl on_ivar on_lbracket name on_rbracket on_op on_ivar on_period UNK on_lbrace on_op s on_op s on_period # use synchronisation when accessing @subscribers
+def UNK on_nl end on_nl on_ignored_nl UNK on_const def UNK on_period new on_lparen pattern on_comma listener on_rparen on_ignored_nl UNK on_op # This is a sync queue, so there is no waiting.
+def UNK on_period new on_lparen pattern on_comma listener on_rparen on_ignored_nl UNK on_op on_const on_nl on_ignored_nl if listener on_period UNK on_lparen # :nodoc:
+if listener on_period UNK on_lparen on_symbeg UNK on_rparen on_nl UNK on_op listener on_period UNK on_nl if UNK on_period UNK on_op # Doing all this to detect a block like `proc { |x| }` vs # `proc { |*x| }` or `proc { |**x| }`
+UNK on_symbeg pattern on_comma on_symbeg UNK on_nl on_ignored_nl def UNK on_period UNK on_lparen pattern on_rparen on_ignored_nl UNK pattern if on_const #:nodoc:
+UNK on_symbeg pattern on_nl on_ignored_nl def UNK on_lparen pattern on_comma UNK on_rparen on_ignored_nl on_ivar on_op on_const on_period UNK on_lparen pattern #:nodoc:
+def publish on_lparen name on_comma on_op args on_rparen on_ignored_nl on_ivar on_period UNK name on_comma on_op args on_nl end on_nl on_ignored_nl # :nodoc:
+def UNK on_lparen UNK on_rparen on_ignored_nl on_ivar on_op UNK on_nl end on_nl on_ignored_nl def start on_lparen name on_comma id on_comma # :nodoc:

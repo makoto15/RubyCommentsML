@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a gender identity. # # @return [String] # # @example # Faker::Gender.type #=> "Non-binary" # # @faker.version 1.9.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces either 'Male' or 'Female'. # # @return [String] # # @example # Faker::Gender.binary_type #=> "Female" # # @faker.version 1.9.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces either 'f' or 'm'. # # @return [String] # # @example # Faker::Gender.short_binary_type #=> "f" # # @faker.version next

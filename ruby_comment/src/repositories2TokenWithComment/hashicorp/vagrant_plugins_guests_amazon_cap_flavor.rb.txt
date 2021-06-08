@@ -1,0 +1,1 @@
+UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP # Amazon AMI is a frankenstien RHEL, mainly based on 6 # Maybe in the future if they incorporate RHEL 7 elements # this should be extended to read /etc/os-release or similar

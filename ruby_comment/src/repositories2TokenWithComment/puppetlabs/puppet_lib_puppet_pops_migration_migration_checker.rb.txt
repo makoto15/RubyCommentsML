@@ -1,0 +1,10 @@
+UNK on_const on_op on_const on_op on_const on_op on_const on_nl on_ignored_nl def UNK on_lparen on_rparen on_ignored_nl end on_nl on_ignored_nl def UNK # This class defines the private API of the MigrationChecker support. # @api private #
+def UNK on_lparen on_rparen on_ignored_nl UNK UNK on_nl end on_nl on_ignored_nl def UNK on_lparen o on_rparen on_ignored_nl raise on_const on_op # Produces a hash of available migrations; a map from a symbolic name in string form to a brief description. # This version has no such supported migrations.
+def UNK on_lparen o on_rparen on_ignored_nl raise on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl # For 3.8/4.0
+def UNK on_lparen o on_rparen on_ignored_nl raise on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl # For 3.8/4.0
+def UNK on_lparen UNK on_comma o on_rparen on_ignored_nl raise on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # For 3.8/4.0
+def UNK on_lparen UNK on_comma o on_rparen on_ignored_nl raise on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # For 3.8/4.0
+def UNK on_lparen UNK on_comma UNK on_comma o on_rparen on_ignored_nl raise on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end # For 3.8/4.0
+def UNK on_lparen UNK on_comma UNK on_comma UNK on_comma UNK on_rparen on_ignored_nl raise on_const on_op on_const on_comma _ on_lparen on_tstring_beg # For 3.8/4.0
+def UNK on_lparen o on_rparen on_ignored_nl raise on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl # For 3.8/4.0
+def UNK on_lparen o on_rparen on_ignored_nl raise on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl # For 3.8/4.0

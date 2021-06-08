@@ -1,0 +1,1 @@
+UNK UNK on_nl UNK UNK UNK UNK UNK env UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK # This middleware sets the hostname of the guest according to the # "vm.hostname" configuration parameter if it is set. This middleware # should be placed such that the after the @app.call, a booted machine # is available (this generally means BEFORE the boot middleware).

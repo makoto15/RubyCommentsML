@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Friends. # # @return [String] # # @example # Faker::TvShows::Friends.character #=> "Rachel Green" # # @faker.version 1.7.3
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a location from Friends. # # @return [String] # # @example # Faker::TvShows::Friends.location #=> "Central Perk" # # @faker.version 1.7.3
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Friends. # # @return [String] # # @example # Faker::TvShows::Friends.quote #=> "We were on a break!" # # @faker.version 1.7.3

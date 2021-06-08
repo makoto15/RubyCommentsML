@@ -1,0 +1,3 @@
+on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_const on_op on_int on_nl on_ignored_nl # This cop checks for two or more consecutive blank lines. # # @example # # # bad - It has two empty lines. # some_method # # one empty line # # two empty lines # some_method # # # good # some_method # # one empty line # some_method #
+on_lparen on_lparen UNK on_op on_int on_rparen on_op UNK on_rparen on_period UNK UNK on_op line on_op on_ignored_nl UNK UNK UNK on_lparen # we need to be wary of comments since they # don't show up in the tokens

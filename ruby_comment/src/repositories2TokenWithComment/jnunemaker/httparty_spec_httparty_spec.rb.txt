@@ -1,0 +1,1 @@
+expect on_lparen on_ivar on_period default_options on_rparen on_period to eq on_lparen on_lbrace on_label on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_tstring_beg # modifying child1 has no effect on child2

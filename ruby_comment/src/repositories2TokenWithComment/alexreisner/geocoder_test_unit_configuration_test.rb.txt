@@ -1,0 +1,7 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_nl def UNK on_nl on_const on_op on_const on_period UNK on_nl # encoding: utf-8
+on_const on_period UNK on_lparen on_symbeg UNK on_op on_symbeg UNK on_rparen on_nl assert_equal on_int on_comma v on_period UNK on_lparen UNK on_int # method option > global configuration
+on_const on_period UNK on_symbeg UNK on_comma on_symbeg UNK on_comma on_label on_symbeg UNK on_comma on_label on_symbeg UNK on_nl assert_equal on_int on_comma # per-model configuration > global configuration
+assert_equal on_int on_comma v on_period UNK on_lparen UNK on_int on_comma on_int UNK on_comma on_symbeg UNK on_rparen on_period UNK on_nl end # method option > per-model configuration
+on_label on_symbeg UNK on_comma on_label on_tstring_beg on_tstring_content on_tstring_end UNK on_nl on_const on_period UNK on_lparen on_label UNK on_rparen on_nl on_const on_period # overwritten
+on_label on_tstring_beg on_tstring_content on_tstring_end UNK on_nl on_const on_period UNK on_lparen on_label UNK on_rparen on_nl on_const on_period UNK on_lparen on_symbeg UNK # added
+UNK on_nl on_const on_period UNK on_lparen on_label UNK on_rparen on_nl on_const on_period UNK on_lparen on_symbeg UNK on_comma UNK on_rparen on_nl # preserved

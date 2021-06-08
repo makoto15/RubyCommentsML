@@ -1,0 +1,4 @@
+UNK on_const on_op on_const UNK end on_nl on_ignored_nl UNK on_const on_op on_const UNK end on_nl on_ignored_nl UNK on_const on_op on_const # Raised whenever we need a queue but none is provided.
+UNK on_const on_op on_const UNK end on_nl on_ignored_nl UNK on_const on_op on_const on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK # Raised when trying to create a job without a class
+UNK on_const on_op on_const on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK on_op UNK UNK UNK on_op UNK # Raised when a worker was killed while processing a job.
+UNK on_const on_op on_const UNK end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Raised when child process is TERM'd so job can rescue this to do shutdown work.

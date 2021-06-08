@@ -1,0 +1,2 @@
+UNK UNK UNK on_op UNK on_op UNK on_op UNK on_period UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_op # frozen_string_literal: true
+UNK UNK on_op UNK on_op UNK on_op UNK on_period UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_op UNK # Filter that activates steps with obvious pass / fail behaviour

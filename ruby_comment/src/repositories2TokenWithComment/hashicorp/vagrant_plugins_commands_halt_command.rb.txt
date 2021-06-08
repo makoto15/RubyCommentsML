@@ -1,0 +1,2 @@
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op UNK on_nl on_ignored_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_content UNK # Parse the options
+UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

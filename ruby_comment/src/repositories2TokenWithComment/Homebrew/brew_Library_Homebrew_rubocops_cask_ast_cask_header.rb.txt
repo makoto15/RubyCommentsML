@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl def UNK UNK UNK UNK on_ignored_nl on_ivar # frozen_string_literal: true
+UNK UNK on_nl def UNK UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_nl end on_nl on_ignored_nl UNK UNK UNK on_nl # This class wraps the AST method node that represents the cask header. It # includes various helper methods to aid cops in their analysis.

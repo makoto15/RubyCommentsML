@@ -1,0 +1,6 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a superpower. # # @return [String] # # @example # Faker::Superhero.power #=> "Photokinesis" # # @faker.version 1.6.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a superhero name prefix. # # @return [String] # # @example # Faker::Superhero.prefix #=> "the Fated" # # @faker.version 1.6.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a superhero name suffix. # # @return [String] # # @example # Faker::Superhero.suffix #=> "Captain" # # @faker.version 1.6.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a superhero descriptor. # # @return [String] # # @example # Faker::Superhero.descriptor #=> "Bizarro" # # @faker.version 1.6.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces a random superhero name. # # @return [String] # # @example # Faker::Superhero.name #=> "Magnificent Shatterstar" # # @faker.version 1.6.2

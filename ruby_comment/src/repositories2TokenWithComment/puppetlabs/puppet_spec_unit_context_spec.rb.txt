@@ -1,0 +1,2 @@
+context on_period pop on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl t on_op on_const on_period new do on_ignored_nl # Raises exception if the binding we pushed has already been popped
+on_ignored_nl original on_op on_tstring_beg on_tstring_content on_tstring_end on_nl stack on_op empty_stack on_period push on_lparen on_symbeg a on_op UNK on_lbrace on_op UNK # I'm just characterizing the current behavior here

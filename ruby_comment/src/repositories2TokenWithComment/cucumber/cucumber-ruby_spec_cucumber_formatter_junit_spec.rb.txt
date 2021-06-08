@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content # frozen_string_literal: true
+it on_lbrace expect on_lparen on_ivar on_period to_s on_rparen on_period not_to match on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen on_rbrace on_nl it on_lbrace # these type of tables shouldn't crash (or generate test cases)

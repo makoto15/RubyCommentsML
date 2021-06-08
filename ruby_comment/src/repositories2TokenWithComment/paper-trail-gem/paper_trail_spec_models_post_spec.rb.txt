@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_period UNK on_const UNK UNK UNK UNK UNK UNK UNK do on_ignored_nl # frozen_string_literal: true
+on_const on_period UNK on_const UNK UNK UNK UNK UNK UNK UNK do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl post # The `Post` model uses a custom version class, `PostVersion`

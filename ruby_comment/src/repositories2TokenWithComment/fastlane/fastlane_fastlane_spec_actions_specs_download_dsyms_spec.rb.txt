@@ -1,0 +1,6 @@
+let on_lparen on_symbeg app on_rparen on_lbrace double on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rbrace on_nl let on_lparen on_symbeg version on_rparen on_lbrace # 1 app, 2 trains/versions, 2 builds each
+allow on_lparen on_const on_op on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl allow on_lparen on_const on_op on_const on_rparen # login
+allow on_lparen app on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen on_lbracket train on_comma UNK on_comma train3 # trains
+allow on_lparen build_detail on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen download_url on_rparen on_nl allow on_lparen UNK # build_detail + download
+allow on_lparen app on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen version on_rparen on_nl allow on_lparen version # latest
+allow on_lparen app on_rparen on_period to receive on_lparen on_symbeg live_version on_rparen on_period and_return on_lparen live_version on_rparen on_nl allow on_lparen live_version # live

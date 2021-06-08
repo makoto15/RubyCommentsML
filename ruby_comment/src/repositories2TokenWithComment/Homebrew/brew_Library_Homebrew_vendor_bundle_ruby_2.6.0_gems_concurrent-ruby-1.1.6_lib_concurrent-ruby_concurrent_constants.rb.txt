@@ -1,0 +1,1 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Various classes within allows for +nil+ values to be stored, # so a special +NULL+ token is required to indicate the "nil-ness". # @!visibility private

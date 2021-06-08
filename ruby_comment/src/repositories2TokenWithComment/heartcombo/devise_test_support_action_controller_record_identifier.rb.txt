@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK on_const UNK on_const UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_const on_nl on_const # frozen_string_literal: true
+UNK UNK UNK UNK on_const UNK on_const UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_const on_nl on_const UNK # Since webrat uses ActionController::RecordIdentifier class that was moved to # ActionView namespace in Rails 4.1+

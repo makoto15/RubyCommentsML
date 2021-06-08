@@ -1,0 +1,5 @@
+UNK on_op UNK on_lparen UNK on_rparen on_nl return if on_op UNK on_nl on_ignored_nl on_ivar on_op on_const on_period UNK on_lparen on_ivar # Parse the options
+if options on_lbracket on_symbeg UNK on_rbracket on_nl return UNK on_nl UNK options on_lbracket on_symbeg UNK on_rbracket on_nl return UNK on_nl # Determine what task we're actually taking based on flags
+on_ivar on_period ui on_period UNK on_lparen on_const on_period t on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # Let the user know what is going on.
+if on_const on_period UNK on_op on_const on_op on_const on_nl on_ivar on_period ui on_period UNK on_lparen on_tstring_beg on_tstring_content UNK on_const on_period # If it is a private cloud installation, show that
+if on_ivar on_period UNK on_nl on_ivar on_period ui on_period UNK on_lparen on_tstring_beg on_tstring_content UNK on_ivar on_period UNK UNK on_tstring_end on_rparen # Ask for the username

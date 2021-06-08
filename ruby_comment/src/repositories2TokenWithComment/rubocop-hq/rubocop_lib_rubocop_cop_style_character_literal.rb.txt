@@ -1,0 +1,7 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK # Checks for uses of the character literal ?x. # # @example # # bad # ?x # # # good # 'x' # # # good # ?\C-\M-d
+node on_period UNK on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op on_ignored_nl node on_period UNK on_period UNK on_period # we don't register an offense for things like ?\C-\M-d
+UNK string on_period UNK on_op on_int on_op string on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_period UNK on_lparen node UNK on_tstring_beg # special character like \n # or ' which needs to use "" or be escaped.
+UNK on_period UNK on_lparen node UNK on_tstring_beg on_tstring_content UNK string UNK on_tstring_content on_tstring_end on_rparen on_nl end on_nl end on_nl end # normal character
+UNK UNK UNK end on_nl on_ignored_nl UNK UNK UNK end on_nl end on_nl end on_nl end on_nl end on_nl EMP # Dummy implementation of method in ConfigurableEnforcedStyle that is # called from StringHelp.
+UNK UNK UNK end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP # Dummy implementation of method in ConfigurableEnforcedStyle that is # called from StringHelp.

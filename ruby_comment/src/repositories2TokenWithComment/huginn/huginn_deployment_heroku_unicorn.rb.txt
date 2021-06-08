@@ -1,0 +1,2 @@
+on_const on_period UNK UNK on_ignored_nl worker_pid on_op UNK on_nl UNK UNK on_nl UNK worker_pid on_period UNK on_nl worker_pid on_op UNK # Note that this will only work correctly when running Heroku with ONE web worker. # If you want to run more than one, use the standard Huginn Procfile instead, with separate web and job entries. # You'll need to set the Heroku config variable PROCFILE_PATH to 'Procfile'.
+worker_pid on_op UNK on_nl end on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_op UNK UNK UNK on_op on_ignored_nl on_const # No longer running

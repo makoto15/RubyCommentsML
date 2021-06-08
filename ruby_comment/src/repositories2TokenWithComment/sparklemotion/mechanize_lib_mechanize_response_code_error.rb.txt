@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK # This error is raised when Mechanize encounters a response code it does not # know how to handle. Currently, this exception will be thrown if Mechanize # encounters response codes other than 200, 301, or 302. Any other response # code is up to the user to handle.
+UNK on_op UNK UNK UNK UNK UNK UNK on_nl UNK on_nl on_ignored_nl UNK UNK UNK on_nl UNK on_nl on_ignored_nl EMP # may be HTTPResponse

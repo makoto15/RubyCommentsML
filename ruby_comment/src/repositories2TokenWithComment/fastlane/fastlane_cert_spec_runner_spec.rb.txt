@@ -1,0 +1,1 @@
+UNK on_period UNK do on_op UNK on_comma dist_cert_type on_op on_ignored_nl UNK on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_end do on_ignored_nl UNK # Iterates over different Xcode versions to test different cert types # Xcode 10 and earlier - Spaceship.certificate.production # Xcode 11 and later - Spaceship.certificate.apple_distribution

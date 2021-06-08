@@ -1,0 +1,5 @@
+on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK on_tstring_content UNK on_nl UNK on_symbeg UNK on_comma on_symbeg # utf-8 is high impact in general
+on_ignored_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK on_tstring_content UNK on_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK # not package dependent but may want to vary platform by LOCALE/encoding
+UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK on_tstring_content UNK on_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK on_tstring_content # Translation is not supported on these platforms:
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const # for file_exists?
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK UNK do on_op host on_op # for enable_locale_language

@@ -1,0 +1,2 @@
+image_file on_op machine on_period UNK on_period UNK on_lparen UNK UNK UNK on_rparen on_nl image on_op UNK on_nl UNK image_file on_period # Try to read the image ID from the cache file if we've # already built it.
+end on_nl end on_nl on_ignored_nl UNK on_period UNK on_lparen UNK on_rparen on_nl end on_nl end on_nl end on_nl end on_nl # Its okay

@@ -1,0 +1,4 @@
+on_ignored_nl on_const on_period UNK on_const on_op on_const on_op on_const on_op on_const do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let # frozen_string_literal: true
+cop on_period UNK on_lparen offenses on_comma cop_disabled_line_ranges on_comma UNK on_rparen on_nl end on_nl on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # rubocop:disable RSpec/ExpectOutput
+on_rbrace on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen cop on_period messages on_rparen on_period to eq # etc... (no need to include all cops here)
+on_rbrace on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen cop on_period offenses on_period empty? on_rparen on_period # etc... (no need to include all cops here)

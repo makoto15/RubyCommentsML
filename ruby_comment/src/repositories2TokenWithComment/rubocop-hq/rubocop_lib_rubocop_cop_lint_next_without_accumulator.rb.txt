@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK # frozen_string_literal: true
+UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_nl UNK UNK # Don't omit the accumulator when calling `next` in a `reduce` block. # # @example # # # bad # # result = (1..4).reduce(0) do |acc, i| # next if i.odd? # acc + i # end # # @example # # # good # # result = (1..4).reduce(0) do |acc, i| # next acc if i.odd? # acc + i # end

@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK # frozen_string_literal: true
+UNK on_const on_nl UNK on_const on_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK on_comma UNK UNK on_nl on_ignored_nl UNK # This auto-corrects gem dependency order

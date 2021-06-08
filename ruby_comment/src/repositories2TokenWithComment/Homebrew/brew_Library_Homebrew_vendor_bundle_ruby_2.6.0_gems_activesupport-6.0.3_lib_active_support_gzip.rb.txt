@@ -1,0 +1,4 @@
+on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
+UNK on_const on_nl UNK on_const on_op on_const on_nl UNK UNK on_lparen on_op on_rparen on_ignored_nl UNK on_nl UNK UNK UNK UNK # A convenient wrapper for the zlib standard library that allows # compression/decompression of strings with gzip. # # gzip = ActiveSupport::Gzip.compress('compress me!') # # => "\x1F\x8B\b\x00o\x8D\xCDO\x00\x03K\xCE\xCF-(J-.V\xC8MU\x04\x00R>n\x83\f\x00\x00\x00" # # ActiveSupport::Gzip.decompress(gzip) # # => "compress me!"
+UNK UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_const on_period UNK on_lparen UNK on_rparen # Decompresses a gzipped string.
+UNK UNK on_period UNK on_lparen UNK UNK UNK on_op on_const on_op on_const UNK UNK on_op on_const on_op on_const on_rparen on_ignored_nl # Compresses a string using gzip.

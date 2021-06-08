@@ -1,0 +1,5 @@
+on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_rbracket on_period UNK do on_op pattern on_op on_ignored_nl # regexp
+on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_rbracket on_period UNK do on_op pattern on_op on_ignored_nl it on_tstring_beg on_tstring_content UNK # string
+on_tstring_beg on_tstring_content on_tstring_end on_comma on_rbracket on_period UNK do on_op pattern on_op on_ignored_nl it on_tstring_beg on_tstring_content UNK pattern UNK on_tstring_content on_tstring_end # regexp type
+on_rbracket on_period UNK do on_op pattern on_op on_ignored_nl it on_tstring_beg on_tstring_content UNK pattern UNK on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen # regexp, first found matches
+on_const on_op on_const on_op on_const on_op on_const on_period UNK on_lparen UNK on_comma UNK on_comma UNK on_rparen on_nl end on_nl on_ignored_nl # Create an alias using a nil AST (which is never used because it is given a type as resolution)

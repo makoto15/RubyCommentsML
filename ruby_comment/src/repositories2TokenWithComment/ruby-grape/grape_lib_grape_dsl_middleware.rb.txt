@@ -1,0 +1,3 @@
+on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const # frozen_string_literal: true
+UNK UNK on_lparen UNK on_comma on_op args on_comma on_op block on_rparen on_ignored_nl arr on_op UNK on_symbeg UNK on_comma UNK on_comma # Apply a custom middleware to the API. Applies # to the current namespace and any children, but # not parents. # # @param middleware_class [Class] The class of the middleware you'd like # to inject.
+UNK middleware on_nl UNK on_lparen on_symbeg middleware on_rparen on_op UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl # Retrieve an array of the middleware classes # and arguments that are currently applied to the # application.

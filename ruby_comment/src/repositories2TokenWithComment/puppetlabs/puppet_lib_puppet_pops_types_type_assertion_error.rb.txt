@@ -1,0 +1,4 @@
+UNK on_const on_op on_const on_op on_const on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK # Raised when an assertion of actual type against an expected type fails. #
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Returns the expected type # @return [PAnyType] expected type
+UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl # Returns the actual type # @return [PAnyType] actual type
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_op UNK on_nl UNK # Creates a new instance with a default message, expected, and actual types, # # @param message [String] The default message # @param expected_type [PAnyType] The expected type # @param actual_type [PAnyType] The actual type #

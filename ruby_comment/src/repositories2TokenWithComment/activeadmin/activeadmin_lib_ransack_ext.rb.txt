@@ -1,0 +1,1 @@
+UNK on_period UNK UNK on_op UNK on_op on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end # This sets up aliases for old Metasearch query methods so they behave # identically to the versions given in Ransack. #

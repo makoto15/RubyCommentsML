@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK # Checks that node destructuring is using the node extensions. # # @example Using splat expansion # # # bad # _receiver, method_name, _arguments = send_node.children # # # bad # _receiver, method_name, _arguments = *send_node # # # good # method_name = send_node.method_name

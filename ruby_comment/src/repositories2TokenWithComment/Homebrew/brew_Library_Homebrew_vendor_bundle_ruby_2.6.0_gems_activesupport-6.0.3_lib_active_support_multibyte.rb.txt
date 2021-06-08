@@ -1,0 +1,4 @@
+UNK UNK on_const UNK on_const on_nl UNK UNK on_const UNK UNK UNK UNK on_nl UNK UNK on_const UNK UNK UNK # frozen_string_literal: true
+UNK on_const on_nl UNK UNK on_const UNK UNK UNK UNK on_nl UNK UNK on_const UNK UNK UNK UNK on_nl UNK #:nodoc:
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK UNK UNK on_nl # The proxy class returned when calling mb_chars. You can use this accessor # to configure your own proxy class so you can support other encodings. See # the ActiveSupport::Multibyte::Chars implementation for an example how to # do this. # # ActiveSupport::Multibyte.proxy_class = CharsForUTF32
+UNK UNK UNK UNK on_nl UNK UNK on_const UNK on_const UNK on_const on_nl UNK on_nl UNK on_nl UNK on_nl EMP # Returns the current proxy class.

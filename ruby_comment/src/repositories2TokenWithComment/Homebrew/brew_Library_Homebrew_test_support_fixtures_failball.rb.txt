@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_const UNK on_const on_nl UNK UNK UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK on_const on_period UNK # frozen_string_literal: true
+UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_const UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_nl # This should get marshalled into a BuildError.
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # This should get marshalled into a RuntimeError.

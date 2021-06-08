@@ -1,0 +1,3 @@
+UNK on_op UNK on_lparen on_symbeg UNK on_rparen UNK on_ignored_nl machine on_period UNK on_period UNK on_period UNK on_period UNK UNK on_op # Locate configured IP addresses to drop in /etc/environment # for export. If no addresses found, fall back to default
+UNK on_op machine on_period UNK on_period UNK on_lparen on_symbeg UNK on_rparen on_nl UNK on_op UNK on_period UNK UNK on_op UNK # Generate configuration for any static network interfaces # which have been defined
+UNK on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # Upload configuration and apply

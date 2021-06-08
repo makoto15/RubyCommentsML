@@ -1,0 +1,5 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK lhs on_nl UNK UNK UNK UNK on_nl end on_nl # frozen_string_literal: true
+UNK UNK on_nl UNK lhs on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK rhs on_nl UNK UNK UNK # Common functionality for nodes that are binary operations: # `or`, `and` ...
+UNK lhs on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK rhs on_nl UNK UNK UNK UNK on_nl end # Returns the left hand side node of the binary operation. # # @return [Node] the left hand side of the binary operation
+UNK rhs on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl lhs UNK rhs on_op on_op UNK # Returns the right hand side node of the binary operation. # # @return [Node] the right hand side of the binary operation
+UNK UNK on_nl lhs UNK rhs on_op on_op UNK on_nl lhs on_op lhs on_period UNK on_period UNK UNK lhs on_period # Returns all of the conditions, including nested conditions, # of the binary operation. # # @return [Array<Node>] the left and right hand side of the binary # operation and the let and right hand side of any nested binary # operators

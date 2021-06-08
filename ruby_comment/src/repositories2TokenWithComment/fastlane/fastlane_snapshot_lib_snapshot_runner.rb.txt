@@ -1,0 +1,9 @@
+end on_nl on_ignored_nl on_const on_period config on_lbracket on_symbeg UNK on_rbracket on_op on_const on_period UNK on_lparen on_const on_period config on_lbracket on_symbeg # to be sure the user sees this, as compiling clears the screen
+UNK on_op on_const on_period config on_period UNK on_lparen on_label UNK on_rparen on_nl UNK on_lbracket on_symbeg UNK on_rbracket on_op on_const on_period # Also print out the path to the used Xcode installation # We go 2 folders up, to not show "Contents/Developer/"
+on_const on_period UNK on_period UNK on_nl on_ignored_nl UNK on_const on_period config on_lbracket on_symbeg UNK on_rbracket on_nl on_const on_period UNK on_lparen # Generate HTML report
+UNK on_const on_period config on_lbracket on_symbeg UNK on_rbracket on_nl on_const on_period UNK on_lparen on_const on_period UNK on_rparen on_nl end on_nl # Clear the Derived Data
+on_const on_period UNK on_lparen on_const on_period UNK on_rparen on_nl end on_nl end on_nl on_ignored_nl def UNK on_lparen results on_rparen on_ignored_nl # this should actually be launcher.derived_data_path
+def UNK on_period UNK on_nl UNK on_op on_const on_period UNK on_lparen UNK on_rparen on_nl on_ignored_nl if on_const on_period UNK on_lparen # Depending on the Xcode version, the return value is different
+return UNK on_period UNK on_lparen UNK on_tstring_content UNK on_comma on_tstring_beg on_tstring_end on_rparen on_period UNK on_nl end on_nl on_ignored_nl def UNK # Something like "// SnapshotHelperVersion [1.2]", but be relaxed about whitespace
+def UNK on_nl return if on_const on_period config on_lbracket on_symbeg UNK on_rbracket on_nl UNK on_op UNK on_nl on_const on_period UNK # rubocop:disable Style/Next
+end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # rubocop:enable Style/Next

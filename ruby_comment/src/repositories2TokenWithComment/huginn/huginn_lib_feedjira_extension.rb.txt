@@ -1,0 +1,3 @@
+on_lbrace on_rbrace on_nl end on_period to_json on_lparen options on_rparen on_nl end on_nl end on_nl on_ignored_nl module on_const on_nl def self # Ignore non-string values, because SaxMachine leaks its # internal value :no_buffer when the content of an element # is empty.
+def UNK on_lparen value on_rparen on_ignored_nl parsed on_op UNK on_lparen value on_rparen on_nl on_ivar on_op parsed if on_op on_ivar on_op # Keep the "oldest" publish time found
+def UNK on_lparen value on_rparen on_ignored_nl parsed on_op UNK on_lparen value on_rparen on_nl on_ivar on_op parsed if on_op on_ivar on_op # Keep the most recent update time found

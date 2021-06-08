@@ -1,0 +1,10 @@
+UNK on_const on_period UNK on_op on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK UNK on_nl end # If our users want to opt out of usage metrics, don't post the events. # Learn more at https://docs.fastlane.tools/#metrics
+on_label UNK on_comma on_label event on_lbracket on_symbeg UNK on_rbracket on_comma on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label event on_lbracket on_symbeg UNK # API Version
+on_label event on_lbracket on_symbeg UNK on_rbracket on_comma on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label event on_lbracket on_symbeg UNK on_rbracket on_comma on_label # Tracking ID / Property ID
+on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label event on_lbracket on_symbeg UNK on_rbracket on_comma on_label event on_lbracket on_symbeg UNK on_rbracket on_comma on_label # Client ID
+on_label event on_lbracket on_symbeg UNK on_rbracket on_comma on_label event on_lbracket on_symbeg UNK on_rbracket on_comma on_label event on_lbracket on_symbeg UNK on_rbracket # Event hit type
+on_label event on_lbracket on_symbeg UNK on_rbracket on_comma on_label event on_lbracket on_symbeg UNK on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_label event # Event category
+on_label event on_lbracket on_symbeg UNK on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_label event on_lbracket on_symbeg UNK on_rbracket on_op on_tstring_beg on_tstring_content # Event action
+on_label event on_lbracket on_symbeg UNK on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_tstring_beg on_tstring_content on_tstring_end UNK on_rparen on_nl end on_nl # Event label
+on_label on_tstring_beg on_tstring_content on_tstring_end UNK on_rparen on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP # Event value
+UNK on_rparen on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # IP anonymization

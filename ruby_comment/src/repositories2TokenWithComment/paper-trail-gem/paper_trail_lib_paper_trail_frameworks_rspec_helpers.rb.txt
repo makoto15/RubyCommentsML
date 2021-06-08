@@ -1,0 +1,5 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_nl UNK on_op on_op on_const # frozen_string_literal: true
+UNK on_const on_nl UNK UNK on_nl UNK on_op on_op on_const UNK UNK on_nl on_op on_const UNK UNK on_op UNK on_nl # Included in the RSpec configuration in `frameworks/rspec.rb`
+UNK UNK on_nl UNK on_op on_op on_const UNK UNK on_nl on_op on_const UNK UNK on_op UNK on_nl UNK on_nl UNK # enable versioning for specific blocks (at instance-level)
+UNK on_const on_nl UNK UNK UNK on_op UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Extended by the RSpec configuration in `frameworks/rspec.rb`
+UNK UNK UNK on_op UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_op UNK # enable versioning for specific blocks (at class-level)

@@ -1,0 +1,5 @@
+on_const on_period require UNK on_op on_const on_period UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const on_op on_const # Require the gems listed in Gemfile, including any gems # you've limited to :test, :development, or :production.
+UNK on_period UNK on_op on_const on_period UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK on_period UNK UNK on_op g on_op # Set the Rails logger
+UNK on_period UNK UNK on_op g on_op on_ignored_nl g on_period UNK UNK UNK on_nl g on_period UNK UNK on_nl g # Disable most generators
+UNK on_period UNK on_op on_const on_nl on_ignored_nl UNK on_period UNK on_period UNK on_op on_const on_period UNK UNK on_op UNK UNK # Include from lib
+UNK on_period UNK on_period UNK on_op on_const on_period UNK UNK on_op UNK UNK UNK on_op UNK UNK on_nl UNK on_nl # Disable field_with_errors

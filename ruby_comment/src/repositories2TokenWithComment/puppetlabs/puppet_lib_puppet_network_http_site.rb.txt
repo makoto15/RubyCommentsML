@@ -1,0 +1,1 @@
+UNK UNK on_op UNK on_op UNK on_op UNK on_nl UNK UNK scheme on_comma UNK host on_comma UNK port on_nl on_ignored_nl # Represents a site to which HTTP connections are made. It is a value # object, and is suitable for use in a hash. If two sites are equal, # then a persistent connection made to the first site, can be re-used # for the second. # # @api private #

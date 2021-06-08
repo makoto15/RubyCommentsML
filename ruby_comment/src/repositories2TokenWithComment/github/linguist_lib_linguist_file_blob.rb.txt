@@ -1,0 +1,5 @@
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK UNK on_lparen UNK UNK UNK on_op UNK on_rparen on_ignored_nl on_ivar # A FileBlob is a wrapper around a File object to make it quack # like a Grit::Blob. It provides the basic interface: `name`, # `data`, `path` and `size`.
+UNK UNK on_lparen UNK UNK UNK on_op UNK on_rparen on_ignored_nl on_ivar on_op UNK on_nl on_ivar on_op UNK on_op UNK on_period # Public: Initialize a new FileBlob from a path # # path - A path String that exists on the file system. # base_path - Optional base to relativize the path # # Returns a FileBlob.
+UNK UNK on_nl on_ivar on_op on_const on_period UNK on_lparen on_ivar on_rparen on_period UNK on_period UNK on_lparen UNK on_rparen on_nl end # Public: Read file permissions # # Returns a String like '100644'
+UNK UNK on_nl on_ivar on_op on_const on_period UNK on_lparen on_ivar UNK UNK UNK on_op UNK UNK UNK on_rparen on_nl end # Public: Read file contents. # # Returns a String.
+UNK UNK on_nl on_ivar on_op on_const on_period UNK on_lparen on_ivar on_rparen on_nl end on_nl end on_nl end on_nl EMP EMP # Public: Get byte size # # Returns an Integer.

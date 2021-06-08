@@ -1,0 +1,1 @@
+UNK UNK UNK on_op UNK on_nl UNK UNK on_symbeg UNK on_nl UNK UNK on_symbeg UNK UNK on_symbeg UNK on_op UNK # == Schema Information # # Table name: ip_addresses # # id :integer not null, primary key # ip_pool_id :integer # ipv4 :string(255) # ipv6 :string(255) # created_at :datetime # updated_at :datetime # hostname :string(255) #

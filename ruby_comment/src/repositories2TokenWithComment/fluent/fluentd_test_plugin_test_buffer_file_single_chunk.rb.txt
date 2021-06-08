@@ -1,0 +1,5 @@
+UNK on_op on_int UNK on_op on_int on_lbracket UNK on_op on_int on_comma UNK on_op on_int on_comma UNK on_comma UNK on_rbracket on_period # 1725 is one of `rand(0xfff)`
+UNK on_op on_int on_lbracket UNK on_op on_int on_comma UNK on_op on_int on_comma UNK on_comma UNK on_rbracket on_period UNK on_lparen on_tstring_beg # one of rand(0xffffffff)
+on_lbracket UNK on_op on_int on_comma UNK on_op on_int on_comma UNK on_comma UNK on_rbracket on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # ditto
+end on_nl on_ignored_nl UNK hex_id on_lparen UNK on_rparen on_ignored_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_lbrace # unique_id.unpack('N*').map{|n| n.to_s(16)}.join => "52fde6425d7406bdb19b936e1a1ba98c"
+assert c on_period read on_lparen on_label on_symbeg gzip on_rparen on_period size on_op on_lbracket on_ivar on_comma on_ivar on_rbracket on_period join on_lparen # check chunk is compressed

@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl def UNK on_lparen node # This cop checks for nested use of if, unless, while and until in their # modifier form. # # @example # # # bad # something if a if b # # # good # something if b && a

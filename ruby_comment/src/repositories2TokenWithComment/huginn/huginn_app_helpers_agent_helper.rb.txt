@@ -1,0 +1,1 @@
+on_tstring_beg on_tstring_content on_tstring_end on_period UNK on_nl UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_period UNK on_nl end on_nl end on_nl on_ignored_nl def # incoming event is the only trigger for the agent

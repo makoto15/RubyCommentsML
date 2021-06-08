@@ -1,0 +1,1 @@
+it on_tstring_beg on_tstring_content on_tstring_end on_comma on_label true do on_ignored_nl expect on_lparen on_const on_op on_const on_period UNK UNK on_op UNK UNK # Those tests also work when using a beta version of Xcode

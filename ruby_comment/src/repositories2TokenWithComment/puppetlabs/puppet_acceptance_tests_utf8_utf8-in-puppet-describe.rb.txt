@@ -1,0 +1,4 @@
+on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK on_op UNK on_period UNK UNK on_op UNK on_op UNK UNK UNK # utf-8 is high impact in general, puppet describe low risk?
+on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK on_op UNK on_period UNK UNK on_op UNK on_op UNK UNK UNK UNK UNK UNK on_nl # not package dependent but may want to vary platform by LOCALE/encoding
+on_ignored_nl UNK on_op UNK on_period UNK UNK on_op UNK on_op UNK UNK UNK UNK UNK UNK on_nl UNK on_lparen UNK # if keeping, use mk_temp_environment_with_teardown # remove with_puppet_running_on unless pluginsync is absolutely necessary # (if it is, add 'server' tag
+utf8chars on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl master_mod_dir on_op UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_lparen # utf8chars = "€‰ㄘ万竹ÜÖ"

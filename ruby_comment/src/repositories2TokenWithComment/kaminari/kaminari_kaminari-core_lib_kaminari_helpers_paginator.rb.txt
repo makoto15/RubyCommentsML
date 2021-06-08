@@ -1,0 +1,30 @@
+on_ignored_nl UNK UNK on_tstring_content UNK on_nl UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl def UNK on_lparen UNK on_comma on_label UNK on_comma on_label on_const on_period UNK on_period UNK on_comma # The main container tag
+on_ivar on_op UNK on_label window on_op UNK on_comma on_label left on_period UNK on_op UNK on_op left on_comma on_label right on_period #:nodoc:
+on_ivar on_op UNK UNK on_lparen on_op on_const on_op on_const on_rparen on_nl on_op on_const on_op on_const on_period new on_nl UNK UNK #XXX Using parent template's buffer class for rendering each partial here. This might cause problems if the handler mismatches
+def UNK on_lparen on_op UNK on_rparen on_ignored_nl UNK on_lparen on_op UNK on_rparen UNK on_ivar on_lbracket on_symbeg total_pages on_rbracket on_op on_int # render given block as a view template
+on_ivar on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK on_lparen on_symbeg UNK on_rparen UNK UNK on_nl on_ignored_nl # This allows for showing fall-back HTML when there's only one page: # # <%= paginate(@search_results) || "Showing all search results" %>
+def UNK on_nl UNK UNK on_lparen on_symbeg UNK on_rparen UNK UNK on_nl on_ignored_nl UNK on_lparen on_ivar on_rparen on_period UNK UNK # enumerate each page providing PageProxy object as the block parameter # Because of performance reason, this doesn't actually enumerate all pages but pages that are seemingly relevant to the paginator. # "Relevant" pages are: # * pages inside the left outer window plus one for showing the gap tag # * pages inside the inner window plus one on the left plus one on the right for showing the gap tags # * pages inside the right outer window plus one for showing the gap tag
+on_const on_period UNK on_lbracket on_symbeg UNK on_rbracket on_op UNK on_nl UNK on_ivar on_period UNK on_label UNK on_nl UNK on_ignored_nl on_const #:nodoc:
+def UNK on_lparen UNK on_comma on_op UNK on_comma on_op UNK on_rparen on_ignored_nl on_ivar on_period UNK on_lparen UNK on_rparen on_op on_ivar # delegates view helper methods to @template
+UNK on_const on_nl UNK on_const on_nl on_ignored_nl def UNK on_lparen options on_comma page on_comma UNK on_rparen on_ivar on_comma on_ivar on_comma # Wraps a "page number" and provides some utility methods
+on_ivar on_comma on_ivar on_comma on_ivar on_op options on_comma page on_comma UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_nl #:nodoc:
+def UNK on_nl on_ivar on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_ivar on_lbracket on_symbeg current_page on_rbracket on_nl end # the page number
+def UNK on_nl on_ivar on_op on_ivar on_lbracket on_symbeg current_page on_rbracket on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_int # current page or not
+def UNK on_nl on_ivar on_op on_int on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_ivar on_lbracket on_symbeg total_pages on_rbracket # the first page or not
+def UNK on_nl on_ivar on_op on_ivar on_lbracket on_symbeg total_pages on_rbracket on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_ivar # the last page or not
+def UNK on_nl on_ivar on_op on_ivar on_lbracket on_symbeg current_page on_rbracket on_op on_int on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar # the previous page or not
+def UNK on_nl on_ivar on_op on_ivar on_lbracket on_symbeg current_page on_rbracket on_op on_int on_nl end on_nl on_ignored_nl def UNK on_nl UNK # the next page or not
+def UNK on_nl UNK UNK on_nl UNK on_tstring_content UNK on_nl UNK UNK on_nl UNK on_tstring_content UNK on_nl end on_nl end # relationship with the current page
+def UNK on_nl on_ivar on_op on_ivar on_lbracket on_symbeg left on_rbracket on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_lbracket on_symbeg # within the left outer window or not
+def UNK on_nl on_ivar on_lbracket on_symbeg total_pages on_rbracket on_op on_ivar on_op on_ivar on_lbracket on_symbeg right on_rbracket on_nl end on_nl on_ignored_nl # within the right outer window or not
+def UNK on_nl on_lparen on_ivar on_lbracket on_symbeg current_page on_rbracket on_op on_ivar on_rparen on_period UNK on_op on_ivar on_lbracket on_symbeg window on_rbracket # inside the inner window or not
+def UNK on_nl on_lparen on_lparen on_ivar on_op on_ivar on_lbracket on_symbeg current_page on_rbracket on_op on_ivar on_lbracket on_symbeg window on_rbracket on_op on_int # Current page is an isolated gap or not
+def UNK on_nl on_ivar on_op on_ivar on_lbracket on_symbeg total_pages on_rbracket on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_period UNK # The page number exceeds the range of pages or not
+def UNK on_nl on_ivar on_period UNK on_const on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_op UNK on_op UNK on_op # The last rendered tag was "truncated" or not
+def UNK on_nl UNK on_op UNK on_op UNK on_op UNK on_nl end on_nl on_ignored_nl def to_i UNK on_nl end on_nl #Should we display the link tag?
+UNK on_nl end on_nl on_ignored_nl def UNK UNK on_period UNK on_nl end on_nl on_ignored_nl def on_op on_lparen other on_rparen to_i #:nodoc:
+UNK on_period UNK on_nl end on_nl on_ignored_nl def on_op on_lparen other on_rparen to_i on_op other on_period to_i on_nl end on_nl #:nodoc:
+to_i on_op other on_period to_i on_nl end on_nl on_ignored_nl def on_op on_lparen other on_rparen to_i on_op other on_period to_i on_nl #:nodoc:
+to_i on_op other on_period to_i on_nl end on_nl on_ignored_nl def on_op on_lparen other on_rparen to_i on_op other on_period to_i on_nl #:nodoc:
+to_i on_op other on_period to_i on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP #:nodoc:

@@ -1,0 +1,4 @@
+expect on_lparen subject on_period data on_rparen on_period to be_nil on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl subject # It also clears the data when invalid
+on_ignored_nl weather_agent on_op existing_scenario on_period agents on_period find_by on_lparen on_symbeg guid on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl trigger_agent on_op existing_scenario # One, because the weather agent already existed.
+expect on_lparen weather_agent_diff on_period UNK on_rparen on_period to eq on_lparen agents on_lparen on_symbeg bob_weather_agent on_rparen on_rparen on_nl valid_parsed_weather_agent_data on_period UNK # Already exists
+UNK on_period UNK do on_op key on_comma value on_op on_ignored_nl expect on_lparen trigger_agent_diff on_period UNK on_lparen key on_rparen on_period current # Doesn't exist yet

@@ -1,0 +1,4 @@
+UNK on_op UNK on_period UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl form on_op UNK on_period UNK UNK UNK on_op on_tstring_beg on_tstring_content # Get the flickr sign in page
+form on_op UNK on_period UNK UNK UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl form on_period UNK on_op UNK UNK UNK UNK # Fill out the login form
+UNK on_op UNK on_period UNK UNK UNK UNK on_op on_tstring_beg on_tstring_content on_tstring_end UNK on_period UNK on_nl on_ignored_nl form on_op UNK # Go to the upload page
+form on_op UNK on_period UNK on_period UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_period UNK on_nl form on_period UNK on_period UNK # Fill out the form

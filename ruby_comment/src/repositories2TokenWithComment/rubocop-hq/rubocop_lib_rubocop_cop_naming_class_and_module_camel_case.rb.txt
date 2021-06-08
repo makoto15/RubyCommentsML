@@ -1,0 +1,2 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK # This cop checks for class and module names with # an underscore in them. # # @example # # bad # class My_Class # end # module My_Module # end # # # good # class MyClass # end # module MyModule # end

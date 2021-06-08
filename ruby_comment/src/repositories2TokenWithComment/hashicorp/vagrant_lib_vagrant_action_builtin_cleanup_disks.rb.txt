@@ -1,0 +1,3 @@
+UNK UNK on_lparen UNK on_comma env on_rparen on_ignored_nl on_ivar on_op UNK on_nl on_ivar on_op on_const on_op on_const on_period UNK on_lparen # Removes any attached disks no longer defined in a Vagrantfile config
+UNK on_op UNK on_lparen machine on_rparen on_nl on_ignored_nl UNK on_op UNK on_period UNK on_nl UNK machine on_period UNK on_period UNK # Call into providers machine implementation for disk management
+on_ivar on_period UNK on_lparen env on_rparen on_nl end on_nl on_ignored_nl UNK UNK on_lparen machine on_rparen on_ignored_nl UNK on_op machine on_period # Continue On

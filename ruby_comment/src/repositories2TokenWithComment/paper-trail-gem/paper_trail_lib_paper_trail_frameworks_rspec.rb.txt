@@ -1,0 +1,4 @@
+on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl on_const on_period UNK # frozen_string_literal: true
+UNK UNK on_op actual on_op actual on_period UNK on_lparen on_op on_const on_op on_const on_op on_const on_rparen UNK on_nl end on_nl # check to see if the model has `has_paper_trail` declared on it
+UNK do on_op actual on_op on_ignored_nl UNK on_op actual on_period UNK on_period UNK on_nl actual on_period UNK on_lparen UNK on_rparen # check if the model has a version with the specified attributes
+UNK do on_op actual on_op on_ignored_nl UNK on_op actual on_period UNK on_period UNK on_nl actual on_period UNK on_lparen UNK on_rparen # check if the model has a version changes with the specified attributes

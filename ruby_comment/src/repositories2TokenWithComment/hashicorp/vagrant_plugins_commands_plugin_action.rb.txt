@@ -1,0 +1,9 @@
+def self on_period UNK on_nl on_const on_op on_const on_op on_const on_period new on_period tap do on_op b on_op on_ignored_nl b # This middleware sequence will remove all plugins.
+def self on_period UNK on_nl on_const on_op on_const on_op on_const on_period new on_period tap do on_op b on_op on_ignored_nl b # This middleware sequence will install a plugin.
+def self on_period UNK on_nl on_const on_op on_const on_op on_const on_period new on_period tap do on_op b on_op on_ignored_nl b # This middleware sequence licenses paid addons.
+def self on_period UNK on_nl on_const on_op on_const on_op on_const on_period new on_period tap do on_op b on_op on_ignored_nl b # This middleware sequence will list all installed plugins.
+def self on_period UNK on_nl on_const on_op on_const on_op on_const on_period new on_period tap do on_op b on_op on_ignored_nl b # This middleware sequence will repair installed plugins.
+def self on_period UNK on_nl on_const on_op on_const on_op on_const on_period new on_period tap do on_op b on_op on_ignored_nl b # This middleware sequence will repair installed local plugins.
+def self on_period UNK on_nl on_const on_op on_const on_op on_const on_period new on_period tap do on_op b on_op on_ignored_nl b # This middleware sequence will uninstall a plugin.
+def self on_period UNK on_nl on_const on_op on_const on_op on_const on_period new on_period tap do on_op b on_op on_ignored_nl b # This middleware sequence will update a plugin.
+action_root on_op on_const on_period new on_lparen on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_rparen on_nl autoload on_symbeg # The autoload farm

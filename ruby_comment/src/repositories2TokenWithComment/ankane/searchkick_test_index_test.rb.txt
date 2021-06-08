@@ -1,0 +1,3 @@
+old_index on_period UNK on_nl UNK on_period UNK on_nl on_ignored_nl on_const on_period searchkick_index on_period UNK on_nl on_ignored_nl UNK on_const on_period searchkick_index # create indexes
+UNK on_lbracket on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_rbracket on_nl assert_raises on_lparen on_const on_op on_const # skip for 5.0 since it throws # Cannot search on field [alt_description] since it is not indexed.
+end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # values that exceed ignore_above are not included in _all field :( # assert_search "hello", ["Product A"], {}, Region

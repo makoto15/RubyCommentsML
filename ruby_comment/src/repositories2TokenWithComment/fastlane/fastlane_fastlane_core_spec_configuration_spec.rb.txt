@@ -1,0 +1,3 @@
+values on_op on_ivar on_period values on_nl expect on_lparen values on_lbracket on_symbeg cert_name on_rbracket on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content # no user inputs
+config_item on_op on_const on_op on_const on_period new on_lparen on_label on_symbeg UNK on_comma on_ignored_nl on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_label # Taken from match/options.rb
+on_label true on_comma on_ignored_nl on_label true on_comma on_ignored_nl on_label on_const on_op on_const on_period UNK on_lparen on_symbeg UNK on_rparen on_comma on_ignored_nl # we actually allow String and Array here

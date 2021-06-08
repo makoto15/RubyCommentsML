@@ -1,0 +1,2 @@
+on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl UNK reset_link_and_target on_lparen agent on_comma # Use block style `test_name`
+on agent on_comma UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_period UNK on_period # symlinks are supported only on Vista+ (version 6.0 and higher)

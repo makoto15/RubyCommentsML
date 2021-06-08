@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
+f on_period UNK UNK on_ignored_nl f on_period UNK UNK UNK on_period UNK on_nl UNK UNK on_comma stage_dir on_comma UNK UNK # show messages about tar

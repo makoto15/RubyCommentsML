@@ -1,0 +1,3 @@
+request on_period UNK on_lparen options on_lbracket on_symbeg UNK on_rbracket on_rparen on_nl on_ignored_nl UNK options on_lbracket on_symbeg UNK on_rbracket on_period UNK # If params has been provided, sent it them as form encoded values
+request on_period UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_nl request on_period body on_op options on_lbracket on_symbeg UNK on_rbracket # If we have a JSON string, set the content type and body to be the JSON # data
+request on_period body on_op options on_lbracket on_symbeg UNK on_rbracket on_nl end on_nl on_ignored_nl UNK options on_lbracket on_symbeg UNK on_rbracket on_nl # Add a plain text body if we have one

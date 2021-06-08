@@ -1,0 +1,2 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK on_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl with_input_for # frozen_string_literal: true # encoding: UTF-8
+test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK do on_ignored_nl with_input_for on_ivar on_comma on_symbeg age on_comma on_symbeg integer on_nl assert_no_select on_tstring_beg # Numeric input but HTML5 disabled

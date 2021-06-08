@@ -1,0 +1,1 @@
+describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK expect_screen_size_from_file on_lparen file on_rparen on_ignored_nl expect on_lparen on_const on_op on_const on_period UNK on_lparen # Ensure that screenshots correctly map based on the following: # https://help.apple.com/app-store-connect/#/devd274dd925

@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK UNK on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl # This cop checks that arrays are sliced with endless ranges instead of # `ary[start..-1]` on Ruby 2.6+. # # @example # # bad # items[1..-1] # # # good # items[1..]

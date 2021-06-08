@@ -1,0 +1,2 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const UNK UNK UNK UNK UNK UNK UNK UNK UNK # A general Vagrant system implementation for "solaris 11". # # Contributed by Jan Thomas Moldung <janth@moldung.no>
+UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl on_ivar on_op on_const on_nl on_ivar on_op on_const on_nl # This sets the command to use to execute items as a superuser. sudo is default

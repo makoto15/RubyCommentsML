@@ -1,0 +1,4 @@
+on_ignored_nl es on_op on_const on_op on_const on_period new on_lparen on_lbracket on_ignored_nl on_lbracket event_time on_lparen on_rparen on_comma on_lbrace on_tstring_beg on_tstring_content on_tstring_end # 128bytes per record (x4 -> 512bytes)
+on_ivar on_period register on_lparen on_symbeg UNK on_rparen do on_op chunk on_op on_ignored_nl UNK failing on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl # 128bytes per record (x4 -> 512bytes)
+on_ivar on_period register on_lparen on_symbeg UNK on_rparen do on_op chunk on_op on_ignored_nl UNK failing on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl # 128bytes per record (x4 -> 512bytes)
+on_ignored_nl es on_op on_const on_op on_const on_period new on_lparen on_lbracket on_ignored_nl on_lbracket event_time on_lparen on_rparen on_comma on_lbrace on_tstring_beg on_tstring_content on_tstring_end # 128bytes per record (x4 -> 512bytes)

@@ -1,0 +1,1 @@
+UNK on_const UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_const UNK on_const UNK on_const on_nl UNK UNK # Including Puppet::Concurrent::Synchronized into a class when running on JRuby # causes all of its instance methods to be synchronized on the instance itself. # When running on MRI it has no effect.

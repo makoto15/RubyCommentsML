@@ -1,0 +1,4 @@
+UNK on_op on_ivar on_nl UNK UNK on_nl end on_nl end on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # So the :respond_to? turns out correctly.
+allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen on_lbrace on_rbrace on_rparen on_nl on_ivar on_period # The parenthesis are necessary here, else it looks like a block.
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg new on_rparen on_period and_return on_lparen # Make sure it caches the terminus.
+end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg new on_rparen # This is weird, because all of the code is in the setup. If we got # new called on the cache class, we'd get an exception here.

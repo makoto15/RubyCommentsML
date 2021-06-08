@@ -1,0 +1,10 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl def UNK on_nl return UNK # This cop checks the indentation of the method name part in method calls # that span more than one line. # # @example EnforcedStyle: aligned (default) # # bad # while myvariable # .b # # do something # end # # # good # while myvariable # .b # # do something # end # # # good # Thing.a # .b # .c # # @example EnforcedStyle: indented # # good # while myvariable # .b # # # do something # end # # @example EnforcedStyle: indented_relative_to_receiver # # good # while myvariable # .a # .b # # # do something # end # # # good # myvariable = Thing # .a # .b # .c
+end on_nl on_ignored_nl def UNK on_lparen node on_comma lhs on_comma rhs on_comma given_style on_rparen on_ignored_nl return UNK UNK UNK on_lparen # Only check method calls with dot operator
+UNK on_lparen lhs on_rparen UNK on_op base on_op on_ignored_nl return UNK on_lparen base on_rparen on_period UNK on_nl end on_nl on_ignored_nl # a if b # .c
+UNK on_lparen lhs on_comma rhs on_rparen UNK on_op base on_op on_ignored_nl return UNK on_lparen base on_rparen on_period UNK on_nl end # a = b # .c
+UNK on_lparen lhs on_rparen UNK on_op base on_op on_ignored_nl return base on_period UNK on_nl end on_nl end on_nl on_ignored_nl def # a + b # .c
+def UNK on_lparen node on_comma rhs on_rparen on_ignored_nl return UNK rhs on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # a.b # .c
+def UNK on_lparen node on_rparen on_ignored_nl node on_op node on_period receiver UNK node on_period receiver on_nl node on_op node on_period # a # .b # .c
+node on_op node on_period receiver UNK node on_period receiver on_nl node on_op node on_period UNK on_nl node on_op node on_period # descend to root of method chain
+node on_op node on_period UNK on_nl node on_op node on_period UNK UNK node on_period loc on_period UNK on_lparen on_symbeg dot # ascend to first call which has a dot

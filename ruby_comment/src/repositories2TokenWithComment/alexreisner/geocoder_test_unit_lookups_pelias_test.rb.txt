@@ -1,0 +1,2 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_const on_op on_const on_nl UNK UNK on_nl on_const on_period UNK on_lparen on_label UNK # encoding: utf-8
+UNK on_nl UNK UNK UNK on_nl query on_op on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK # Empty pelias hash only for test (pollution control)

@@ -1,0 +1,2 @@
+on_ignored_nl on_const on_op on_const on_period UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl before do on_ignored_nl on_ivar on_period visit on_lparen on_tstring_beg on_tstring_content # frozen_string_literal: true
+on_period UNK UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen on_period UNK on_nl end on_nl end on_nl on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end # The exact error is not yet well defined

@@ -1,0 +1,1 @@
+UNK UNK UNK UNK on_symbeg UNK on_nl UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK # Active Record calculations tries `as` on some objects but chokes when that # object was a Symbol and it gets a Sequel::SQL::AliasedExpression.

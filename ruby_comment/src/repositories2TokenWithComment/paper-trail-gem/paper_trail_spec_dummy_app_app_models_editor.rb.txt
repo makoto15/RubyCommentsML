@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP # frozen_string_literal: true
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP # to demonstrate a has_through association that does not have paper_trail enabled

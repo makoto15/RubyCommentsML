@@ -1,0 +1,2 @@
+on_const on_op on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_lbrace on_op UNK on_op UNK on_rbrace # NOTE: critical to return l in the block for `output` in method to be #<IO:(closed)>
+on_tstring_beg on_tstring_content on_tstring_end on_op UNK on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int # Japanese Lorem Ipsum snippet

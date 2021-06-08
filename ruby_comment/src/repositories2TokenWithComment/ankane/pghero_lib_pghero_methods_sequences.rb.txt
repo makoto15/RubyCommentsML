@@ -1,0 +1,8 @@
+sequences on_op UNK UNK on_nl on_tstring_content UNK on_ignored_nl sequences on_period UNK UNK on_op column on_op on_ignored_nl column on_lbracket on_symbeg UNK # get columns with default values # use pg_get_expr to get correct default value # it's what information_schema.columns uses # also, exclude temporary tables to prevent error # when accessing across sessions
+sequences on_period UNK UNK on_op column on_op on_ignored_nl column on_lbracket on_symbeg UNK on_rbracket on_op column on_lbracket on_symbeg UNK on_rbracket on_op # parse out sequence
+UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op UNK on_tstring_content UNK on_period UNK on_lparen UNK on_rparen on_nl UNK on_op UNK # can parse # nextval('id_seq'::regclass) # nextval(('id_seq'::text)::regclass)
+UNK UNK on_lparen sequences on_rparen on_ignored_nl UNK on_op UNK UNK on_nl on_tstring_content UNK on_ignored_nl UNK on_op sequences on_period UNK on_lbrace # adds readable attribute to all sequences # also adds schema if missing
+UNK on_op UNK UNK on_nl on_tstring_content UNK on_ignored_nl UNK on_op sequences on_period UNK on_lbrace on_op s on_op s on_lbracket on_symbeg # fetch data
+UNK on_op sequences on_period UNK on_lbrace on_op s on_op s on_lbracket on_symbeg schema on_rbracket on_period UNK on_op s on_lbracket on_symbeg # first populate missing schemas
+end on_nl end on_nl on_ignored_nl UNK on_op UNK on_lbracket UNK on_period UNK on_lbrace on_op s on_op on_lbracket on_lbracket s on_lbracket # otherwise, do nothing, will be marked as unreadable # TODO better message for multiple schemas
+UNK on_op UNK on_lbracket UNK on_period UNK on_lbrace on_op s on_op on_lbracket on_lbracket s on_lbracket on_symbeg schema on_rbracket on_comma s # then populate attributes

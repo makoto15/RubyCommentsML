@@ -1,0 +1,1 @@
+on_ignored_nl UNK on_symbeg UNK UNK on_symbeg UNK UNK on_symbeg UNK UNK on_symbeg UNK UNK on_symbeg UNK on_nl on_ignored_nl def UNK # TestInfo Contains a collection of info for testers. There is one "testInfo" for each locale. # # For now, when we set a value it sets the same value for all locales # When getting a value, we return the first locale values

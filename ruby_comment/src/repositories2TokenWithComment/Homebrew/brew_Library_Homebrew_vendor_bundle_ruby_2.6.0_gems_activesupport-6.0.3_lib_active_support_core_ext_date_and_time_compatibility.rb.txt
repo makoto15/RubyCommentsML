@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP # If true, +to_time+ preserves the timezone offset of receiver. # # NOTE: With Ruby 2.4+ the default for +to_time+ changed from # converting to the local system time, to preserving the offset # of the receiver. For backwards compatibility we're overriding # this behavior, but new apps will have an initializer that sets # this to true, because the new behavior is preferred.

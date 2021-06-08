@@ -1,0 +1,1 @@
+UNK on_const on_op on_const on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl # This class inherits from Hash and represents the environemnt into which # Dotenv will load key value pairs from a file.

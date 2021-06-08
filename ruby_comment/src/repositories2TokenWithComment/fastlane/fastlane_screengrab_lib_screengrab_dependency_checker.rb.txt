@@ -1,0 +1,2 @@
+UNK on_lparen android_home on_rparen UNK UNK on_nl end on_nl on_ignored_nl def self on_period UNK on_lparen android_home on_rparen on_ignored_nl UNK android_home # adb is required to function, so we'll quit noisily if we couldn't find it
+UNK on_lparen android_home on_rparen UNK UNK on_nl end on_nl on_ignored_nl def self on_period UNK on_lparen android_home on_rparen on_ignored_nl UNK android_home # aapt is not required in order to function, so we'll only warn if we can't find it.

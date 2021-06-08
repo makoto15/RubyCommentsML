@@ -1,0 +1,1 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const UNK UNK UNK # A general Vagrant system implementation for "solaris 11". # # Contributed by Jan Thomas Moldung <janth@moldung.no>

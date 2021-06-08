@@ -1,0 +1,1 @@
+expect on_lparen on_const on_op on_const on_op on_const on_op on_const on_period new on_period UNK on_rparen on_period UNK UNK on_lparen UNK on_rparen # Doesn't allow yaml as a network format, but allows `puppet facts upload` # to update the YAML cache on a master.

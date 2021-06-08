@@ -1,0 +1,1 @@
+expect on_lparen UNK on_period UNK on_rparen on_period to eq on_lparen on_const on_op on_const on_rparen on_period UNK eq on_lparen on_const on_op # JRuby 9.2.8 reports US-ASCII which is a subset of UTF-8

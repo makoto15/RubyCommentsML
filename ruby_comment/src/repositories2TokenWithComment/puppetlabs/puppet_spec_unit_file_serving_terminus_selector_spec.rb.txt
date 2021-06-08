@@ -1,0 +1,1 @@
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg protocol on_rparen on_period and_return on_lparen # This is so a given file location works when bootstrapping with no server.

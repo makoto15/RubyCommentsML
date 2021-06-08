@@ -1,0 +1,5 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a god from ancient mythology. # # @return [String] # # @example # Faker::Ancient.god #=> "Zeus" # # @faker.version 1.7.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a primordial from ancient mythology. # # @return [String] # # @example # Faker::Ancient.primordial #=> "Gaia" # # @faker.version 1.7.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a titan from ancient mythology. # # @return [String] # # @example # Faker::Ancient.titan #=> "Atlas" # # @faker.version 1.7.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces a hero from ancient mythology. # # @return [String] # # @example # Faker::Ancient.hero #=> "Achilles" # # @faker.version 1.7.0

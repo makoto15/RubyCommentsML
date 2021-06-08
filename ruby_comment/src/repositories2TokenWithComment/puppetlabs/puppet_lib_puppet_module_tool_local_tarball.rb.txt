@@ -1,0 +1,2 @@
+on_const on_op on_const on_op on_const on_op on_const on_period UNK on_lparen dir on_comma UNK on_rparen on_nl on_ignored_nl on_const on_period UNK on_lparen # Make sure unpacked module has the same ownership as the folder we are moving it into.
+def UNK on_nl on_ivar on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_const on_op on_const on_op on_const on_period UNK # Obtain a suitable temporary path for unpacking tarballs # # @return [String] path to temporary unpacking location

@@ -1,0 +1,2 @@
+def UNK on_nl on_const on_period config on_period UNK on_lparen on_const on_period UNK on_rparen on_nl on_ignored_nl on_const on_op on_const on_period UNK # Uses the spaceship to download app metadata and then run all rule checkers
+def UNK on_nl return if UNK on_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content UNK on_const on_period config on_lbracket on_symbeg UNK # Makes sure the current App ID exists. If not, it will show an appropriate error message

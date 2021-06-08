@@ -1,0 +1,1 @@
+provider on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbracket on_symbeg ensure on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl # Force the provider to think a version of the package is already installed # This is real hacky. I'm sorry. --jeffweiss 25 Jan 2013

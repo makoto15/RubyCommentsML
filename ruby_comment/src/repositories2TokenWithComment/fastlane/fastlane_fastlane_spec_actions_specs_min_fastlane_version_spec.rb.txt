@@ -1,0 +1,2 @@
+UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK UNK on_rparen on_nl expect on_lparen on_const on_op on_const on_rparen on_period to UNK on_lparen # We have to clean ENV to be sure that Bundler environement is not defined.
+UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end UNK on_rparen on_nl on_const on_op on_const # Let's define BUNDLE_BIN_PATH in ENV to simulate a bundler environement

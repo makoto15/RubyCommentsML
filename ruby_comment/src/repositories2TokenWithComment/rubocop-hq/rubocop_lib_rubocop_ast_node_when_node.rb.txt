@@ -1,0 +1,7 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_op UNK on_nl UNK UNK on_nl UNK UNK UNK on_op on_op # frozen_string_literal: true
+UNK UNK on_op UNK on_nl UNK UNK on_nl UNK UNK UNK on_op on_op UNK UNK on_nl end on_nl on_ignored_nl UNK # A node extension for `when` nodes. This will be used in place of a plain # node when the builder constructs the AST, making its methods available # to all `when` nodes within RuboCop.
+UNK UNK on_nl UNK UNK UNK on_op on_op UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK UNK UNK # Returns an array of all the conditions in the `when` branch. # # @return [Array<Node>] an array of condition nodes
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK on_op UNK # Calls the given block for each condition node in the `when` branch. # If no block is given, an `Enumerator` is returned. # # @return [self] if a block is given # @return [Enumerator] if no block is given
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK UNK # Returns the index of the `when` branch within the `case` statement. # # @return [Integer] the index of the `when` branch
+UNK UNK on_nl UNK UNK UNK on_op UNK UNK UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl # Checks whether the `when` node has a `then` keyword. # # @return [Boolean] whether the `when` node has a `then` keyword
+UNK UNK on_nl UNK UNK on_op UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP # Returns the body of the `when` node. # # @return [Node, nil] the body of the `when` node

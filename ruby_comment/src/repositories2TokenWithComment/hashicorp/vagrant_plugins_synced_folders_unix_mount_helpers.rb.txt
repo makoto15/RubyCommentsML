@@ -1,0 +1,1 @@
+machine on_period UNK on_period UNK UNK on_period UNK on_lparen UNK on_tstring_content UNK on_comma on_tstring_beg on_tstring_end on_rparen on_nl on_tstring_content on_embexpr_beg UNK # Emit an upstart event if we can

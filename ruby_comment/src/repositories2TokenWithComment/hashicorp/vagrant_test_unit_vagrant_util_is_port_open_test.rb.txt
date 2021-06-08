@@ -1,0 +1,7 @@
+UNK on_op on_const on_period UNK do on_ignored_nl UNK on_op on_const on_period UNK on_lparen UNK on_rparen on_nl on_const on_period UNK UNK # Start a thread which listens on a port
+on_const on_period UNK UNK on_symbeg UNK UNK on_op UNK on_nl UNK on_op on_const on_period UNK UNK on_symbeg UNK UNK on_nl # Wait until we're told to die
+UNK on_period UNK on_nl end on_nl on_ignored_nl UNK on_op UNK UNK on_symbeg UNK UNK on_nl on_const on_period UNK on_nl end # Die!
+UNK on_op UNK UNK on_symbeg UNK UNK on_nl on_const on_period UNK on_nl end on_nl on_ignored_nl expect on_lparen UNK on_period UNK # Wait until the server is running
+expect on_lparen UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_rparen on_period UNK UNK on_nl on_ignored_nl UNK UNK # Verify that we report the port is open
+UNK UNK on_symbeg UNK UNK on_op UNK on_nl UNK on_period UNK on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do # Kill the thread
+expect on_lparen UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_rparen on_period UNK UNK on_nl end on_nl on_ignored_nl # This CAN fail, since port 52811 might actually be in use, but I'm # not sure what to do except choose some random port and hope for the # best, really.

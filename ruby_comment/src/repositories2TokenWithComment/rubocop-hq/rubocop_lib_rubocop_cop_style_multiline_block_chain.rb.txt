@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK # This cop checks for chaining of a block after another block that spans # multiple lines. # # @example # # Thread.list.find_all do |t| # t.alive? # end.map do |t| # t.object_id # end
+UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP # Done. If there are more blocks in the chain, they will be # found by subsequent calls to on_block.

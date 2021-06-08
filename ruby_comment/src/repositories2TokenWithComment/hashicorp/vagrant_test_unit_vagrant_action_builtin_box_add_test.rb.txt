@@ -1,0 +1,3 @@
+UNK checksum on_lparen path on_rparen on_ignored_nl on_const on_period new on_lparen path on_comma on_const on_op on_const on_rparen on_period checksum on_nl end # Helper to quickly SHA1 checksum a path
+env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_nl on_ignored_nl expect on_lparen box_collection on_rparen on_period to receive on_lparen on_symbeg add on_rparen # Convert to a different case
+env on_lbracket on_symbeg box_url on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl env on_lbracket on_symbeg UNK on_rbracket on_op UNK on_lparen on_tstring_beg # Set the box URL to something fake so we can modify it in place

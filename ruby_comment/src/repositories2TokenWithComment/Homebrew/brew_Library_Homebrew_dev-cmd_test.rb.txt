@@ -1,0 +1,6 @@
+on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
+UNK f on_period UNK on_nl UNK on_tstring_beg on_tstring_content on_embexpr_beg f on_period full_name on_embexpr_end on_tstring_end on_nl UNK on_nl end on_nl on_ignored_nl # Cannot test uninstalled formulae
+UNK f on_period UNK on_nl UNK on_tstring_beg on_embexpr_beg f on_period full_name on_embexpr_end on_tstring_content on_tstring_end on_nl UNK on_nl end on_nl on_ignored_nl # Cannot test formulae without a test method
+if on_op UNK on_period UNK on_op on_op f on_period UNK on_op on_op f on_period UNK on_nl UNK on_tstring_beg on_embexpr_beg f # Don't test unlinked formulae
+UNK on_op f on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl on_const on_period UNK if UNK on_period UNK on_nl # Don't test formulae missing test dependencies
+UNK on_tstring_beg on_embexpr_beg f on_period full_name on_embexpr_end on_tstring_content on_tstring_end on_nl UNK UNK on_comma UNK on_period UNK on_nl UNK on_ignored_nl on_const # rubocop:disable Lint/RescueException

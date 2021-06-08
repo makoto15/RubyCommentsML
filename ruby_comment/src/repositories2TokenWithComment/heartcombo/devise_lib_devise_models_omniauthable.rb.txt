@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK on_nl UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const # frozen_string_literal: true
+UNK on_const on_nl UNK on_const UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl # Adds OmniAuth support to your model. # # == Options # # Oauthable adds the following options to devise_for: # # * +omniauth_providers+: Which providers are available to this model. It expects an array: # # devise_for :database_authenticatable, :omniauthable, omniauth_providers: [:twitter] #

@@ -1,0 +1,2 @@
+UNK on_op UNK on_op UNK on_op UNK UNK UNK UNK UNK UNK UNK on_op on_op UNK UNK UNK UNK on_op # Include the specified classes
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK #TRANSLATORS "function_include", "Scope", and "Scope#call_function" refer to Puppet internals and should not be translated

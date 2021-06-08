@@ -1,0 +1,1 @@
+download_options on_lbracket on_symbeg UNK on_rbracket on_op machine on_period config on_period vm on_period UNK on_nl download_options on_lbracket on_symbeg UNK on_rbracket on_op # Get download options from machine configuration if not specified # on the command line.

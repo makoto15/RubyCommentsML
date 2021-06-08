@@ -1,0 +1,3 @@
+allow on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen UNK on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg # This is so the tests work w/out networking.
+terminus on_op on_const on_op on_const on_op on_const on_period indirection on_period terminus on_lparen on_symbeg UNK on_rparen on_nl expect on_lparen terminus on_rparen # Load now, before we stub the exists? method.
+UNK on_op on_const on_op on_const on_op on_const on_period indirection on_period terminus on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl node on_op UNK # Load now, before we stub the exists? method.

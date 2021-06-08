@@ -1,0 +1,4 @@
+UNK on_const on_op on_const on_period client on_nl UNK UNK on_period UNK on_op UNK on_period UNK on_op on_const on_op on_const on_period # Verify there is a client that can be used
+UNK UNK on_period UNK on_op UNK on_period UNK on_op on_const on_op on_const on_period client on_period UNK on_nl UNK on_op on_const # Initialize new client if new or if team changed
+UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK on_nl end on_nl on_ignored_nl UNK UNK on_period UNK UNK UNK UNK # Need to handle not having a client but this shouldn't ever happen
+UNK UNK on_period UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK on_period UNK UNK UNK client UNK UNK ## # Have subclasses inherit the client from their superclass # # Essentially, we are making a class-inheritable-accessor as described here: # https://apidock.com/rails/v4.2.7/Class/class_attribute

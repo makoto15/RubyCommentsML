@@ -1,0 +1,6 @@
+let on_lparen on_symbeg test_path on_rparen on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_nl let on_lparen on_symbeg UNK on_rparen on_lbrace on_tstring_beg on_tstring_content on_tstring_end # Variables
+let on_lparen on_symbeg xcodeproj on_rparen on_lbrace on_const on_period UNK on_lparen test_path on_comma UNK on_rparen on_rbrace on_nl let on_lparen on_symbeg plist_path # Action parameters
+UNK create_plist_with_identifier on_lparen UNK on_rparen on_ignored_nl on_const on_period UNK on_lparen on_const on_period UNK on_lparen test_path on_comma plist_path on_rparen on_comma on_tstring_beg # Is there a better place for an helper function? # Create an Info.plist file with a supplied bundle_identifier parameter
+on_const on_period UNK on_lparen test_path on_rparen on_nl UNK on_op on_const on_period UNK on_lparen UNK on_comma UNK on_rparen on_nl UNK on_op # Create test folder
+on_const on_period UNK on_lparen UNK on_comma UNK on_rparen on_nl end on_nl on_ignored_nl UNK on_const on_op on_const on_period UNK on_nl it # Copy .xcodeproj fixture, as it will be modified during the test
+on_const on_period UNK on_lparen test_path on_rparen on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP # Clean up files

@@ -1,0 +1,2 @@
+UNK UNK on_const UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl on_ignored_nl assert_search on_tstring_beg on_tstring_content on_tstring_end on_comma on_lbracket on_tstring_beg on_tstring_content # https://github.com/elastic/elasticsearch/issues/39237
+UNK UNK on_const UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl on_ignored_nl assert_search on_tstring_beg on_tstring_content on_tstring_end on_comma on_lbracket on_tstring_beg on_tstring_content # CONTAINS query relation not supported

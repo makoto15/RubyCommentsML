@@ -1,0 +1,1 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK # The same as length() - returns the size of an Array, Hash, String, or Binary value. # # @since 6.0.0 - also supporting Binary #

@@ -1,0 +1,4 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_nl on_ignored_nl UNK on_const on_nl on_ignored_nl on_const #!/usr/bin/env ruby
+on_const on_op UNK on_ignored_nl on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_symbeg process on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl # default options
+UNK on_op on_const on_period UNK on_nl UNK on_op on_const on_lbracket on_symbeg UNK on_rbracket on_op on_int on_nl on_ignored_nl UNK on_ignored_nl on_ivar # Set variables
+UNK on_ignored_nl on_ivar on_op on_const on_period UNK on_lparen on_tstring_beg on_embexpr_beg on_const on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_end on_rparen on_nl UNK # Check file time

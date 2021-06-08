@@ -1,0 +1,25 @@
+on_const on_op UNK on_nl on_ignored_nl UNK do on_ignored_nl on_ivar on_op on_const on_period new on_nl on_ivar on_period UNK on_lparen UNK on_lparen # This may be shorter than ruby's threading timer, but work well # @nalsh says that ruby's cpu assignments for threads are almost 200ms or so. # Loop interval (expected that it work as specified) should be longer than it.
+ary on_op on_int on_nl m on_period unlock on_nl end on_nl ary on_op on_int on_nl m on_period unlock on_nl sleep on_const # discard
+cmd on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ivar on_period child_process_execute on_lparen on_symbeg UNK on_comma cmd on_comma on_label on_lbracket on_symbeg write on_comma # lots of stderr message should not be blocked and message should not be printed in test.
+end on_nl end on_nl sleep on_const until ran on_nl sleep on_int on_nl on_ignored_nl on_ivar on_period stop on_ivar on_period shutdown on_nl # ignore
+on_ivar on_period shutdown on_nl assert on_lbrace ary on_period size on_op on_int on_rbrace on_nl on_ignored_nl on_ivar on_period close on_nl on_ignored_nl on_ivar # nothing occurs
+test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_const on_period windows? on_nl on_ignored_nl m on_op on_const on_period # In windows environment, child_process try KILL at first (because there's no SIGTERM)
+UNK on_ignored_nl m on_period unlock on_nl end on_nl end on_nl sleep on_const until m on_period locked? on_op ran on_nl on_ignored_nl # ignore
+UNK on_op nil on_nl waiting on_lparen on_const on_op on_int on_rparen do on_ignored_nl UNK on_op ary on_period size on_nl UNK on_op # nothing occurs
+on_ivar on_period UNK on_lbrace on_ivar on_op on_int on_rbrace on_nl on_ivar on_period shutdown on_nl sleep on_const on_nl UNK on_op ary on_period # default value 10 is too long for test
+assert true on_nl end on_nl end on_nl on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl ary on_op on_lbracket on_rbracket on_nl arguments # Process successfully KILLed if test reaches here
+assert_equal on_lbracket on_rbracket on_comma on_ivar on_period log on_period out on_period logs on_nl on_ivar on_period stop on_nl assert_equal on_lbracket on_rbracket on_comma # 2sec(second invocation) + 0.5sec
+on_ivar on_period stop on_semicolon on_ivar on_period shutdown on_semicolon on_ivar on_period close on_semicolon on_ivar on_period terminate on_nl assert_equal on_int on_comma ary # 2sec(second invocation) + 0.5sec
+on_const on_period timeout on_lparen on_const on_rparen do on_ignored_nl assert_equal on_lbracket on_rbracket on_comma on_ivar on_period log on_period out on_period logs on_nl # 5 sec
+on_const on_period timeout on_lparen on_const on_rparen do on_ignored_nl on_ivar on_period child_process_execute on_lparen on_symbeg UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_label # 5 sec
+UNK unless UNK on_nl on_ignored_nl m on_op on_const on_period new on_nl UNK on_op on_lbracket on_rbracket on_nl UNK on_op on_lbracket on_rbracket # Does TravisCI prohibit process renaming? # This test will be passed in such environment
+assert on_lbrace UNK on_period UNK on_lbrace on_op line on_op line on_op UNK on_tstring_content on_embexpr_beg pid on_embexpr_end on_tstring_content UNK on_rbrace on_period # 16357 sleeeeeeeeeper -e sleep 10; puts "hello"
+cmd on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op UNK on_lparen cmd on_rparen on_lbrace on_op io on_op io on_period read on_period # check my real /tmp directory (for mac)
+pid on_op on_ivar on_period UNK on_lbrace UNK on_rbrace on_nl str on_op readio on_period read on_period chomp on_nl block_exits on_op true # ensure yet to be called
+waiting on_lparen on_const on_rparen on_lbrace sleep on_const until block_exits on_rbrace on_nl waiting on_lparen on_const on_rparen on_lbrace sleep on_const until callback_called # to get exit status
+block_exits on_op true on_nl end on_nl waiting on_lparen on_const on_rparen on_lbrace sleep on_const while on_ivar on_period UNK on_lparen pid on_rparen # empty string before EOF
+waiting on_lparen on_const on_rparen on_lbrace sleep on_const until block_exits on_rbrace on_nl waiting on_lparen on_const on_rparen on_lbrace sleep on_const until callback_called # to get exit status
+UNK exit_status on_period exitstatus on_nl assert_equal on_int on_comma exit_status on_period UNK end on_nl assert on_const on_period exist? on_lparen on_ivar on_rparen # On Windows, exitstatus is always 0 and termsig is nil
+end on_nl assert on_const on_period exist? on_lparen on_ivar on_rparen on_nl end on_nl on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl assert # SIGKILL
+UNK exit_status on_period exitstatus on_nl assert_equal on_int on_comma exit_status on_period UNK end on_nl assert on_const on_period exist? on_lparen on_ivar on_rparen # On Windows, exitstatus is always 0 and termsig is nil
+end on_nl assert on_const on_period exist? on_lparen on_ivar on_rparen on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP # SIGKILL

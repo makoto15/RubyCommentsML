@@ -1,0 +1,3 @@
+UNK register_provider on_lparen name on_comma UNK on_op nil on_comma UNK on_op nil on_rparen on_ignored_nl provider_cls on_op on_const on_period new on_lparen # A helper to register a provider for use in tests.
+results on_op subject on_period machine_config on_lparen on_symbeg default on_comma on_symbeg foo on_comma boxes on_rparen on_nl config on_op results on_lbracket on_symbeg # Test with the override
+results on_op subject on_period machine_config on_lparen on_symbeg default on_comma on_symbeg UNK on_comma boxes on_rparen on_nl config on_op results on_lbracket on_symbeg # Test without the override

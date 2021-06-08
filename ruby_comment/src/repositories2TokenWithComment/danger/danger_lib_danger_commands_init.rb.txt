@@ -1,0 +1,2 @@
+ui on_period say on_tstring_beg on_tstring_content on_tstring_end on_nl ui on_period link on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content on_tstring_end on_nl ui on_period # https://travis-ci.org/artsy/eigen/settings
+if UNK on_nl ui on_period say on_tstring_beg on_tstring_content on_tstring_end on_nl ui on_period say on_tstring_beg on_tstring_content on_tstring_end on_nl ui on_period say # https://circleci.com/gh/artsy/eigen/edit#env-vars

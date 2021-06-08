@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK # frozen_string_literal: true
+UNK on_const on_nl UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_period UNK on_period UNK on_op UNK on_nl # Handles the `MinSize` configuration option for array-based cops # `Style/SymbolArray` and `Style/WordArray`, which check for use of the # relevant percent literal syntax such as `%i[...]` and `%w[...]`
+UNK cfg on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period UNK on_nl cfg on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op style on_period UNK # do nothing

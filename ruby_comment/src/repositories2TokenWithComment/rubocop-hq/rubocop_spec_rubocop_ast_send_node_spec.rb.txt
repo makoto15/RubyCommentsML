@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_period describe UNK UNK UNK UNK UNK do on_ignored_nl let on_lparen on_symbeg send_node on_rparen on_lbrace parse_source on_lparen source # frozen_string_literal: true
+context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen on_symbeg send_node on_rparen on_lbrace parse_source on_lparen source on_rparen on_period ast on_period send_node # Regression test https://github.com/rubocop-hq/rubocop/pull/5194

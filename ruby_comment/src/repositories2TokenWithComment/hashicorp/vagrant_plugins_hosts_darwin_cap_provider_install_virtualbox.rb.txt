@@ -1,0 +1,5 @@
+on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_period UNK on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_period UNK on_nl on_const on_op on_tstring_beg on_tstring_content # The URL to download VirtualBox is hardcoded so we can have a # known-good version to download.
+ui on_op on_const on_op on_const on_op on_const on_period UNK on_lparen UNK on_period ui on_comma on_tstring_beg on_tstring_end on_rparen on_nl on_ignored_nl ui # Prefixed UI for prettiness
+ui on_period UNK on_lparen on_const on_period UNK on_lparen on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_label on_const on_rparen on_rparen on_nl ui # Start by downloading the file using the standard mechanism
+UNK on_op on_const on_period UNK on_lparen UNK on_comma on_const on_op on_const on_rparen on_period UNK on_nl UNK UNK on_op on_const on_nl # Validate that the file checksum matches
+ui on_period UNK on_lparen on_const on_period UNK on_lparen on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rparen on_nl ui on_period UNK on_lparen on_const # Launch it

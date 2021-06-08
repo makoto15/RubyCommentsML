@@ -1,0 +1,2 @@
+UNK UNK UNK UNK on_period UNK UNK UNK UNK UNK UNK UNK UNK on_symbeg UNK UNK UNK on_symbeg UNK end # We can't define the "command" for the init script, so we call system?
+UNK UNK on_nl end on_nl on_ignored_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Purposely leave blank so we fail back to ps based status detection # As OpenWrt init script do not have status commands

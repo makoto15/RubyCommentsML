@@ -1,0 +1,3 @@
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK UNK # Converts a *nix 'grep' command to a PowerShell equivalent (none)
+UNK UNK UNK on_nl end on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # grep 'Fedora release [12][67890]' /etc/redhat-release # grep Funtoo /etc/gentoo-release # grep Gentoo /etc/gentoo-release
+UNK UNK on_nl end on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # grep is often used to detect the guest type in Vagrant, so don't bother running # to speed up OS detection

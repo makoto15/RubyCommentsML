@@ -1,0 +1,3 @@
+UNK UNK on_nl UNK UNK UNK UNK on_comma UNK on_comma UNK on_comma UNK on_comma UNK on_comma UNK on_op UNK UNK # This class is used within the Builder class for injecting triggers into # different parts of the call stack.
+UNK UNK UNK UNK on_comma UNK on_comma UNK on_comma UNK on_comma UNK on_comma UNK on_op UNK UNK UNK on_ignored_nl on_ivar # @param [Class, String, Symbol] name Name of trigger to fire # @param [Vagrant::Plugin::V2::Triger] triggers Trigger object # @param [Symbol] timing When trigger should fire (:before/:after) # @param [Symbol] type Type of trigger
+on_ivar UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP # Carry on

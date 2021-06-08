@@ -1,0 +1,1 @@
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl mock_app do on_ignored_nl before on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbrace params on_lbracket on_tstring_beg on_tstring_content # ref: issue #1567

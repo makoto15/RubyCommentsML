@@ -1,0 +1,5 @@
+end on_nl end on_nl class on_const on_op on_const on_op on_const on_op on_const on_nl on_const on_op on_const on_period UNK on_lparen on_tstring_beg # drop
+end on_nl end on_nl class on_const on_op on_const on_op on_const on_op on_const on_nl on_const on_op on_const on_period UNK on_lparen on_tstring_beg # drop
+on_label on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_const on_comma on_symbeg UNK on_rbracket on_comma on_label on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_const on_comma # with Dummy1Storage
+on_label on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_const on_comma on_symbeg new_output on_rbracket on_comma on_rparen on_nl test on_tstring_beg on_tstring_content on_tstring_end do on_op # with DummyParser and DummyFormatter
+on_rparen on_nl test on_tstring_beg on_tstring_content on_tstring_end do on_op on_lparen type on_comma UNK on_comma new_method on_rparen on_op on_ignored_nl conf on_op config_element # with Dummy1Buffer

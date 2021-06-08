@@ -1,0 +1,6 @@
+UNK on_op UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content on_tstring_end on_op UNK UNK on_symbeg name UNK on_nl on_ignored_nl UNK on_op UNK # -N: install if the package is missing, otherwise upgrade # -M: yes, we're a batch, so don't ask any questions
+UNK UNK on_nl UNK on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_comma UNK UNK on_symbeg name UNK UNK on_nl on_ignored_nl UNK on_ignored_nl # If there are multiple packages, we only use the last one
+UNK on_symbeg UNK on_nl end on_nl on_ignored_nl UNK on_op on_backref on_nl UNK on_op on_backref on_nl UNK on_op on_backref on_nl on_ignored_nl # There's no "latest" version, so just return a placeholder
+UNK UNK on_nl end on_nl on_ignored_nl on_ignored_nl UNK UNK on_op on_regexp_beg on_tstring_content on_regexp_end on_nl UNK on_const on_op on_const on_comma on_ignored_nl # we're up to date or more recent
+on_ignored_nl UNK UNK on_op on_regexp_beg on_tstring_content on_regexp_end on_nl UNK on_const on_op on_const on_comma on_ignored_nl UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # Else, we need to be updated; we need to pull out the new version
+name on_op UNK on_period name on_nl UNK name on_op on_regexp_beg on_tstring_content on_regexp_end on_nl name on_op UNK on_period name on_period UNK # support portorigin_glob such as "mail/postfix"

@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl UNK # frozen_string_literal: true
+UNK on_op UNK on_tstring_content UNK on_nl UNK UNK UNK on_comma on_const on_op on_const on_period UNK UNK on_nl end on_nl on_ignored_nl # got the following regex from http://stackoverflow.com/a/123666/1210055 as an expression of the NANP standard.

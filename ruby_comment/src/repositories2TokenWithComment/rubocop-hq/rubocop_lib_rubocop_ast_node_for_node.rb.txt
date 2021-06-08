@@ -1,0 +1,8 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl def UNK on_nl UNK UNK UNK on_nl end # frozen_string_literal: true
+UNK UNK UNK UNK on_nl def UNK on_nl UNK UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK # A node extension for `for` nodes. This will be used in place of a plain # node when the builder constructs the AST, making its methods available # to all `for` nodes within RuboCop.
+def UNK on_nl UNK UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK UNK UNK UNK UNK UNK # Returns the keyword of the `for` statement as a string. # # @return [String] the keyword of the `until` statement
+def UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl # Checks whether the `for` node has a `do` keyword. # # @return [Boolean] whether the `for` node has a `do` keyword
+def UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl def # Checks whether this node body is a void context. # Always `true` for `for`. # # @return [true] whether the `for` node body is a void context
+def UNK on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK UNK UNK on_nl end # Returns the iteration variable of the `for` loop. # # @return [Node] The iteration variable of the `for` loop
+def UNK on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK UNK UNK on_nl end # Returns the collection the `for` loop is iterating over. # # @return [Node] The collection the `for` loop is iterating over
+def UNK on_nl UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP # Returns the body of the `for` loop. # # @return [Node, nil] The body of the `for` loop.

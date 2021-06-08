@@ -1,0 +1,5 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl UNK # frozen_string_literal: true
+UNK on_op UNK on_period UNK UNK on_op mod on_op on_const on_op on_const on_op UNK on_lparen mod on_period UNK on_period UNK # get module constants from symbol list
+assert_equal UNK on_comma on_lparen on_const on_period UNK on_op UNK on_rparen on_period UNK on_nl end on_nl on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end # confirm that they adhere to the order in ALL # get included modules, filter out the noise, and reverse the order
+on_const on_period UNK UNK UNK on_symbeg database_authenticatable on_comma on_symbeg UNK UNK on_nl end on_nl end on_nl on_ignored_nl test on_tstring_beg on_tstring_content # Mix valid an invalid modules.
+klass on_op on_const on_period UNK on_lparen on_const on_rparen do on_ignored_nl UNK UNK on_lparen on_op on_rparen UNK end on_nl end on_nl # Ignore email sending since no email exists.

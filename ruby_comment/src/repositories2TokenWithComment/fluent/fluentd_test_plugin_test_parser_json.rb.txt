@@ -1,0 +1,1 @@
+UNK on_period UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Once a record has been received the 'write' end of the pipe must be # closed, otherwise the test will block waiting for more input.

@@ -1,0 +1,4 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK on_lparen # frozen_string_literal: true
+UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK on_lparen range UNK UNK on_rparen on_ignored_nl range on_period # Common functionality for obtaining source ranges from regexp matches
+UNK UNK on_lparen range UNK UNK on_rparen on_ignored_nl range on_period UNK on_period UNK on_lparen UNK on_rparen UNK on_ignored_nl UNK UNK # Return a new `Range` covering the first matching group number for each # match of `regex` inside `range`
+UNK UNK on_lparen range UNK UNK on_rparen on_ignored_nl UNK on_lparen range on_period UNK UNK UNK on_period UNK on_lparen UNK on_rparen # For a `match` inside `range`, return a new `Range` covering the match

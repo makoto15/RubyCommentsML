@@ -1,0 +1,1 @@
+catalog on_op compile_to_catalog on_lparen on_heredoc_beg on_rparen on_nl on_tstring_content on_heredoc_end on_ignored_nl expect on_lparen catalog on_period resource on_lparen on_symbeg notify on_comma on_tstring_beg # this also tests that include_refs => true includes references

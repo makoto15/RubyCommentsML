@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK # This cop checks for usage of the %W() syntax when %w() would do. # # @example # # bad # %W(cat dog pig) # %W[door wall floor] # # # good # %w/swim run bike/ # %w[shirt pants shoes] # %W(apple #{fruit} grape)

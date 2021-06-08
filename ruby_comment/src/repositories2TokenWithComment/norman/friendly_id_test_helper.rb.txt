@@ -1,0 +1,1 @@
+if on_const on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_period UNK on_op on_const # If you want to see the ActiveRecord log, invoke the tests using `rake test LOG=true`

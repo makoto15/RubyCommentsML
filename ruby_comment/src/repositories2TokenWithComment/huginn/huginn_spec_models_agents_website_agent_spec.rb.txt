@@ -1,0 +1,7 @@
+on_rbrace on_nl checker on_op on_const on_op on_const on_period new on_lparen on_symbeg name on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg options on_op # no unzip option
+on_rbrace on_nl checker on_op on_const on_op on_const on_period new on_lparen on_symbeg name on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg options on_op # no unzip option
+on_ivar on_period check on_nl expect on_lparen on_ivar on_period UNK on_rparen on_period to UNK on_ignored_nl on_ivar on_period UNK on_tstring_beg on_tstring_content on_tstring_end # No events created
+on_ignored_nl on_ivar on_period UNK on_tstring_beg on_tstring_content on_tstring_end on_nl expect on_lparen on_ivar on_period UNK on_rparen on_period not_to UNK on_ignored_nl UNK on_op # Just created events
+on_ignored_nl UNK on_op on_int on_period UNK on_period UNK on_nl on_ivar on_period events on_period UNK on_nl on_ivar on_period check on_nl expect # There is a recent error
+on_ignored_nl UNK on_op on_int on_period UNK on_period UNK on_nl expect on_lparen on_ivar on_period UNK on_rparen on_period not_to UNK end on_nl # There is a newer event now
+end on_nl end on_nl on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_ivar on_period check # Two days have passed without a new event having been created

@@ -1,0 +1,5 @@
+UNK on_const on_nl on_ignored_nl UNK on_const on_nl UNK on_nl on_ignored_nl def UNK on_nl on_ivar on_period UNK on_nl UNK on_nl end # noinspection RubyInstanceVariableNamingConvention
+UNK on_const on_nl UNK on_nl on_ignored_nl def UNK on_nl on_ivar on_period UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK # @!visibility private # @!macro internal_implementation_note
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK on_nl on_ignored_nl def UNK on_lparen on_op UNK on_rparen on_ignored_nl UNK # @!visibility private # @!macro internal_implementation_note
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK on_nl on_ignored_nl def UNK on_lparen on_op UNK on_rparen on_ignored_nl UNK # @!visibility private # @!macro internal_implementation_note
+on_ivar on_period UNK UNK UNK UNK on_nl end on_nl on_ignored_nl def UNK on_lparen UNK on_op UNK on_rparen on_ignored_nl on_ivar on_period # TODO may be a problem with lock.synchronize { lock.wait }

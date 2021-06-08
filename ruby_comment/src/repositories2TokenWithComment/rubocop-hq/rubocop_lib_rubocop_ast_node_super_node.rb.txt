@@ -1,0 +1,3 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK # A node extension for `super`- and `zsuper` nodes. This will be used in # place of a plain node when the builder constructs the AST, making its # methods available to all `super`- and `zsuper` nodes within RuboCop.
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK # Custom destructuring method. This can be used to normalize # destructuring for different variations of the node. # # @return [Array] the different parts of the `super` node

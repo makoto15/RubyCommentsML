@@ -1,0 +1,3 @@
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl response on_op on_const on_op on_const on_period new on_lparen on_ivar on_comma on_ivar on_comma on_ivar on_rparen # Backwards-compatibility - previously, #headers returned a Hash
+UNK on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_op on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_lbracket on_symbeg UNK on_rbracket on_op # Ruby 2.0, new name for this response.
+UNK on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_op on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_lbracket on_symbeg UNK on_rbracket on_op # Ruby 2.6, those status codes have been updated.

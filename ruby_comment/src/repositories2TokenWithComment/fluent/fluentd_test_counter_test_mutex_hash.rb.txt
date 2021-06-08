@@ -1,0 +1,7 @@
+value2 on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ivar on_period synchronize on_lparen key on_rparen do on_op store on_comma k on_op on_ignored_nl store # access the same key once again
+value2 on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ivar on_period UNK on_lparen key on_rparen do on_op store on_comma k on_op on_ignored_nl store # access the same key once again
+UNK on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_period UNK on_lparen UNK on_rparen on_nl on_ignored_nl on_ivar # timecop isn't compatible with EventTime
+ct on_op on_ivar on_period instance_variable_get on_lparen on_symbeg on_ivar on_rparen on_nl UNK on_lparen ct on_rparen on_period UNK on_lparen on_symbeg UNK on_rparen # stub sleep method to avoid waiting CLEANUP_INTERVAL
+on_ignored_nl on_ivar on_period UNK UNK on_int on_nl on_ignored_nl ct on_op on_ivar on_period instance_variable_get on_lparen on_symbeg on_ivar on_rparen on_nl UNK ct # 15 min
+UNK on_int on_nl on_ignored_nl ct on_op on_ivar on_period instance_variable_get on_lparen on_symbeg on_ivar on_rparen on_nl UNK ct on_nl on_ignored_nl on_ivar on_period # start cleanup
+UNK on_int on_nl on_ignored_nl ct on_op on_ivar on_period instance_variable_get on_lparen on_symbeg on_ivar on_rparen on_nl UNK ct on_lbracket name on_rbracket on_nl # start cleanup

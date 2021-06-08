@@ -1,0 +1,4 @@
+UNK on_period UNK UNK on_op UNK on_comma opts on_op on_ignored_nl UNK on_op on_const on_period UNK on_lparen opts on_lbracket on_symbeg UNK # Mount each folder separately so we can retry.
+UNK on_op on_const on_period UNK on_lparen opts on_lbracket on_symbeg UNK on_rbracket on_rparen on_nl UNK on_op on_const on_period UNK on_lparen opts # Shellescape the paths in case they do not have special characters.
+mount_opts on_op on_lbracket on_rbracket on_nl mount_opts on_op on_tstring_beg on_tstring_content on_embexpr_beg opts on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_end UNK opts on_lbracket # Build the list of mount options.
+UNK on_lparen UNK on_const on_op on_const on_op on_const on_comma UNK UNK on_comma UNK UNK on_rparen UNK on_ignored_nl machine on_period UNK # Run the command, raising a specific error.

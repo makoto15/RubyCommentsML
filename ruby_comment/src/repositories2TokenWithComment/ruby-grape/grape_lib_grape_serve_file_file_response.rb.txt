@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl # A simple class used to identify responses which represent files and do not # need to be formatted or pre-read by Rack::Response
+UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK # @param file [Object]
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl # Equality provided mostly for tests. # # @return [Boolean]

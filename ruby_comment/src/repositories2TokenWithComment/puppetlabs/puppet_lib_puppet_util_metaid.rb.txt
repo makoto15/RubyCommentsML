@@ -1,0 +1,4 @@
+UNK UNK on_semicolon UNK on_op UNK on_semicolon UNK on_semicolon end on_semicolon end on_nl UNK UNK UNK on_op blk UNK on_semicolon # The hidden singleton lurks behind everyone
+UNK UNK UNK name UNK on_op blk UNK on_ignored_nl UNK UNK UNK name UNK on_op blk UNK on_nl end on_nl # Adds methods to a singleton_class
+UNK UNK UNK name UNK on_op blk UNK on_ignored_nl UNK UNK UNK name UNK on_nl end on_nl on_ignored_nl UNK UNK # Remove singleton_class methods.
+UNK UNK UNK name UNK on_op blk UNK on_ignored_nl UNK UNK UNK name UNK on_op blk UNK on_nl end on_nl # Defines an instance method within a class

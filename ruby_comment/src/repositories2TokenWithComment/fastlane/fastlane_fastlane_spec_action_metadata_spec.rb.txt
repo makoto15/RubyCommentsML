@@ -1,0 +1,2 @@
+expect on_lparen name on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period to UNK on_lparen action on_period UNK on_period UNK on_lparen # `to_s.gsub(/::.*/, '')` to convert # "Fastlane::Actions::AdbDevicesAction" # to # "AdbDevicesAction" #
+end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_op on_const on_lparen action on_period UNK on_op action on_period UNK # this will raise an exception if the method is not implemented

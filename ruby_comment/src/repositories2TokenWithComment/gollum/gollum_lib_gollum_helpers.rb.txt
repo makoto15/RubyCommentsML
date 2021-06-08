@@ -1,0 +1,3 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_const # ~*~ encoding: utf-8 ~*~
+on_const on_op on_const on_period UNK on_lparen name on_rparen on_op on_const on_op on_const on_period UNK on_lparen name on_rparen on_op name on_nl # Check if name already has a format extension, and if so, strip it.
+def UNK on_lparen UNK on_rparen on_ignored_nl UNK UNK UNK UNK on_period UNK on_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end # Remove all slashes from the start of string. # Remove all double slashes

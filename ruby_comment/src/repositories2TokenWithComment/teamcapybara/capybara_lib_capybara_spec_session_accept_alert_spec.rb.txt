@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK UNK on_period UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK UNK UNK UNK do on_ignored_nl UNK do on_ignored_nl # frozen_string_literal: true
+end on_nl expect on_lparen on_ivar on_rparen on_period to UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl on_ignored_nl UNK on_tstring_beg # ensure page change occurs before the accept_alert block exits

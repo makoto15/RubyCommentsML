@@ -1,0 +1,1 @@
+one on_op on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_nl # LAK: AFAICT, it's impossible to yield multiple times in an expectation.

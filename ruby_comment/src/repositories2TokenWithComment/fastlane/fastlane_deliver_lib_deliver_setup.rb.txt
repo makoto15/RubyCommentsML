@@ -1,0 +1,9 @@
+on_const on_period UNK on_lparen UNK on_rparen on_const on_period write on_lparen on_const on_period join on_lparen UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen # Add a README to the screenshots folder
+on_const on_period write on_lparen on_const on_period join on_lparen UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_comma on_const on_period UNK on_lparen on_tstring_beg # just in case the fetching didn't work
+def UNK on_lparen UNK on_comma options on_rparen on_ignored_nl v on_op options on_lbracket UNK UNK on_rbracket on_period UNK on_nl UNK on_op # This method takes care of creating a new 'deliver' folder, containing the app metadata # and screenshots folders
+UNK on_const on_period UNK on_lparen UNK on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl if UNK on_period UNK on_nl UNK # Generate the final Deliverfile here
+on_lparen on_const on_op on_const on_op on_const on_op on_const on_rparen on_period UNK UNK on_op key on_op on_ignored_nl v on_period UNK on_period # All the localised metadata
+on_lparen on_const on_op on_const on_op on_const on_op on_const on_rparen on_period UNK UNK on_op key on_op on_ignored_nl if on_const on_op on_const # All non-localised metadata
+on_const on_op on_const on_period UNK UNK on_op key on_comma UNK on_op on_ignored_nl content on_op v on_period send on_lparen key on_rparen # Trade Representative Contact Information
+on_const on_op on_const on_period UNK UNK on_op key on_comma UNK on_op on_ignored_nl content on_op v on_period send on_lparen key on_rparen # Review information
+if v on_period UNK on_period UNK on_nl UNK on_op on_const on_period UNK on_lparen v on_period UNK on_period UNK on_rparen on_nl # get App icon + watch icon

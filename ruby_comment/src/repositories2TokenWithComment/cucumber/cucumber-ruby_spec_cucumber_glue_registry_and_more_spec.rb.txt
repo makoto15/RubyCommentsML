@@ -1,0 +1,7 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl module on_const on_nl module on_const on_nl UNK on_const # frozen_string_literal: true
+UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_symbeg each on_rparen on_lbrace on_gvar on_op UNK on_rbrace on_nl on_ignored_nl UNK on_lparen # rubocop:disable Style/GlobalVars
+end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl dsl on_period on_const on_lbrace on_rbrace # rubocop:enable Style/GlobalVars
+end on_nl end on_nl on_ignored_nl module on_const on_nl end on_nl on_ignored_nl module on_const on_nl end on_nl on_ignored_nl class on_const on_nl # rubocop:disable Style/RegexpLiteral
+expect on_lparen UNK on_period inspect on_rparen on_period to UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen on_nl end on_nl expect on_lparen registry # Workaround for RSpec/Ruby 1.9 issue with namespaces
+on_ignored_nl expect on_lparen UNK UNK dsl on_period on_const on_lbrace on_const on_period UNK on_rbrace on_rbrace on_rparen on_period to UNK on_lparen on_const # rubocop:disable Style/EmptyLiteral
+end on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl module on_const on_nl UNK method_one on_nl on_int on_nl end # rubocop:disable Style/EmptyLiteral

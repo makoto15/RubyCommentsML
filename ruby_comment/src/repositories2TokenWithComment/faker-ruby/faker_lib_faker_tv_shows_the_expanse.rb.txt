@@ -1,0 +1,5 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from The Expanse. # # @return [String] # # @example # Faker::TvShows::TheExpanse.character #=> "Jim Holden" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a quote from The Expanse. # # @return [String] # # @example # Faker::TvShows::TheExpanse.quote #=> "I am that guy." # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a location from The Expanse. # # @return [String] # # @example # Faker::TvShows::TheExpanse.location #=> "Ganymede" # # @faker.version 1.9.2
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a ship from The Expanse. # # @return [String] # # @example # Faker::TvShows::TheExpanse.ship #=> "Nauvoo" # # @faker.version 1.9.2

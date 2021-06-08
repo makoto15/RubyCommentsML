@@ -1,0 +1,4 @@
+on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_ignored_nl UNK # frozen_string_literal: true
+UNK UNK UNK kls UNK UNK on_nl kls UNK UNK UNK UNK UNK UNK on_const on_op on_const UNK UNK kls #:nodoc: # Future subclasses will pick up the model extension
+UNK on_nl kls UNK UNK UNK UNK UNK UNK on_const on_op on_const UNK UNK kls UNK UNK on_op on_op on_const #:nodoc:
+UNK UNK UNK UNK on_op kls on_op on_ignored_nl kls UNK UNK UNK UNK UNK UNK on_const on_op on_const UNK UNK # Existing subclasses pick up the model extension as well

@@ -1,0 +1,1 @@
+resource on_period remove_filter on_symbeg author on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl resource on_period remove_filter on_symbeg author # this hits the DB

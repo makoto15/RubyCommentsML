@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK on_tstring_content UNK # frozen_string_literal: true
+UNK on_const on_op on_const on_nl on_const on_op UNK on_tstring_content UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_nl on_tstring_content UNK # Checks invalid usage for predicate matcher. # # Predicate matcher does not need a question. # This cop checks an unnecessary question in predicate matcher. # # @example # # # bad # expect(foo).to be_something? # # # good # expect(foo).to be_something

@@ -1,0 +1,1 @@
+def UNK on_nl on_op on_op self on_period UNK on_period UNK on_period UNK on_lparen UNK UNK on_const on_period UNK self on_period # @return [Boolean] whether scm.origins is a valid git repository or not

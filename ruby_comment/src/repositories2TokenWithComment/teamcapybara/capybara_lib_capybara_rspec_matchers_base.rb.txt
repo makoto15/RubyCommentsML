@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
+on_ivar on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar UNK on_symbeg session_options UNK on_op session_options on_nl on_ivar on_nl end on_nl # if @args.last.is_a? Hash # @args.last[:session_options] = session_options # else # @args.push(session_options: session_options) # end

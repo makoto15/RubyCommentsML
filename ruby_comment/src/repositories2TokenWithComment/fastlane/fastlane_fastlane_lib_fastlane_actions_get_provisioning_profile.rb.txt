@@ -1,0 +1,7 @@
+on_const on_op on_symbeg on_const on_nl on_const on_op on_symbeg on_const on_nl on_const on_op on_symbeg on_const on_nl end on_nl on_ignored_nl UNK on_const # deprecated
+on_ignored_nl UNK on_op on_const on_op on_const on_period UNK on_nl on_ignored_nl on_const on_period lane_context on_lbracket on_const on_op on_const on_rbracket on_op UNK # we already have the finished config
+on_const on_period lane_context on_lbracket on_const on_op on_const on_rbracket on_op on_lbracket on_rbracket on_nl on_const on_period lane_context on_lbracket on_const on_op on_const on_rbracket # absolute path
+UNK on_op on_const on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_const on_period lane_context on_lbracket on_const on_op on_const on_rbracket on_op on_const on_period lane_context # the UUID of the profile
+on_const on_period lane_context on_lbracket on_const on_op on_const on_rbracket on_op on_const on_period lane_context on_lbracket on_const on_op on_const on_rbracket on_op UNK if # the name of the profile
+end on_nl on_ignored_nl def self on_period UNK on_lparen values on_comma UNK on_rparen on_ignored_nl profile_type on_op on_tstring_beg on_tstring_content on_tstring_end on_nl profile_type # returs uuid of profile
+def self on_period UNK on_nl on_lbracket on_ignored_nl on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_comma on_ignored_nl on_lbracket on_tstring_beg # rubocop:disable Lint/MissingKeysOnSharedArea

@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const do on_ignored_nl UNK do on_op UNK on_op on_ignored_nl on_const # frozen_string_literal: true
+UNK on_op on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl rubocop_result on_op UNK on_period UNK on_lparen UNK UNK UNK on_rparen on_nl # This file is known to use non-rocket hashes and other things that trigger audit, # but not regular, cop violations

@@ -1,0 +1,2 @@
+UNK UNK on_nl UNK UNK on_nl UNK UNK on_op UNK on_nl UNK UNK on_lparen UNK on_comma UNK on_op UNK UNK # frozen_string_literal: true
+UNK UNK on_op UNK on_nl UNK UNK on_lparen UNK on_comma UNK on_op UNK UNK on_comma options on_op UNK UNK on_rparen # `Single` is an optimization for a wrapper that has only one component.

@@ -1,0 +1,7 @@
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op UNK on_nl on_ignored_nl machine on_op UNK on_nl UNK on_lparen UNK # Parse the options
+machine on_op UNK on_nl UNK on_lparen UNK on_comma UNK UNK on_rparen UNK on_op UNK on_op on_ignored_nl machine on_op UNK on_nl # Get the machine
+UNK on_period UNK on_period machine on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma machine on_period UNK on_comma UNK machine on_period UNK on_period UNK # Output some machine readable stuff
+UNK options on_lbracket on_symbeg UNK on_rbracket on_nl UNK on_period UNK on_period UNK on_lparen machine on_period UNK on_period UNK on_rparen on_nl # Check if we're just doing a usability check
+UNK options on_lbracket on_symbeg UNK on_rbracket on_nl UNK on_op on_tstring_beg on_tstring_content UNK machine on_period UNK UNK on_tstring_end on_period UNK on_nl # Check if we're requesting installation
+UNK on_period UNK on_period UNK on_lparen machine on_period UNK on_period UNK on_rparen on_nl on_ignored_nl UNK on_nl end on_nl end on_nl # No subtask, just output the provider name
+UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

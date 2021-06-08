@@ -1,0 +1,8 @@
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK if on_op UNK on_nl on_ignored_nl boxes on_op on_ivar on_period boxes on_period UNK # Parse the options
+UNK on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK on_lparen boxes on_comma UNK on_comma UNK on_comma UNK on_comma UNK # Success, exit status 0
+UNK on_op boxes on_period UNK UNK on_op UNK on_op UNK on_lbracket UNK on_rbracket on_period UNK UNK on_nl UNK on_op UNK # Find the longest box name
+newest_boxes on_op on_const on_period new on_nl on_ignored_nl boxes on_period UNK do on_op name on_comma version on_comma provider on_op on_ignored_nl UNK # Hash map to keep track of newest versions
+boxes on_period UNK do on_op name on_comma version on_comma provider on_op on_ignored_nl UNK if UNK UNK UNK on_op provider on_period # First find the newest version for every installed box
+if newest_boxes on_period UNK on_lparen name on_rparen on_nl if newest_boxes on_lbracket name on_rbracket on_period UNK on_lparen provider on_rparen on_nl UNK # Nested to make sure it works for boxes with different providers
+UNK on_op false on_nl boxes on_period UNK do on_op name on_comma version on_comma provider on_op on_ignored_nl UNK if on_op newest_boxes # Track if we removed anything so the user can be informed
+if UNK on_nl on_ivar on_period ui on_period info on_lparen on_tstring_beg on_tstring_content on_embexpr_beg name on_embexpr_end on_tstring_content on_embexpr_beg provider on_embexpr_end on_tstring_content on_embexpr_beg # Use the remove box action

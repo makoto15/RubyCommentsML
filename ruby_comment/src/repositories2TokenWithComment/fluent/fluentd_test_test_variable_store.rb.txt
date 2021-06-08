@@ -1,0 +1,2 @@
+end on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl c1 on_op on_const # nothing
+end on_nl on_ignored_nl c1 on_op on_const on_op on_const on_period fetch_or_build on_lparen on_symbeg test on_rparen on_nl UNK c1 on_lbracket on_symbeg k1 # nothing

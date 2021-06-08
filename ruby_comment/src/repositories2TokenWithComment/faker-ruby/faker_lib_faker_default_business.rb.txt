@@ -1,0 +1,4 @@
+UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_op UNK on_nl UNK UNK UNK on_nl UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl on_op UNK UNK UNK ## # Produces a credit card number. # # @return [String] # # @example # Faker::Business.credit_card_number #=> "1228-1221-1221-1431" # # @faker.version 1.2.0
+UNK UNK on_nl on_op UNK UNK UNK on_op UNK UNK on_op UNK UNK UNK on_op UNK UNK UNK on_nl end ## # Produces a credit card expiration date. # # @return [Date] # # @example # Faker::Business.credit_card_number #=> <Date: 2015-11-11 ((2457338j,0s,0n),+0s,2299161j)> # # @faker.version 1.2.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces a type of credit card. # # @return [String] # # @example # Faker::Business.credit_card_type #=> "visa" # # @faker.version 1.2.0

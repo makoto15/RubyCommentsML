@@ -1,0 +1,2 @@
+UNK app on_period config on_period UNK UNK UNK assets UNK on_nl UNK UNK UNK on_const UNK on_op on_const on_op on_const # check if Rails api mode
+app on_period config on_period assets on_period precompile on_op UNK UNK on_op path on_op path on_op on_tstring_beg on_tstring_content on_tstring_end UNK on_nl # use a proc instead of a string

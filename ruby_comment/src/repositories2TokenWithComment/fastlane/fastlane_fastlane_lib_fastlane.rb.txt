@@ -1,0 +1,2 @@
+require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl # has to be before fast_file
+on_const on_op on_const on_op on_const on_nl on_const on_op on_const on_period UNK UNK on_const on_period UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK # you gotta love Ruby: Helper.* should use the Helper class contained in FastlaneCore

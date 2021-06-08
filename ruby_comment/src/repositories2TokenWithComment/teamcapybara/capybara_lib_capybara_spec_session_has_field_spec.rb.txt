@@ -1,0 +1,3 @@
+on_ignored_nl on_const on_op on_const on_period spec on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl before on_lbrace on_ivar on_period visit on_lparen on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
+expect do on_ignored_nl expect on_lparen on_ivar on_rparen on_period to have_field on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_label true on_rparen on_nl end # native boolean node filter
+expect do on_ignored_nl expect on_lparen on_ivar on_rparen on_period to have_field on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_label true on_rparen on_nl end # inherited boolean node filter

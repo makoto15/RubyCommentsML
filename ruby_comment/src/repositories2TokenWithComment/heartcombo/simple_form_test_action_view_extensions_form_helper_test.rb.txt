@@ -1,0 +1,2 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # frozen_string_literal: true
+test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_const on_op on_const on_period UNK do on_ignored_nl swap on_const on_comma on_label on_tstring_beg on_tstring_content on_tstring_end # Remove this test when SimpleForm.form_class is removed in 4.x

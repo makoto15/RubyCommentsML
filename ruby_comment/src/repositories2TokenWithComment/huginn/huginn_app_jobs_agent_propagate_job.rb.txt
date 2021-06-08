@@ -1,0 +1,1 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_op on_const on_period UNK UNK UNK UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK # not using class since it would load adapter dependent gems

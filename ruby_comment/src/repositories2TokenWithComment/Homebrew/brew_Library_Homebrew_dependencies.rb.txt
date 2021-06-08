@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_lparen on_const on_rparen on_nl def UNK on_lparen on_op UNK # frozen_string_literal: true
+if UNK on_op on_symbeg UNK on_op on_ignored_nl dep on_period UNK on_lparen on_const on_rparen on_op on_ignored_nl on_op dep on_period UNK on_period # If a tap isn't installed, we can't find the dependencies of one of # its formulae, and an exception will be thrown if we try.

@@ -1,0 +1,4 @@
+def UNK on_nl on_const on_period UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_tstring_beg on_embexpr_beg # Provide the AA translation to the blank input field.
+end on_nl on_ignored_nl def UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_op UNK UNK UNK UNK # was "#{object_name}[#{association_primary_key}]"
+def UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_op UNK UNK UNK UNK UNK on_op UNK # Would normally return true for has_many and HABTM, which would subsequently # cause the select field to be multi-select instead of a dropdown.
+def UNK on_nl UNK on_op UNK UNK UNK UNK UNK on_op UNK on_nl UNK on_nl UNK on_ignored_nl UNK on_nl end # Provides an efficient default lookup query if the attribute is a DB column.

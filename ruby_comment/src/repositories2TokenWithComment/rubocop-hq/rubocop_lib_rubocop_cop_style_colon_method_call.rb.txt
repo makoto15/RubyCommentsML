@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_nl UNK UNK # This cop checks for methods invoked via the :: operator instead # of the . operator (like FileUtils::rmdir instead of FileUtils.rmdir). # # @example # # bad # Timeout::timeout(500) { do_something } # FileUtils::rmdir(dir) # Marshal::dump(obj) # # # good # Timeout.timeout(500) { do_something } # FileUtils.rmdir(dir) # Marshal.dump(obj) #
+UNK UNK UNK on_lparen node on_rparen on_nl on_ignored_nl UNK UNK node on_period UNK UNK node on_period UNK on_nl UNK UNK # ignore Java interop code like Java::int

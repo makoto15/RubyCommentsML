@@ -1,0 +1,4 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_const UNK UNK UNK UNK on_nl UNK UNK # encoding: utf-8
+UNK UNK on_nl UNK UNK on_const on_nl end on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl # Returns the current locale tag implementation. Defaults to +I18n::Locale::Tag::Simple+.
+UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl end on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK # Sets the current locale tag implementation. Use this to set a different locale tag implementation.
+UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end # Factory method for locale tags. Delegates to the current locale tag implementation.

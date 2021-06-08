@@ -1,0 +1,2 @@
+UNK on_op UNK on_period UNK on_lparen UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_ignored_nl UNK UNK UNK UNK on_ignored_nl # Select and show a list of resources of a given type.
+UNK on_op UNK on_op UNK on_op UNK on_period UNK on_period UNK on_lparen UNK on_rparen on_nl on_ignored_nl UNK type on_op on_tstring_beg # REVISIT: Eventually, type should have a default value that triggers # the non-specific behaviour. For now, though, this will do. # --daniel 2011-05-03

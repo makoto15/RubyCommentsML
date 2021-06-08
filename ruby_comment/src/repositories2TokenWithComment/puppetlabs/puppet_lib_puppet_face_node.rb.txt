@@ -1,0 +1,1 @@
+find UNK UNK UNK on_lparen UNK on_rparen on_nl on_tstring_content UNK find UNK UNK UNK on_nl on_tstring_content UNK UNK on_nl EMP #TRANSLATORS the following are specific names and should not be translated `classes`, `environment`, `expiration`, `name`, `parameters`, Puppet::Node

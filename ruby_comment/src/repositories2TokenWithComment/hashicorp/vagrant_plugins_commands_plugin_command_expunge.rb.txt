@@ -1,0 +1,4 @@
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK if on_op UNK on_nl UNK on_const on_op on_const on_op on_const on_comma UNK # Parse the options
+UNK on_lparen on_const on_period UNK on_comma options on_rparen on_nl on_ignored_nl if options on_lbracket on_symbeg reinstall on_rbracket on_nl UNK on_period UNK # Remove all installed user plugins
+UNK on_op on_const on_lbracket on_ignored_nl UNK on_period UNK do on_op UNK on_comma UNK on_op on_ignored_nl on_lbracket on_tstring_beg on_tstring_content UNK UNK # system plugins do not require re-install # Rebuild information hash to use symbols
+on_int on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

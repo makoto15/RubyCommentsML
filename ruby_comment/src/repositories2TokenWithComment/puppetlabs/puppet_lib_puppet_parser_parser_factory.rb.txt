@@ -1,0 +1,3 @@
+UNK on_const on_nl UNK UNK UNK UNK on_nl UNK on_nl end on_nl UNK UNK UNK UNK UNK on_nl UNK UNK # The ParserFactory makes selection of parser possible. # Currently, it is possible to switch between two different parsers: # * classic_parser, the parser in 3.1 # * eparser, the Expression Based Parser #
+UNK UNK UNK UNK on_nl UNK on_nl end on_nl UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_const on_op # Produces a parser instance for the given environment
+UNK UNK UNK UNK on_nl UNK UNK UNK on_const on_op on_const on_op on_const UNK on_nl UNK UNK UNK UNK on_nl # Creates an instance of an E4ParserAdapter that adapts an # EvaluatingParser to the 3x way of parsing. #

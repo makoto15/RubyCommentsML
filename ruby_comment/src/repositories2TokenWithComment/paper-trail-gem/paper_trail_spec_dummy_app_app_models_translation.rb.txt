@@ -1,0 +1,3 @@
+UNK UNK UNK on_op UNK on_op UNK UNK UNK UNK UNK on_op UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_op UNK on_op UNK UNK UNK UNK UNK on_op UNK UNK UNK UNK UNK UNK UNK UNK UNK # Demonstrates the `if` and `unless` configuration options.
+UNK UNK UNK on_op UNK UNK UNK UNK UNK UNK UNK UNK UNK on_op UNK on_op UNK UNK UNK on_op # Has a `type` column, but it's not used for STI. # TODO: rename column

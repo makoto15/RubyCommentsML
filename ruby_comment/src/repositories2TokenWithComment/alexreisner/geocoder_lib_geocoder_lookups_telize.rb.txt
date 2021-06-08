@@ -1,0 +1,2 @@
+on_ignored_nl def UNK on_lparen query on_rparen on_ignored_nl UNK on_lparen query on_rparen on_lbracket UNK on_tstring_content UNK on_comma on_int on_rbracket on_nl end # ---------------------------------------------------------------
+UNK on_lbracket UNK on_lparen query on_period UNK on_rparen on_rbracket UNK query on_period UNK on_nl UNK on_lparen doc on_op UNK on_lparen # don't look up a loopback or private address, just return the stored result

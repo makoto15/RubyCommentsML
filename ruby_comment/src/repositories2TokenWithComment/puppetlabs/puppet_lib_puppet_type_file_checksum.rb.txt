@@ -1,0 +1,2 @@
+on_const on_op on_const on_period type on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen on_symbeg UNK on_rparen UNK on_ignored_nl UNK on_const on_op # Specify which checksum algorithm to use when checksumming # files.
+UNK digest_algorithm on_nl UNK on_op on_const UNK on_symbeg digest_algorithm UNK on_period UNK on_nl end on_nl end on_nl EMP EMP EMP # Return the appropriate digest algorithm with fallbacks in case puppet defaults have not # been initialized.

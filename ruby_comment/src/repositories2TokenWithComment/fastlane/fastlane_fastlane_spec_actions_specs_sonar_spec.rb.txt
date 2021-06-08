@@ -1,0 +1,1 @@
+on_const on_period UNK on_lparen test_path on_rparen on_nl on_const on_period UNK on_lparen on_const on_period UNK on_lparen test_path on_comma sonar_project_path on_rparen on_comma # Set up example sonar-project.properties file

@@ -1,0 +1,5 @@
+UNK on_const on_nl UNK on_op on_const on_period UNK on_nl UNK on_op on_const on_period UNK UNK on_op UNK on_comma UNK on_op # This built-in middleware handles the `box` setting by verifying # the box is already installed, downloading the box if it isn't, # updating the box if it is requested, etc.
+UNK on_op UNK on_nl UNK on_period UNK UNK on_ignored_nl UNK on_op UNK on_lbracket machine on_period config on_period vm on_period box # Acquire a lock for this box to handle multi-threaded # environments.
+UNK on_op machine on_period UNK on_period machine on_lparen on_ignored_nl machine on_period UNK on_comma machine on_period UNK on_comma on_ignored_nl machine on_period # Reload the environment and set the VM to be the new loaded VM.
+UNK on_op machine on_period config on_period vm on_period UNK on_nl UNK on_op machine on_period config on_period vm on_period UNK on_nl # Determine the set of formats that this box can be in
+end on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Just ignore this, since it means the next part will succeed! # This can happen in a multi-threaded environment.

@@ -1,0 +1,6 @@
+UNK on_const on_nl UNK UNK on_lparen UNK on_comma UNK on_comma UNK on_rparen on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK # Ensures the certificate and profiles are also available on App Store Connect
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_op on_const on_op on_const on_period UNK on_lparen on_label UNK on_rparen on_nl on_ignored_nl UNK # We'll try to manually fetch the password # to tell the user that a password is optional
+UNK UNK on_nl return on_const on_period UNK on_period UNK on_nl end on_nl on_ignored_nl UNK UNK on_lparen on_label nil on_comma on_label # The team ID of the currently logged in team
+UNK on_op found on_op UNK on_nl found on_op on_const on_period UNK on_period UNK on_lparen on_label UNK on_rparen on_period UNK UNK # Look for iOS after looking for macOS (needed for Catalyst apps)
+found on_period UNK on_nl return nil on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP # it's easier to just create a new one, than to repair an existing profile # it has the same effects anyway, including a new UUID of the provisioning profile
+return nil on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP # return nil to re-download the new profile in runner.rb

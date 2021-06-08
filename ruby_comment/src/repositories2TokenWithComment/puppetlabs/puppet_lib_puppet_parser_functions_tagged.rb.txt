@@ -1,0 +1,1 @@
+on_const on_op on_const on_op on_const on_op UNK UNK on_symbeg UNK UNK on_symbeg UNK on_op on_symbeg UNK UNK on_symbeg UNK on_op # Test whether a given tag is set. This functions as a big OR -- if any of the specified tags are unset, we return false.

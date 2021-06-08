@@ -1,0 +1,4 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK on_const on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # An interrupt is any command that breaks processing of a block (ex: a for loop).
+UNK on_const UNK on_const UNK UNK on_nl UNK UNK on_const UNK on_const UNK UNK on_nl UNK on_nl EMP EMP EMP # Interrupt that is thrown whenever a {% break %} is called.
+UNK on_const UNK on_const UNK UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Interrupt that is thrown whenever a {% continue %} is called.

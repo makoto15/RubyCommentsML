@@ -1,0 +1,1 @@
+UNK on_period UNK UNK on_nl UNK on_period UNK on_nl on_ignored_nl variables on_op UNK on_nl on_ignored_nl UNK on_op on_lbracket on_ignored_nl self # There seems to be no way to force jq to treat an arbitrary # string as a filter without being confused with a command # line option, so pass one via file.

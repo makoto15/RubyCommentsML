@@ -1,0 +1,6 @@
+UNK UNK on_period UNK on_lparen UNK on_comma UNK on_rparen on_ignored_nl UNK on_op UNK UNK UNK on_op UNK UNK UNK on_period # This method handles command line inputs and properly transforms them to a usable format # @param [Array] args An array of all arguments (not options) # @param [Array] args A hash of all options (e.g. --env NAME)
+UNK on_op UNK UNK UNK on_period UNK UNK on_op UNK on_op on_ignored_nl UNK UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end # the parameters we'll pass to the lane
+UNK on_period UNK UNK on_op UNK on_op on_ignored_nl UNK UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_comma value # the part that's responsible for the lane/platform definition
+UNK on_comma value on_op UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_nl on_const on_period UNK on_lparen on_tstring_beg # that's a key/value which we want to pass to the lane
+UNK UNK on_period UNK on_lparen value on_rparen on_ignored_nl UNK UNK UNK value on_op on_tstring_beg on_tstring_content on_tstring_end on_op value on_op on_tstring_beg # Helper to convert into the right data type
+UNK value on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Default case:

@@ -1,0 +1,2 @@
+UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK on_nl on_ignored_nl on_ivar on_op on_const on_nl # The raw recipe text (as a string) to execute via chef-apply. # @return [String]
+UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK on_nl on_ignored_nl on_ivar on_op on_const on_nl on_ivar on_op on_const on_nl end # The path (on the guest) where the uploaded apply recipe should be # written (/tmp/vagrant-chef-apply-#.rb). # @return [String]

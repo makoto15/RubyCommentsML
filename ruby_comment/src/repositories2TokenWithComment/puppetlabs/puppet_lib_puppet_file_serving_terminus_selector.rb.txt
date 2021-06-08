@@ -1,0 +1,3 @@
+UNK on_const UNK on_const UNK on_const on_nl UNK UNK UNK UNK UNK on_ignored_nl on_ignored_nl UNK on_const UNK on_const UNK UNK # This module is used to pick the appropriate terminus # in file-serving indirections. This is necessary because # the terminus varies based on the URI asked for.
+on_ignored_nl UNK on_const UNK on_const UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_symbeg UNK on_nl UNK on_nl on_ignored_nl # We rely on the request's parsing of the URI.
+UNK on_const UNK on_const UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_symbeg UNK on_nl UNK on_nl on_ignored_nl UNK # Short-circuit to :file if it's a fully-qualified path or specifies a 'file' protocol.

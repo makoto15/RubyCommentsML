@@ -1,0 +1,9 @@
+UNK on_nl on_ivar on_op on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl on_ignored_nl def UNK # This method will load in our driver, so we call it now to # initialize it.
+UNK on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl UNK on_const on_period UNK on_lparen UNK on_rparen if on_const on_period UNK # Attempt to get the action method from the Action class if it # exists, otherwise return nil to show that we don't support the # given action.
+UNK on_op on_ivar on_period UNK on_lparen on_symbeg UNK on_rparen on_nl state_id on_op UNK UNK on_symbeg UNK UNK on_nl end on_nl # Run a custom action we define called "read_state" which does # what it says. It puts the state in the `:machine_state_id` # key in the environment.
+UNK on_op state_id on_period UNK on_nl UNK on_op on_tstring_beg on_tstring_end on_nl on_ignored_nl if state_id on_op on_symbeg UNK on_nl state_id on_op # Get the short and long description
+if state_id on_op on_symbeg UNK on_nl state_id on_op on_const on_op on_const on_op on_const on_nl end on_nl on_ignored_nl on_const on_op on_const # If we're not created, then specify the special ID flag
+on_const on_op on_const on_period UNK on_lparen state_id UNK UNK UNK UNK on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl id # Return the MachineState object
+def UNK on_nl UNK UNK if UNK on_period id on_op on_symbeg UNK on_nl on_ignored_nl UNK on_op UNK on_nl on_ignored_nl UNK # @return [Hash]
+UNK UNK if UNK on_period id on_op on_symbeg UNK on_nl on_ignored_nl UNK on_op UNK on_nl on_ignored_nl UNK on_ignored_nl UNK on_op # We can only SSH into a running machine
+UNK on_op UNK on_nl on_ignored_nl UNK on_ignored_nl UNK on_op on_ivar on_period UNK on_nl UNK on_op UNK UNK on_tstring_beg on_tstring_content on_tstring_end # Read the IP of the machine using Hyper-V APIs

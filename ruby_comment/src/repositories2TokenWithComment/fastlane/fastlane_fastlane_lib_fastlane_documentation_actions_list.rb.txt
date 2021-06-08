@@ -1,0 +1,7 @@
+UNK on_lparen filter on_rparen on_nl end on_nl end on_nl on_ignored_nl def self on_period UNK on_lparen filter on_rparen on_ignored_nl if on_op # show all available actions instead
+def self on_period UNK on_lparen platform on_op nil on_rparen on_ignored_nl UNK on_op on_const on_op on_const on_period UNK on_period UNK UNK # Iterates through all available actions and yields from there
+UNK if platform on_op action on_period UNK on_lparen UNK UNK on_rparen on_op on_op action on_period UNK on_lparen platform on_period UNK # We allow classes that don't respond to is_supported? to come through because we want to list # them as broken actions in the table, regardless of platform specification
+def self on_period UNK on_lparen options on_comma UNK on_op UNK on_rparen on_ignored_nl rows on_op on_lbracket on_rbracket on_nl rows on_op on_lbracket # Helper:
+on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg current on_embexpr_end on_tstring_content on_tstring_end on_rparen UNK on_lbracket on_int on_comma on_int on_rbracket on_period UNK # Legacy actions that don't use the new config manager
+rows on_period UNK on_op nil UNK UNK on_op rows on_period UNK on_period UNK on_op on_int end on_nl end on_nl end # color it yellow :)
+end on_nl end on_nl end on_nl on_ignored_nl rows on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP # to have a nice border in the table

@@ -1,0 +1,6 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen node # This cop checks uses of the `then` keyword # in multi-line when statements. # # @example # # bad # case foo # when bar then # end # # # good # case foo # when bar # end # # # good # case foo # when bar then do_something # end # # # good # case foo # when bar then do_something(arg1, # arg2) # end #
+UNK UNK node on_period UNK on_nl on_ignored_nl UNK UNK on_op node on_period UNK on_period UNK on_period UNK on_op on_op node # Without `then`, there's no offense
+UNK UNK on_op node on_period UNK on_period UNK on_period UNK on_op on_op node on_period UNK on_nl on_ignored_nl UNK UNK UNK # Single line usage of `then` is not an offense
+UNK UNK UNK on_lparen node on_rparen on_nl on_ignored_nl UNK UNK UNK on_lparen node on_period UNK on_rparen on_nl on_ignored_nl UNK on_lparen # Requires `then` for write `when` and its body on the same line.
+UNK UNK UNK on_lparen node on_period UNK on_rparen on_nl on_ignored_nl UNK on_lparen node UNK UNK UNK UNK on_rparen on_nl end # With more than one statements after then, there's not offense

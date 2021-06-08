@@ -1,0 +1,13 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl def UNK on_lparen node on_rparen on_ignored_nl UNK on_lparen node on_rparen # frozen_string_literal: true
+UNK on_const on_nl def UNK on_lparen node on_rparen on_ignored_nl UNK on_lparen node on_rparen do on_op on_op match on_op on_ignored_nl UNK # Common functionality for Style/HashTransformKeys and # Style/HashTransformValues
+def UNK on_lparen UNK on_rparen on_ignored_nl raise on_const on_nl end on_nl on_ignored_nl def UNK on_lparen UNK on_rparen on_ignored_nl raise on_const # @abstract Implemented with `def_node_matcher`
+def UNK on_lparen UNK on_rparen on_ignored_nl raise on_const on_nl end on_nl on_ignored_nl def UNK on_lparen UNK on_rparen on_ignored_nl raise on_const # @abstract Implemented with `def_node_matcher`
+def UNK on_lparen UNK on_rparen on_ignored_nl raise on_const on_nl end on_nl on_ignored_nl def UNK on_lparen node on_comma match on_comma UNK # @abstract Implemented with `def_node_matcher`
+UNK UNK captures on_period UNK on_nl on_ignored_nl UNK UNK captures on_period UNK on_nl on_ignored_nl UNK on_lparen on_ignored_nl node on_comma on_ignored_nl # If key didn't actually change either, this is most likely a false # positive (receiver isn't a hash).
+UNK UNK captures on_period UNK on_nl on_ignored_nl UNK on_lparen on_ignored_nl node on_comma on_ignored_nl UNK on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_content # Can't `transform_keys` if key transformation uses value, or # `transform_values` if value transformation uses key.
+def UNK on_lparen UNK on_rparen on_ignored_nl raise on_const on_nl end on_nl on_ignored_nl def UNK on_nl raise on_const on_nl end on_nl # @abstract # # @return [Captures]
+def UNK on_nl raise on_const on_nl end on_nl on_ignored_nl def UNK on_lparen node on_rparen on_ignored_nl UNK on_lparen match on_op UNK # @abstract # # @return [String]
+on_const on_op on_const on_period UNK on_lparen on_ignored_nl on_symbeg UNK on_comma on_ignored_nl on_symbeg transforming_body_expr on_comma on_ignored_nl on_symbeg UNK on_nl on_rparen do # Internal helper class to hold match data
+on_const on_op on_const on_period UNK on_lparen on_symbeg match on_comma on_symbeg UNK on_comma on_symbeg UNK on_comma on_symbeg UNK on_rparen do def # Internal helper class to hold autocorrect data
+def UNK on_period UNK on_lparen node on_comma match on_rparen on_ignored_nl UNK on_lparen match on_comma node on_comma UNK on_comma UNK on_rparen # rubocop:disable Metrics/BlockLength
+UNK on_op UNK on_period UNK on_period UNK on_lparen UNK on_rparen on_nl end on_nl corrector on_period UNK on_lparen UNK on_comma UNK # If there are arguments (only true in the `each_with_object` # case)

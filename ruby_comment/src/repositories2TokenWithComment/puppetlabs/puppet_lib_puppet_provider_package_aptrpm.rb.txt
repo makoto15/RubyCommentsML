@@ -1,0 +1,6 @@
+UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK # Provide sorting functionality
+UNK UNK on_nl UNK on_op UNK on_period UNK on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl UNK on_op UNK UNK on_symbeg UNK # Install a package using 'apt-get'. This function needs to support # installing a specific version.
+UNK on_ignored_nl UNK on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl end on_nl UNK on_op UNK on_tstring_content UNK on_tstring_content on_tstring_end # pass
+UNK on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl end on_nl UNK on_op UNK on_tstring_content UNK on_tstring_content on_tstring_end on_nl on_ignored_nl # Add the package version
+UNK UNK on_nl UNK on_op UNK on_symbeg UNK on_comma UNK UNK on_symbeg UNK UNK on_nl on_ignored_nl UNK UNK on_op UNK # What's the latest package version available?
+UNK UNK on_period UNK on_nl UNK on_ignored_nl UNK on_period UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl end # Get the latest and greatest version number

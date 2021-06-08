@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl on_const on_op on_const on_period UNK on_lparen on_const # frozen_string_literal: true
+on_lparen UNK UNK on_const on_period UNK on_lparen UNK on_rparen on_period UNK UNK on_rparen on_period UNK on_nl end on_nl end on_nl # raise TranslationError, "Undefined key #{$1} for interpolation in translation #{name}" unless vars[$1.to_sym]

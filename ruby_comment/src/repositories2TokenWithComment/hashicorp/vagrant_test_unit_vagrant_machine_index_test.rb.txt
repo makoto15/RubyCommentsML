@@ -1,0 +1,9 @@
+expect on_lbrace subject on_period get on_lparen result on_period id on_rparen on_rbrace on_period on_ignored_nl to UNK on_lparen on_const on_op on_const on_op # It should be locked
+subject on_period release on_lparen result on_rparen on_nl subject on_op described_class on_period new on_lparen data_dir on_rparen on_nl entry on_op subject on_period # Get it froma new class and check the results
+end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl result on_op subject on_period set on_lparen UNK on_rparen on_nl expect on_lparen # TODO: test that updated_at is set
+subject on_op described_class on_period new on_lparen data_dir on_rparen on_nl entry on_op subject on_period get on_lparen result on_period id on_rparen on_nl # Get it from a new class and check the results
+subject on_period release on_lparen nextresult on_rparen on_nl on_ignored_nl subject on_op described_class on_period new on_lparen data_dir on_rparen on_nl entry on_op subject # Release it so we can test the contents
+subject on_op described_class on_period new on_lparen data_dir on_rparen on_nl entry on_op subject on_period get on_lparen result on_period id on_rparen on_nl # Get it froma new class and check the results
+subject on_period release on_lparen result on_rparen on_nl on_ignored_nl entry2 on_op entry_klass on_period new on_nl entry2 on_period name on_op entry on_period # Release it so we can modify it
+subject on_period release on_lparen nextresult on_rparen on_nl on_ignored_nl subject on_op described_class on_period new on_lparen data_dir on_rparen on_nl entry on_op subject # Release it so we can test the contents
+subject on_op described_class on_period new on_lparen data_dir on_rparen on_nl entry on_op subject on_period get on_lparen result on_period id on_rparen on_nl # Get it from a new class and check the results

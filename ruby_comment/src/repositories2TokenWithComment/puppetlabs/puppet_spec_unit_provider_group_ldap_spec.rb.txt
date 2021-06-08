@@ -1,0 +1,2 @@
+UNK on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl allow on_lparen described_class on_period manager on_rparen on_period to receive on_lparen on_symbeg # So we don't try to actually talk to ldap
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen described_class on_period manager on_rparen on_period to receive on_lparen on_symbeg search on_rparen on_period # We shouldn't ever actually have more than one gid, but it doesn't hurt # to test for the possibility.

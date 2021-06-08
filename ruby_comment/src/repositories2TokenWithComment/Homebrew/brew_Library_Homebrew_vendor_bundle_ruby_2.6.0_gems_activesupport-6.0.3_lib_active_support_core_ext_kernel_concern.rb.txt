@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK # A shortcut to define a toplevel concern, not within a module. # # See Module::Concerning for more.

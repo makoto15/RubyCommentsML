@@ -1,0 +1,2 @@
+UNK on_const UNK on_const UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK # Raised when a conversion of a value to another type failed. #
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP # Creates a new instance with a given message # # @param message [String] The error message describing what failed #

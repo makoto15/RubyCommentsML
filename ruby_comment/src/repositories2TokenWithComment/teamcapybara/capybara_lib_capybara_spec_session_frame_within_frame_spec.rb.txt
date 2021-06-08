@@ -1,0 +1,5 @@
+on_ignored_nl UNK UNK UNK on_period UNK on_tstring_beg on_tstring_content on_tstring_end on_comma UNK UNK on_symbeg UNK UNK do on_ignored_nl UNK do on_ignored_nl # frozen_string_literal: true
+on_ivar on_period within_frame do on_ignored_nl expect on_lparen on_ivar on_rparen on_period to UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl # Ensure only one frame in scope
+on_ivar on_period within_frame UNK UNK UNK on_nl end on_period to UNK UNK UNK UNK on_nl end on_nl on_ignored_nl it on_tstring_beg # Multiple frames in scope here
+end on_nl on_ivar on_period within_frame on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl end on_nl end on_nl end on_nl end on_nl on_ignored_nl it # dummy
+end on_nl end on_nl end on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_ivar on_period UNK on_lparen on_symbeg # dummy

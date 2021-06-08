@@ -1,0 +1,2 @@
+UNK UNK on_lparen UNK on_rparen on_ignored_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_period UNK on_lparen on_tstring_beg # Mimic bundle install --path vendor/gems when install danger-rubocop
+UNK on_lparen on_const on_rparen on_period UNK UNK on_lparen UNK UNK on_rparen UNK UNK UNK on_nl on_ignored_nl on_const on_period UNK on_lparen # We want to control the temp dir created in gems_resolver # to compare in our test

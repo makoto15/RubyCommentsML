@@ -1,0 +1,1 @@
+on_const on_period UNK on_lparen UNK UNK UNK on_op UNK UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_op on_const on_op # Mimic what apply does (or the benchmark will in part run for the *root* environment)

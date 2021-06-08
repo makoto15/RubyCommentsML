@@ -1,0 +1,3 @@
+def UNK on_lparen key on_rparen on_ignored_nl UNK on_op UNK on_symbeg UNK UNK on_ignored_nl UNK on_ivar on_period UNK on_lparen key on_rparen # This method is used to handle the throw of :undefined_variable since when # strict variables is not in effect, missing handling of the throw leads to # a more expensive code path. #
+UNK on_symbeg UNK on_nl on_const on_period UNK on_lparen on_const on_op on_const on_op on_const on_op on_const on_comma UNK on_lparen on_tstring_beg on_tstring_content # do nothing
+UNK on_symbeg on_ivar on_comma on_symbeg UNK on_nl on_ignored_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # This is needed for type conversion to work

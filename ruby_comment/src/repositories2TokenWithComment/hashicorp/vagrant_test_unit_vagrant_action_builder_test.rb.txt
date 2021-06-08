@@ -1,0 +1,7 @@
+def appender_proc on_lparen data on_rparen on_ignored_nl UNK on_op on_const on_period new on_lbrace on_op env on_op env on_lbracket on_symbeg data on_rbracket # This returns a proc that can be used with the builder # that simply appends data to an array in the env.
+UNK on_period UNK on_lparen on_symbeg UNK on_rparen do on_ignored_nl on_tstring_beg on_tstring_content on_embexpr_beg data on_embexpr_end on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl # Define a to_s on it for helpful output
+one on_op described_class on_period new on_nl one on_period use proc1 on_nl on_ignored_nl UNK on_op described_class on_period new on_nl UNK on_period # Build the first builder
+UNK on_op described_class on_period new on_nl UNK on_period use one on_nl on_ignored_nl UNK on_period call on_lparen data on_rparen on_nl expect # Add it to this builder
+UNK on_period call on_lparen data on_rparen on_nl expect on_lparen data on_lbracket on_symbeg one on_rbracket on_rparen on_period to eq on_lparen true # Call the 2nd and verify results
+UNK on_op appender_proc on_lparen on_int on_rparen on_nl def UNK on_period name UNK on_symbeg UNK UNK end on_nl on_ignored_nl subject on_period # Create the proc then make sure it has a name
+UNK on_op described_class on_nl wrapper_proc on_op UNK on_period UNK on_lparen on_symbeg wrapper_proc on_rparen on_nl on_ignored_nl UNK on_op on_const on_period new # We have to do this because inside the Class.new, it can't see these # rspec methods...

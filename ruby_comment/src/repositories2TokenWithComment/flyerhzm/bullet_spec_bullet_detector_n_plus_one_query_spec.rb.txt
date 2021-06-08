@@ -1,0 +1,2 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const do on_ignored_nl UNK on_lparen on_symbeg # frozen_string_literal: true
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl method on_op on_const on_period method on_lparen on_symbeg UNK on_rparen on_period UNK on_nl in_project on_op # just a sanity spec to make sure the following spec works correctly

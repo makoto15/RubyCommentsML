@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP # Be sure to restart your server when you modify this file.
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP # Specify a serializer for the signed and encrypted cookie jars. # Valid options are :json, :marshal, and :hybrid.

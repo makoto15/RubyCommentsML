@@ -1,0 +1,2 @@
+on_const on_period UNK on_lparen on_label true on_comma on_label true on_rparen on_nl on_const on_period UNK on_lparen on_const on_rparen on_nl end on_nl # ensure files are closed for Windows, on which deleted files # are still visible from filesystem
+assert on_lbrace d on_period instance on_period UNK on_period UNK on_period UNK on_op on_int on_rbrace on_nl on_ignored_nl UNK on_op d on_period # because it's already taken back

@@ -1,0 +1,2 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_nl UNK UNK on_nl on_ivar on_op on_const on_period UNK on_lparen # encoding: utf-8
+on_const on_period configure on_lparen on_symbeg lookup on_op l on_rparen on_nl UNK on_lparen l on_rparen on_nl UNK on_op on_const on_period search # local, does not use cache

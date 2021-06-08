@@ -1,0 +1,2 @@
+on_ignored_nl on_const UNK UNK on_const on_op on_const on_op on_const on_op on_const UNK on_symbeg UNK do on_ignored_nl UNK on_lparen on_symbeg UNK # frozen_string_literal: true
+on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_symbeg UNK on_rparen on_lbrace on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content # use indent from Layout/IndentationWidth

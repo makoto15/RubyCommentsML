@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Twin Peaks. # # @return [String] # # @example # Faker::TvShows::TwinPeaks.character #=> "Dale Cooper" # # @faker.version 1.7.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a location from Twin Peaks. # # @return [String] # # @example # Faker::TvShows::TwinPeaks.location #=> "Black Lodge" # # @faker.version 1.7.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Twin Peaks. # # @return [String] # # @example # Faker::TvShows::TwinPeaks.quote # #=> "The owls are not what they seem." # # @faker.version 1.7.0

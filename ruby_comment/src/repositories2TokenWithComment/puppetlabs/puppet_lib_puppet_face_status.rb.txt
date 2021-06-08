@@ -1,0 +1,1 @@
+find on_period UNK UNK on_lparen UNK on_rparen on_nl on_tstring_content UNK find on_period UNK UNK on_nl on_tstring_content UNK find on_period UNK #TRANSLATORS the string 'Puppet::Status' is a Puppet language object and should not be translated

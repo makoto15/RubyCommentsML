@@ -1,0 +1,7 @@
+on_ignored_nl relation on_op relation on_period UNK on_lparen UNK UNK UNK on_comma index on_period UNK on_rparen on_nl end on_nl on_ignored_nl relation # use total docs instead of max id since there's not a great way # to get the max _id without scripting since it's a string
+relation on_op relation on_period UNK on_lparen UNK UNK UNK on_comma index on_period UNK on_rparen on_nl end on_nl on_ignored_nl relation on_op # TODO use primary key and prefix with table name
+if method_name on_nl index on_period UNK on_lparen records on_comma method_name on_rparen on_nl UNK on_ignored_nl index on_period UNK on_lparen records on_rparen # call out to index for ActiveSupport notifications
+primary_key on_op scope on_period primary_key on_nl on_ignored_nl scope on_op scope on_period UNK on_lparen primary_key on_rparen on_period UNK on_lparen on_symbeg UNK # TODO expire Redis key
+UNK UNK on_period UNK on_lparen on_const on_rparen on_nl UNK on_op scope on_period UNK on_lparen primary_key on_rparen on_nl UNK on_op on_lparen # no records, do nothing
+scope on_op scope on_period UNK on_lparen on_symbeg UNK on_rparen if scope on_period UNK on_lparen on_symbeg UNK on_rparen on_nl UNK on_lparen # TODO remove any eager loading
+items on_op UNK UNK on_nl scope on_period UNK on_period UNK do on_op UNK on_op on_ignored_nl items on_op UNK on_nl if # https://github.com/karmi/tire/blob/master/lib/tire/model/import.rb # use cursor for Mongoid

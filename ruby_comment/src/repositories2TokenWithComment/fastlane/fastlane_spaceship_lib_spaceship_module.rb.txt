@@ -1,0 +1,1 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Requiring pathname is required here if not using bundler and requiring spaceship directly # https://github.com/fastlane/fastlane/issues/14661

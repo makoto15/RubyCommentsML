@@ -1,0 +1,2 @@
+if on_op on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_op on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl alias_method on_symbeg UNK on_comma on_symbeg # Support old multiple_choice? method from pre 2.0.0 era.
+if on_op on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_op on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl alias_method on_symbeg UNK on_comma on_symbeg # Support old status codes method from pre 2.6.0 era.

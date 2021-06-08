@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK on_op UNK on_op UNK on_nl UNK UNK on_ignored_nl on_label UNK on_ignored_nl UNK UNK on_comma on_lbrace on_ignored_nl on_label # frozen_string_literal: true
+UNK UNK on_op UNK on_op UNK on_nl UNK UNK on_ignored_nl on_label UNK on_ignored_nl UNK UNK on_comma on_lbrace on_ignored_nl on_label UNK # Demonstrates the `only` and `ignore` attributes, among other things.

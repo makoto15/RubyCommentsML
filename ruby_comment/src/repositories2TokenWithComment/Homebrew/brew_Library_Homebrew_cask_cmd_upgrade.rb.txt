@@ -1,0 +1,6 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_tstring_beg # frozen_string_literal: true
+new_cask_installer on_period UNK on_nl on_ignored_nl UNK new_cask_installer on_period UNK if new_cask_installer on_period UNK on_nl on_ignored_nl new_cask_installer on_period UNK on_nl on_ignored_nl # Start new Cask's installation steps
+UNK on_period UNK on_nl UNK on_op UNK on_nl on_ignored_nl new_cask_installer on_period UNK on_nl on_ignored_nl new_cask_installer on_period UNK on_nl UNK on_op # Move the old Cask's artifacts back to staging
+UNK on_op UNK on_nl on_ignored_nl new_cask_installer on_period UNK on_nl on_ignored_nl new_cask_installer on_period UNK on_nl UNK on_op UNK on_nl on_ignored_nl UNK # And flag it so in case of error
+new_cask_installer on_period UNK on_nl on_ignored_nl new_cask_installer on_period UNK on_nl UNK on_op UNK on_nl on_ignored_nl UNK on_period UNK on_nl UNK on_op # Install the new Cask
+UNK on_period UNK on_nl UNK on_op UNK on_nl new_cask_installer on_period UNK if UNK on_nl new_cask_installer on_period UNK on_nl UNK on_period # If successful, wipe the old Cask from staging

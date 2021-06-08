@@ -1,0 +1,4 @@
+UNK on_const on_op on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK on_nl UNK on_nl on_ignored_nl UNK UNK on_nl UNK # Interface for something that is "locatable" (holds offset and length).
+UNK UNK on_nl UNK on_nl on_ignored_nl UNK UNK on_nl UNK on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const # The offset in the locator's content
+UNK UNK on_nl UNK on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK # The length in the locator from the given offset
+UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl # This class is useful for testing

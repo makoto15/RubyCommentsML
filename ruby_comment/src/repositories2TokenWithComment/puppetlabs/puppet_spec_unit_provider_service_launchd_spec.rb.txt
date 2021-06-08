@@ -1,0 +1,3 @@
+UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_op on_const on_period execute on_lparen UNK on_comma on_lbrace on_symbeg UNK on_op # Get a pid for $CHILD_STATUS to latch on to
+resource on_lbracket on_symbeg enable on_rbracket on_op true on_nl expect on_lparen subject on_rparen on_period to receive on_lparen on_symbeg plist_from_label on_rparen on_period ### Do we need this test? Differentiating it?
+UNK provider on_period UNK on_symbeg on_ivar on_nl provider on_period UNK on_lparen on_symbeg UNK on_comma on_symbeg on_ivar on_rparen on_nl end on_nl # clear out this class variable between runs

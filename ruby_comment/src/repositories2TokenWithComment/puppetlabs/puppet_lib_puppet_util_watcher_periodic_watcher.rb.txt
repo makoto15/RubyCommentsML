@@ -1,0 +1,3 @@
+UNK UNK on_op UNK on_op UNK on_op UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op UNK # Monitor a given watcher for changes on a periodic interval.
+UNK UNK UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_nl on_ivar on_op UNK on_nl on_ignored_nl on_ivar on_period UNK # @param watcher [Puppet::Util::Watcher::ChangeWatcher] a watcher for the value to watch # @param timer [Puppet::Util::Watcher::Timer] A timer to determine when to # recheck the watcher. If the timeout of the timer is negative, then the # watched value is always considered to be changed
+UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl on_ivar on_op UNK UNK on_ivar UNK on_nl on_ivar on_period UNK on_nl # @return [true, false] If the file has changed since it was last checked.

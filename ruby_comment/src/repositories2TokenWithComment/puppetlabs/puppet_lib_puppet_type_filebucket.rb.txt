@@ -1,0 +1,2 @@
+UNK self on_period UNK on_nl UNK on_lparen on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end UNK on_symbeg UNK on_op on_const on_lbracket on_symbeg # Create a default filebucket.
+on_ignored_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op UNK UNK on_nl UNK self on_lbracket on_symbeg UNK on_rbracket on_nl UNK # Default is a local filebucket, if no server is given. # If the default path has been removed, too, then # the puppetmaster is used as default server

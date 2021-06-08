@@ -1,0 +1,2 @@
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK # A wrapper/delegator for any `ExecutorService` that # guarantees serialized execution of tasks. # # @see [SimpleDelegator](http://www.ruby-doc.org/stdlib-2.1.2/libdoc/delegate/rdoc/SimpleDelegator.html) # @see Concurrent::SerializedExecution
+UNK UNK UNK on_op UNK UNK on_op UNK UNK on_ignored_nl UNK on_const UNK UNK UNK UNK UNK UNK UNK UNK # @!macro executor_service_method_post

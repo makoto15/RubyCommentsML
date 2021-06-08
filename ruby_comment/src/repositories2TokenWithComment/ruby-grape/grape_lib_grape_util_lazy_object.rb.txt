@@ -1,0 +1,2 @@
+on_ignored_nl on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_op UNK on_nl UNK UNK UNK on_nl on_ignored_nl def UNK # frozen_string_literal: true
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_op UNK on_nl UNK UNK UNK on_nl on_ignored_nl def UNK on_lparen # Based on https://github.com/HornsAndHooves/lazy_object

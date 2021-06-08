@@ -1,0 +1,1 @@
+UNK on_period foo on_period to_s on_nl end on_nl end on_nl end on_nl on_ignored_nl expect on_lparen get on_lparen on_tstring_beg on_tstring_content on_tstring_end #settings.respond_to?(:foo).to_s

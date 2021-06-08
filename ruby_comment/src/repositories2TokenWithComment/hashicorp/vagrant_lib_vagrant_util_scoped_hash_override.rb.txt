@@ -1,0 +1,5 @@
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_period UNK on_nl on_ignored_nl UNK on_op # This allows for hash options to be overridden by a scope key # prefix. An example speaks best here. Imagine the following hash: # # original = { # id: "foo", # mitchellh__id: "bar", # mitchellh__other: "foo" # } # # scoped = scoped_hash_override(original, "mitchellh") # # scoped == { # id: "bar", # other: "foo" # } #
+UNK on_op UNK on_period UNK on_nl on_ignored_nl UNK on_op UNK on_period UNK on_nl on_ignored_nl UNK on_period UNK UNK on_op UNK # Convert the scope to a string in case a symbol was given since # we use string comparisons for everything.
+UNK on_op UNK on_period UNK on_nl on_ignored_nl UNK on_period UNK UNK on_op UNK UNK UNK on_op on_ignored_nl UNK on_op UNK # Shallow copy the hash for the result
+UNK UNK UNK on_period UNK on_op UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_op UNK on_nl UNK UNK UNK # If we don't have the proper parts, then bail
+UNK UNK UNK UNK UNK on_op UNK on_nl UNK UNK UNK UNK UNK UNK on_period UNK UNK on_op UNK on_nl # If this is our scope, then override

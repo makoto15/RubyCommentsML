@@ -1,0 +1,1 @@
+conf on_op on_heredoc_beg on_nl on_tstring_content on_heredoc_end ra on_op configure_ra on_lparen conf on_rparen on_nl assert_kind_of on_const on_comma ra on_period inputs on_period # check @type and type in one configuration

@@ -1,0 +1,2 @@
+expect on_lparen described_class on_rparen on_period to receive on_lparen on_symbeg open on_rparen on_period UNK on_lparen UNK on_rparen on_period UNK on_lparen on_rparen # make sure we don't stop after the first exception
+end on_nl end on_nl end on_nl on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect # ERROR_ACCESS_DENIED

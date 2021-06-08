@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl def UNK on_period UNK on_lparen UNK UNK on_rparen on_ignored_nl UNK # AppTestInfo wraps a test_info and beta_review_info in the format required to manage test_info # for an application. Note that this structure, although looking similar to build test_info # is test information about the application
+def UNK on_lparen UNK UNK on_rparen on_ignored_nl UNK on_period UNK on_lparen UNK UNK UNK UNK UNK on_rparen on_nl end on_nl # saves the changes to the App Test Info object to TestFlight

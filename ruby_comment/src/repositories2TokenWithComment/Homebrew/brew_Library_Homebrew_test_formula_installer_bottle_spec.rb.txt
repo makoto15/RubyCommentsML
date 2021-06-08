@@ -1,0 +1,5 @@
+on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
+on_ignored_nl expect on_lparen UNK on_period UNK on_rparen on_period to UNK on_nl on_ignored_nl expect on_lparen UNK on_period UNK on_rparen on_period to # Copied directly from formula_installer_spec.rb # as we expect the same behavior.
+expect on_lparen UNK on_period UNK on_rparen on_period to UNK on_nl on_ignored_nl expect on_lparen UNK on_period UNK on_rparen on_period to UNK # Test that things made it into the Keg
+keg on_op on_const on_period new UNK on_period UNK on_nl keg on_period UNK on_nl on_ignored_nl UNK on_op on_const on_op on_tstring_beg on_tstring_content # Test that things made it into the Cellar
+formula on_op on_const on_period new on_nl on_ignored_nl expect on_lparen formula on_rparen on_period not_to UNK on_nl expect on_lparen formula on_rparen on_period # Testball doesn't have a bottle block, so use it to test this behavior

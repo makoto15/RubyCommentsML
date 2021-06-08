@@ -1,0 +1,3 @@
+on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK UNK UNK UNK on_op agent on_op on_ignored_nl dir on_op agent UNK # autoloader, core puppet agent run functionality
+on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK UNK UNK UNK on_op agent on_op on_ignored_nl dir on_op agent UNK UNK UNK on_tstring_beg on_tstring_content # Use block style `test_name`
+on_ignored_nl UNK UNK UNK UNK on_op agent on_op on_ignored_nl dir on_op agent UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl # does not require packages, probably implicitly assumed in many other places

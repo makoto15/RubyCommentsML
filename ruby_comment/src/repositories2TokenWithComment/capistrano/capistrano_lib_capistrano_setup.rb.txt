@@ -1,0 +1,1 @@
+on_const on_period UNK do on_op UNK on_op on_ignored_nl UNK on_period UNK on_op UNK on_nl UNK on_period UNK on_op UNK on_nl # We don't need to show the "using Airbrussh" banner announcement since # Airbrussh is now the built-in formatter. Also enable command output by # default; hiding the output might be confusing to users new to Capistrano.

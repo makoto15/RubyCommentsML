@@ -1,0 +1,2 @@
+UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op on_const on_period UNK on_nl UNK on_op on_const on_lparen UNK on_rparen on_op on_lparen # create file in temp directory
+UNK on_lparen on_const on_rparen on_period UNK UNK on_lparen UNK on_op on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK # set the path to the directory where the file is located

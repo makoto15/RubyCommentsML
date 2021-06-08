@@ -1,0 +1,5 @@
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # @return (String) add or remove
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_const on_nl on_const on_op # @return (String) customer id
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const # @return (String) organization id
+UNK on_symbeg UNK on_nl on_ignored_nl UNK on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl # @return (String) organization name
+UNK on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end # enum for types

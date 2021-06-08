@@ -1,0 +1,5 @@
+on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_symbeg UNK on_rparen on_period UNK on_symbeg UNK on_comma on_symbeg UNK on_op on_symbeg UNK # Windows Service Control Manager (SCM) provider
+on_ignored_nl UNK UNK on_op on_symbeg UNK on_nl UNK on_ivar on_lbracket on_symbeg UNK on_rbracket on_period UNK on_nl raise on_const on_op on_const # status == :stopped here
+UNK on_ivar on_lbracket on_symbeg UNK on_rbracket on_period UNK on_nl raise on_const on_op on_const on_period new on_lparen _ on_lparen on_tstring_beg on_tstring_content # If disabled and not managing enable, respect disabled and fail.
+UNK on_ivar on_lbracket on_symbeg UNK on_rbracket on_op on_symbeg UNK on_nl UNK on_nl UNK on_ignored_nl UNK on_nl end on_nl end on_nl # Otherwise start. If enable => false, we will later sync enable and # disable the service again.
+def UNK on_period UNK on_nl UNK on_op on_lbracket on_rbracket on_nl on_const on_op on_const on_op on_const on_op on_const on_period UNK on_period # returns all providers for all existing services and startup state

@@ -1,0 +1,5 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
+UNK UNK on_nl UNK on_period UNK on_nl on_ignored_nl on_const on_period UNK on_nl on_ignored_nl UNK on_op args on_period UNK on_period UNK # Create a formula from a tarball URL
+on_const on_period UNK on_nl on_ignored_nl UNK on_op args on_period UNK on_period UNK on_ignored_nl UNK on_op args on_period UNK on_nl name # Ensure that the cache exists so we can fetch the tarball
+on_ignored_nl UNK on_op args on_period UNK on_nl name on_op args on_period UNK on_nl tap on_op args on_period tap on_nl on_ignored_nl # Pull the first (and only) url from ARGV
+UNK args on_period UNK on_nl UNK UNK on_op on_const on_period UNK UNK fc on_period name UNK on_nl UNK UNK on_nl # Don't allow blacklisted formula, or names that shadow aliases, # unless --force is specified.

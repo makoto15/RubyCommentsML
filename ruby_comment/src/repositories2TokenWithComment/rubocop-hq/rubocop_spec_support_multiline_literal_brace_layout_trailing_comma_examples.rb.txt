@@ -1,0 +1,7 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen on_symbeg UNK on_rparen on_lbrace on_tstring_beg on_tstring_end on_rbrace let on_lparen on_symbeg UNK # frozen_string_literal: true
+let on_lparen on_symbeg UNK on_rparen on_lbrace on_tstring_beg on_tstring_end on_rbrace let on_lparen on_symbeg UNK on_rparen on_lbrace UNK on_rbrace let on_lparen on_symbeg # A prefix before the opening brace.
+let on_lparen on_symbeg UNK on_rparen on_lbrace UNK on_rbrace let on_lparen on_symbeg UNK on_rparen on_lbrace UNK on_rbrace let on_lparen on_symbeg UNK # A suffix for the line after the closing brace.
+let on_lparen on_symbeg UNK on_rparen on_lbrace UNK on_rbrace let on_lparen on_symbeg UNK on_rparen on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_rbrace let on_lparen # The opening brace.
+let on_lparen on_symbeg UNK on_rparen on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_rbrace let on_lparen on_symbeg UNK on_rparen on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_rbrace # The closing brace.
+let on_lparen on_symbeg UNK on_rparen on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen on_symbeg # The first element.
+on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen on_symbeg UNK on_rparen on_lbrace on_lbrace on_tstring_beg on_tstring_content on_tstring_end UNK on_tstring_beg on_tstring_content # The second element.

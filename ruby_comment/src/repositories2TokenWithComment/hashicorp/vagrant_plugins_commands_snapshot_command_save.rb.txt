@@ -1,0 +1,4 @@
+argv on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op argv on_nl UNK argv on_period UNK on_op argv on_period UNK # Parse the options
+UNK vm on_period UNK on_period UNK on_nl UNK on_period UNK on_period UNK on_lparen on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end # In this case, no vm name was given, and we are iterating over the # entire environment. If a vm hasn't been created yet, we can't list # its snapshots
+vm on_period UNK on_lparen on_symbeg UNK on_comma UNK name on_rparen on_nl vm on_period UNK on_lparen on_symbeg UNK on_comma UNK name # not a unique snapshot name
+UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

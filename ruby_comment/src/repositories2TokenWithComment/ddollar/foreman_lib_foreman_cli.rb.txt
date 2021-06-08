@@ -1,0 +1,2 @@
+def UNK on_lparen UNK on_comma type on_rparen on_ignored_nl UNK UNK if UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_nl end # Hackery. Take the run method away from Thor so that we can redefine it.
+on_ignored_nl def error on_lparen UNK on_rparen on_ignored_nl UNK on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_end on_nl UNK UNK on_nl end on_nl ######################################################################

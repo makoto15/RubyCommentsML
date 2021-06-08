@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
+UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen node # This cop checks whether the end statement of a do..end block # is on its own line. # # @example # # bad # blah do |i| # foo(i) end # # # good # blah do |i| # foo(i) # end # # # bad # blah { |i| # foo(i) } # # # good # blah { |i| # foo(i) # }
+UNK UNK UNK on_lparen node on_period loc on_period end on_rparen on_nl on_ignored_nl UNK on_lparen node on_comma UNK UNK end on_rparen # If the end is on its own line, there is no offense

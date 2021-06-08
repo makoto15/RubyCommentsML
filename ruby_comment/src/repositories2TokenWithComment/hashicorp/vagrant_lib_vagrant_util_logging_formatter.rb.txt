@@ -1,0 +1,4 @@
+UNK on_const UNK on_const UNK on_const on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK # Wrapper for logging formatting to provide # information scrubbing prior to being written # to output target
+UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK on_nl on_ignored_nl UNK UNK # @return [Log4r::PatternFormatter]
+UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK # Creates a new formatter wrapper instance. # # @param [Log4r::Formatter]
+UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl on_const UNK UNK UNK UNK # Format event and scrub output

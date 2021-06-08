@@ -1,0 +1,4 @@
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op UNK on_nl on_ignored_nl UNK UNK on_period UNK on_op UNK on_nl # Parse the options
+UNK on_lparen on_const on_rparen on_nl on_ignored_nl UNK on_period UNK do on_op name on_comma info on_op on_ignored_nl UNK on_lparen on_const on_period # Pause to allow user to cancel
+UNK on_period UNK do on_op name on_op on_ignored_nl UNK on_lparen on_const on_period UNK on_comma on_ignored_nl on_label options on_lbracket on_symbeg UNK # Install the gem
+UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

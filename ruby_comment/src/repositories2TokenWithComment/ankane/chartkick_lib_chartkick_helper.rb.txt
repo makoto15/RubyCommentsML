@@ -1,0 +1,8 @@
+content_for on_op options on_period UNK on_lparen on_symbeg content_for on_rparen on_op options on_period delete on_lparen on_symbeg content_for on_rparen on_op on_const on_period # content_for: nil must override default
+UNK respond_to? on_lparen on_symbeg UNK on_rparen on_op on_lparen UNK UNK UNK on_rparen on_nl nonce on_op UNK on_nl UNK respond_to? on_lparen # Secure Headers also defines content_security_policy_nonce but it takes an argument # Rails 5.2 overrides this method, but earlier versions do not
+nonce on_op UNK on_nl UNK respond_to? on_lparen on_symbeg UNK on_rparen on_nl nonce on_op UNK on_nl end on_nl end on_nl UNK # Rails 5.2
+nonce on_op UNK on_nl end on_nl end on_nl UNK on_op nonce on_op on_tstring_beg on_tstring_content on_embexpr_beg on_const on_op on_const on_period UNK # Secure Headers
+UNK on_op UNK on_ignored_nl on_label UNK on_comma on_ignored_nl on_label UNK on_comma on_ignored_nl on_label UNK on_nl UNK on_nl UNK on_period UNK # html vars
+UNK on_op UNK on_ignored_nl on_label UNK on_period UNK on_comma on_ignored_nl on_label UNK on_period UNK on_comma on_ignored_nl on_label data_source on_period respond_to? # js vars
+def UNK on_lparen hash_a on_comma UNK on_rparen on_ignored_nl hash_a on_op hash_a on_period UNK on_nl UNK on_period UNK UNK on_op k # https://github.com/rails/rails/blob/master/activesupport/lib/active_support/core_ext/hash/deep_merge.rb
+on_const on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg # from https://github.com/rails/rails/blob/master/activesupport/lib/active_support/core_ext/string/output_safety.rb

@@ -1,0 +1,5 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl def UNK on_period UNK on_nl on_const on_period UNK on_period UNK # frozen_string_literal: true
+UNK on_const on_nl def UNK on_period UNK on_nl on_const on_period UNK on_period UNK on_period UNK on_lparen UNK UNK on_comma UNK # A module that may be optionally included in a controller in order # to provide remember me behavior. Useful when signing in is done # through a callback, like in OmniAuth.
+def UNK on_period UNK on_nl on_const on_period UNK on_period UNK on_period UNK on_lparen UNK UNK on_comma UNK UNK on_comma UNK # Return default cookie values retrieved from session options.
+def UNK on_lparen resource on_rparen on_ignored_nl UNK UNK UNK on_period UNK UNK UNK UNK UNK UNK on_nl scope on_op on_const # Remembers the given resource by setting up a cookie
+def UNK on_lparen resource on_rparen on_ignored_nl scope on_op on_const on_op on_const on_period UNK on_lparen resource on_rparen on_nl resource on_period UNK # Forgets the given resource by deleting a cookie

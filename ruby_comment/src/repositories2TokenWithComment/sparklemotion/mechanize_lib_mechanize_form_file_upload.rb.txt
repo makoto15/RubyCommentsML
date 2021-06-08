@@ -1,0 +1,3 @@
+UNK UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK on_symbeg UNK UNK on_symbeg UNK # This class represents a file upload field found in a form. To use this # class, set FileUpload#file_data= to the data of the file you want to upload # and FileUpload#mime_type= to the appropriate mime type of the file. # # See the example in EXAMPLES
+UNK on_symbeg UNK UNK UNK on_symbeg UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_symbeg UNK on_nl UNK UNK UNK UNK # File name
+UNK UNK on_symbeg UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_symbeg UNK on_nl UNK UNK UNK UNK UNK UNK on_nl # Mime Type (Optional)

@@ -1,0 +1,4 @@
+argv on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op argv on_nl UNK on_const on_op on_const on_op on_const on_comma UNK # Parse the options
+UNK on_op UNK on_period UNK on_period UNK on_lparen UNK on_comma UNK on_comma on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_rparen on_nl # Verify the box exists that we want to repackage
+UNK on_op UNK on_period UNK on_period UNK on_period UNK on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op on_const on_period # Repackage the box
+UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

@@ -1,0 +1,3 @@
+UNK on_const on_op on_const on_nl def self on_period UNK on_lparen options on_rparen on_ignored_nl UNK on_op on_const on_period UNK on_lbracket on_const # Adds a git tag to the current commit
+UNK on_op on_const on_period UNK on_lbracket on_const on_op on_const on_op on_const on_rbracket on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end # lane name in lane_context could be nil because you can just call $fastlane add_git_tag which has no context
+on_ignored_nl tag on_op options on_lbracket on_symbeg tag on_rbracket on_op on_tstring_beg on_embexpr_beg options on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_content on_embexpr_beg UNK # no spaces allowed

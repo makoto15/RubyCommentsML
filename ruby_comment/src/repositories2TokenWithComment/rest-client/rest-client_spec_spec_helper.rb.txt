@@ -1,0 +1,5 @@
+UNK on_period UNK UNK on_op UNK on_op on_ignored_nl UNK on_period UNK on_nl on_ignored_nl UNK on_period UNK on_op UNK UNK UNK # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+UNK on_period UNK on_op UNK UNK UNK on_nl on_ignored_nl on_ignored_nl UNK on_period UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK # Run specs in random order to surface order dependencies. If you find an # order dependency and want to debug it, you can fix the order by providing # the seed, which is printed after each run. # --seed 1234
+on_ignored_nl UNK on_period UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK on_period UNK UNK UNK UNK on_op UNK on_op on_ignored_nl # always run with ruby warnings enabled # TODO: figure out why this is so obscenely noisy (rspec bug?) # config.warnings = true
+UNK on_period UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK on_period UNK UNK UNK UNK on_op UNK on_op on_ignored_nl UNK # add helpers
+UNK on_op UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # always run with ruby warnings enabled (see above)

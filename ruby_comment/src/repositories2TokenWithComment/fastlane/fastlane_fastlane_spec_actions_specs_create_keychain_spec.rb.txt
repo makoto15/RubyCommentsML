@@ -1,0 +1,2 @@
+on_lbracket on_const on_period expand_path on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rbracket UNK on_ignored_nl on_lbracket on_const on_period expand_path on_lparen on_tstring_beg on_tstring_content on_tstring_end # first time
+on_lbracket on_const on_period expand_path on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_const on_period expand_path on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rbracket on_nl # after creation

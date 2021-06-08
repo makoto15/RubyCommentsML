@@ -1,0 +1,1 @@
+UNK on_const on_op on_const on_op on_const on_period UNK UNK UNK on_tstring_content UNK UNK UNK UNK UNK UNK UNK on_period UNK # sprockets-rails 3 tracks down the calls to `font_path` and `image_path` # and automatically precompiles the referenced assets.

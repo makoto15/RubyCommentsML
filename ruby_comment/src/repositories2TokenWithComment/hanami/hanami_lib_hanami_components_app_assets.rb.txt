@@ -1,0 +1,5 @@
+UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl config on_op UNK # @since 0.9.0 # @api private
+UNK on_const on_nl UNK on_const on_nl UNK UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl config on_op UNK on_period UNK on_nl # @since 0.9.0 # @api private
+UNK on_const on_nl UNK UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl config on_op UNK on_period UNK on_nl namespace on_op UNK # hanami-assets configuration for a single Hanami application in the project. # # @since 0.9.0 # @api private
+UNK UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl config on_op UNK on_period UNK on_nl namespace on_op UNK on_period namespace on_nl # Configure hanami-assets for a single Hanami application in the project. # # @param app [Hanami::Configuration::App] a Hanami application # # @since 0.9.0 # @api private # # rubocop:disable Metrics/AbcSize # rubocop:disable Metrics/MethodLength
+end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # rubocop:enable Metrics/MethodLength # rubocop:enable Metrics/AbcSize

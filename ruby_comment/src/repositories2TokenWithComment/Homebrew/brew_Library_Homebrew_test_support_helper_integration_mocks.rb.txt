@@ -1,0 +1,2 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_nl UNK UNK UNK UNK on_const UNK UNK # frozen_string_literal: true
+on_const UNK UNK on_nl end on_nl on_const UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl EMP EMP # Ensure we get coverage results before replacing the current process.

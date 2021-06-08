@@ -1,0 +1,2 @@
+on_ignored_nl on_const on_period UNK on_const on_op on_const on_op on_const on_op on_const do on_ignored_nl UNK on_lparen on_symbeg UNK on_rparen on_lbrace UNK # frozen_string_literal: true
+UNK on_op on_heredoc_beg on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content # regression test; see GH issue 2441

@@ -1,0 +1,4 @@
+agent on_period options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op true on_nl agent on_period UNK on_nl on_ignored_nl expect on_lbrace on_ignored_nl agent # This is actually RSS 2.0 w/ Atom extension
+expect on_lparen first on_period payload on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # Feedjira extracts feedburner:origLink
+on_ignored_nl expect on_lbrace on_ignored_nl agent on_period check on_nl on_rbrace on_period to change on_lbrace agent on_period events on_period count on_rbrace on_period # forget the newest id
+agent on_period options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_int on_nl agent on_period check on_nl expect on_lparen agent on_period events # <= 0 should ignore option and get all

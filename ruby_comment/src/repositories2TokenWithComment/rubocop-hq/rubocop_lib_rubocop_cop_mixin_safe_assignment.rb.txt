@@ -1,0 +1,2 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_nl UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl # Common functionality for safe assignment. By safe assignment we mean # putting parentheses around an assignment to indicate "I know I'm using an # assignment as a condition. It's not a mistake."

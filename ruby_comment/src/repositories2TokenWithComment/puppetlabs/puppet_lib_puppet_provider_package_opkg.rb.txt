@@ -1,0 +1,2 @@
+opkg on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK UNK on_period UNK on_op UNK on_nl on_ignored_nl UNK on_ivar on_lbracket on_symbeg UNK on_rbracket # OpenWrt package lists are ephemeral, make sure we have at least # some entries in the list directory for opkg to use
+UNK on_op opkg on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_ivar on_lbracket on_symbeg name on_rbracket on_rparen on_nl UNK UNK on_op UNK on_tstring_content # list out our specific package

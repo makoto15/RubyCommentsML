@@ -1,0 +1,2 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_period UNK on_lparen machine UNK # A general Vagrant system implementation for "solaris 11". # # Contributed by Jan Thomas Moldung <janth@moldung.no>
+UNK UNK machine on_period UNK on_period UNK on_lparen UNK on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content UNK on_rparen on_nl machine on_period UNK # Only do this if the hostname is not already set

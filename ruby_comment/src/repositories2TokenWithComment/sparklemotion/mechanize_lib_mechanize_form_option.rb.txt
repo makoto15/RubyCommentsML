@@ -1,0 +1,5 @@
+on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl UNK on_symbeg UNK UNK on_symbeg UNK UNK on_symbeg UNK UNK on_symbeg UNK ## # This class contains an option found within SelectList. A SelectList can # have many Option classes associated with it. An option can be selected by # calling Option#tick, or Option#click. # # To select the first option in a list: # # select_list.first.tick
+end on_nl on_ignored_nl UNK UNK on_nl UNK on_nl on_ivar on_op UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl on_ivar on_op # The select list this option belongs to
+UNK UNK on_nl UNK on_nl on_ivar on_op UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl on_ivar on_op UNK on_nl end # Select this option
+UNK UNK on_nl on_ivar on_op UNK on_nl end on_nl on_ignored_nl UNK on_symbeg UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_symbeg # Unselect this option
+UNK UNK on_nl UNK on_nl on_ivar on_op on_op on_ivar on_nl end on_nl on_ignored_nl UNK on_nl UNK UNK on_nl UNK UNK # Toggle the selection value of this option

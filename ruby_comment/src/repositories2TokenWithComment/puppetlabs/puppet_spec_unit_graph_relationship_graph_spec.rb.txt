@@ -1,0 +1,1 @@
+first on_op stub_vertex on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl second on_op stub_vertex on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl graph # strings chosen so the old hex digest method would put these in the # wrong order

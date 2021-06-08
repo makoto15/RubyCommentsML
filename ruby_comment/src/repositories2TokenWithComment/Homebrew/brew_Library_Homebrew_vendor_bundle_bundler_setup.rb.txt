@@ -1,0 +1,1 @@
+ruby_engine on_op UNK UNK UNK UNK on_op UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl ruby_version on_op UNK on_op UNK UNK on_tstring_beg # ruby 1.8.7 doesn't define RUBY_ENGINE

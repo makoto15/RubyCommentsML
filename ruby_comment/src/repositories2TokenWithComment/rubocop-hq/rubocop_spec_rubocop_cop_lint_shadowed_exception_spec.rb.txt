@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK do on_ignored_nl UNK on_lparen UNK UNK on_rparen UNK UNK # frozen_string_literal: true
+UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_rparen on_nl UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_rparen on_nl UNK on_lparen # System dependent error code depends on runtime environment.

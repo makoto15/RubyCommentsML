@@ -1,0 +1,6 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK UNK UNK on_nl ## # Produces the name of a subscription plan. # # @return [String] # # @example # Faker::Subscription.plan #=> "Platinum" # # @faker.version 1.9.2
+UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK UNK UNK on_nl ## # Produces a subscription status. # # @return [String] # # @example # Faker::Subscription.status #=> "Active" # # @faker.version 1.9.2
+UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK UNK UNK on_nl ## # Produces the name of a payment method. # # @return [String] # # @example # Faker::Subscription.payment_method #=> "PayPal" # # @faker.version 1.9.2
+UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK UNK UNK on_nl ## # Produces the name of a subscription term. # # @return [String] # # @example # Faker::Subscription.subscription_term #=> "Annual" # # @faker.version 1.9.2
+UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces the name of a payment term. # # @return [String] # # @example # Faker::Subscription.payment_term #=> "Monthly" # # @faker.version 1.9.2

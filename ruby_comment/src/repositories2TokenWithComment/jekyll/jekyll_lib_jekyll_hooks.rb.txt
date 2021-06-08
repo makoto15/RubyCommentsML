@@ -1,0 +1,10 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl on_const on_op UNK on_nl on_ignored_nl on_const on_op on_lbrace on_ignored_nl on_symbeg UNK on_op UNK # frozen_string_literal: true
+on_const on_op on_lbrace on_ignored_nl on_symbeg UNK on_op UNK on_comma on_ignored_nl on_symbeg UNK on_op UNK on_comma on_ignored_nl on_symbeg UNK on_op UNK # compatibility layer for octopress-hooks users
+on_ivar on_op on_lbrace on_ignored_nl on_symbeg UNK on_op on_lbrace on_ignored_nl on_symbeg UNK on_op on_lbracket on_rbracket on_comma on_ignored_nl on_symbeg UNK on_op on_lbracket # initial empty hooks
+on_ivar on_op on_lbrace on_rbrace on_nl on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_const on_rparen on_nl on_const on_op on_const on_period UNK # map of all hooks and their priorities
+UNK UNK on_period UNK on_lparen UNK on_comma event on_comma UNK on_const on_comma on_op block on_rparen on_ignored_nl on_const on_lparen UNK on_rparen # register hook(s) to be called later, public API
+UNK UNK on_period UNK on_lparen priority on_rparen on_ignored_nl UNK priority UNK priority on_period UNK on_lparen on_const on_rparen on_nl on_ignored_nl on_const # Ensure the priority is a Fixnum
+UNK UNK on_period UNK on_lparen owner on_comma event on_comma priority on_comma on_op block on_rparen on_ignored_nl on_ivar on_lbracket owner on_rbracket on_op # register a single hook to be called later, internal API
+UNK UNK on_period UNK on_lparen owner on_comma event on_comma on_op UNK on_rparen on_ignored_nl UNK on_op on_ivar on_period UNK on_lparen owner # interface for Jekyll core components to trigger hooks
+UNK on_op on_ivar on_period UNK on_lparen owner on_comma event on_rparen on_nl UNK UNK UNK on_period UNK on_op UNK on_period UNK # proceed only if there are hooks to call
+UNK on_period UNK on_lbrace on_op UNK on_op on_ivar on_lbracket UNK on_rbracket on_rbrace on_period UNK UNK on_op UNK on_op on_ignored_nl UNK # sort and call hooks according to priority and load order

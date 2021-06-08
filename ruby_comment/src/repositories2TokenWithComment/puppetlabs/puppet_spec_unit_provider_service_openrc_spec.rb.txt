@@ -1,0 +1,2 @@
+UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_op on_const on_period execute on_lparen UNK on_comma UNK on_symbeg failonfail on_op # Get a pid for $CHILD_STATUS to latch on to
+allow on_lparen provider_class on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period with on_lparen UNK on_rparen on_period and_return on_lparen UNK # Puppet::Util is both mixed in to providers and is also invoked directly # by Puppet::Provider::CommandDefiner, so we have to stub both out.

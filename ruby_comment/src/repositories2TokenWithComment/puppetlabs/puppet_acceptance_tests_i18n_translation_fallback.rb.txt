@@ -1,0 +1,1 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK UNK UNK on_op UNK on_op on_ignored_nl # No confines because even on non-translation supported OS' we should still fall back to english

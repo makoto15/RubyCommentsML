@@ -1,0 +1,1 @@
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_tstring_content UNK UNK UNK on_tstring_content # TODO: this is the same code as cap/linux/chef_installed, consider merging # Check if Chef is installed at the given version. # @return [true, false]

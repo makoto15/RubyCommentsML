@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK on_op UNK on_nl UNK UNK UNK node UNK on_ignored_nl # frozen_string_literal: true
+UNK UNK on_nl UNK on_op UNK on_nl UNK UNK UNK node UNK on_ignored_nl condition on_op UNK UNK node UNK on_nl # This class does condition auto-correction

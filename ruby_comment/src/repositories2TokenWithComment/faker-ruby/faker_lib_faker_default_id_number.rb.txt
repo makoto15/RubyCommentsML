@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_lbracket on_ignored_nl on_regexp_beg # frozen_string_literal: true
+on_const on_period UNK UNK on_op UNK on_op UNK on_op UNK UNK on_op UNK on_op UNK on_nl end on_nl on_ignored_nl def # We could still have all 0s in one segment or another
+UNK on_op on_lbracket on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_rbracket on_nl # First digit is multiplied by 3, second by 2, and so on

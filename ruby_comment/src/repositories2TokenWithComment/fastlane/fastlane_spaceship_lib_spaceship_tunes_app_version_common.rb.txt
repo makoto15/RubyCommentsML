@@ -1,0 +1,3 @@
+UNK UNK on_nl UNK on_op UNK on_nl UNK UNK UNK platform UNK UNK UNK on_ignored_nl UNK on_op platform on_lbracket UNK # internal to spaceship # Represents the common structure between application['versionSets'] and app_version['platform']
+search_platform on_op search_platform on_period UNK UNK search_platform on_nl on_ignored_nl platform on_op UNK on_period UNK UNK on_op p on_op on_ignored_nl on_lbracket # We only support platforms that exist ATM
+UNK UNK on_period UNK on_op UNK on_op search_platform on_period UNK on_nl platform on_op UNK on_period UNK UNK on_op p on_op # If your app has versions for both iOS and tvOS we will default to returning the iOS version for now. # This is intentional as we need to do more work to support apps that have hybrid versions.

@@ -1,0 +1,5 @@
+UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_const on_op UNK UNK UNK on_nl on_const on_op UNK UNK # frozen_string_literal: true
+UNK on_const on_nl on_const on_op UNK UNK UNK on_nl on_const on_op UNK UNK UNK on_nl on_const on_op UNK UNK UNK # Common functionality for nodes that are predicates: # `or`, `and` ...
+UNK operator on_nl UNK UNK operator UNK UNK on_nl end on_nl UNK UNK UNK on_nl operator on_op on_const on_op operator # Returns the operator as a string. # # @return [String] the operator
+UNK UNK on_nl operator on_op on_const on_op operator on_op on_const on_nl end on_nl UNK UNK UNK on_nl operator on_op on_const # Checks whether this is a logical operator. # # @return [Boolean] whether this is a logical operator
+UNK UNK on_nl operator on_op on_const on_op operator on_op on_const on_nl end on_nl end on_nl end on_nl end on_nl EMP # Checks whether this is a semantic operator. # # @return [Boolean] whether this is a semantic operator

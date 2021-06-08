@@ -1,0 +1,7 @@
+store on_lbracket on_ignored_nl on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_comma on_ignored_nl on_lbrace on_label on_tstring_beg on_tstring_content # have same score due to dismax
+on_ignored_nl def UNK on_nl UNK on_op on_const on_period search on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_lbrace on_label UNK on_rbrace on_comma # body_options
+on_ignored_nl def UNK on_nl store_names on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl UNK on_const on_comma on_const on_period search on_lparen on_tstring_beg on_tstring_content # load
+on_ignored_nl def UNK on_nl store on_lbracket on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_int on_rbrace on_rbracket on_nl result on_op on_const # select
+store on_lbracket on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_lbracket on_int on_comma on_int on_rbracket on_comma on_label on_int on_rbrace on_rbracket on_nl # let's take this to the next level
+on_ignored_nl def UNK on_nl store on_lbracket on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_op on_int on_comma # nested
+on_ignored_nl def UNK on_nl UNK UNK UNK on_lparen on_const on_rparen on_nl store_names on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl UNK on_const # other tests

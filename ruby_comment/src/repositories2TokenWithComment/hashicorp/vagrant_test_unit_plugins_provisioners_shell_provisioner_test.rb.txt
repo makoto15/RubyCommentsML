@@ -1,0 +1,1 @@
+expect on_lbrace on_ignored_nl vsp on_period provision on_nl on_rbrace on_period UNK raise_error on_lparen on_const on_rparen on_nl end on_nl end on_nl on_ignored_nl # This test should be fine, since we are specifically looking for the # string 'freeze' when RuntimeError is raised

@@ -1,0 +1,3 @@
+on_symbeg UNK on_op on_tstring_beg on_tstring_end on_comma on_symbeg UNK on_op on_tstring_beg on_tstring_end on_comma on_symbeg UNK on_op UNK on_period UNK UNK on_op # GRR, Puppet!
+on_symbeg UNK on_op on_tstring_beg on_tstring_end on_comma on_symbeg UNK on_op UNK on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl on_lbrace # GRR, Puppet!
+on_symbeg UNK on_op UNK on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl on_lbrace on_symbeg name on_op UNK on_comma on_symbeg # GRR, Puppet!

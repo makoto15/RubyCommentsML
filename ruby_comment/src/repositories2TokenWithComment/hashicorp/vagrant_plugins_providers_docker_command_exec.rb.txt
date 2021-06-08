@@ -1,0 +1,4 @@
+command on_op UNK on_nl UNK on_op UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl if UNK on_nl command on_op # Parse out the extra args to send to SSH, which is everything # after the "--"
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK if on_op UNK on_nl on_ignored_nl if on_op UNK on_nl UNK on_const on_op # Parse the options
+if on_op UNK on_nl UNK on_const on_op on_const on_nl end on_nl on_ignored_nl UNK on_op UNK UNK on_symbeg UNK UNK on_nl # Show the error if we don't have "--" _after_ parse_options # so that "-h" and "--help" work properly.
+UNK on_op options on_nl on_ignored_nl if options on_lbracket on_symbeg UNK on_rbracket on_nl on_const on_op on_const on_op on_const on_period UNK on_lparen # Run this interactively if asked.

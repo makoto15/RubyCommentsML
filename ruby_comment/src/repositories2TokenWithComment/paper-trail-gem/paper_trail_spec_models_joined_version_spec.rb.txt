@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_period describe on_const UNK UNK UNK UNK UNK UNK UNK do on_ignored_nl # frozen_string_literal: true
+on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_const on_period UNK on_lparen UNK on_rparen on_period # persist a widget
+UNK on_period UNK on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # persist a widget

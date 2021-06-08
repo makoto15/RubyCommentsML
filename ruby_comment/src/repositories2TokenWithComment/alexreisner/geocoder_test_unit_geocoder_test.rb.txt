@@ -1,0 +1,2 @@
+UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_nl on_ignored_nl def UNK on_nl v on_op on_const on_period new # encoding: utf-8
+UNK on_op on_lbracket on_lbracket on_int on_comma on_int on_rbracket on_comma on_lbracket on_int on_comma on_int on_rbracket on_comma on_lbracket on_int on_comma on_int on_rbracket # test for the presence of a bug that was introduced in version 0.9.11

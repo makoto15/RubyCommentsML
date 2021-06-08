@@ -1,0 +1,11 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl def UNK on_lparen num UNK UNK UNK on_rparen on_ignored_nl max_per_page on_op on_lparen on_lparen # frozen_string_literal: true
+def UNK on_lparen num UNK UNK UNK on_rparen on_ignored_nl max_per_page on_op on_lparen on_lparen UNK on_lparen on_ivar on_rparen on_op on_ivar on_rparen # Specify the <tt>per_page</tt> value for the preceding <tt>page</tt> scope # Model.page(3).per(10)
+def UNK on_nl UNK on_op UNK on_nl UNK on_op on_ivar if UNK on_lparen on_ivar on_rparen on_op on_ivar on_nl UNK on_op # Total number of pages
+def current_page on_nl UNK on_op UNK on_nl UNK on_op on_ivar if UNK on_lparen on_ivar on_rparen on_op on_ivar on_nl UNK on_op # Current page number
+def UNK on_nl on_const on_op on_const on_period UNK UNK on_tstring_content UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_nl end on_nl # Current per-page number
+end on_nl on_ignored_nl def UNK on_nl current_page on_op on_int UNK UNK on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl # (defined?(@_per) && @_per) || default_per_page
+def UNK on_nl current_page on_op on_int UNK UNK on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl current_page on_op on_int # Next page number in the collection
+def UNK on_nl current_page on_op on_int UNK UNK on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl current_page on_op on_int # Previous page number in the collection
+def UNK on_nl current_page on_op on_int on_nl end on_nl on_ignored_nl def UNK on_nl current_page on_op UNK on_nl end on_nl on_ignored_nl # First page of the collection?
+def UNK on_nl current_page on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl current_page on_op UNK on_nl end on_nl end # Last page of the collection?
+def UNK on_nl current_page on_op UNK on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP # Out of range of the collection?

@@ -1,0 +1,2 @@
+resource on_period UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op UNK UNK UNK on_period UNK UNK on_nl end on_nl return #TRANSLATORS 'Ensure' is an attribute and ':present' is a value and should not be translated
+return UNK if on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period UNK on_lparen UNK on_rparen on_nl on_ignored_nl UNK # Don't even try to manage the content on directories or links

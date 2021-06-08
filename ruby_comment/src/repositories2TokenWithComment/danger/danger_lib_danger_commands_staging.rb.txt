@@ -1,0 +1,1 @@
+UNK on_op on_const on_op on_const on_period UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK # Currently CLAide doesn't support short option like -h https://github.com/CocoaPods/CLAide/pull/60 # when user pass in -h, mimic the behavior of passing in --help.

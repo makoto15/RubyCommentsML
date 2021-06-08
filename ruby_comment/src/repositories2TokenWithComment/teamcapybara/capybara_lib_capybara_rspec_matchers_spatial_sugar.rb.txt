@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl def UNK UNK el UNK on_ignored_nl options UNK UNK UNK # frozen_string_literal: true
+UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # (@args.last.is_a?(Hash) ? @args : @args.push({})).last

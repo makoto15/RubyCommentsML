@@ -1,0 +1,1 @@
+if UNK on_lbracket UNK on_rbracket on_op on_op nic on_lbracket on_symbeg UNK on_rbracket on_period UNK on_nl vm_interface_map on_lbracket UNK on_lbracket UNK # If the :net_connection_id entry is nil then it is probably a virtual connection # and should be ignored.

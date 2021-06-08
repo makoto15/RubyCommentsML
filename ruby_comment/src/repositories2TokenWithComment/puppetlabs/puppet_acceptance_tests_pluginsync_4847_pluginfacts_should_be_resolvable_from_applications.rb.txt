@@ -1,0 +1,1 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_op UNK on_op UNK on_nl on_ignored_nl UNK on_op UNK on_lparen master on_comma # # This test is intended to ensure that custom facts downloaded onto an agent via # pluginsync are resolvable by puppet applications besides agent/apply. #

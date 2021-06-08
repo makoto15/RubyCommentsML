@@ -1,0 +1,69 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl on_const on_op on_tstring_beg on_tstring_content # frozen_string_literal: true
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Andorra
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # United Arab Emirates
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Albania
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Austria
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Azerbaijan, Republic of
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Bosnia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Belgium
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Bulgaria
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Bahrain
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Brazil
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Switzerland
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Costa Rica
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Cyprus
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Czech Republic
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Germany
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Denmark
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Dominican Republic
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Estonia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Spain
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Finland
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Faroe Islands
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # France
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # United Kingdom
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Georgia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Gibraltar
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Greenland
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Greece
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Guatemala
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Croatia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Hungary
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Ireland
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Israel
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Iceland
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Italy
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Kuwait
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Kazakhstan
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Lebanon
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Liechtenstein
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Lithuania
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Luxembourg
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Latvia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Monaco
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Moldova
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl assert account on_period length # Montenegro
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Macedonia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Mauritania
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Malta
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Mauritius
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Netherlands
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Norway
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Pakistan
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Poland
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Palestinian Territory, Occupied
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Portugal
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Qatar
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Romania
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Serbia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Saudi Arabia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Sweden
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Slovenia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Slovakia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # San Marino
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Timor-Leste
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Tunisia
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Turkey
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Ukraine
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Virgin Islands, British
+def UNK on_nl account on_op on_ivar on_period iban on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert account on_period length on_op # Kosovo, Republic of

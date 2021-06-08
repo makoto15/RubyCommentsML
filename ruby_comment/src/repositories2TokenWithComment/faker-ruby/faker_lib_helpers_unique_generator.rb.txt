@@ -1,0 +1,5 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl on_ivar on_op on_const on_period UNK on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK # frozen_string_literal: true
+on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK on_nl end on_nl on_ignored_nl def UNK on_lparen UNK on_comma UNK on_rparen on_ignored_nl # Holds names of generators with unique values
+def UNK on_lparen name on_comma on_op arguments on_rparen on_ignored_nl UNK on_period UNK on_period UNK on_period UNK on_lparen UNK on_rparen on_nl # rubocop:disable Style/MethodMissingSuper
+UNK on_lparen UNK UNK on_rparen UNK UNK on_lparen UNK UNK on_comma UNK on_rparen on_nl on_ignored_nl def UNK on_lparen UNK on_comma # Have method_missing use ruby 2.x keywords if the method exists. # This is necessary because the syntax for passing arguments (`...`) # is invalid on versions before Ruby 2.7, so it can't be used.
+on_ignored_nl def UNK on_lparen UNK on_comma UNK on_op UNK on_rparen on_ignored_nl UNK on_period UNK on_period UNK on_lparen UNK UNK UNK # rubocop:enable Style/MethodMissingSuper

@@ -1,0 +1,3 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl UNK # frozen_string_literal: true
+UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma UNK on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl postcode on_op on_const on_op on_const # Pager numbers begin with 070 and 076xx. 07624 is used for mobiles on the Isle of Man
+UNK on_op on_const on_op on_const on_period postcode on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_int UNK on_nl UNK on_lparen # The letters C I K M O V are not used in the second part of the Postcode.

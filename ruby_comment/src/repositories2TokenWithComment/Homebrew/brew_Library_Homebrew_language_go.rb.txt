@@ -1,0 +1,2 @@
+UNK UNK UNK UNK UNK on_nl UNK UNK on_const on_nl UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_const UNK on_const UNK # Given a set of resources, stages them to a gopath for # building go software. # The resource names should be the import name of the package, # e.g. `resource "github.com/foo/bar"`

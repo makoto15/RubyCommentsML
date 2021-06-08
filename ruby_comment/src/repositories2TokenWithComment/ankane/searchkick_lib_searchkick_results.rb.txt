@@ -1,0 +1,9 @@
+results on_op on_lbrace on_rbrace on_nl on_ignored_nl hits on_period UNK on_lbrace on_op hit on_comma UNK on_op hit on_lbracket on_tstring_beg on_tstring_content on_tstring_end # results can have different types
+results on_op on_ignored_nl hits on_period map do on_op hit on_op on_ignored_nl result on_op results on_lbracket hit on_lbracket on_tstring_beg on_tstring_content on_tstring_end # sort
+on_lbracket on_const on_period UNK on_lparen result on_rparen on_comma hit on_rbracket on_nl end on_nl end on_nl end on_nl end on_nl on_ignored_nl # needed for legacy reasons
+on_lbracket on_rbracket on_nl else on_ignored_nl raise on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl end on_nl on_ignored_nl def UNK on_nl response on_lbracket # TODO remove 2nd term
+if UNK on_nl UNK on_period UNK on_lparen UNK on_rparen on_nl UNK on_period UNK on_lparen UNK on_rparen on_nl end on_nl end # move the buckets one level above into the field hash
+model_name on_period UNK on_period UNK on_nl else on_ignored_nl UNK on_op options on_lbracket on_symbeg UNK on_rbracket on_op on_int on_op model_name on_period # backward compatibility
+on_const on_op on_const on_period UNK on_lparen on_ivar on_comma on_const on_period UNK on_period UNK on_lparen UNK on_rparen on_comma on_ivar on_rparen on_nl # TODO Active Support notifications for this scroll call
+on_const on_period UNK on_period UNK on_lparen on_label UNK on_rparen on_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl end # try to clear scroll # not required as scroll will expire # but there is a cost to open scrolls
+end on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl def UNK on_lparen records on_comma hits on_rparen on_ignored_nl UNK on_op hits on_period # do nothing

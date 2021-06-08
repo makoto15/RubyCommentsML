@@ -1,0 +1,1 @@
+expect on_lparen on_ivar on_rparen on_period not_to be_myfeature on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # second call would cause an expectation exception if 'require' was # called a second time

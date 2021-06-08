@@ -1,0 +1,2 @@
+new_context on_op on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_nl on_ignored_nl decorator on_period context on_op new_context on_nl decorator on_period UNK do # trigger decoration
+it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl decorator on_op on_const on_period new on_lparen on_lbracket on_rbracket on_rparen on_nl on_ignored_nl expect on_lparen decorator # required for `render @collection` in Rails

@@ -1,0 +1,6 @@
+assert_equal on_lparen on_op on_int on_comma m on_period cmp_variables on_lparen on_lbrace on_rbrace on_comma on_lbrace on_label on_int on_rbrace on_rparen on_rparen on_nl assert_equal # different sets of keys
+assert_equal on_lparen on_op on_int on_comma m on_period cmp_variables on_lparen on_lbrace on_label on_int on_rbrace on_comma on_lbrace on_label on_int on_rbrace on_rparen on_rparen # same set of keys
+assert_equal on_lparen on_op on_int on_comma m on_period cmp_variables on_lparen on_lbrace on_label nil on_rbrace on_comma on_lbrace on_label on_int on_rbrace on_rparen on_rparen # comparison sorts keys
+assert_equal on_lparen on_op on_int on_comma meta on_lparen n on_op on_int on_comma nil on_comma nil on_rparen on_op meta on_lparen n on_op # timekey is 1st comparison key
+assert_equal on_lparen on_op on_int on_comma meta on_lparen nil on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_lbrace on_rbrace on_rparen on_op meta on_lparen nil # tag is 2nd
+assert_equal on_lparen on_op on_int on_comma meta on_lparen nil on_comma nil on_comma on_lbrace on_rbrace on_rparen on_op meta on_lparen nil on_comma nil # variables is the last

@@ -1,0 +1,2 @@
+UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK # All Pages controllers inherit from this controller.
+UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK # Active admin actions don't require layout. All custom actions do.

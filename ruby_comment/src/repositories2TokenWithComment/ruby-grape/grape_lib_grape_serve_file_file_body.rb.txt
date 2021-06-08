@@ -1,0 +1,4 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl on_const on_op UNK on_nl on_ignored_nl UNK on_const on_nl UNK UNK path on_nl on_ignored_nl # frozen_string_literal: true
+UNK on_const on_nl UNK UNK path on_nl on_ignored_nl UNK UNK UNK path UNK on_ignored_nl UNK on_op path on_nl end on_nl # Class helps send file through API
+UNK UNK UNK path UNK on_ignored_nl UNK on_op path on_nl end on_nl on_ignored_nl UNK UNK on_nl path on_nl end on_nl # @param path [String]
+UNK UNK on_nl path on_nl end on_nl on_ignored_nl UNK UNK on_nl on_const UNK UNK UNK path UNK UNK UNK UNK # Need for Rack::Sendfile middleware # # @return [String]

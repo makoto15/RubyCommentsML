@@ -1,0 +1,4 @@
+on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_nl # frozen_string_literal: true
+UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK # Helper methods to move a node
+end on_nl on_ignored_nl def UNK on_lparen other on_rparen UNK on_op other on_period UNK on_period UNK on_nl UNK on_op UNK UNK # used by RangeHelp
+UNK on_op other on_period UNK on_period UNK on_nl UNK on_op UNK UNK UNK on_op UNK UNK UNK on_op other on_period # rubocop:disable Metrics/AbcSize

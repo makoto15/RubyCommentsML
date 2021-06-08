@@ -1,0 +1,4 @@
+UNK on_const on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg name on_nl attr_reader # A namespace/name/type combination that can be used as a compound hash key # # @api public
+UNK on_op name on_period UNK on_period UNK UNK on_const UNK on_nl UNK UNK UNK on_int UNK on_period UNK on_nl UNK # relativize the name (get rid of leading ::), and make the split string available
+on_ivar on_op UNK on_embexpr_beg on_ivar on_embexpr_end UNK on_embexpr_beg on_ivar on_embexpr_end UNK on_embexpr_beg on_ivar on_embexpr_end UNK on_period UNK on_nl on_ivar on_op # Use a frozen compound key for the hash and comparison. Most varying part first
+UNK UNK on_nl on_ivar on_period UNK on_op on_int on_op UNK on_period UNK on_period UNK UNK on_ivar UNK on_ivar UNK on_int # @return the parent of this instance, or nil if this instance is not qualified

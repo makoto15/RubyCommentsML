@@ -1,0 +1,2 @@
+assert_equal on_lparen on_lbracket on_rbracket on_comma e on_period unused on_rparen on_nl end on_nl end on_nl end on_nl on_ignored_nl sub_test_case on_tstring_beg on_tstring_content # only consume for "k4"
+sub_test_case on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl assert_equal on_tstring_beg on_tstring_content on_tstring_end on_comma on_ivar on_period UNK # sub_test_case '#dump_value'

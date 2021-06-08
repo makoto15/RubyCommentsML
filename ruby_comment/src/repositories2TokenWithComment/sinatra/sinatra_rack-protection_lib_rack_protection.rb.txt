@@ -1,0 +1,3 @@
+except on_op on_const options UNK on_symbeg except UNK on_nl use_these on_op on_const options UNK on_symbeg use UNK on_nl on_ignored_nl if # does not include: RemoteReferrer, AuthenticityToken and FormToken
+use on_op on_const on_op on_const on_op on_const on_comma options if use_these on_period include? on_symbeg UNK on_nl use on_op on_const on_op # Off by default, unless added
+use on_op on_const on_op on_const on_op on_const on_comma options unless except on_period include? on_symbeg UNK on_nl use on_op on_const on_op # On by default, unless skipped

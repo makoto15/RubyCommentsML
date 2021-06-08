@@ -1,0 +1,4 @@
+on_const on_op UNK on_ignored_nl UNK UNK UNK on_ignored_nl UNK UNK UNK on_ignored_nl UNK UNK on_nl UNK on_nl on_ignored_nl UNK UNK # Gym::Options.available_options keys that don't apply to mac apps.
+UNK on_period UNK on_op on_const on_op on_const on_period UNK on_period UNK UNK on_op UNK on_op on_ignored_nl on_const on_period UNK on_lparen # Adding reject options back in so gym has everything it needs
+UNK UNK UNK UNK UNK on_op UNK UNK UNK on_nl on_ignored_nl UNK on_lparen UNK on_rparen on_nl end on_nl on_ignored_nl on_ignored_nl # Defaulting to mac specific values
+on_ignored_nl UNK UNK on_period UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl on_const on_op on_const ##################################################### # @!group Documentation #####################################################

@@ -1,0 +1,4 @@
+i on_period start on_nl i on_period after_start on_nl on_ignored_nl assert on_op i on_period UNK on_nl on_ignored_nl t on_op event_time on_lparen # delayed decision is possible to change after (output's) configure
+i on_period start on_nl i on_period after_start on_nl on_ignored_nl assert i on_period UNK on_nl on_ignored_nl t on_op event_time on_lparen on_rparen # delayed decision is possible to change after (output's) configure
+i on_period start on_nl i on_period after_start on_nl on_ignored_nl assert on_op i on_period UNK on_nl on_ignored_nl t on_op event_time on_lparen # delayed decision is possible to change after (output's) configure
+i on_period start on_nl i on_period after_start on_nl on_ignored_nl assert i on_period UNK on_nl on_ignored_nl t on_op event_time on_lparen on_rparen # delayed decision is possible to change after (output's) configure

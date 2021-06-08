@@ -1,0 +1,8 @@
+on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_op on_const on_period UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_symbeg UNK # frozen_string_literal: true
+on_ivar on_op on_const on_period UNK on_lparen on_int on_rparen UNK on_const on_op on_const on_period UNK on_lparen on_const on_period UNK on_rparen on_period # rubocop:disable RSpec/BeforeAfterAll
+expect on_lparen on_ivar on_lbracket on_int on_rbracket on_period port on_rparen on_period UNK eq on_lparen on_ivar on_lbracket on_int on_rbracket on_period port on_rparen # sanity check
+expect on_lparen on_ivar on_period UNK on_lparen on_op on_symbeg port on_rparen on_rparen on_period UNK UNK on_int end on_nl on_ignored_nl UNK bases # rubocop:disable RSpec/ExpectInHook
+end on_nl on_ignored_nl UNK bases on_nl on_ivar on_period UNK UNK on_op s on_op on_tstring_beg on_tstring_content on_embexpr_beg s on_period UNK on_embexpr_end # rubocop:disable RSpec/ExpectInHook
+s on_op on_ivar on_lbracket UNK on_rbracket on_nl on_ignored_nl expect on_lparen on_ivar on_rparen on_period to UNK on_lparen on_tstring_beg on_embexpr_beg UNK on_embexpr_end # Check that we are on /host on the given server
+expect on_lparen on_ivar on_period UNK on_rparen on_period to eq on_lparen UNK on_rparen on_nl expect on_lparen on_ivar on_rparen on_period to UNK # no port
+expect on_lparen on_ivar on_rparen on_period to UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content on_embexpr_beg s on_period UNK on_embexpr_end on_tstring_content # Server should agree with us

@@ -1,0 +1,5 @@
+UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a Legend of Zelda game. # # @return [String] # # @example # Faker::Games::Zelda.game #=> "Breath of the Wild" # # @faker.version 1.7.3
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a character from the Legend of Zelda games. # # @return [String] # # @example # Faker::Games::Zelda.character #=> "Link" # # @faker.version 1.7.3
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a character from the Legend of Zelda games. # # @return [String] # # @example # Faker::Games::Zelda.location #=> "Hyrule Castle" # # @faker.version 1.7.3
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces the name of an item from the Legend of Zelda games. # # @return [String] # # @example # Faker::Games::Zelda.item #=> "Boomerang" # # @faker.version 1.7.3

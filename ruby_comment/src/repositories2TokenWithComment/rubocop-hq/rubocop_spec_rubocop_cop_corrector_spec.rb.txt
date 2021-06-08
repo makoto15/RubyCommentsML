@@ -1,0 +1,5 @@
+on_ignored_nl on_const on_period UNK on_const on_op on_const on_op on_const do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen on_symbeg # frozen_string_literal: true
+expect do on_ignored_nl UNK on_lbrace on_op corr on_op corr on_period UNK on_lparen on_int on_op on_int on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen # rubocop:disable Style/MultilineBlockChain
+end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen on_symbeg UNK on_rparen on_lbrace UNK on_lparen UNK on_rparen on_rbrace # rubocop:enable Style/MultilineBlockChain
+expect do on_ignored_nl UNK on_lbrace on_op corr on_op corr on_period UNK on_lparen UNK on_comma UNK on_comma on_op UNK on_rparen on_rbrace # rubocop:disable Style/MultilineBlockChain
+end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # rubocop:enable Style/MultilineBlockChain

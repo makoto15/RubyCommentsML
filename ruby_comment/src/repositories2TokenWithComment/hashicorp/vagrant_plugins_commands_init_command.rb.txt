@@ -1,0 +1,6 @@
+UNK on_op UNK on_lparen UNK on_rparen on_nl UNK if on_op UNK on_nl on_ignored_nl save_path on_op UNK on_nl if options on_lbracket # Parse the options
+UNK on_op on_tstring_beg on_tstring_end on_nl if options on_lbracket on_symbeg template on_rbracket on_period UNK on_nl options on_lbracket on_symbeg template on_rbracket on_op # Determine the template and template root to use
+options on_lbracket on_symbeg template on_rbracket on_op options on_lbracket on_symbeg template on_rbracket on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl # Strip the .erb extension off the template if the user passes it in
+UNK on_op on_const on_op on_const on_op on_const on_period UNK on_lparen options on_lbracket on_symbeg template on_rbracket on_comma on_label UNK on_rparen on_period # Make sure the template actually exists
+UNK on_ignored_nl save_path on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen do on_op f on_op on_ignored_nl f on_period UNK on_lparen UNK # Write out the contents
+UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

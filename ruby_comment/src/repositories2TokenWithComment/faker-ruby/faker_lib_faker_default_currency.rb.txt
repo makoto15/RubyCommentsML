@@ -1,0 +1,4 @@
+UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a currency. # # @return [String] # # @example # Faker::Currency.name #=> "Swedish Krona" # # @faker.version 1.9.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a currency code. # # @return [String] # # @example # Faker::Currency.code #=> "USD" # # @faker.version 1.9.0
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces a currency symbol. # # @return [String] # # @example # Faker::Currency.symbol #=> "$" # # @faker.version 1.9.0

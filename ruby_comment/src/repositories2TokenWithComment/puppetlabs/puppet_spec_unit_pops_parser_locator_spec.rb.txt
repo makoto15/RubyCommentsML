@@ -1,0 +1,6 @@
+expect on_lparen model on_period body on_period length on_rparen on_period to eq on_lparen on_int on_rparen on_nl expect on_lparen model on_period body # The '+'
+expect on_lparen model on_period body on_period locator on_period UNK on_lparen on_int on_rparen on_rparen on_period to eq on_lparen on_symbeg UNK on_rparen # invalidates cache as side effect
+expect on_lparen interpolated_expr on_period length on_rparen on_period to eq on_lparen on_int on_rparen expect on_lparen interpolated_expr on_period locator on_period UNK on_lparen # the + sign
+expect on_lparen interpolated_expr on_period locator on_period UNK on_lparen interpolated_expr on_rparen on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # the + sign
+expect on_lparen interpolated_expr on_period length on_rparen on_period to eq on_lparen on_int on_rparen expect on_lparen interpolated_expr on_period locator on_period UNK on_lparen # the + sign
+expect on_lparen interpolated_expr on_period locator on_period UNK on_lparen interpolated_expr on_rparen on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # the + sign

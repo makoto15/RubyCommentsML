@@ -1,0 +1,6 @@
+UNK on_const on_op on_const if on_op uploader on_nl on_ignored_nl UNK on_lparen uploader on_rparen on_nl UNK UNK on_nl end on_nl on_ignored_nl # If we didn't find the uploader binary it is a critical error
+UNK on_lparen uploader on_rparen on_nl UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_lparen uploader on_rparen on_ignored_nl cmd on_op on_lbracket # We found it. Build up the command and the args.
+UNK UNK on_lparen uploader on_rparen on_ignored_nl cmd on_op on_lbracket on_rbracket on_nl cmd on_op on_tstring_beg on_tstring_content on_tstring_end if on_op on_const on_period # Executes the uploader with the proper flags based on the configuration. # This function shouldn't return since it will exec, but might return # if we're on a system that doesn't support exec, so handle that properly.
+UNK UNK on_nl if uploader on_op config on_period UNK on_nl UNK uploader on_nl end on_nl on_ignored_nl if on_const on_period UNK # This returns the path to the uploader binary, or nil if it can't # be found. # # @return [String]
+if uploader on_op config on_period UNK on_nl UNK uploader on_nl end on_nl on_ignored_nl if on_const on_period UNK on_nl UNK on_op # Determine the uploader path
+UNK UNK on_nl UNK on_op UNK on_period UNK on_period config on_period UNK on_period UNK on_nl UNK on_op UNK on_period UNK # The metadata command for this push. # # @return [Array<String>]

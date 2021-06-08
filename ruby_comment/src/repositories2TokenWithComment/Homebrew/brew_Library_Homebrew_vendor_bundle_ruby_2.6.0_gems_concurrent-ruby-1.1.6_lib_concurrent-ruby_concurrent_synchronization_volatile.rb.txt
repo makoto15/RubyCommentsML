@@ -1,0 +1,1 @@
+UNK on_const UNK UNK UNK UNK on_const UNK UNK on_nl on_const on_nl UNK on_const UNK UNK on_nl on_const on_nl UNK # Volatile adds the attr_volatile class method when included. # # @example # class Foo # include Concurrent::Synchronization::Volatile # # attr_volatile :bar # # def initialize # self.bar = 1 # end # end # # foo = Foo.new # foo.bar # => 1 # foo.bar = 2 # => 2

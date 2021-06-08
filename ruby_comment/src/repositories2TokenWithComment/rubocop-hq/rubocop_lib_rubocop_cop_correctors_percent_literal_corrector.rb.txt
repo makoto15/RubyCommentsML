@@ -1,0 +1,2 @@
+on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK UNK UNK on_comma UNK UNK # frozen_string_literal: true
+UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK UNK UNK on_comma UNK UNK on_nl on_ignored_nl def UNK on_lparen UNK on_comma # This auto-corrects percent literals

@@ -1,0 +1,2 @@
+UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # An instance writer is responsible for writing complex objects using a {Serializer} # @api private
+UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # @param [Types::PObjectType] type the type of instance to write # @param [Object] value the instance # @param [Serializer] serializer the serializer that will receive the written instance

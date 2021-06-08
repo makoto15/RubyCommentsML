@@ -1,0 +1,5 @@
+UNK UNK on_lparen options on_rparen on_ignored_nl options on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl UNK if UNK on_period # Generate CLI arguments for creating the docker network. # # @param [Hash] options Options from the network config # @returns[Array<String> Network create arguments
+UNK if UNK on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op UNK on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_op # If value is false, option is not set
+UNK on_op UNK on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_lbracket on_rbracket on_op on_lbracket UNK on_rbracket on_nl UNK on_period UNK # If value is true, consider feature flag with no value
+UNK UNK on_lparen env on_rparen on_ignored_nl machine on_op env on_lbracket on_symbeg machine on_rbracket on_nl if machine on_period UNK on_period UNK # Execute the action
+machine on_op env on_lbracket on_symbeg machine on_rbracket on_nl if machine on_period UNK on_period UNK on_nl on_ivar on_period UNK on_lparen on_tstring_beg # If we are using a host VM, then don't worry about it

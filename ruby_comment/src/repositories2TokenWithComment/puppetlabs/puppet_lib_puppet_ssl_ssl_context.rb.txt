@@ -1,0 +1,1 @@
+UNK UNK UNK on_op UNK UNK on_ignored_nl UNK UNK UNK UNK UNK on_nl on_const UNK UNK UNK UNK UNK UNK # This is an idiom to initialize a Struct from keyword # arguments. Ruby 2.5 introduced `keyword_init: true` for # that purpose, but we need to support older versions.
