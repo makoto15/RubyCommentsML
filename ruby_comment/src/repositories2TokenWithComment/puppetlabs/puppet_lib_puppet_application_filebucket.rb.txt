@@ -1,2 +1,0 @@
-UNK on_op UNK on_nl UNK on_op nil on_nl UNK on_ignored_nl UNK on_op nil on_nl UNK on_op UNK on_nl end on_nl # It's a file
-UNK on_op UNK on_nl UNK on_op nil on_nl UNK on_ignored_nl UNK on_op nil on_nl UNK on_op UNK on_nl end on_nl # It's a file

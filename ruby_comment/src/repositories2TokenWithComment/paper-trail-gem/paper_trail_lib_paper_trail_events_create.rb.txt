@@ -1,3 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_op UNK on_nl UNK data # frozen_string_literal: true
-UNK UNK on_op UNK on_nl UNK data on_nl data on_op UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # See docs in `Base`. # # @api private
-UNK data on_nl data on_op UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_op UNK UNK UNK UNK # Return attributes of nascent `Version` record. # # @api private

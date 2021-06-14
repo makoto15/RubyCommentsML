@@ -1,5 +1,0 @@
-env on_op UNK on_nl env on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl env on_period UNK on_nl end on_nl on_ignored_nl let # We have to create a Vagrantfile so there is a root path
-allow on_lparen UNK on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen # We don't care about smb support so return not installed
-allow on_lparen on_const on_op on_const on_op on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen UNK on_rparen # We can't be on Windows, because NFS gets disabled on Windows
-allow on_lparen driver on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen on_lbrace on_ignored_nl on_int on_op on_lbrace on_label # Stub out the stuff so it just works by default
-UNK on_op subject on_period UNK on_nl allow on_lparen subject on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen # override sleep to 0 so test does not take seconds

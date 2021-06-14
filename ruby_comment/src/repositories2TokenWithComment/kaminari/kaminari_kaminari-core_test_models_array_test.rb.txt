@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl UNK do on_ignored_nl on_ivar on_op on_const # frozen_string_literal: true

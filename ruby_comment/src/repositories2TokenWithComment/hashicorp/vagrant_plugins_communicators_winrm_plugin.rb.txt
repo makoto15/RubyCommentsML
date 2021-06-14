@@ -1,4 +1,0 @@
-on_const on_period UNK on_op on_const on_period UNK on_lparen on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end UNK on_const on_period UNK on_rparen on_nl on_const on_period # Setup the I18n
-UNK on_op on_const UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_op on_ignored_nl on_const on_op on_const on_op on_const on_period UNK on_period UNK on_period # Check if vagrant-winrm plugin is installed and # output warning to user if found
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_op on_const on_period UNK UNK on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl end # Load the WinRM gem
-UNK UNK on_period UNK on_nl UNK on_lparen UNK UNK UNK UNK UNK on_rparen on_nl end on_nl end on_nl end on_nl # @private # Reset the cached init value. This is not considered a public # API and should only be used for testing.

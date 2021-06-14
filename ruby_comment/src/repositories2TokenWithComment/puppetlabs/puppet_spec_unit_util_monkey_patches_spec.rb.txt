@@ -1,2 +1,0 @@
-expect on_lparen cert on_period UNK on_rparen on_period UNK UNK on_lparen UNK on_period UNK on_rparen on_nl with_root_certs on_lparen on_lbracket cert on_comma # prove that even though certs have identical contents, their hashes differ
-UNK on_const on_op on_const on_op UNK on_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl with_root_certs on_lparen on_lbracket cert on_rbracket on_rparen on_nl # openssl 1.1.1 ignores duplicate certs # https://github.com/openssl/openssl/commit/c0452248ea1a59a41023a4765ef7d9825e80a62b

@@ -1,3 +1,0 @@
-UNK on_op UNK on_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl UNK on_period UNK on_nl end on_nl on_ignored_nl let # We have to create a Vagrantfile so there is a root path
-on_ignored_nl subject on_lbrace UNK on_period UNK on_lparen machine on_comma config on_rparen on_rbrace on_nl on_ignored_nl UNK do on_ignored_nl allow on_lparen machine # make this something real
-let on_lparen on_symbeg UNK on_rparen on_lbrace UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_rbrace on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # make this something real

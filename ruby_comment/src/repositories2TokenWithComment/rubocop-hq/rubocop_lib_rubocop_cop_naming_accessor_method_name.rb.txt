@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK # frozen_string_literal: true
-UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK on_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK # This cop makes sure that accessor methods are named properly. # # @example # # bad # def set_attribute(value) # end # # # good # def attribute=(value) # end # # # bad # def get_attribute # end # # # good # def attribute # end

@@ -1,3 +1,0 @@
-UNK UNK on_period UNK on_lparen UNK on_rparen on_ignored_nl UNK UNK on_period UNK on_period UNK on_lparen on_const on_period UNK on_rparen on_nl # e.g. # :gym # :xcversion # "fastlane-plugin-my_plugin/xcversion"
-UNK on_ignored_nl UNK UNK UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_period UNK on_lparen on_const on_period UNK # That's an action from a plugin, we need to fetch its version number
-end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # that's the case for all built-in actions

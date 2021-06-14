@@ -1,1 +1,0 @@
-UNK on_op UNK on_nl doc on_op on_const on_op on_const on_op on_const on_period UNK on_lparen html on_rparen on_nl UNK doc on_nl # Libxml2 automatically adds DOCTYPE and <html>, so we need to # skip them.

@@ -1,6 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl on_ivar # frozen_string_literal: true
-UNK on_const do on_ignored_nl on_ivar on_period UNK on_lparen on_label on_int on_rparen on_nl end on_nl number on_op on_ivar on_period UNK on_nl # 8 length should fail
-number on_op on_ivar on_period UNK on_nl control_sum on_op on_int on_nl on_lbracket on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int # 9 length
-number on_op on_ivar on_period UNK on_lparen on_label on_int on_rparen on_nl control_sum on_op on_int on_nl on_lbracket on_int on_comma on_int on_comma on_int # 14 length
-UNK on_op on_const on_op on_const on_period number on_lparen on_label on_lbracket on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_rbracket # Odd length base for luhn algorithm
-UNK on_op on_const on_op on_const on_period number on_lparen on_label on_lbracket on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_int on_rbracket # Even length base for luhn algorithm

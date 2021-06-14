@@ -1,1 +1,0 @@
-attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg client_cert_path on_nl attr_accessor on_symbeg client_private_key_path on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK # The path to Puppet's bin/ directory. # @return [String]

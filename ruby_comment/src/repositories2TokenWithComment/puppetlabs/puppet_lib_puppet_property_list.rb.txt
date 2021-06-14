@@ -1,4 +1,0 @@
-UNK UNK on_op UNK on_nl on_ignored_nl def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op on_symbeg UNK on_op UNK on_lparen UNK # This subclass of {Puppet::Property} manages an unordered list of values. # For an ordered list see {Puppet::Property::OrderedList}. #
-def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_period UNK on_period UNK on_lparen UNK on_rparen on_nl end on_nl on_ignored_nl def UNK #dearrayify was motivated because to simplify the implementation of the OrderedList property
-UNK on_op UNK on_lparen UNK UNK UNK on_rparen UNK on_op UNK on_nl on_ignored_nl UNK on_lparen UNK on_rparen on_nl end on_nl #inclusive means we are managing everything so if it isn't in should, its gone
-UNK on_op UNK on_period UNK on_lparen UNK on_rparen UNK UNK on_nl UNK UNK on_op UNK on_op on_symbeg UNK on_nl UNK #ok, some 'convention' if the list property is named groups, provider should implement a groups method

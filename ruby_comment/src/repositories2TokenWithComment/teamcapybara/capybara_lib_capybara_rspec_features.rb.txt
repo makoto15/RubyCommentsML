@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_period UNK UNK UNK UNK on_comma on_label UNK UNK on_ignored_nl UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK # frozen_string_literal: true
-UNK on_period UNK UNK UNK config UNK on_ignored_nl config on_period UNK UNK UNK UNK on_comma on_label UNK UNK config on_period # ensure shared_context is included if default shared_context_metadata_behavior is changed

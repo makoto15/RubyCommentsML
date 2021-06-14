@@ -1,5 +1,0 @@
-UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Represents a timezone that is defined as a link or alias to another zone.
-UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK # The zone that provides the data (that this zone is an alias for).
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK on_nl UNK # Constructs a new LinkedTimezoneInfo with an identifier and the identifier # of the zone linked to.
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK # Returns internal object state as a programmer-readable string.
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP # Constructs a Timezone instance for the timezone represented by this # DataTimezoneInfo.

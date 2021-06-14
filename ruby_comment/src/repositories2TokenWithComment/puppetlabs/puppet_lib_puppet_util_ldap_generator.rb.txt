@@ -1,4 +1,0 @@
-def UNK UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK UNK UNK on_op # Declare the attribute we'll use to generate the value.
-def UNK UNK UNK on_op UNK UNK on_ignored_nl UNK UNK UNK UNK on_nl on_ivar UNK UNK on_nl UNK on_ignored_nl on_ivar # Actually do the generation.
-def UNK UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar UNK UNK on_nl # Initialize our generator with the name of the parameter # being generated.
-def UNK UNK on_op UNK UNK on_ignored_nl on_ivar on_op UNK on_nl UNK on_nl end on_nl end on_nl EMP EMP EMP # Provide the code that does the generation.

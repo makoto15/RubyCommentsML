@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK on_period UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK do on_ignored_nl on_ivar on_period UNK on_lparen on_tstring_beg on_tstring_content # frozen_string_literal: true
-expect on_lparen on_ivar on_rparen on_period to UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl end on_nl on_ignored_nl it on_tstring_beg # triggers title change after 400ms

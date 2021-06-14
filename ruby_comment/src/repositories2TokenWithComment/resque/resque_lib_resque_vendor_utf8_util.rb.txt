@@ -1,3 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_period UNK UNK str UNK UNK UNK str UNK str on_period # use '?' intsead of the unicode replace char, since that is 3 bytes # and can increase the string size if it's done a lot
-UNK UNK on_period UNK UNK str UNK UNK UNK str UNK str on_period UNK on_period UNK UNK UNK UNK UNK # Replace invalid UTF-8 character sequences with a replacement character # # Returns self as valid UTF-8.
-UNK UNK on_period UNK UNK str UNK UNK UNK UNK str on_period UNK UNK on_nl UNK on_nl UNK on_nl EMP # Replace invalid UTF-8 character sequences with a replacement character # # Returns a copy of this String as valid UTF-8.

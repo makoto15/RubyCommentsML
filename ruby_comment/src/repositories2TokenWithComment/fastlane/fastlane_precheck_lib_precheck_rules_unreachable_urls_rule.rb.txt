@@ -1,1 +1,0 @@
-UNK on_const on_period UNK on_lparen on_label on_const UNK on_symbeg UNK UNK UNK on_label on_tstring_beg on_tstring_content UNK url UNK on_tstring_end on_rparen # I can only return :fail here, but I also want to return #{url}

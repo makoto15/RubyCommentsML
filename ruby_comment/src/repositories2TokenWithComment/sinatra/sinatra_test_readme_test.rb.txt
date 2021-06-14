@@ -1,6 +1,0 @@
-UNK UNK UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_rparen on_nl on_ignored_nl UNK UNK on_op UNK on_op UNK on_nl # Tests to check if all the README examples work.
-on_tstring_beg on_tstring_content UNK UNK UNK UNK UNK UNK UNK on_tstring_content on_tstring_end on_nl end on_nl end on_nl on_ignored_nl get on_tstring_beg on_tstring_content # matches "GET /hello/foo" and "GET /hello/bar" # params[:name] is 'foo' or 'bar'
-UNK UNK UNK UNK UNK UNK UNK end on_nl on_ignored_nl get on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen do on_ignored_nl UNK UNK # matches /say/hello/to/world
-end on_nl on_ignored_nl get on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen do on_ignored_nl UNK UNK UNK UNK UNK UNK UNK end on_nl # => ["hello", "world"]
-UNK UNK UNK UNK UNK UNK UNK end on_nl end on_nl on_ignored_nl get on_tstring_beg on_tstring_content on_tstring_end on_nl assert_body on_tstring_beg on_tstring_content # matches /download/path/to/file.xml
-end on_nl end on_nl on_ignored_nl get on_tstring_beg on_tstring_content on_tstring_end on_nl assert_body on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl get on_tstring_beg on_tstring_content on_tstring_end # => ["path/to/file", "xml"]

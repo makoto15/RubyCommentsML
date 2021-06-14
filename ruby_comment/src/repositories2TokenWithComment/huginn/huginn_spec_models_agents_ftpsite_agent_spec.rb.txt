@@ -1,2 +1,0 @@
-block on_period call on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_const on_period parse on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rparen on_nl on_ignored_nl block # In the long list format the timestamp may look going # backwards after six months: Oct 01 10:00 -> Oct 01 2013
-on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_nl on_rbracket on_nl UNK on_lparen on_ivar on_rparen on_period open_ftp on_period yields on_const # Windows format

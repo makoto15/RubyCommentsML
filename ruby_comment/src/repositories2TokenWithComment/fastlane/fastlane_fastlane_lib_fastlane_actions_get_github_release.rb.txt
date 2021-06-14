@@ -1,2 +1,0 @@
-on_const on_period UNK on_lbracket on_const on_op on_const on_rbracket on_op UNK on_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # Found it
-on_ignored_nl def self on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def self on_period UNK on_nl UNK on_op ##################################################### # @!group Documentation #####################################################

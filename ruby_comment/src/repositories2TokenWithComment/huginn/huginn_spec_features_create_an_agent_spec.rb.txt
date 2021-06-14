@@ -1,1 +1,0 @@
-agent on_period UNK on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl agent on_period # Make this valid

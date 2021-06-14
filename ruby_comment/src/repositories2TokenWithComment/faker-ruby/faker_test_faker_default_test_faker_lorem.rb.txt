@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl on_ivar # frozen_string_literal: true
-def UNK on_nl on_ivar on_op on_ivar on_period words on_lparen on_label on_int on_rparen on_nl on_ivar on_period UNK UNK on_op UNK on_op # Words delivered by a standard request should be on the standard wordlist.
-def UNK on_nl on_ivar on_op on_ivar on_period words on_lparen on_label on_int on_comma on_label UNK on_rparen on_nl on_ivar on_period UNK UNK # Words requested from the supplemental list should all be in that list.
-def UNK on_nl on_ivar on_op on_const on_op on_const on_nl on_ivar on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # Faker::Lorem.word generates random word from standart wordlist

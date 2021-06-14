@@ -1,5 +1,0 @@
-UNK UNK on_period UNK on_lparen env on_rparen UNK on_op build_dir on_nl on_ignored_nl build_dir on_op on_const on_period UNK on_lparen build_dir on_comma # If we're not building a Dockerfile, ignore
-build_dir on_op on_const on_period UNK on_lparen build_dir on_comma env UNK UNK machine UNK on_period env on_period UNK on_rparen on_nl env # If we're building a docker file, expand the directory
-UNK UNK on_period UNK on_lparen env on_rparen UNK on_op machine on_period UNK on_period UNK on_nl on_ignored_nl UNK on_op UNK UNK # If we're not on a host VM, we're done
-UNK on_op UNK UNK UNK on_const on_op on_const on_period UNK on_lparen build_dir on_rparen UNK UNK on_nl UNK on_op UNK on_ignored_nl # We're on a host VM, so we need to move our build dir to # that machine. We do this by putting the synced folder on # ourself and letting HostMachineSyncFolders handle it.
-env UNK UNK build_dir UNK on_op UNK on_nl on_ignored_nl UNK on_period UNK on_lparen env on_rparen on_nl end on_nl end on_nl # Set the build dir to be the correct one

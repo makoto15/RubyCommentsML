@@ -1,7 +1,0 @@
-UNK on_const on_nl UNK on_op UNK on_nl def UNK on_nl UNK on_op on_const UNK UNK UNK on_op on_const on_nl end # Base/factory class for rubygems source. These classes introspec into # rubygems to in order to list where the rubygems system will look for files # to load.
-def UNK on_nl UNK on_op on_const UNK UNK UNK on_op on_const on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK # @api private
-UNK on_op on_const UNK UNK UNK on_op on_const on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK on_nl on_const on_nl # Gems are not actually available when Bundler is loaded, even # though the Gem constant is defined. This is because Bundler # loads in rubygems, but then removes the custom require that # rubygems installs. So when Bundler is around we have to act # as though rubygems is not, e.g. we shouldn't be able to load # a gem that Bundler doesn't want us to see.
-def UNK on_nl UNK UNK on_nl on_const on_nl UNK on_ignored_nl on_const on_nl end on_nl end on_nl on_ignored_nl def UNK UNK # @api private
-UNK on_const on_op on_const on_nl def UNK on_nl on_const on_op on_const on_period UNK UNK UNK UNK on_period UNK UNK on_op # For RubyGems >= 1.8.0 # @api private
-on_const on_op on_const on_period UNK UNK UNK UNK on_period UNK UNK on_op UNK on_op on_ignored_nl on_const on_period UNK UNK UNK # `require 'mygem'` will consider and potentially load # prerelease gems, so we need to match that behavior.
-UNK on_const on_op on_const on_nl def UNK on_nl UNK UNK on_nl end on_nl on_ignored_nl def UNK UNK end on_nl end # @api private

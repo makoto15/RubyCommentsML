@@ -1,4 +1,0 @@
-UNK on_tstring_beg UNK UNK UNK on_tstring_content on_tstring_end on_nl end on_nl when on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_op config_content on_period # :nocov:
-end on_nl when on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_op config_content on_period UNK on_lparen UNK on_tstring_content UNK on_rparen UNK UNK # :nocov:
-UNK on_tstring_beg UNK UNK UNK on_tstring_content on_tstring_end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP # :nocov:
-end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # :nocov:

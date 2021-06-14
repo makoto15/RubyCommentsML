@@ -1,9 +1,0 @@
-UNK UNK on_nl UNK UNK on_nl on_ignored_nl def UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op # A Blob is a wrapper around the content of a file to make it quack # like a Grit::Blob. It provides the basic interface: `name`, # `data`, `path` and `size`.
-def UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op UNK on_nl on_ivar on_op UNK on_nl on_ivar # Public: Initialize a new Blob. # # path - A path String (does not necessarily exists on the file system). # content - Content of the file. # symlink - Whether the file is a symlink. # # Returns a Blob.
-UNK UNK UNK on_nl on_ignored_nl def UNK on_nl UNK on_period UNK UNK on_ivar UNK on_nl end on_nl on_ignored_nl def UNK # Public: Filename # # Examples # # Blob.new("/path/to/linguist/lib/linguist.rb", "").path # # => "/path/to/linguist/lib/linguist.rb" # # Returns a String
-def UNK on_nl UNK on_period UNK UNK on_ivar UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_nl end on_nl # Public: File name # # Returns a String
-def UNK on_nl on_ivar on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_period UNK on_nl end on_nl on_ignored_nl def UNK # Public: File contents. # # Returns a String.
-def UNK on_nl on_ivar on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_period UNK on_op UNK UNK on_nl # Public: Get byte size # # Returns an Integer.
-def UNK on_nl UNK on_period UNK on_op UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK UNK on_op UNK # Public: Get file extension. # # Returns a String.
-def UNK on_nl UNK UNK on_op UNK on_op UNK on_period UNK on_period UNK UNK UNK UNK UNK UNK on_op UNK # Public: Return an array of the file extensions # # >> Linguist::Blob.new("app/views/things/index.html.erb").extensions # => [".html.erb", ".erb"] # # Returns an Array
-def UNK on_nl on_ivar on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP # Public: Is this a symlink? # # Returns true or false.

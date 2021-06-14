@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_lparen UNK on_rparen UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_lparen UNK on_rparen UNK UNK UNK UNK UNK UNK on_nl UNK # This class does empty line auto-correction

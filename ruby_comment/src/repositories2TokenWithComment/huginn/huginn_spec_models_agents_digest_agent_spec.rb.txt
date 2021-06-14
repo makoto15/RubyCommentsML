@@ -1,3 +1,0 @@
-on_ivar on_period options on_lbracket on_symbeg UNK on_rbracket on_op on_int on_nl on_ivar on_period save! on_nl on_const on_op on_const on_period UNK on_ivar # no events have ever been received
-UNK on_op on_int on_period UNK on_period UNK on_nl UNK on_lparen on_const on_rparen on_period UNK on_lbrace UNK on_rbrace on_nl expect on_lparen # Events received
-end on_nl end on_nl on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl before do on_ignored_nl expect on_lparen on_ivar on_rparen on_period to # too much time has passed

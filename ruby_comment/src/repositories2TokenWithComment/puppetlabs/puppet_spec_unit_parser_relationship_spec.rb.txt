@@ -1,1 +1,0 @@
-expect on_lparen on_ivar on_lbracket on_symbeg before on_rbracket on_period UNK on_op on_const on_rparen on_period to UNK on_nl expect on_lparen on_ivar on_lbracket # this test did not work before. It was appending the resources # together as a string

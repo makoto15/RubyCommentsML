@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP EMP # The export command doesn't work on checkouts (see https://bugs.launchpad.net/bzr/+bug/897511).

@@ -1,1 +1,0 @@
-UNK UNK UNK on_comma UNK UNK on_comma UNK UNK UNK UNK on_op agent on_op UNK on_lparen agent on_rparen UNK on_nl # This test ensures that 'puppet resource' output matches the system state

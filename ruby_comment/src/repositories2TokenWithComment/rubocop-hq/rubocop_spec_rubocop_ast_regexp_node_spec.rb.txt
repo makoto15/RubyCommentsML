@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_period UNK UNK UNK UNK UNK UNK do on_ignored_nl let on_lparen on_symbeg regexp_node on_rparen on_lbrace UNK on_lparen source # frozen_string_literal: true
-context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen on_symbeg source on_rparen on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_nl on_ignored_nl it on_lbrace # rubocop:disable Security/Eval
-end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen on_symbeg regopt on_rparen on_lbrace regexp_node on_period regopt on_rbrace on_nl # rubocop:enable Security/Eval

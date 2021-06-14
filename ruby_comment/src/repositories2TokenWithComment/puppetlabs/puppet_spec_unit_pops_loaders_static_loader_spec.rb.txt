@@ -1,1 +1,0 @@
-UNK on_op UNK on_lparen on_symbeg UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl expect on_lparen loader UNK UNK UNK on_rparen on_period # it may produce things later, this is just to test that calls work as they should - now all lookups are nil.

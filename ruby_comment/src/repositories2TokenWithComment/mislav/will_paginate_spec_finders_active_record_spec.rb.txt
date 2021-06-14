@@ -1,8 +1,0 @@
-topics on_period where on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period total_entries on_period should on_op on_int on_nl on_rbrace on_period should run_queries on_lparen # value is kept even in sub-relations
-result on_period UNK on_period should on_op on_int on_nl result on_period UNK on_period should on_op on_int on_nl result on_period size on_period # trigger loading of records
-result on_op UNK on_lbrace on_ignored_nl UNK on_period projects on_period UNK on_lparen on_symbeg topics on_rparen on_period order on_lparen on_tstring_beg on_tstring_content on_tstring_end # with association-specified order
-result on_op UNK on_period projects on_period paginate on_lparen on_symbeg page on_op on_int on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # with explicit order
-UNK on_op on_const on_period UNK on_lparen on_int on_rparen on_nl expected on_op replies on_lparen on_symbeg UNK on_comma on_symbeg UNK on_rparen on_nl # has_many with implicit order
-UNK on_period replies on_period paginate on_lparen on_symbeg page on_op on_int on_rparen on_period UNK on_lparen on_op on_symbeg UNK on_rparen on_period UNK # FIXME: wow, this is ugly
-result on_period size on_period should on_op on_int on_nl UNK on_op result on_period UNK on_lparen on_op on_symbeg UNK on_rparen on_nl UNK # trigger loading of records
-on_const on_period page on_lparen on_int on_rparen on_nl on_rbrace on_period should raise_error on_lparen on_const on_op on_const on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen # page that results in an offset larger than BIGINT

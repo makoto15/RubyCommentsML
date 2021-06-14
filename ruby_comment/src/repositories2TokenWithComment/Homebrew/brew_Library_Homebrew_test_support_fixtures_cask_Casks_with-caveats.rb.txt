@@ -1,3 +1,0 @@
-UNK UNK on_nl UNK on_tstring_content UNK UNK UNK on_ignored_nl on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl UNK on_nl UNK UNK # simple string is evaluated at compile-time
-UNK UNK on_ignored_nl on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl UNK on_nl UNK UNK on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl # do block is evaluated at install-time
-UNK UNK on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl UNK on_nl UNK on_nl EMP # a do block may print and use a DSL

@@ -1,2 +1,0 @@
-UNK UNK on_nl UNK UNK UNK options UNK UNK UNK UNK options on_lbracket on_symbeg price_tier on_rbracket on_nl UNK UNK options # Set the app's pricing
-options on_lbracket on_symbeg price_tier on_rbracket UNK options on_lbracket on_symbeg price_tier on_rbracket UNK UNK on_nl UNK UNK UNK UNK UNK price_tier # just to be sure, the user might have passed an int (which is fine with us)

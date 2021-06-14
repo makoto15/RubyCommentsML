@@ -1,1 +1,0 @@
-on_label on_tstring_beg on_tstring_content on_tstring_end on_nl on_rbrace on_nl expect on_lparen on_const on_op on_const on_rparen on_period UNK UNK on_lparen on_symbeg UNK on_rparen # use default output types

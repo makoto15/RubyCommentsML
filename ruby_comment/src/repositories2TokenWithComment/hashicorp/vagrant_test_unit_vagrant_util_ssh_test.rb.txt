@@ -1,2 +1,0 @@
-UNK on_op key_path on_period UNK on_period UNK on_nl described_class on_period UNK on_lparen key_path on_rparen on_nl expect on_lparen key_path on_period UNK # Get the mode now and verify that it is untouched afterwards
-process on_op UNK on_lparen on_rparen on_nl allow on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen # mock out ChildProcess

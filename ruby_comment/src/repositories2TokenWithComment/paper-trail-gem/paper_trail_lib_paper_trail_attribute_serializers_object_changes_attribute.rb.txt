@@ -1,5 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_lparen UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op UNK on_nl end on_nl on_ignored_nl UNK UNK on_lparen changes # Serialize or deserialize the `version.object_changes` column.
-UNK UNK on_lparen changes on_comma UNK on_rparen on_ignored_nl UNK changes UNK UNK on_nl on_ignored_nl UNK on_op UNK on_period UNK on_lparen # Modifies `changes` in place. # TODO: Return a new hash instead.
-UNK changes UNK UNK on_nl on_ignored_nl UNK on_op UNK on_period UNK on_lparen UNK on_rparen on_nl changes on_period UNK on_period UNK # Don't serialize before values before inserting into columns of type # `JSON` on `PostgreSQL` databases.
-changes UNK UNK UNK on_op UNK on_lparen UNK on_rparen on_period UNK UNK on_op UNK on_op on_ignored_nl UNK on_period UNK on_lparen # `change` is an Array with two elements, representing before and after.

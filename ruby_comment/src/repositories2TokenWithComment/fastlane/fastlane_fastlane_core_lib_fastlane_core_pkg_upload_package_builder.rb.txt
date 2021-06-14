@@ -1,3 +1,0 @@
-UNK on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK package_path on_nl on_ignored_nl UNK UNK on_lparen on_label UNK # Builds a package for the pkg ready to be uploaded with the iTunes Transporter
-on_label on_const on_op on_const on_period UNK on_lparen on_const on_period UNK on_lparen pkg_path on_rparen on_rparen on_comma on_ignored_nl on_label on_tstring_beg on_tstring_content on_tstring_end # this is only the base name as the ipa is inside the package
-on_ignored_nl on_const on_period UNK on_lparen on_const on_period UNK on_lparen self on_period package_path on_comma on_const on_rparen on_comma UNK on_rparen on_nl on_const # https://web.archive.org/web/20160430190141/www.rrn.dk/rubys-erb-templating-system

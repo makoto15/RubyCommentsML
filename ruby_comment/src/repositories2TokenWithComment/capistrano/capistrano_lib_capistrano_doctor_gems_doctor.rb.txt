@@ -1,1 +1,0 @@
-UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl def UNK on_nl UNK on_lparen UNK on_tstring_content UNK on_rparen # Prints table of all Capistrano-related gems and their version numbers. If # there is a newer version of a gem available, call attention to it.

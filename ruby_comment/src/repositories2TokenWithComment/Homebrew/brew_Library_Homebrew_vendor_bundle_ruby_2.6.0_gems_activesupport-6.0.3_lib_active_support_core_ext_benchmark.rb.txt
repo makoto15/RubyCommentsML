@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP # Benchmark realtime in milliseconds. # # Benchmark.realtime { User.all } # # => 8.0e-05 # # Benchmark.ms { User.all } # # => 0.074

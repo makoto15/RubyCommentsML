@@ -1,1 +1,0 @@
-code on_op on_heredoc_beg on_nl on_tstring_content on_heredoc_end expect on_lparen eval_and_collect_notices on_lparen code on_rparen on_rparen on_period to eql on_lparen on_lbracket on_tstring_beg on_tstring_content # Even if it doesn't make sense, it should not crash

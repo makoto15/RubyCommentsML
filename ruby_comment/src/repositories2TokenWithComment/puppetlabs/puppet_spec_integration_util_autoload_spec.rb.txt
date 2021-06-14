@@ -1,2 +1,0 @@
-on_const on_period UNK on_lparen path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbrace on_op UNK on_op on_ignored_nl UNK on_period UNK on_tstring_beg on_tstring_content # Now create a file to load
-expect on_lparen on_const on_period UNK on_rparen on_period to UNK on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen UNK on_rparen on_period UNK ## modulepath can't be used until after app settings are initialized, so we need to simulate that:

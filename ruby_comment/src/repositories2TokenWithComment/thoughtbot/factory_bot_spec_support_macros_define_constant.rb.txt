@@ -1,1 +1,0 @@
-connection on_period UNK on_lparen on_tstring_beg on_tstring_content UNK table_name UNK on_tstring_end on_rparen on_nl UNK UNK on_nl end on_nl end on_nl on_ignored_nl # rubocop:disable Lint/RescueException

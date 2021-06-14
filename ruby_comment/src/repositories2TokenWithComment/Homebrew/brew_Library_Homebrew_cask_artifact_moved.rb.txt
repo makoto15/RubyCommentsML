@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl class on_const on_op on_const on_nl def self # frozen_string_literal: true
-command on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_label UNK on_tstring_beg on_tstring_content on_tstring_end on_comma target on_comma source UNK on_comma on_label # We need to preserve extended attributes between copies.

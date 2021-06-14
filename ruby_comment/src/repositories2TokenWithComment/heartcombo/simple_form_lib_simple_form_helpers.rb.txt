@@ -1,2 +1,0 @@
-UNK on_const on_nl UNK on_const on_nl UNK UNK on_const UNK UNK UNK UNK on_nl UNK UNK on_const UNK UNK UNK # frozen_string_literal: true
-UNK on_const on_nl UNK UNK on_const UNK UNK UNK UNK on_nl UNK UNK on_const UNK UNK UNK UNK on_nl UNK # Helpers are made of several helpers that cannot be turned on automatically. # For instance, disabled cannot be turned on automatically, it requires the # user to explicitly pass the option disabled: true so it may work.

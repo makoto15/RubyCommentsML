@@ -1,3 +1,0 @@
-on_ignored_nl def UNK on_nl on_ivar on_op on_ivar on_op on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def breadcrumb on_nl UNK on_ivar # def editable # false # end
-UNK on_op result_path on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_nl UNK on_op on_ivar on_op on_tstring_beg on_embexpr_beg on_ivar # result contains a folder
-UNK on_period UNK UNK on_op UNK on_op UNK on_lbracket on_symbeg UNK on_rbracket UNK on_period UNK UNK on_op UNK on_op on_lbracket # 1012: Overview should list folders first, followed by files and pages sorted alphabetically

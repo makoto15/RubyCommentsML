@@ -1,2 +1,0 @@
-UNK on_lbrace on_const on_op on_const on_op on_const on_period new on_lparen on_const on_op on_const on_rparen on_rbrace on_nl end on_nl on_ignored_nl UNK # to make the global safe to mock, set it to a subclass of itself, # then restore it in an after pass
-UNK on_lbrace on_const on_op on_const on_op on_const on_op on_const on_period UNK on_rbrace on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end # restore from the superclass so we lose the stub garbage

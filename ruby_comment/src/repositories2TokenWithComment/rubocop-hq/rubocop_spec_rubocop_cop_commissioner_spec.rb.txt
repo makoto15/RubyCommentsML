@@ -1,3 +1,0 @@
-on_ignored_nl on_const on_period UNK on_const on_op on_const on_op on_const do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_symbeg # frozen_string_literal: true
-UNK on_lparen on_const on_op on_const on_op on_const on_comma on_label on_lbracket on_rbracket on_comma on_ignored_nl on_label UNK on_rparen on_period UNK on_nl end # rubocop:disable RSpec/VerifiedDoubles
-end on_nl UNK on_lparen on_symbeg UNK on_rparen UNK UNK on_lparen on_const on_op on_const on_op on_const on_rparen on_period UNK UNK on_nl # rubocop:enable RSpec/VerifiedDoubles

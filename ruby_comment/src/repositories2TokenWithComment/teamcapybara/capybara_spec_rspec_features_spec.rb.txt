@@ -1,7 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_period UNK on_period UNK on_lparen on_symbeg UNK # frozen_string_literal: true
-UNK on_period UNK on_period UNK on_lparen on_symbeg UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end on_rparen do on_ignored_nl UNK on_op UNK on_nl # rubocop:disable RSpec/InstanceVariable
-on_ignored_nl feature on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_symbeg UNK on_rparen UNK on_symbeg UNK UNK on_nl UNK on_lparen on_symbeg # rubocop:enable RSpec/InstanceVariable
-UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl scenario on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl end on_nl on_ignored_nl scenario on_tstring_beg on_tstring_content on_tstring_end do # rubocop:disable RSpec/RepeatedExample
-end on_nl on_ignored_nl scenario on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl end on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do scenario # dummy
-end on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do scenario on_tstring_beg on_tstring_content on_tstring_end do on_op UNK on_op on_ignored_nl expect # dummy
-scenario on_tstring_beg on_tstring_content on_tstring_end do on_op UNK on_op on_ignored_nl expect on_lparen UNK on_period UNK UNK on_symbeg UNK UNK on_rparen on_period # rubocop:disable RSpec/Focus

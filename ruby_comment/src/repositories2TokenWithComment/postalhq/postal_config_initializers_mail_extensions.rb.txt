@@ -1,7 +1,0 @@
-def on_const on_period UNK on_lparen str on_rparen on_ignored_nl str on_op str on_period UNK on_lparen UNK on_tstring_content UNK on_comma on_tstring_beg on_tstring_content # Handle windows-1258 as windows-1252 when decoding
-def UNK on_nl if self on_period UNK UNK self on_period UNK on_nl self on_period UNK on_period decoded on_nl UNK self ## Extract plain text body of message
-def UNK on_nl if self on_period UNK UNK self on_period UNK on_nl self on_period UNK on_period decoded on_nl UNK self ## Extract HTML text body of message
-def UNK on_nl self on_period UNK on_comma self on_period UNK on_op UNK on_period UNK on_lparen UNK on_tstring_content UNK on_comma UNK ## Fix bug in basic parsing
-def UNK on_nl UNK on_op UNK UNK on_symbeg UNK UNK on_period filename UNK nil on_nl UNK on_op UNK UNK on_symbeg # Handle attached emails as attachments # Returns the filename of the attachment (if it exists) or returns nil # Make up a filename for rfc822 attachments if it isn't specified
-filename on_op on_const on_op on_const on_period UNK on_lparen filename on_comma on_symbeg UNK on_rparen UNK filename on_nl end on_nl filename on_nl # Normal decode
-UNK on_const on_op on_const on_nl def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op UNK on_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end # Handle attached emails as attachments

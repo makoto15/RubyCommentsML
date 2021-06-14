@@ -1,4 +1,0 @@
-on_ignored_nl UNK UNK on_op UNK on_op UNK on_op UNK on_nl on_ignored_nl UNK UNK UNK on_nl UNK UNK UNK on_nl UNK ## # Raised when Mechanize encounters an error while reading the response body # from the server. Contains the response headers and the response body up to # the error along with the initial error.
-on_ignored_nl UNK UNK UNK on_comma UNK on_comma UNK on_comma UNK on_comma UNK on_nl on_ivar on_op UNK on_nl on_ivar on_op UNK ## # Creates a new ResponseReadError with the +error+ raised, the +response+ # and the +body_io+ for content read so far.
-on_ignored_nl UNK UNK on_nl on_ivar UNK UNK on_ivar on_comma on_ivar on_comma on_ivar on_nl UNK on_nl on_ignored_nl UNK UNK UNK UNK ## # Converts this error into a Page, File, etc. based on the content-type
-UNK UNK on_ivar UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl on_ignored_nl UNK on_nl # :nodoc:

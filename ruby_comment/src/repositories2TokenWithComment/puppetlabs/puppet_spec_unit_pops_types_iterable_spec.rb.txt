@@ -1,1 +1,0 @@
-expect on_lbrace on_op b on_op on_const on_period on on_lparen on_int on_rparen on_period step on_lparen on_int on_rparen on_period reverse_each on_period step # x = Iterable.on(18).step(3) (0, 3, 6, 9, 12, 15) # x = x.reverse_each (15, 12, 9, 6, 3, 0) # x = x.step(2) (15, 9, 3) # x = x.reverse_each(3, 9, 15)

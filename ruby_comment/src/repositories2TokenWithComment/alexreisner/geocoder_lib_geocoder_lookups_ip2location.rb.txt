@@ -1,2 +1,0 @@
-on_ignored_nl def UNK on_lparen query on_rparen on_ignored_nl on_tstring_beg UNK UNK UNK on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def UNK on_lparen # ----------------------------------------------------------------
-UNK on_lbracket UNK on_lparen query UNK UNK on_rparen on_rbracket UNK query UNK UNK on_nl UNK on_lbracket on_rbracket UNK UNK on_op # don't look up a loopback or private address, just return the stored result

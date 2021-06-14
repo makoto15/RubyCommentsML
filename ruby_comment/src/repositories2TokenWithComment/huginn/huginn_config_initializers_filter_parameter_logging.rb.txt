@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP # Be sure to restart your server when you modify this file.
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP # Configure sensitive parameters which will be filtered from the log file.

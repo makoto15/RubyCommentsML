@@ -1,2 +1,0 @@
-UNK UNK on_nl UNK UNK on_nl UNK UNK on_ignored_nl UNK on_op on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK # If the filter method includes a search condition, build a normal string search field. # Else, build a search field with a companion dropdown to choose a search condition from.
-end on_nl end on_nl on_ignored_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP # SearchMethodSelect#to_html

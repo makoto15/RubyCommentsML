@@ -1,1 +1,0 @@
-UNK on_lparen UNK on_rparen on_period to UNK on_lparen on_symbeg UNK on_rparen on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do # Stub the methods so that even if we test incorrectly, no side # effects actually happen.

@@ -1,2 +1,0 @@
-UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl # Represents a single sub-VM in a multi-VM environment.
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK on_op UNK UNK on_nl UNK on_op # Returns an array of the configuration procs in [version, proc] # format. # # @return [Array]

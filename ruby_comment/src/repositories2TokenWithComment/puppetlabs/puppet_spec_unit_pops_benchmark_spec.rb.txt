@@ -1,2 +1,0 @@
-UNK on_op on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_nl model on_op parser on_period parse_string on_lparen UNK on_comma UNK on_rparen on_nl m on_op # Do the loop in puppet code since it otherwise drowns in setup
-model on_op parser on_period parse_string on_lparen UNK on_comma UNK on_rparen on_nl m on_op on_const on_period measure on_lbrace parser on_period UNK # parse once, only measure the evaluation

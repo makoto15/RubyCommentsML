@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # frozen_string_literal: true
-UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # This file only needs to be loaded if the gem is being used outside of Rails, # since otherwise the model(s) will get loaded in via the `Rails::Engine`.

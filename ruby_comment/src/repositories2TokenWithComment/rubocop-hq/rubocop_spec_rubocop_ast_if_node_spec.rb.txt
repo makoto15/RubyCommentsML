@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_period describe UNK on_op UNK on_op UNK do on_ignored_nl let on_lparen on_symbeg if_node on_rparen on_lbrace UNK on_lparen source # frozen_string_literal: true
-it on_lbrace expect on_lparen if_node on_period UNK on_rparen on_period to be_truthy on_rbrace on_nl end on_nl on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end # Note: This is a legacy behavior.

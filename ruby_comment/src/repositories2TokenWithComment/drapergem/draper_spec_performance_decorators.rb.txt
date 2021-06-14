@@ -1,2 +1,0 @@
-UNK UNK on_lparen method on_comma on_op args on_comma on_op block on_rparen on_ignored_nl UNK UNK on_lparen method on_rparen on_nl UNK on_ignored_nl # Original #method_missing
-UNK UNK on_lparen method on_comma on_op args on_comma on_op block on_rparen on_ignored_nl UNK UNK on_lparen method on_rparen on_nl UNK on_ignored_nl # Modified #method_missing

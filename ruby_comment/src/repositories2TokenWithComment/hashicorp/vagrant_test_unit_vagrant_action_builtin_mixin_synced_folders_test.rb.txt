@@ -1,7 +1,0 @@
-UNK on_op folders on_period UNK on_nl folders on_period UNK on_nl on_ignored_nl result on_op subject on_period synced_folders on_lparen machine on_comma on_label # Clear the folders so we know its reading from cache
-folders on_period UNK on_nl folders on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_nl folders on_lbracket # Clear the folders and set some more
-folders on_period UNK on_nl on_ignored_nl result on_op subject on_period synced_folders on_lparen machine on_comma on_label true on_rparen on_nl expect on_lparen result # Clear one last time
-result on_op subject on_period synced_folders on_lparen machine on_comma on_label true on_rparen on_nl expect on_lparen result on_period length on_rparen on_period to # Read them all back
-folders on_period UNK on_nl folders on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_lbrace on_label on_tstring_beg on_tstring_content on_tstring_end on_rbrace on_nl folders on_lbracket # Clear the folders and set some more
-folders on_period UNK on_nl on_ignored_nl result on_op subject on_period synced_folders on_lparen machine on_comma on_label true on_rparen on_nl expect on_lparen result # Clear one last time
-result on_op subject on_period synced_folders on_lparen machine on_comma on_label true on_rparen on_nl expect on_lparen result on_period length on_rparen on_period to # Read them all back

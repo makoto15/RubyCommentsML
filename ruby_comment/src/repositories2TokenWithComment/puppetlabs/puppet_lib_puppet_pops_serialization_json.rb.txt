@@ -1,7 +1,0 @@
-class on_const on_op on_const on_nl def UNK on_lparen io on_comma options on_op on_lbrace on_rbrace on_rparen on_ignored_nl UNK on_lparen on_const on_period # A Writer that writes output in JSON format # @api private
-def UNK on_nl on_ivar on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_nl end on_nl on_ignored_nl def UNK # Clear the underlying io stream but does not clear tabulation cache # Specifically designed to enable tabulation to span more than one # separately deserialized object.
-class on_const on_op on_const on_nl def UNK on_lparen io on_rparen on_ignored_nl UNK on_lparen on_const on_period UNK on_lparen io on_rparen on_rparen # A Reader that reads JSON formatted input # @api private
-class on_const on_nl def UNK on_lparen io on_comma options on_op on_lbrace on_rbrace on_rparen on_ignored_nl on_ivar on_op io on_nl on_ivar on_op # The JSON Packer. Modeled after the MessagePack::Packer # @api private
-if on_ivar on_period is_a? on_lparen on_const on_rparen on_nl on_ivar on_period UNK on_lparen on_int on_op on_op on_int on_rparen on_nl else on_ignored_nl # Truncate everything except leading '['
-if on_ivar on_period is_a? on_lparen on_const on_rparen on_nl on_ivar on_period UNK UNK on_ivar on_period UNK on_op on_int on_nl on_ivar on_op # Drop last comma unless just start marker present
-def UNK on_lparen obj on_rparen on_ignored_nl on_ivar on_op on_const on_op on_const on_op on_const on_period UNK on_lparen obj on_rparen on_op on_tstring_beg # Write a payload object. Not subject to extensions

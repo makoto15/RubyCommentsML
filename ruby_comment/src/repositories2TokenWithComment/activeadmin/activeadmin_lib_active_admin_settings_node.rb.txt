@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl # Never instantiated. Variables are stored in the singleton_class.
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK # @return anonymous class with same accessors as the superclass.

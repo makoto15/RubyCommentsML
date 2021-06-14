@@ -1,5 +1,0 @@
-def UNK on_lparen path on_rparen on_ignored_nl UNK on_op UNK on_lparen path on_period UNK on_rparen on_nl on_op UNK on_period UNK on_op # Check if a path matches the pathspecs described # Returns true if there are matches and none are excluded # Returns false if there aren't matches or none are included
-def UNK on_lparen root on_rparen on_ignored_nl UNK on_op on_const on_period new on_lparen root on_rparen on_nl matching on_op UNK UNK on_nl # Check if any files in a given directory or subdirectories match the specs # Returns matched paths or nil if no paths matched
-def self on_period UNK on_lparen UNK on_comma type on_op on_symbeg UNK on_rparen on_ignored_nl self on_period UNK on_lparen on_const on_period UNK # Generate specs from a filename, such as a .gitignore
-self on_period UNK on_lparen on_const on_period UNK on_lparen UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg UNK on_op on_const on_op on_const # .gitignore is a UTF-8 file
-def UNK on_lparen UNK on_comma type on_op on_symbeg UNK on_rparen on_ignored_nl UNK on_op UNK on_lparen type on_rparen on_nl on_ignored_nl if # Generate specs from lines of text

@@ -1,7 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
-UNK on_ignored_nl UNK on_nl if UNK on_nl UNK on_nl UNK if UNK on_nl UNK on_ignored_nl UNK on_symbeg UNK on_nl end # ^c handler
-reset_features on_nl UNK on_const on_nl UNK if UNK on_nl UNK on_nl reset_features on_nl end on_nl end on_nl UNK on_symbeg UNK # Once tests and features are green, reset features every # time a file is changed to see if anything breaks.
-UNK UNK on_ignored_nl UNK on_nl UNK on_nl UNK UNK UNK on_nl UNK if UNK on_nl end on_nl end on_nl on_ignored_nl # rubocop:disable Naming/AccessorMethodName
-UNK UNK on_period UNK on_nl UNK on_op UNK on_period UNK on_op UNK on_nl UNK on_lparen UNK on_rparen on_nl UNK on_op # rubocop:disable Security/Open
-args on_op UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content on_tstring_end on_op UNK on_nl args on_op on_lparen features_to_run on_op on_symbeg UNK on_op # No --color option as some IDEs (Netbeans) don't output them very well ([31m1 failed step[0m)
-args on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end UNK features_to_run on_op on_symbeg UNK on_nl on_ignored_nl args on_period UNK on_lparen # All steps becom undefined during rerun unless the following is run.

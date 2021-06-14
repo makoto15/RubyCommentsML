@@ -1,6 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK on_symbeg UNK on_comma on_symbeg type on_comma on_symbeg text on_nl on_ignored_nl def UNK # frozen_string_literal: true
-UNK UNK on_nl UNK on_symbeg UNK on_comma on_symbeg type on_comma on_symbeg text on_nl on_ignored_nl def UNK on_period UNK on_lparen UNK # A basic wrapper around Parser's tokens.
-on_ivar on_op text on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_period UNK on_nl end on_nl on_ignored_nl def # Parser token "text" may be an Integer
-def UNK on_nl UNK on_period UNK on_period UNK on_period UNK on_lparen UNK on_tstring_content UNK on_comma UNK on_rparen on_nl end on_nl # Checks if there is whitespace after token
-def UNK on_nl UNK on_op UNK on_period UNK on_op UNK on_op UNK on_op UNK on_nl UNK on_period UNK on_period UNK # Checks if there is whitespace before token
-on_ignored_nl def UNK on_nl type on_op on_symbeg UNK on_nl end on_nl on_ignored_nl def UNK on_nl type on_op on_symbeg UNK on_nl ## Type Predicates

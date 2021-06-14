@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_period describe on_const on_comma on_label on_symbeg UNK do on_ignored_nl UNK on_lparen on_symbeg # frozen_string_literal: true
-on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma widget on_period UNK on_rparen on_nl on_rbrace on_nl widget on_op on_const # Workaround for AR 3. When we drop AR 3 support, we can simply use # the `widget.versions` association, instead of `with_item_keys`.

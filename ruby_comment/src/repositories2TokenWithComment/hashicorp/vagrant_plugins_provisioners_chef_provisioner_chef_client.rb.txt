@@ -1,5 +1,0 @@
-UNK on_const on_op on_const on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl def UNK on_lparen UNK on_rparen on_ignored_nl UNK # This class implements provisioning via chef-client, allowing provisioning # with a chef server.
-on_ignored_nl on_ivar on_period UNK on_period UNK UNK on_op UNK on_op on_ignored_nl UNK on_op on_int on_nl UNK UNK on_op on_int on_op #provisioner has asked chef to reboot
-UNK on_op UNK on_op on_symbeg UNK on_op on_symbeg UNK on_op on_symbeg UNK on_nl on_ignored_nl data on_op data on_period UNK on_nl # Output the data with the proper color based on the stream.
-UNK if UNK on_op on_int on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_comma on_symbeg UNK on_nl end on_nl on_ignored_nl # There is no need to run Chef again if it converges
-UNK on_const on_comma on_symbeg UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_const on_period UNK on_lparen on_ivar on_period UNK on_comma # If we reached this point then Chef never converged! Error.

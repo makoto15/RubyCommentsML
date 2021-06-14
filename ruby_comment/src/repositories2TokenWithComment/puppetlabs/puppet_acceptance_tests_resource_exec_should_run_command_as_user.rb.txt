@@ -1,2 +1,0 @@
-UNK on_lparen agent on_comma username on_rparen on_nl UNK on_lparen agent on_comma username on_rparen on_nl UNK UNK UNK on_lparen agent on_comma # Create our user. Ensure that we start with a clean slate.
-UNK on_op agent on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_lparen agent on_comma UNK on_comma UNK on_lparen UNK # Can't use apply_manifest_on here because that does not take the :cwd # as an option.

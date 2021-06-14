@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK # Lookup a Liquid variable in the given context. # # context - the Liquid context in question. # variable - the variable name, as a string. # # Returns the value of the variable in the context # or the variable name if not found.

@@ -1,8 +1,0 @@
-UNK on_op on_const on_period UNK on_period UNK on_lparen on_op on_symbeg ip_address on_rparen on_nl on_ignored_nl UNK on_op on_lbracket on_rbracket on_nl UNK # Get all IP addresses on the system
-UNK on_op on_lbracket on_rbracket on_nl UNK on_period each do on_op ip on_op on_ignored_nl UNK on_op UNK on_nl if id on_op # Map them to an actual ID in the database if we can and cache that
-UNK on_op id on_nl UNK on_ivar on_period UNK on_lparen ip on_rparen on_nl else on_ignored_nl if on_op self on_period class on_period # We know this IPs ID, we'll just use that.
-else on_ignored_nl if on_op self on_period class on_period UNK on_lparen ip on_rparen on_op ip_address on_op on_const on_period UNK on_lparen on_tstring_beg # We know this IP isn't valid. We don't need to do anything
-if on_op self on_period class on_period UNK on_lparen ip on_rparen on_op ip_address on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end # We need to look this up
-UNK on_op UNK on_op on_ivar on_nl UNK on_op on_ivar on_op UNK on_nl UNK on_period each do on_op id on_op on_ignored_nl # Make an array of needed queue names # Work out what we need to actually do here
-UNK on_period each do on_op id on_op on_ignored_nl UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg id on_embexpr_end on_tstring_end on_rparen on_nl on_ivar on_period # Leave the queues we don't want any more
-UNK on_period UNK on_period each do on_op id on_op on_ignored_nl UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg id on_embexpr_end on_tstring_end on_rparen on_nl # Join any missing queues

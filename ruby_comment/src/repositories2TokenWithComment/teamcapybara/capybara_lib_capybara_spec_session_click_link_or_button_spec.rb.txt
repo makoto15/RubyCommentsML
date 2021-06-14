@@ -1,1 +1,0 @@
-on_ignored_nl on_const on_op on_const on_period UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_ivar on_period visit # frozen_string_literal: true

@@ -1,3 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg # Activate the gem you are reporting the issue against.
-on_const on_op on_const on_op on_const on_op on_const on_op on_const UNK UNK on_lparen on_const on_op on_const on_rparen on_nl on_ignored_nl on_const on_op # Ensure backward compatibility with Minitest 4
-on_const on_op on_const on_period UNK on_lparen UNK on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_op on_const # This connection will do for database-independent bug reports.

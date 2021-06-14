@@ -1,4 +1,0 @@
-UNK on_const on_nl UNK UNK on_period UNK UNK UNK UNK on_ignored_nl UNK on_period UNK UNK on_const UNK on_nl end on_nl # @!visibility private
-on_const on_period UNK on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK UNK # Rubinius instance variables are not volatile so we need to insert barrier # TODO (pitr 26-Nov-2015): check comments like ^
-UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl # @!visibility private # @!macro internal_implementation_note
-end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # nothing to do

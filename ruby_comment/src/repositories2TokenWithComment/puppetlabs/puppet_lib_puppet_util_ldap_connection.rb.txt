@@ -1,4 +1,0 @@
-def UNK on_period UNK on_nl ssl on_op UNK on_const on_lbracket on_symbeg UNK on_rbracket on_nl on_symbeg UNK on_nl UNK on_const on_lbracket # Return a default connection, using our default settings.
-def UNK on_nl on_lbracket host on_comma port on_comma user on_comma UNK on_comma ssl on_rbracket on_period UNK UNK on_op UNK on_op # Create a per-connection unique name.
-def UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK ssl on_nl UNK on_symbeg UNK on_nl on_ivar on_op # Should we reset the connection?
-def UNK on_nl UNK ssl on_nl UNK on_symbeg UNK on_nl on_ivar on_op on_const on_op on_const on_period UNK on_lparen host on_comma # Start our ldap connection.

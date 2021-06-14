@@ -1,1 +1,0 @@
-UNK on_op UNK on_nl svn on_symbeg UNK on_comma UNK UNK UNK on_op UNK on_nl svn on_symbeg UNK on_nl end on_nl # Switch the repository URL if necessary.

@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
-UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK on_ignored_nl UNK UNK UNK # This cop checks for uses of Proc.new where Kernel#proc # would be more appropriate. # # @example # # bad # p = Proc.new { |n| puts n } # # # good # p = proc { |n| puts n } #

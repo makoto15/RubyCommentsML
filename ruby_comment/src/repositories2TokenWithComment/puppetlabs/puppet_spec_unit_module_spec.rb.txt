@@ -1,2 +1,0 @@
-allow on_lparen on_const on_op on_const on_rparen on_period to receive on_lparen on_symbeg exist? on_rparen on_period and_return on_lparen UNK on_rparen on_nl end # This is necessary because of the extra checks we have for the deprecated # 'plugins' directory
-UNK on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_period UNK on_lparen UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen do # ᚠᛇᚻ

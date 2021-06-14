@@ -1,2 +1,0 @@
-UNK do on_ignored_nl UNK on_const on_op on_const on_op on_const on_comma UNK UNK on_op UNK UNK on_nl UNK on_const on_nl end # I have no clue what other modes are available
-UNK do on_ignored_nl UNK on_const on_op on_const on_op on_const on_comma UNK UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_nl # I have no clue what other modes are available

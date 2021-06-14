@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
-UNK on_const UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK # This cop checks for empty interpolation. # # @example # # # bad # # "result is #{}" # # @example # # # good # # "result is #{some_result}"

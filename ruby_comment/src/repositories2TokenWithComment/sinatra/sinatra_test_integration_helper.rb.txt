@@ -1,6 +1,0 @@
-vm on_op UNK on_period UNK on_period UNK on_period on_const on_period new on_lparen UNK on_period UNK on_period UNK on_period on_const on_op # Create a new container, set load paths and env # SINGLETHREAD means create a new runtime
-vm on_period UNK on_period UNK on_period UNK UNK UNK on_nl vm on_period UNK on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_comma server # This ensures processing of RUBYOPT which activates Bundler
-on_ivar on_op UNK on_period UNK on_period on_const on_period new on_nl vm on_period UNK on_op UNK on_period UNK on_period on_const on_period # Set stdout/stderr so we can retrieve log
-vm on_period UNK on_period UNK on_period UNK on_period UNK on_lparen UNK on_comma on_int on_rparen on_nl vm on_period UNK UNK on_period # Hack to ensure that Kernel#caller has the same info as # when run from command-line, for Sinatra::Application.app_file. # Also, line numbers are zero-based in JRuby's parser
-vm on_period UNK UNK on_period UNK on_period UNK on_period on_const on_op on_const on_comma UNK on_nl vm on_period UNK on_nl end # Run the app
-vm on_period UNK on_nl end on_nl end on_nl on_ignored_nl def run on_nl UNK unless UNK on_nl kill on_nl on_ivar on_op # terminate launches at_exit hooks which start server

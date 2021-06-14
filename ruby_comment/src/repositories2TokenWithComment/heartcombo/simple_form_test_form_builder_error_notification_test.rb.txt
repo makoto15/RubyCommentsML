@@ -1,2 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_op UNK on_op UNK on_nl UNK with_error_notification_for on_lparen UNK on_comma UNK on_op # frozen_string_literal: true # encoding: UTF-8
-UNK UNK on_op UNK on_op UNK on_nl UNK with_error_notification_for on_lparen UNK on_comma UNK on_op on_lbrace on_rbrace on_comma on_op UNK on_rparen # Tests for f.error_notification

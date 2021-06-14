@@ -1,2 +1,0 @@
-UNK on_symbeg UNK on_comma UNK on_period UNK on_op UNK on_nl on_ignored_nl UNK on_symbeg UNK on_comma on_const on_period UNK on_lbrace on_const # we assume that the first file that requires 'sinatra' is the # app_file. all other path related options are calculated based # on this path by default.
-UNK on_const on_op on_const on_nl on_ignored_nl UNK on_const on_op on_const on_nl UNK on_const on_op on_const on_nl end on_nl EMP EMP # include would include the module in Object # extend only extends the `main` object

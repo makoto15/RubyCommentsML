@@ -1,1 +1,0 @@
-on_ignored_nl def UNK on_nl on_ivar on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_lbracket on_tstring_beg # methods for fields specific to Ipregistry

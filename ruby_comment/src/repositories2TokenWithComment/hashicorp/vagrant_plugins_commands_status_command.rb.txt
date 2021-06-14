@@ -1,2 +1,0 @@
-UNK on_op UNK on_lparen opts on_rparen on_nl UNK UNK on_op UNK on_nl on_ignored_nl UNK on_op UNK on_nl UNK on_lparen UNK # Parse the options
-UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

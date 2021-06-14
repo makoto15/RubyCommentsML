@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK on_comma UNK UNK on_comma UNK UNK on_nl on_ignored_nl UNK UNK # frozen_string_literal: true
-UNK UNK UNK UNK UNK on_ignored_nl UNK on_period UNK UNK on_op UNK on_op on_ignored_nl on_ivar on_op UNK on_period UNK UNK # Create a new `Jekyll::Page` object for each entry in a given array. # # files - An array of file names inside `@dir` # # Returns an array of publishable `Jekyll::Page` objects.

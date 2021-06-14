@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a business from Seinfeld. # # @return [String] # # @example # Faker::TvShows::Seinfeld.business #=> "Kruger Industrial Smoothing" # # @faker.version 1.9.2
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Seinfeld. # # @return [String] # # @example # Faker::TvShows::Seinfeld.character #=> "George Costanza" # # @faker.version 1.8.3
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Seinfeld. # # @return [String] # # @example # Faker::TvShows::Seinfeld.quote # #=> "I'm not a lesbian. I hate men, but I'm not a lesbian." # # @faker.version 1.8.3

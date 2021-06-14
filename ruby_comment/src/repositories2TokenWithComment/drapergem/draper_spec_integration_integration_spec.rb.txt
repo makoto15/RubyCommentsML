@@ -1,2 +1,0 @@
-expect on_lparen page on_rparen on_period to have_text on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period in on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # Nokogiri unescapes text!
-UNK UNK on_op UNK UNK on_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen page on_rparen on_period to have_text on_lparen # _path helpers aren't available in mailers

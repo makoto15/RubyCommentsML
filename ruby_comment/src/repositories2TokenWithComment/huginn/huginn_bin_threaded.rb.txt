@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK #!/usr/bin/env ruby
-UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK on_nl UNK UNK UNK UNK on_nl EMP # We need to wait a bit to let delayed_job set it's traps so we can override them

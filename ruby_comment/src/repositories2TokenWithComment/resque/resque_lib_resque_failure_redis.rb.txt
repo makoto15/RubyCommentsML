@@ -1,2 +1,0 @@
-UNK on_const on_op on_const on_nl on_ignored_nl def data_store on_nl on_const on_period data_store on_nl end on_nl on_ignored_nl def self on_period data_store # A Failure backend that stores exceptions in Redis. Very simple but # works out of the box, along with support in the Resque web app.
-UNK on_lparen i on_rparen on_nl UNK on_ignored_nl i on_op on_int on_nl end on_nl end on_nl end on_nl on_ignored_nl def self # This will remove the failure from the array so do not increment the index.

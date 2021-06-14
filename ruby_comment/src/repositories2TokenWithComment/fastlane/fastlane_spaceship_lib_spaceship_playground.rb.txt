@@ -1,4 +1,0 @@
-UNK on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_const on_op on_const on_nl puts on_lparen # Make sure the user has pry installed
-UNK on_period UNK on_lparen UNK UNK on_rparen on_nl on_ignored_nl puts on_lparen on_tstring_beg on_tstring_end on_rparen end on_nl on_ignored_nl UNK UNK on_nl # rubocop:disable Lint/Debugger
-on_ignored_nl puts on_lparen on_tstring_beg on_tstring_end on_rparen end on_nl on_ignored_nl UNK UNK on_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_content # rubocop:enable Lint/Debugger
-end on_nl on_ignored_nl UNK UNK on_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content on_tstring_end on_nl # Fixes https://github.com/fastlane/fastlane/issues/3493

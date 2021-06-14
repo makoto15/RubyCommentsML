@@ -1,7 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const # frozen_string_literal: true
-UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK on_period UNK on_lparen UNK UNK step_name on_rparen # Raised when there is no matching StepDefinition for a step.
-UNK on_const on_op UNK on_nl UNK UNK on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_period UNK on_lparen step_name on_rparen # rubocop:disable Style/RaiseArgs
-UNK on_const on_op on_const on_nl UNK UNK on_lparen step_name on_rparen on_ignored_nl UNK on_tstring_beg on_tstring_content UNK step_name UNK on_tstring_content on_tstring_end on_nl # Raised when there is no matching StepDefinition for a step called # from within another step definition.
-UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl end on_nl on_ignored_nl UNK on_const on_op on_const on_nl UNK # Raised when a StepDefinition's block invokes World#pending
-UNK on_const on_op on_const on_nl UNK UNK on_lparen step_name UNK UNK UNK UNK on_rparen on_ignored_nl message on_op on_const on_period UNK # Raised when a step matches 2 or more StepDefinitions
-message on_op on_tstring_beg on_tstring_content UNK step_name UNK on_tstring_content on_tstring_end on_nl message on_op UNK on_period UNK on_lparen on_op UNK UNK on_rparen # rubocop:disable Style/EmptyLiteral

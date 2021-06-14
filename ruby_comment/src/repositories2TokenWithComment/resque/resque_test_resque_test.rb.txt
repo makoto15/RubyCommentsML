@@ -1,2 +1,0 @@
-on_const on_period push on_lparen on_symbeg UNK on_comma on_const on_period UNK on_rparen on_nl on_const on_period redis on_period UNK on_lparen on_tstring_beg on_tstring_content # No error should be raised
-UNK on_op on_const on_period UNK on_op on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl on_ignored_nl assert_equal on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg # ignore the heartbeat key that gets set in a background thread

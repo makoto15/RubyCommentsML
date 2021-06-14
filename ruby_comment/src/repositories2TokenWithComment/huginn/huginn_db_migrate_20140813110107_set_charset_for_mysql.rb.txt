@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl on_ignored_nl UNK UNK on_op UNK on_op on_ignored_nl UNK on_period UNK UNK on_ignored_nl UNK on_period UNK UNK # This is migration is for MySQL only.
-end on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_nl on_const on_op on_const on_period UNK on_period UNK on_op UNK on_tstring_content # Do nada; no use to go back

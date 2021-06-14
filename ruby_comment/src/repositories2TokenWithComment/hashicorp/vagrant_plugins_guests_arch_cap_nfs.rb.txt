@@ -1,1 +1,0 @@
-UNK on_period UNK UNK on_period UNK on_lparen UNK UNK UNK UNK UNK UNK on_rparen on_nl UNK UNK end on_nl on_ignored_nl # There is a bug in NFS where the rpcbind functionality is not started # and it's not a dependency of nfs-utils. Read more here: # # https://bbs.archlinux.org/viewtopic.php?id=193410 #

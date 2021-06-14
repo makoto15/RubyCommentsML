@@ -1,2 +1,0 @@
-UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl # frozen_string_literal: false
-UNK event on_lbracket on_int on_rbracket on_nl when on_symbeg UNK on_nl UNK UNK on_period UNK on_nl UNK on_const on_period new on_lparen #STDERR.puts "TREEPARSER GOT #{event.inspect}"

@@ -1,1 +1,0 @@
-UNK on_op UNK on_nl on_tstring_content UNK expect on_lparen compile_to_catalog on_lparen UNK on_rparen on_rparen on_period to have_resource on_lparen on_tstring_beg on_tstring_content on_tstring_end # source sorts Numeric before string and uses compare() for same data type

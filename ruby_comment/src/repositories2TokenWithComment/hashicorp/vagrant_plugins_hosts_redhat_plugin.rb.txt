@@ -1,1 +1,0 @@
-UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_const UNK on_const # Linux-specific helpers we need to determine paths that can # be overridden.

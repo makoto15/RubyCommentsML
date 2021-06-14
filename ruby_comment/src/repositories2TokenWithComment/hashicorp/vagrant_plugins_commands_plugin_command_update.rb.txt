@@ -1,3 +1,0 @@
-UNK on_op UNK UNK UNK UNK on_nl UNK UNK on_op UNK on_nl on_ignored_nl UNK UNK on_const UNK UNK UNK UNK # Parse the options
-UNK UNK on_const UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK on_nl UNK # Update the gem
-UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

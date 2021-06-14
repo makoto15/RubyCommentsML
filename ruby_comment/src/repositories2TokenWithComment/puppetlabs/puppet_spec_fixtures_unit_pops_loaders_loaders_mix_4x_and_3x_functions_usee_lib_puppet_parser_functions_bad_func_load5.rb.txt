@@ -1,1 +1,0 @@
-UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Attempt to get around problem of not returning what newfunction returns

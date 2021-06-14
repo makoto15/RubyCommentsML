@@ -1,1 +1,0 @@
-UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK UNK on_nl UNK UNK on_op UNK on_nl on_ignored_nl UNK UNK UNK message UNK # frozen_string_literal: true

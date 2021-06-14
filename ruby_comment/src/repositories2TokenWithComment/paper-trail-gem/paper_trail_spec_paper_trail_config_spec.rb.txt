@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl on_op on_const on_period UNK on_const # frozen_string_literal: true
-on_int on_period UNK on_lbrace bike on_period UNK on_lparen UNK UNK on_comma on_const on_period UNK on_lparen on_int on_rparen on_rparen on_rbrace on_nl # has_paper_trail limit: 3
-on_int on_period UNK on_lbrace bike on_period UNK on_lparen UNK UNK on_comma on_const on_period UNK on_lparen on_int on_rparen on_rparen on_rbrace on_nl # has_paper_trail limit: nil
-on_int on_period UNK on_lbrace bike on_period UNK on_lparen on_label on_const on_period UNK on_lparen on_int on_rparen on_rparen on_rbrace on_nl UNK on_int # has_paper_trail limit: 3

@@ -1,2 +1,0 @@
-on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
-UNK on_op cask on_period artifacts on_period UNK on_lbrace on_op k on_op on_lbracket on_symbeg UNK on_comma on_symbeg UNK on_rbracket on_period UNK # TODO: specific DSL knowledge should not be spread around in various files like this

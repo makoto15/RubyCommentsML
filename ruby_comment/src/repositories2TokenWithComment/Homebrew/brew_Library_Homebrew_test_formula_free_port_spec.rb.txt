@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const UNK on_ignored_nl UNK # frozen_string_literal: true
-on_const UNK UNK on_nl on_const UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl on_ignored_nl # IANA suggests user port from 1024 to 49151 # and dynamic port for 49152 to 65535 # http://www.iana.org/assignments/port-numbers

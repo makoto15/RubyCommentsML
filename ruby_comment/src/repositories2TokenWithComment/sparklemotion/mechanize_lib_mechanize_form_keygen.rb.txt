@@ -1,5 +1,0 @@
-on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK on_nl on_ignored_nl UNK ## # This class represents a keygen (public / private key generator) found in a # Form. The field will automatically generate a key pair and compute its own # value to match the challenge. Call key to access the public/private key # pair.
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK on_op UNK UNK on_ignored_nl # The challenge for this <keygen>.
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK on_op UNK UNK on_ignored_nl UNK on_nl on_ivar on_op UNK # The key associated with this <keygen> tag.
-UNK UNK UNK UNK on_op UNK UNK on_ignored_nl on_ivar on_op on_const on_op on_const on_op on_const on_period UNK UNK on_nl on_ivar # Generates a key pair and sets the field's value.
-on_ivar on_op on_const on_op on_const on_op on_const on_period UNK UNK on_nl on_ivar on_period UNK on_op on_ivar on_period UNK on_nl on_ivar # Spec at http://dev.w3.org/html5/spec/Overview.html#the-keygen-element

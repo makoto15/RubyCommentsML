@@ -1,7 +1,0 @@
-UNK on_op mail on_period UNK on_lbracket key on_rbracket on_period UNK on_nl UNK on_const on_nl next false on_nl end on_nl UNK # Mail::Field really needs to define respond_to_missing? # so we could use try(:addresses) here.
-else on_ignored_nl log on_tstring_beg on_tstring_content on_tstring_end on_op key on_nl true on_nl end on_nl on_rbrace or next on_nl on_ignored_nl if notified # already filtered out by each_unread_mail
-UNK on_comma UNK on_op self on_period UNK on_comma self on_period UNK on_nl on_ignored_nl notified on_op self on_period notified on_nl on_ignored_nl # 'lastseen' keeps a hash of { uidvalidity => lastseenuid, ... }
-notified on_op self on_period notified on_nl on_ignored_nl interpolated on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period each on_lbrace on_op folder on_op on_ignored_nl # 'notified' keeps an array of message-ids of {IDCACHE_SIZE} # most recent notified mails.
-UNK on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op value on_nl end on_nl on_ignored_nl def UNK on_nl on_const on_period new on_nl end # obsolete key
-hash on_period each on_lbrace on_op uidvalidity on_comma uid on_op on_ignored_nl self on_lbracket uidvalidity on_period UNK on_rbracket on_op uid on_nl on_rbrace # Deserialize a JSON hash which keys are strings
-if on_lparen UNK on_op self on_lbracket uidvalidity on_rbracket on_rparen on_period UNK on_op UNK on_op uid on_nl super on_nl end on_nl # Update only if the new value is larger than the current value

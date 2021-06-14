@@ -1,2 +1,0 @@
-UNK on_const UNK on_const on_nl def self on_period UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_tstring_content on_tstring_end on_period UNK # Raises an exception and stop the lane execution if the repo is not in a clean state
-on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def self on_period UNK UNK UNK UNK on_ignored_nl UNK on_nl end on_nl on_ignored_nl # credits to lmirosevic for original git version

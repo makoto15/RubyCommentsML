@@ -1,2 +1,0 @@
-UNK UNK on_const on_nl UNK on_const UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK on_const UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK on_const # Echo outputs an expression # # {% echo monkey %} # {% echo user.name %} # # This is identical to variable output syntax, like {{ foo }}, but works # inside {% liquid %} tags. The full syntax is supported, including filters: # # {% echo user | link %} #

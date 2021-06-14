@@ -1,5 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces an actor from The IT Crowd. # # @return [String] # # @example # Faker::TvShows::TheITCrowd.actor #=> "Chris O'Dowd" # # @faker.version 1.9.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from The IT Crowd. # # @return [String] # # @example # Faker::TvShows::TheITCrowd.character #=> "Roy Trenneman" # # @faker.version 1.9.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces an email from The IT Crowd. # # @return [String] # # @example # Faker::TvShows::TheITCrowd.email #=> "roy.trenneman@reynholm.test" # # @faker.version 1.9.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from The IT Crowd. # # @return [String] # # @example # Faker::TvShows::TheITCrowd.quote # #=> "Hello, IT. Have you tried turning it off and on again?" # # @faker.version 1.9.0

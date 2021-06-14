@@ -1,9 +1,0 @@
-attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK # The path to Puppet's bin/ directory. # @return [String]
-on_ivar on_op on_lbracket on_symbeg UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl end on_nl on_ignored_nl if on_ivar on_op on_const on_op on_op #If both are unset, assume 'manifests' mode for now. TBD: Switch to environments by default?
-if on_ivar on_op on_const on_op on_op on_ivar on_period UNK on_lparen on_const on_rparen on_nl on_ivar on_op on_lbracket on_symbeg UNK on_comma on_ivar # If the paths are just strings, assume they are 'host' paths (rather than guest)
-def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_lbracket on_rbracket if on_op UNK on_nl on_ignored_nl UNK on_op UNK on_nl UNK on_op # Returns the module paths as an array of paths expanded relative to the # root path.
-UNK on_op UNK on_nl UNK on_op on_lbracket UNK on_rbracket if on_op UNK on_period UNK on_lparen on_const on_rparen on_nl UNK on_period # Get all the paths and expand them relative to the root path, returning # the array of expanded paths
-UNK on_op UNK on_lparen UNK on_period UNK on_period UNK on_rparen on_nl on_ignored_nl if UNK on_op nil on_op UNK on_lbracket on_int # Calculate the manifests and module paths based on env
-if UNK on_op nil on_op UNK on_lbracket on_int on_rbracket on_period UNK on_op on_symbeg UNK on_nl expanded_path on_op on_const on_period UNK # Manifests path/file validation
-expanded_path on_op on_const on_period UNK on_lparen UNK on_lbracket on_int on_rbracket on_rparen on_period on_ignored_nl UNK on_lparen UNK on_period UNK on_period UNK # Environments path/file validation
-UNK on_period UNK UNK on_op UNK on_op on_ignored_nl if on_op UNK on_period UNK on_nl errors on_op on_const on_period UNK on_lparen # Module paths validation

@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
-UNK on_op on_const on_op on_const on_op UNK on_op UNK on_nl UNK on_nl on_ignored_nl on_const on_period UNK on_op UNK on_nl EMP # Set a longer timeout for aruba, and a really long one if running on JRuby
-on_const on_period UNK on_op UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # TODO: This probably shouldn't be used. To fix this we need to triage all of the # file names created in tests, and ensure they are unique

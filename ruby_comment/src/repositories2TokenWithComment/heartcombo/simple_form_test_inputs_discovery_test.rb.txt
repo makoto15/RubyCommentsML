@@ -1,3 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const UNK on_const UNK on_const on_nl UNK discovery UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK discovery UNK UNK UNK UNK UNK on_ignored_nl swap on_const on_comma on_label UNK do on_ignored_nl UNK on_ignored_nl UNK on_tstring_beg on_tstring_content # Setup new inputs and remove them after the test.
-assert_select on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_tstring_content UNK on_nl end on_nl end on_nl end on_nl end on_nl on_ignored_nl test on_tstring_beg # Make sure class list contains 'chosen' only once.

@@ -1,3 +1,0 @@
-UNK UNK on_nl UNK UNK on_lparen UNK on_rparen UNK UNK UNK UNK on_lparen UNK on_tstring_content on_tstring_end on_rparen on_nl UNK on_lparen # This class takes care of removing the alpha channel of the generated screenshots
-UNK UNK on_lparen UNK on_rparen UNK UNK UNK UNK on_lparen UNK on_tstring_content on_tstring_end on_rparen on_nl UNK on_lparen UNK on_rparen on_nl # @param (String) The path in which the screenshots are located in
-UNK on_tstring_content UNK UNK UNK on_tstring_content on_tstring_end on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP # &> /dev/null because there is warning because of the extension

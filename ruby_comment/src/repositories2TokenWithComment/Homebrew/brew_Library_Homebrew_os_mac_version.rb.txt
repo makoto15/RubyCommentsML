@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_op on_const on_nl on_const # frozen_string_literal: true
-def UNK on_nl on_const on_period UNK on_lparen UNK on_rparen on_op UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK # For OS::Mac::Version compatibility
-UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl end on_nl end on_nl # https://en.wikipedia.org/wiki/Nehalem_(microarchitecture) # Ensure any extra methods are also added to version/null.rb

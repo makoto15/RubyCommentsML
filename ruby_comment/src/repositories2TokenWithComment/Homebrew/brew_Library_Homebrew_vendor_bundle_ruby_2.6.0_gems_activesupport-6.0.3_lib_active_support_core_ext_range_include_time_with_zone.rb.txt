@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK on_const on_nl UNK on_const UNK UNK on_lparen UNK on_rparen UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_lparen UNK on_rparen UNK UNK UNK UNK UNK UNK UNK on_lparen on_const on_rparen on_nl UNK on_lparen UNK on_rparen #:nodoc: # Extends the default Range#include? to support ActiveSupport::TimeWithZone. # # (1.hour.ago..1.hour.from_now).include?(Time.current) # => true #

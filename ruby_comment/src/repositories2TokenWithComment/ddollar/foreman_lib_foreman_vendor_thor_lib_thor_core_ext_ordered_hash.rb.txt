@@ -1,2 +1,0 @@
-on_ivar on_op UNK on_period UNK on_nl end on_nl on_ignored_nl def on_op on_lparen key on_comma UNK on_rparen on_ignored_nl on_ivar on_op key # make a deep copy of keys
-def UNK on_lparen UNK on_rparen on_ignored_nl super on_nl on_ivar on_op UNK on_period UNK on_nl self on_nl end on_nl on_ignored_nl def # When replacing with another hash, the initial order of our keys must come from the other hash -ordered or not.

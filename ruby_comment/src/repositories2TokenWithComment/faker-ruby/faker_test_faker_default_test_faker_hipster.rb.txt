@@ -1,6 +1,0 @@
-on_ignored_nl UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl on_ivar # frozen_string_literal: true
-def UNK on_nl on_ivar on_op on_ivar on_period words on_lparen on_label on_int on_rparen on_nl on_ivar on_period UNK UNK on_op w on_op # Words delivered by a standard request should be on the standard wordlist.
-def UNK on_nl on_ivar on_op on_ivar on_period words on_lparen on_label on_int on_rparen on_nl on_ivar on_period UNK UNK on_op w on_op # Words should not return any word with spaces
-def UNK on_nl on_ivar on_op on_ivar on_period words on_lparen on_label on_int UNK on_label UNK on_rparen on_nl on_ivar on_period UNK UNK # Words requested from the supplemental list should all be in that list.
-def UNK on_nl on_ivar on_op on_const on_op on_const on_nl on_ivar on_op on_const on_period UNK on_lparen UNK on_tstring_content UNK on_rparen on_nl # Faker::Hipster.word generates random word from standart wordlist
-def UNK on_nl on_ivar on_op on_const on_op on_const on_nl on_int on_period UNK UNK assert on_op on_ivar on_period UNK on_period UNK # Word should not return any word with spaces

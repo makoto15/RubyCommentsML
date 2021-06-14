@@ -1,5 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_symbeg UNK on_nl # frozen_string_literal: true
-UNK on_const on_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op on_op # Overwrites the Base load_file method to cache loaded file contents.
-UNK on_symbeg UNK on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op on_op UNK on_lparen on_symbeg # Optionally provide path_roots array to normalize filename paths, # to make the cached i18n data portable across environments.
-UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op on_op UNK on_lparen on_symbeg UNK on_rparen on_op UNK on_nl UNK on_op on_const # Track loaded translation files in the `i18n.load_file` scope, # and skip loading the file if its contents are still up-to-date.
-UNK UNK on_lparen file on_rparen on_ignored_nl UNK file UNK UNK on_nl UNK on_op UNK on_period UNK on_lparen on_op file on_period # Translate absolute filename to relative path for i18n key.

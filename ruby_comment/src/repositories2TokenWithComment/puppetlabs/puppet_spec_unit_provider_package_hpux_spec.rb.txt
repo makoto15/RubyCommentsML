@@ -1,3 +1,0 @@
-on_ivar on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl UNK on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg on_op # Create a mock resource
-UNK on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg on_op on_rparen on_period UNK on_lparen UNK on_rparen on_nl on_ignored_nl UNK on_lparen # A catch all; no parameters set
-UNK on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg on_op on_rparen on_period UNK on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen # But set name and source

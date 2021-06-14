@@ -1,8 +1,0 @@
-on_const on_period write on_lparen on_const on_lbracket on_symbeg localcacert on_rbracket on_comma on_ivar on_period to_pem on_rparen on_nl on_const on_period write on_lparen on_const # Host assumes ca cert and crl are present
-on_const on_period write on_lparen on_const on_lbracket on_symbeg hostprivkey on_rbracket on_comma on_ivar on_lbracket on_symbeg private_key on_rbracket on_period to_pem on_rparen on_nl on_const # Setup our ssl client
-end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_const on_period UNK on_lparen on_const # ignore output
-expect on_lparen ssl on_period UNK on_period UNK on_period name on_rparen on_period to UNK on_lparen on_symbeg UNK on_rparen on_nl end on_nl # make sure the ssl app resolves certname, server, etc # the same way the agent application does
-private_key on_op on_const on_op on_const on_op on_const on_period UNK on_lparen on_int on_rparen on_nl on_const on_period write on_lparen on_const on_lbracket on_symbeg # generate a new host key, whose public key doesn't match the cert
-private_key on_op on_const on_op on_const on_op on_const on_period UNK on_lparen on_int on_rparen on_nl public_key on_op private_key on_period public_key on_nl on_const # generate new keys
-UNK on_op on_const on_op on_const on_period UNK on_nl on_const on_period write on_lparen on_const on_lbracket on_symbeg localcacert on_rbracket on_comma UNK on_period # generate a new CA to force an error
-on_const on_period write on_lparen on_const on_lbracket on_symbeg hostcrl on_rbracket on_comma UNK on_period UNK on_period to_pem on_rparen on_nl on_ignored_nl expects_command_to_fail on_lparen # and CRL for that CA

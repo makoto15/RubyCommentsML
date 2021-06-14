@@ -1,3 +1,0 @@
-UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK UNK UNK on_op UNK UNK on_op UNK UNK UNK # frozen_string_literal: true
-UNK on_const on_nl UNK UNK UNK UNK on_op UNK UNK on_op UNK UNK UNK options on_op UNK on_period UNK on_nl # A collection of methods required by simple_form but added to rails default form. # This means that you can use such methods outside simple_form context.
-UNK UNK UNK on_op UNK UNK on_op UNK UNK UNK options on_op UNK on_period UNK on_nl options on_lbracket on_symbeg UNK # Wrapper for using SimpleForm inside a default rails form. # Example: # # form_for @user do |f| # f.simple_fields_for :posts do |posts_form| # # Here you have all simple_form methods available # posts_form.input :title # end # end

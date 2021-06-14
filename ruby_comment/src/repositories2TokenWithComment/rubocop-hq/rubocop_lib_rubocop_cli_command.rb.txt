@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Home of subcommands in the CLI.
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl # Find the command with a given name and run it in an environment.

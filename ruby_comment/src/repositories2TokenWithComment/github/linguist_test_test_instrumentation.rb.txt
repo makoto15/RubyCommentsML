@@ -1,1 +1,0 @@
-assert_equal UNK on_comma on_const on_period UNK on_period UNK on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_op UNK # Shouldn't instrument this (as it's binary)

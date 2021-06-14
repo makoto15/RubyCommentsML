@@ -1,8 +1,0 @@
-UNK UNK on_period UNK on_lparen env on_rparen if on_lparen on_op build_dir on_op on_op git_repo on_rparen on_nl on_ignored_nl UNK on_op machine # If we're not building a container, then just skip this step
-UNK on_op machine on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl image on_op UNK on_nl if UNK on_period # Try to read the image ID from the cache file if we've # already built it.
-if image on_op on_op machine on_period UNK on_period UNK on_period UNK on_lparen image on_rparen on_nl machine on_period ui on_period output # Verify the image exists if we have one
-if on_op image on_op env on_lbracket on_symbeg UNK on_rbracket on_nl UNK on_op machine on_period provider_config on_period UNK on_period UNK on_nl # If we have no image or we're rebuilding, we rebuild
-UNK on_op machine on_period provider_config on_period UNK on_period UNK on_nl if machine on_period provider_config on_period dockerfile on_nl dockerfile on_op machine # Build it
-machine on_period ui on_period UNK on_lparen on_tstring_beg on_tstring_content UNK image UNK on_tstring_end on_rparen on_nl on_ignored_nl UNK on_period UNK on_lparen on_tstring_beg # Output the final image
-UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_op UNK on_op on_ignored_nl UNK on_period UNK on_nl UNK on_period UNK # Store the image ID
-env on_lbracket on_symbeg UNK on_rbracket on_op image on_nl on_ignored_nl UNK on_period UNK on_lparen env on_rparen on_nl end on_nl end on_nl # Set the image for creation

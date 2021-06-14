@@ -1,3 +1,0 @@
-if params on_lbracket on_symbeg UNK on_rbracket on_nl set_build_setting on_lparen config on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma params on_lbracket on_symbeg UNK on_rbracket # Since Xcode 8, this is no longer needed, you simply use PROVISIONING_PROFILE_SPECIFIER
-UNK on_op UNK on_period UNK on_period UNK on_period UNK UNK on_op UNK on_op UNK on_period UNK on_period UNK on_lparen UNK # Iterate over any keys that start with this name # This will also set keys that have filtering like [sdk=iphoneos*]
-UNK on_period UNK on_lbracket name on_rbracket on_op UNK on_nl end on_nl on_ignored_nl def self on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end # Explicitly set the key with value if keys don't exist

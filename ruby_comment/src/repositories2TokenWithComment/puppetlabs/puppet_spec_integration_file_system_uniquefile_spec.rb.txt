@@ -1,2 +1,0 @@
-on_const on_op on_const on_op on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_rparen on_nl on_const on_op on_const # Set the temporary environment variables to the UTF8 temp path
-UNK on_op on_const on_op on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_op UNK on_op on_ignored_nl on_const # Create a unique file

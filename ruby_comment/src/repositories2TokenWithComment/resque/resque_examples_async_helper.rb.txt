@@ -1,6 +1,0 @@
-on_ignored_nl UNK UNK on_op UNK on_op UNK on_nl UNK UNK UNK UNK on_lparen UNK on_comma UNK on_comma on_op UNK on_rparen # If you want to just call a method on an object in the background, # we can easily add that functionality to Resque. # # This is similar to DelayedJob's `send_later`. # # Keep in mind that, unlike DelayedJob, only simple Ruby objects # can be persisted. # # If it can be represented in JSON, it can be stored in a job.
-UNK UNK on_op UNK on_op UNK on_nl UNK UNK UNK UNK on_lparen UNK on_comma UNK on_comma on_op UNK on_rparen on_ignored_nl # Here's our ActiveRecord class
-UNK UNK UNK UNK on_lparen UNK on_comma UNK on_comma on_op UNK on_rparen on_ignored_nl UNK on_lparen UNK on_rparen UNK UNK on_lparen # This will be called by a worker when a job needs to be processed
-UNK UNK on_lparen UNK on_comma on_op UNK on_rparen on_ignored_nl UNK UNK UNK on_lparen UNK on_comma UNK on_comma UNK on_comma on_op # We can pass this any Repository instance method that we want to # run later.
-on_ignored_nl UNK UNK UNK on_lparen UNK UNK on_rparen on_nl on_ignored_nl on_ignored_nl UNK UNK UNK on_lparen UNK UNK on_comma UNK on_rparen # Now we can call any method and have it execute later:
-on_ignored_nl UNK UNK UNK on_lparen UNK UNK on_comma UNK on_rparen on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP # or

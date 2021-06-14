@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Parks and Recreation. # # @return [String] # # @example # Faker::TvShows::ParksAndRec.character #=> "Leslie Knope" # # @faker.version 1.9.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a city from Parks and Recreation. # # @return [String] # # @example # Faker::TvShows::ParksAndRec.city #=> "Pawnee" # # @faker.version 1.9.0

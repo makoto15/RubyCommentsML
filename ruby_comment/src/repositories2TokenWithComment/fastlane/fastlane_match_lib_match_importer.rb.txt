@@ -1,9 +1,0 @@
-UNK on_op UNK on_lparen UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_op UNK on_lparen UNK # Get and verify cert, p12 and profiles path
-storage on_op on_const on_period UNK on_lparen params on_lbracket on_symbeg UNK on_rbracket on_comma UNK on_ignored_nl on_label params on_lbracket on_symbeg UNK on_rbracket # Storage
-UNK on_op on_const on_period UNK on_lparen params on_lbracket on_symbeg UNK on_rbracket on_comma UNK on_ignored_nl on_label params on_lbracket on_symbeg UNK on_rbracket # Encryption
-cert_type on_op on_const on_period UNK on_lparen params on_lbracket on_symbeg UNK on_rbracket on_rparen on_nl on_ignored_nl UNK cert_type on_nl UNK on_symbeg UNK # Map match type into Spaceship::ConnectAPI::Certificate::CertificateType
-on_const on_op on_const on_period UNK on_lparen params on_lbracket on_symbeg UNK on_rbracket on_rparen on_nl on_const on_op on_const on_period UNK on_lparen on_label # Need to get the cert id by comparing base64 encoded cert content with certificate content from the API responses
-UNK on_op on_const on_period UNK on_lparen on_const on_period UNK on_lparen UNK on_rparen on_rparen on_nl UNK on_op UNK on_period UNK UNK # Base64 encode contents to find match from API to find a cert ID
-on_const on_period UNK on_lparen UNK on_rparen on_nl UNK on_op on_const on_period UNK on_lparen UNK on_comma on_tstring_beg on_embexpr_beg UNK on_period UNK # Make dir if doesn't exist
-on_const on_period UNK on_lparen UNK on_comma UNK on_rparen on_nl on_const on_period UNK on_lparen UNK on_comma UNK on_rparen on_nl UNK profile_path # Copy files
-UNK on_period UNK UNK UNK on_nl storage on_period UNK on_lparen on_label UNK on_rparen on_nl end on_nl on_ignored_nl UNK UNK on_lparen # Encrypt and commit

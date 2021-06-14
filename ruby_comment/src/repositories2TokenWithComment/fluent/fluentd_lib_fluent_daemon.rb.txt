@@ -1,2 +1,0 @@
-UNK UNK on_op on_const on_period UNK on_lparen UNK on_rparen on_nl UNK on_op on_const on_period UNK on_lparen on_const on_period UNK on_lparen #!/usr/bin/env ruby # -*- coding: utf-8 -*-
-UNK on_op on_const UNK UNK UNK on_nl UNK on_op on_const on_period UNK on_lparen on_const UNK UNK UNK on_rparen on_nl on_const # it doesn't call ARGV in block because when reloading config, params will be initialized and then it can't use previous config.

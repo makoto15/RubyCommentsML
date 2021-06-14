@@ -1,2 +1,0 @@
-UNK on_lparen on_const on_op on_const on_op on_const on_rparen on_period to UNK on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen UNK on_rparen # Use a simple client for all data models
-expect on_lparen UNK on_period raw_data on_period UNK on_period UNK on_rparen on_period to eq on_lparen app_test_info on_period raw_data on_period UNK on_period # use to_h.to_s to compare raw_data, since they are different instances

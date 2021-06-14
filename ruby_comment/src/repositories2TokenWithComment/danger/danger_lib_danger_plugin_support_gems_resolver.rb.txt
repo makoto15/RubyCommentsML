@@ -1,3 +1,0 @@
-end on_nl on_ignored_nl def UNK on_nl UNK on_op UNK UNK on_nl on_ignored_nl on_const on_period UNK UNK on_ignored_nl on_const on_period UNK # We want it to persist until OS cleans it on reboot
-def UNK on_nl UNK on_op UNK UNK on_nl on_ignored_nl on_const on_period UNK UNK on_ignored_nl on_const on_period UNK on_lparen UNK on_rparen # Returns an Array of paths (plugin lib file paths) and gems (of metadata)
-def UNK on_nl UNK on_op gem_names on_period UNK UNK on_op plugin on_op on_ignored_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content UNK # The paths are relative to dir.

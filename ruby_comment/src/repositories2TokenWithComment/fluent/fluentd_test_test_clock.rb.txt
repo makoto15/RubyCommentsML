@@ -1,7 +1,0 @@
-end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl c1 on_op on_const on_op on_const # call it always not to affect other tests
-end on_nl on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_const on_period freeze on_lparen on_const on_period now on_rparen do on_ignored_nl c1 # if clock returns deci-second (fantastic!), c2 should be larger than c1 + 10
-c1 on_op on_const on_op on_const on_period now on_nl assert on_lbrace c1 on_op c0 on_op on_float on_rbrace on_nl end on_nl on_ignored_nl # ensure to rescue an error
-on_const on_op on_const on_period freeze on_lparen UNK on_rparen do on_ignored_nl c1 on_op on_const on_op on_const on_period now on_nl assert on_lbrace # 31 is for error of floating point value
-end on_nl on_ignored_nl on_const on_op on_const on_period freeze on_lparen UNK on_rparen do on_ignored_nl c2 on_op on_const on_op on_const on_period now # +10 is for threading schedule error
-on_const on_op on_const on_period freeze on_lparen UNK on_rparen do on_ignored_nl c2 on_op on_const on_op on_const on_period now on_nl assert on_lbrace # 29 is for error of floating point value
-end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # +10 is for threading schedule error

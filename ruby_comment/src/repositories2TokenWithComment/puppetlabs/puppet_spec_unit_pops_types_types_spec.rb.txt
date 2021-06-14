@@ -1,2 +1,0 @@
-expect on_lparen on_const on_rparen on_period to UNK on_lparen on_const on_rparen on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # should appoint the exact same instance
-expect on_lparen on_const on_rparen on_period to UNK on_lparen on_const on_rparen on_nl end on_nl end on_nl end on_nl end on_nl end # should appoint the exact same instance

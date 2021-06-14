@@ -1,4 +1,0 @@
-UNK UNK on_nl UNK UNK on_op UNK on_nl UNK UNK UNK on_comma UNK UNK on_comma UNK UNK on_nl on_ignored_nl UNK # frozen_string_literal: false
-UNK on_ivar on_nl err on_op on_ivar on_period UNK on_nl err on_op on_tstring_beg on_tstring_content on_tstring_end on_nl err on_op on_ivar on_period UNK # Quote the original exception, if there was one
-err on_op UNK on_nl on_ignored_nl UNK on_ivar on_nl err on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_content on_tstring_end on_nl err on_op # Get the stack trace and error message
-UNK on_ivar on_nl err on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_content on_tstring_end on_nl err on_op on_tstring_beg on_tstring_content UNK UNK UNK # Add contextual information

@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK # frozen_string_literal: true
-UNK on_const on_nl UNK on_const on_nl on_ignored_nl def UNK UNK UNK on_comma UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK # This class wraps the AST send/block node that encapsulates the method # call that comprises the stanza. It includes various helper methods to # aid cops in their analysis.

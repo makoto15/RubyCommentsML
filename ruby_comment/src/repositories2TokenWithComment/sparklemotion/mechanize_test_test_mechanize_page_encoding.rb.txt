@@ -1,4 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end # -*- coding: utf-8 -*-
-on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl def UNK on_nl UNK # tests for Page encoding and charset and parsing
-def UNK on_nl body on_op on_tstring_beg on_tstring_content on_tstring_end on_nl charsets on_op on_const on_op on_const on_period UNK on_lparen body on_rparen on_nl # Test to fix issue: https://github.com/sparklemotion/mechanize/issues/143
-assert_equal UNK on_comma util_page on_period encodings on_period include? on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl on_ivar on_period UNK on_op on_tstring_beg # pre test

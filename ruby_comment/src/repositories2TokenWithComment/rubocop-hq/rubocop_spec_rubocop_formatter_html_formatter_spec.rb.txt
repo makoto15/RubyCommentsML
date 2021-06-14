@@ -1,5 +1,0 @@
-on_ignored_nl on_const on_period UNK on_const on_op on_const on_op on_const on_comma on_symbeg UNK do on_ignored_nl UNK on_op on_const on_period UNK on_lparen # frozen_string_literal: true
-on_const on_op on_const on_period UNK on_period UNK on_lparen UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end # Run without Style/EndOfLine as it gives different results on # different platforms.
-UNK on_period UNK on_lparen UNK on_tstring_content UNK on_rparen do on_ignored_nl on_const on_period UNK on_lparen UNK on_rparen on_op on_const on_op on_const # Avoid failure on version bump
-UNK on_lparen UNK on_rparen on_period UNK UNK on_lparen UNK on_rparen on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # FileUtils.copy(actual_html_path, expected_html_path)
-UNK on_lparen UNK on_rparen on_period UNK UNK on_lparen UNK on_rparen on_nl end on_nl end on_nl EMP EMP EMP EMP EMP # FileUtils.copy(actual_html_path, expected_html_path)

@@ -1,2 +1,0 @@
-UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # @deprecated Use {Puppet::HTTP::Client} instead.
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK # Error thrown when request status is not OK. # @param [String] msg the error message # @param [Puppet::Rest::Response] response the response from the failed # request

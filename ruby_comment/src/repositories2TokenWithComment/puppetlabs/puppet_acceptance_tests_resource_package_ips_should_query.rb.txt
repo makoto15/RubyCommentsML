@@ -1,2 +1,0 @@
-on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_op UNK on_op UNK on_nl on_ignored_nl UNK do on_ignored_nl # Use block style `test_name`
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_op UNK on_op UNK on_nl on_ignored_nl UNK do on_ignored_nl UNK on_tstring_beg on_tstring_content # Could be done at the integration (or unit) layer though # actual changing of resources could irreparably damage a # host running this, or require special permissions.

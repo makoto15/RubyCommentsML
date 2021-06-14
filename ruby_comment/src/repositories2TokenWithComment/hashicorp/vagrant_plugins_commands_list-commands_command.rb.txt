@@ -1,2 +1,0 @@
-UNK on_op UNK UNK on_nl UNK on_op UNK on_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_period # Add the available subcommands as separators in order to print them # out as well.
-UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

@@ -1,2 +1,0 @@
-on_ignored_nl on_const on_period UNK on_const on_op on_const on_op on_const on_op on_const do on_ignored_nl UNK on_lparen UNK UNK on_rparen UNK UNK # frozen_string_literal: true
-expect_offense on_lparen on_heredoc_beg on_rparen on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_heredoc_end end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do # Because why would you have an empty module? It requires some # explanation.

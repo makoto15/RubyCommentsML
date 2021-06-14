@@ -1,1 +1,0 @@
-get on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbrace stylus on_symbeg hello on_rbrace on_nl end on_nl get on_tstring_beg on_tstring_content on_tstring_end on_nl assert # default stylus style is :nested

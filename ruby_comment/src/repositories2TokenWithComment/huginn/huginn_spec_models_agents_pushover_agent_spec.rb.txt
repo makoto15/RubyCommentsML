@@ -1,3 +1,0 @@
-expect on_lparen on_ivar on_rparen on_period UNK UNK on_nl on_const on_op on_const on_period UNK on_ivar on_period UNK on_comma on_lbracket on_ivar on_period # No events received
-expect on_lparen on_ivar on_period UNK on_rparen on_period to UNK on_nl UNK on_op on_int on_period UNK on_period UNK on_nl UNK on_lparen # Just received events
-expect on_lparen on_ivar on_period UNK on_rparen on_period UNK UNK on_nl end on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do # More time has passed than the expected receive period without any new events

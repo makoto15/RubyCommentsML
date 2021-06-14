@@ -1,3 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK do on_ignored_nl UNK on_lparen UNK UNK on_rparen UNK UNK # frozen_string_literal: true
-expect_correction on_lparen on_heredoc_beg on_rparen on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_heredoc_end end on_nl end on_nl # Should not autocorrect -- cannot always be done safely.
-expect_correction on_lparen on_heredoc_beg on_rparen on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_heredoc_end end on_nl end on_nl # Should not autocorrect -- cannot always be done safely.

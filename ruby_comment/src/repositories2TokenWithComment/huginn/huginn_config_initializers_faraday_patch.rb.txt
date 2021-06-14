@@ -1,1 +1,0 @@
-UNK on_const on_nl UNK on_const on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK # Monkey patch https://github.com/lostisland/faraday/pull/513 # Fixes encoding issue when passing an URL with non UTF-8 characters

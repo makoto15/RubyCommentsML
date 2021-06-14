@@ -1,9 +1,0 @@
-def UNK on_lparen data on_rparen on_ignored_nl on_const on_period new on_lbrace on_op env on_op env on_lbracket on_symbeg data on_rbracket on_op data # This returns a proc that can be used with the builder # that simply appends data to an array in the env.
-expect on_lbrace instance on_period call on_lparen data on_rparen on_rbrace on_period on_ignored_nl to UNK on_lparen on_const on_rparen on_nl on_ignored_nl expect on_lparen # The error should be raised back up
-expect on_lparen data on_lbracket on_symbeg recover on_rbracket on_rparen on_period to UNK on_lparen on_lbracket on_int on_comma on_int on_rbracket on_rparen on_nl on_ignored_nl # Verify the recovery process goes in reverse order
-expect on_lparen data on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_rparen on_period to UNK on_lparen on_const on_rparen on_nl end on_nl on_ignored_nl UNK # Verify that the error is available in the data
-error_proc on_op on_const on_period new on_lbrace UNK on_rbrace on_nl on_ignored_nl instance on_op UNK on_period new on_lparen on_lbracket on_const on_comma error_proc # Make a proc that just calls "abort" which raises a # SystemExit exception.
-expect on_lbrace instance on_period call on_lparen data on_rparen on_rbrace on_period to UNK on_lparen on_const on_rparen on_nl on_ignored_nl expect on_lparen data # The SystemExit should come through
-expect on_lparen data on_period UNK on_lparen on_symbeg recover on_rparen on_rparen on_period UNK UNK on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content # The recover should not have been called
-expect on_lbrace instance on_period call on_lparen data on_rparen on_rbrace on_period to UNK on_lparen on_const on_rparen on_nl on_ignored_nl expect on_lparen data # The SystemExit should come through
-expect on_lparen data on_period UNK on_lparen on_symbeg recover on_rparen on_rparen on_period UNK UNK on_nl end on_nl end on_nl EMP EMP # The recover should not have been called

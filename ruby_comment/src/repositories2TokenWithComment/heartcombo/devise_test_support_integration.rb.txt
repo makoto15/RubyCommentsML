@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_nl def UNK on_nl UNK on_period UNK on_lbracket on_tstring_beg # frozen_string_literal: true
-def UNK on_lparen url on_rparen on_ignored_nl UNK on_lbracket UNK on_comma UNK on_rbracket on_period UNK on_lparen UNK on_period UNK on_rparen on_comma # Fix assert_redirect_to in integration sessions because they don't take into # account Middleware redirects. #
-UNK on_ignored_nl UNK UNK on_nl end on_nl end on_nl on_ignored_nl def UNK on_lparen url on_rparen on_ignored_nl url on_op on_tstring_beg on_tstring_content # Do nothing

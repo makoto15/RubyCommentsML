@@ -1,8 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end UNK on_period each do # Throw some facts in there, so we know where the report is from.
-UNK on_period each do on_op type on_op on_ignored_nl UNK on_op type on_period UNK on_nl ret on_op on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl # Produce output for each type.
-on_ignored_nl UNK on_op UNK on_tstring_content UNK on_tstring_content on_tstring_end on_op UNK on_period UNK on_lbrace on_op UNK on_op UNK on_period to_s on_rbrace # add a trailing newline
-UNK on_op UNK on_tstring_content UNK on_tstring_content on_tstring_end on_op UNK on_period UNK on_lbrace on_op UNK on_op UNK on_period to_s on_rbrace on_period # Now build up a table of provider suitability.
-UNK on_op UNK on_period UNK on_lparen UNK on_rparen on_nl UNK UNK on_op UNK on_period UNK on_nl data on_op on_tstring_beg on_tstring_content # Add the suitability note
-UNK on_op UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl details on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_content on_tstring_end on_nl # A pointer to the appropriate footnote
-UNK UNK on_nl details on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_content on_tstring_end on_nl UNK on_period each do on_op UNK on_comma # Add a footnote with the details about why this provider is unsuitable, if that's the case
-UNK on_period each do on_op UNK on_op on_ignored_nl UNK UNK on_period UNK on_period UNK on_lparen UNK on_rparen on_nl data on_op # Add a note for every feature

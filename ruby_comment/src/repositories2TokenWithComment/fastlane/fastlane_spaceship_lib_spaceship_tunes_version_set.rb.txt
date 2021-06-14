@@ -1,5 +1,0 @@
-UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl # Represents a version set inside of an application
-on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_ignored_nl UNK ##################################################### # @!group General metadata #####################################################
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_ignored_nl UNK UNK # @return (String) The type of the version set. So far only APP
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK UNK # @return (Spaceship::Tunes::Application) A reference to the application the version_set is contained in
-UNK UNK UNK on_nl on_ignored_nl UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK # @return (String)

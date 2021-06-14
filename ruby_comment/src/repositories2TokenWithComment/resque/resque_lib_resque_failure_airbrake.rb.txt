@@ -1,2 +1,0 @@
-on_const UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK on_lparen on_ignored_nl UNK on_comma on_ignored_nl UNK UNK # We can't get the total # of errors from Airbrake so we fake it # by asking Resque how many errors it has seen.
-on_op on_const on_period UNK on_lparen UNK on_comma UNK on_rparen on_nl end on_nl end on_nl end on_nl end on_nl end on_nl # Older versions of Airbrake (< 5)

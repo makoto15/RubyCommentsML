@@ -1,5 +1,0 @@
-UNK on_op UNK on_lparen UNK on_rparen on_nl UNK if on_op UNK on_nl on_ignored_nl UNK on_op UNK on_nl UNK on_lparen UNK # Parse the options and return if we don't have any target.
-UNK on_op UNK on_nl UNK on_lparen UNK on_rparen UNK on_op machine on_op on_ignored_nl if machine on_period UNK on_period UNK on_lparen # Go through each machine and perform the rsync
-UNK on_op UNK on_lparen machine on_comma UNK UNK on_rparen UNK on_symbeg UNK UNK on_nl UNK if on_op UNK on_op UNK # Determine the rsync synced folders for this machine
-UNK on_op machine on_period UNK on_nl on_ignored_nl UNK on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl if UNK on_period # Get the SSH info for this machine so we can access it
-UNK on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl if UNK on_period UNK on_lparen on_symbeg UNK on_rparen on_nl UNK # Sync them!

@@ -1,2 +1,0 @@
-on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
-on_const on_period UNK on_period UNK on_symbeg UNK on_comma UNK UNK UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_nl on_ignored_nl # Initialize locales so they can be overwritten.

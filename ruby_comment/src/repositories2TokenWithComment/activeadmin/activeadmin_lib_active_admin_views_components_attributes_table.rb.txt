@@ -1,3 +1,0 @@
-def UNK on_nl UNK UNK UNK on_nl UNK on_lparen UNK on_period class on_period to_s on_rparen on_nl UNK on_ivar do on_ignored_nl # Build Colgroups # # Colgroups are only necessary for a collection of records; not # a single record.
-on_ivar on_period UNK do on_op record on_op on_ignored_nl classes on_op on_const on_op on_const on_op on_const on_period UNK on_nl classes on_op # column for row headers
-UNK on_op UNK UNK UNK on_period UNK on_period UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_ivar # Don't add the same Arbre twice, while still allowing format_attribute to call status_tag

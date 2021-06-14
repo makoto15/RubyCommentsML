@@ -1,3 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl UNK on_const on_op on_const on_nl # frozen_string_literal: true
-UNK on_const on_op on_const on_op on_const on_nl UNK on_const on_op on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl UNK on_const # provides Rpm parsing and comparison
-def UNK on_lparen UNK on_comma UNK on_rparen on_ignored_nl UNK on_op UNK on_lparen UNK on_rparen on_nl UNK on_op UNK on_lparen UNK # overwrite rpm_compareEVR to treat no epoch as zero epoch # in order to compare version correctly # # returns 1 if a is newer than b, # 0 if they are identical # -1 if a is older than b

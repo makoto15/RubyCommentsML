@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const do on_ignored_nl subject on_lbrace # frozen_string_literal: true
-subject on_period UNK on_const on_op on_const on_nl on_ignored_nl entity on_op on_const on_period new on_lparen on_const on_op on_const on_rparen on_nl entity # Include JSONP middleware
-subject on_period format on_symbeg UNK on_nl subject on_period UNK on_symbeg UNK on_comma UNK on_lbrace on_op UNK on_comma UNK on_op on_ignored_nl # Rack::JSONP expects a standard JSON response in UTF-8 format

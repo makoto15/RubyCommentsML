@@ -1,5 +1,0 @@
-on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
-on_ivar on_op UNK on_nl on_ivar on_op on_ivar on_period UNK on_nl on_ignored_nl on_ivar on_period UNK on_lparen on_op on_const on_op on_const on_rparen # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
-opts on_period UNK on_op UNK on_nl opts on_period on on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_op UNK # rubocop:disable Metrics/BlockLength
-on_ignored_nl UNK on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_lbracket on_ivar on_rbracket # whatver is left over
-on_ivar on_op other_options on_period options on_period UNK on_lparen on_ivar on_rparen on_nl on_ivar on_lbracket on_symbeg require on_rbracket on_op other_options on_lbracket on_symbeg # rubocop:disable Metrics/AbcSize

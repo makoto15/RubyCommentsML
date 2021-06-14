@@ -1,2 +1,0 @@
-UNK on_const on_op on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK # Represents an image hosted on App Store Connect. Used for app store review attachment file.
-UNK UNK UNK on_op on_tstring_beg UNK on_const UNK on_tstring_content UNK UNK UNK UNK UNK on_tstring_end on_nl end on_nl on_ignored_nl UNK # Since September 2015 we don't get the url any more, so we have to manually build it

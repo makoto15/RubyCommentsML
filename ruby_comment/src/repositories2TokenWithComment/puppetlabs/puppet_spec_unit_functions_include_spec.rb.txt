@@ -1,1 +1,0 @@
-expect on_lparen catalog on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbracket on_symbeg UNK on_rbracket on_lbracket UNK # Assert relationships are formed

@@ -1,2 +1,0 @@
-UNK UNK UNK on_comma UNK UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK UNK UNK # PUP-4548: Skip Windows until PUP-4547 can be resolved.
-UNK on_lparen agent on_comma UNK on_comma UNK on_rparen on_nl UNK on_lparen agent on_comma UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK # We can't use apply_manifest_on here because we can't tell it not # to fail the test when it encounters a cyclic manifest.

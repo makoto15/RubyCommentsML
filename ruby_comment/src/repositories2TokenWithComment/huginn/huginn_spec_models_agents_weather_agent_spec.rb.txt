@@ -1,4 +1,0 @@
-expect on_lparen dark_sky_agent on_rparen on_period to be_valid on_nl dark_sky_agent on_period options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end # with a space
-expect on_lparen dark_sky_agent on_rparen on_period UNK be_valid on_nl dark_sky_agent on_period options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end # a zip code
-expect on_lparen dark_sky_agent on_rparen on_period UNK be_valid on_nl dark_sky_agent on_period options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end # too high latitude
-expect on_lparen dark_sky_agent on_rparen on_period UNK be_valid on_nl end on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it # too low longitude

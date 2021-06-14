@@ -1,2 +1,0 @@
-on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg file on_embexpr_end on_tstring_content on_tstring_end on_rparen on_nl end on_nl on_ignored_nl on_const on_lparen on_regexp_beg on_tstring_content # ignoring other linked files
-on_lparen UNK on_op UNK on_rparen on_period UNK on_lparen UNK on_rparen do on_op UNK on_op on_ignored_nl UNK on_op UNK on_period UNK # in seconds

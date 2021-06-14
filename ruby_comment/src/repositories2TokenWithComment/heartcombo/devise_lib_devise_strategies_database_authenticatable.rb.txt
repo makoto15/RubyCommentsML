@@ -1,3 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK UNK # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK UNK on_nl resource on_op UNK on_period UNK on_op UNK on_period UNK on_period UNK on_lparen # Default strategy for signing in a user, based on their email and password in the database.
-UNK on_period UNK on_period UNK on_period UNK on_op UNK UNK on_op UNK on_op on_const on_period UNK on_nl UNK resource on_nl # In paranoid mode, hash the password even when a resource doesn't exist for the given authentication key. # This is necessary to prevent enumeration attacks - e.g. the request is faster when a resource doesn't # exist in the database if the password hashing algorithm is not called.

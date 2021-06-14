@@ -1,1 +1,0 @@
-path on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl expect on_lparen path on_rparen on_period UNK UNK on_lparen UNK # Although C:\Dev\.... is a valid path on Windows, some other code may regard it as a path to be ignored. e.g. /dev/null resolves to C:\dev\null on Windows.

@@ -1,1 +1,0 @@
-expect on_lparen actualresult on_rparen on_period to eq on_lparen on_const on_rparen on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # due to order of of identities in the VALID_IDENTITIES_OUTPUT and since names of identities 2) and 3) are aqual # sha1_for_signing_identity(name) returns first matching SHA1 for identity name

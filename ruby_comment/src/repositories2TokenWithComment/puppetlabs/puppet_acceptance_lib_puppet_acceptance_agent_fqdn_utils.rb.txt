@@ -1,1 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK on_period UNK UNK UNK on_period UNK UNK on_nl UNK UNK UNK on_period # convert from an Beaker::Host (agent) to the systems fqdn as returned by facter

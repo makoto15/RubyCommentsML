@@ -1,7 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK UNK name UNK UNK UNK on_nl # frozen_string_literal: false
-UNK on_const on_nl UNK UNK name UNK UNK UNK on_nl UNK UNK UNK on_nl UNK on_const on_nl on_const on_op UNK # Adds named attributes to an object.
-UNK UNK name UNK UNK UNK on_nl UNK UNK UNK on_nl UNK on_const on_nl on_const on_op UNK on_tstring_content UNK on_const # The name of the object, valid if set
-UNK UNK UNK on_nl UNK on_const on_nl on_const on_op UNK on_tstring_content UNK on_const UNK on_tstring_content UNK on_const UNK on_tstring_content UNK # The expanded name of the object, valid if name is set
-UNK UNK UNK name UNK on_ignored_nl on_ivar on_op name on_nl UNK name on_nl UNK on_const on_nl UNK UNK on_nl on_ivar # Sets the name and the expanded name
-UNK UNK UNK UNK UNK ns on_op UNK UNK on_ignored_nl UNK ns on_nl UNK UNK UNK UNK UNK on_op ns # Compares names optionally WITH namespaces
-UNK UNK on_nl ns on_op UNK on_nl UNK on_tstring_beg UNK ns UNK on_tstring_content UNK on_ivar on_tstring_end UNK ns UNK UNK # Fully expand the name, even if the prefix wasn't specified in the # source file.

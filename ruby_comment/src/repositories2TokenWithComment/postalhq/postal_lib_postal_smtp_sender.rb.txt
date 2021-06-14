@@ -1,8 +1,0 @@
-UNK on_nl end on_nl on_ignored_nl begin on_ignored_nl on_ivar on_op UNK on_lparen UNK on_comma hostname on_rparen on_nl if on_ivar on_period UNK # Don't try to use IPv6 if the IP address we're sending from doesn't support it.
-on_ivar on_op on_tstring_beg on_tstring_content on_embexpr_beg hostname on_embexpr_end on_tstring_end on_nl end on_nl UNK on_nl end on_nl smtp_client on_op on_const on_op on_const # As we can't resolve the last IP, we'll put this
-smtp_client on_period UNK on_op UNK on_op on_symbeg UNK on_op on_ivar on_period UNK on_op on_ivar on_period UNK on_nl end on_nl UNK # Set the source IP as appropriate
-end on_nl smtp_client on_period UNK on_lparen on_ivar on_op on_ivar on_period hostname on_op self on_period class on_period UNK on_rparen on_nl log # Nothing
-begin on_ignored_nl on_ivar on_period UNK on_nl rescue on_nl on_ivar on_period UNK rescue nil on_nl end on_nl end on_nl on_ignored_nl def # Something went wrong sending the last email. Reset the connection if possible, else disconnect.
-on_ivar on_period UNK rescue nil on_nl end on_nl end on_nl on_ignored_nl def UNK on_lparen message on_comma UNK on_op nil on_rparen # Don't reconnect, this would be rather rude if we don't have any more emails to send.
-UNK on_nl end on_nl on_ignored_nl if on_ivar on_nl result on_period UNK on_op on_ivar on_period UNK on_nl end on_nl on_ignored_nl begin # For some reason we had an SMTP connection but it's no longer connected. # Make a new one.
-end on_nl end on_nl UNK on_nl end on_nl end on_nl on_ignored_nl def log on_lparen UNK on_rparen on_ignored_nl on_const on_period UNK # This will be resolved to an A or AAAA record later

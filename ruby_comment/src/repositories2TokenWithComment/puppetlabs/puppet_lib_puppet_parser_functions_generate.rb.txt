@@ -1,2 +1,0 @@
-on_const on_op on_const on_op on_const on_op UNK on_lparen UNK UNK on_comma UNK UNK on_op on_op on_int on_comma UNK UNK on_op # Runs an external command and returns the results
-UNK on_const on_op on_const on_comma UNK on_lparen UNK on_tstring_content UNK on_rparen UNK on_const on_op on_const on_period UNK on_lparen args on_lbracket #TRANSLATORS "fully qualified" refers to a fully qualified file system path

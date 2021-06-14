@@ -1,2 +1,0 @@
-d on_op create_driver on_lparen config on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert_equal on_lbracket on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content # hash is okay
-d on_op create_driver on_lparen config on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert_equal on_lbracket on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content # array of hash is okay

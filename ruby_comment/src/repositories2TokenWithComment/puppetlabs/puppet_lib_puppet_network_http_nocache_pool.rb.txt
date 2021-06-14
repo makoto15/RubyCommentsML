@@ -1,3 +1,0 @@
-UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK # A pool that does not cache HTTP connections. # # @api private
-UNK UNK UNK UNK UNK UNK UNK on_op UNK UNK on_ignored_nl UNK on_op UNK UNK UNK UNK UNK UNK on_nl # Yields a <tt>Net::HTTP</tt> connection. # # @yieldparam http [Net::HTTP] An HTTP connection
-UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # do nothing

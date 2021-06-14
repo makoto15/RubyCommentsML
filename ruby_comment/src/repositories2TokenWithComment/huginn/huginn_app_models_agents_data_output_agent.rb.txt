@@ -1,6 +1,0 @@
-when on_const on_nl UNK on_ignored_nl on_const on_period UNK on_lparen hub on_rparen on_nl UNK on_const on_op on_const on_nl errors on_period add # Liquid templating
-UNK on_period UNK on_lparen on_label UNK on_rparen on_period on_ignored_nl UNK on_lparen on_int on_op events_to_show on_rparen on_nl on_rbrace on_period UNK on_lparen # dig twice as many events as the number of # `events_to_show`
-UNK on_op UNK on_nl UNK on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content on_embexpr_beg UNK on_period UNK on_embexpr_end on_tstring_end on_nl UNK on_nl # may return nil
-UNK on_lparen true on_rparen on_nl on_ignored_nl UNK on_period each do on_op hub on_op on_ignored_nl UNK on_lparen hub on_comma UNK on_rparen # Reload new events and update cache
-on_period UNK on_lparen on_regexp_beg on_tstring_content on_ignored_nl on_regexp_end on_comma on_tstring_beg on_tstring_end on_rparen on_period UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma on_tstring_beg on_tstring_end # delete redundant nesting of array elements
-on_period UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end on_comma on_tstring_beg on_tstring_end on_rparen on_nl end on_nl on_ignored_nl def UNK on_lparen hub on_comma UNK # delete empty elements

@@ -1,1 +1,0 @@
-it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen param on_period munge on_lparen UNK on_rparen on_rparen on_period to UNK on_lparen on_lbracket # The parser automatically converts single element arrays to just # a single element, why it does this is beyond me. See 46252b5bb8

@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK # Add a comment describing each gem in your Gemfile. # # @example # # bad # # gem 'foo' # # # good # # # Helpers for the foo things. # gem 'foo' #
-def UNK on_lparen UNK UNK node2 on_rparen on_ignored_nl node2 on_period UNK on_period line on_op UNK on_period UNK on_period line on_op # The args node1 & node2 may represent a RuboCop::AST::Node # or a Parser::Source::Comment. Both respond to #loc.

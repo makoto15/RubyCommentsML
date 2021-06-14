@@ -1,5 +1,0 @@
-UNK UNK on_nl UNK UNK on_nl on_cvar UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl on_cvar # frozen_string_literal: false
-UNK UNK UNK UNK UNK UNK UNK on_ignored_nl on_cvar UNK UNK on_nl end on_nl on_ignored_nl UNK UNK UNK UNK on_nl # Set the entity expansion limit. By default the limit is set to 10000.
-UNK UNK UNK UNK on_nl UNK on_cvar on_nl end on_nl on_ignored_nl on_cvar UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK # Get the entity expansion limit. By default the limit is set to 10000.
-UNK UNK UNK UNK UNK UNK UNK on_ignored_nl on_cvar UNK UNK on_nl end on_nl on_ignored_nl UNK UNK UNK UNK on_nl # Set the entity expansion limit. By default the limit is set to 10240.
-UNK UNK UNK UNK on_nl UNK on_cvar on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP # Get the entity expansion limit. By default the limit is set to 10240.

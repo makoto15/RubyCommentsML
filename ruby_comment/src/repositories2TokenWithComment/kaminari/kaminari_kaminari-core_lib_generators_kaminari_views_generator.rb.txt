@@ -1,9 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_op on_const UNK on_const on_period UNK on_lparen # frozen_string_literal: true
-UNK on_const on_op on_const on_op on_const on_op on_const UNK on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_nl # rails g kaminari:views THEME
-UNK on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_nl on_ignored_nl UNK on_symbeg template_engine on_comma UNK on_symbeg UNK # :nodoc:
-UNK on_period UNK on_nl on_tstring_content on_embexpr_beg UNK on_period map on_lbrace on_op t on_op on_tstring_beg on_tstring_content on_embexpr_beg t on_period name on_embexpr_end #:nodoc:
-UNK UNK UNK UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_lparen UNK on_op UNK on_period UNK on_period UNK on_period #:nodoc:
-on_const on_period UNK on_lparen name on_rparen on_period UNK on_lparen UNK on_tstring_content UNK on_comma on_tstring_beg on_tstring_end on_rparen on_nl end on_nl end #:nodoc:
-on_ivar on_comma on_ivar on_op name on_comma UNK on_period map on_lbrace on_op fn on_comma UNK on_op on_const on_period UNK fn on_period #:nodoc:
-UNK on_op on_ivar on_period UNK on_lparen on_op on_symbeg UNK on_rparen on_nl UNK on_tstring_beg on_embexpr_beg on_tstring_beg on_tstring_content on_tstring_end on_op UNK on_embexpr_end #:nodoc:
-on_ivar on_period UNK on_lbrace on_op t on_op t on_period engine on_op template_engine on_rbrace on_nl end on_nl end on_nl on_ignored_nl UNK #:nodoc:

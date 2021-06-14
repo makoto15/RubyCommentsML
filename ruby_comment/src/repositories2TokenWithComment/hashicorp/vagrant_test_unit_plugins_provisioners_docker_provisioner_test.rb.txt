@@ -1,1 +1,0 @@
-env on_op UNK on_nl env on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl env on_period UNK on_nl end on_nl on_ignored_nl let # We have to create a Vagrantfile so there is a root path

@@ -1,1 +1,0 @@
-agent on_period options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_end on_nl out on_op agent on_period receive_web_request on_lparen webpayload on_rparen # Empty string is a valid response

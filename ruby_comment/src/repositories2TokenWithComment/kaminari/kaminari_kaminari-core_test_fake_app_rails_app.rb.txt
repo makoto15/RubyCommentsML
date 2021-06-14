@@ -1,8 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_const on_nl on_ignored_nl # frozen_string_literal: true
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_const on_nl on_ignored_nl UNK # require 'rails/all'
-UNK on_const on_op on_const on_op on_const on_nl config on_period UNK on_op config on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl config # config
-config on_period UNK on_op on_const on_period UNK UNK UNK UNK on_nl end on_nl on_const on_period UNK on_period UNK on_nl on_const # Rails.root
-on_const on_period UNK on_period UNK on_period UNK UNK on_ignored_nl UNK on_symbeg UNK UNK on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_label # routes
-UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_const on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const UNK end on_nl UNK on_const #models
-UNK on_const on_op on_const on_op on_const UNK end on_nl UNK on_const on_op on_const on_nl UNK UNK on_nl UNK on_op on_const # controllers
-on_const on_period UNK UNK on_symbeg on_const on_comma on_const on_period UNK UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP # helpers

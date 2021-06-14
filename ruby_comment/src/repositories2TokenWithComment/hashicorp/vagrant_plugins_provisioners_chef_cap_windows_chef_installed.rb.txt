@@ -1,1 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK # Check if Chef is installed at the given version. # @return [true, false]

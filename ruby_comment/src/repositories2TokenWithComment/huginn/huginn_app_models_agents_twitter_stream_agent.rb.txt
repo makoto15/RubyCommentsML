@@ -1,2 +1,0 @@
-agent on_op on_const on_period UNK on_lparen UNK on_rparen on_nl agent on_period memory on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_lbrace on_rbrace # Avoid memory pollution by reloading the Agent.
-on_ivar on_lbracket filter on_rbracket on_period each do on_op agent on_op on_ignored_nl puts on_tstring_beg on_tstring_content on_embexpr_beg on_const on_period now on_embexpr_end on_tstring_content # Hacky McHackerson

@@ -1,4 +1,0 @@
-UNK on_op on_ignored_nl if on_const on_op on_const on_op on_const on_period UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl on_tstring_beg on_tstring_content on_tstring_end # Detect if an RDP client is available. # Prefer xfreerdp as it supports newer versions of RDP.
-UNK UNK on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl args on_op on_tstring_beg on_tstring_content on_embexpr_beg rdp_info on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_end # Build appropriate arguments for the RDP client.
-UNK on_op on_lbracket on_ignored_nl on_tstring_beg on_tstring_content on_embexpr_beg rdp_info on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_content on_embexpr_beg rdp_info on_lbracket on_symbeg UNK on_rbracket # Setup password
-on_const on_op on_const on_op on_const on_period UNK UNK UNK on_comma on_op args UNK on_nl end on_nl end on_nl end on_nl # Finally, run the client.

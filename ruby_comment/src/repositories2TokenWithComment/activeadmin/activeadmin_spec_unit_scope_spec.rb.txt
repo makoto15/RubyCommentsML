@@ -1,2 +1,0 @@
-on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl subject on_lbrace super on_lparen on_rparen on_period scope_method on_rbrace on_nl it on_lbrace is_expected on_period # :all does not return a chain but an array of active record # instances. We set the scope_method to nil then.
-on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl scope on_op on_const on_op on_const on_period new # describe "creating a scope"

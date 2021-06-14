@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP ## # Produces a quote from a movie. # # @return [String] # # @example # Faker::Movie.quote #=> "Bumble bee tuna" # # @faker.version 1.8.1

@@ -1,1 +1,0 @@
-UNK on_const on_nl UNK on_op UNK on_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK # Substitute variables in a value. # # HOST=example.com # URL="https://$HOST" #

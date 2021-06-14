@@ -1,1 +1,0 @@
-on_ignored_nl on_const on_period UNK on_lparen on_symbeg UNK on_comma on_label on_lbracket on_const on_comma on_const on_rbracket on_rparen do on_ignored_nl xpath on_lparen on_symbeg # frozen_string_literal: true

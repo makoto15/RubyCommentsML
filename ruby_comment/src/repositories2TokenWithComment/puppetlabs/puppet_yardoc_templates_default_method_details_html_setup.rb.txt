@@ -1,1 +1,0 @@
-if result on_op on_tstring_beg on_tstring_end on_nl result on_op on_tstring_beg on_tstring_content on_tstring_end on_op result on_nl end on_nl result on_nl end on_nl # separate the extras with one space

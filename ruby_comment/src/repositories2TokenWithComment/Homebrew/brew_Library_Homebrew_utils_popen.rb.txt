@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK UNK on_period UNK on_lparen on_op args on_comma on_op options on_comma on_op block on_rparen on_ignored_nl UNK # frozen_string_literal: true

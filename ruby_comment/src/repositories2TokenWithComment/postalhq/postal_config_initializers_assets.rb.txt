@@ -1,3 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP # Be sure to restart your server when you modify this file.
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP # Version of your assets, change this if you want to expire all your assets.
-UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Add additional assets to the asset load path # Rails.application.config.assets.paths << Emoji.images_path

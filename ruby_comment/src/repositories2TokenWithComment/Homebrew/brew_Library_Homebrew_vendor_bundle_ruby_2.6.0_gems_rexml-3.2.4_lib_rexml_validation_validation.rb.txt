@@ -1,3 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_const on_op on_lbracket nil on_rbracket # frozen_string_literal: false
-UNK event on_lbracket on_int on_rbracket on_nl when on_symbeg UNK on_nl on_ivar on_op event on_lbracket on_int on_rbracket on_nl UNK on_ignored_nl UNK # Check for attributes
-if m on_period UNK on_lparen UNK on_rparen on_nl on_ivar on_op m on_nl UNK on_ignored_nl text on_lbracket on_int on_rbracket on_op UNK # If the state has text children...

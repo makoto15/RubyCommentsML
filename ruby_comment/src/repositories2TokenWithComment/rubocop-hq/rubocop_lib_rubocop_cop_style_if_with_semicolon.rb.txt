@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen node # Checks for uses of semicolon in if statements. # # @example # # # bad # result = if some_condition; something else another_thing end # # # good # result = some_condition ? something : another_thing #

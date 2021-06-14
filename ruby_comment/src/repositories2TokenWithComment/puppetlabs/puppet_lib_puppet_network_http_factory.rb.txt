@@ -1,3 +1,0 @@
-UNK on_const on_op on_const on_op on_const on_op on_const on_nl UNK on_op UNK on_nl on_ignored_nl on_const on_op UNK on_op UNK on_op # Factory for <tt>Net::HTTP</tt> objects. # # Encapsulates the logic for creating a <tt>Net::HTTP</tt> object based on the # specified {Puppet::Network::HTTP::Site Site} and puppet settings. # # @api private #
-UNK on_op UNK on_nl on_const on_op on_const on_op on_const on_period UNK on_nl UNK on_op UNK on_nl end on_nl end on_nl # PUP-1411, make sure that openssl is initialized before we try to connect
-http on_period UNK on_op UNK on_nl end on_nl on_ignored_nl UNK on_const on_lbracket on_symbeg UNK on_rbracket on_nl on_const on_period UNK on_lparen # 0 means make one request and never retry

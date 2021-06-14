@@ -1,2 +1,0 @@
-UNK on_op UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_op UNK UNK UNK # Read the version file
-UNK UNK on_op UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_op UNK UNK UNK on_nl UNK UNK # Detect various flavors we care about

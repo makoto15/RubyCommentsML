@@ -1,1 +1,0 @@
-UNK UNK on_period gte_ruby_2_4 on_nl on_ivar on_op on_const on_op on_const on_period UNK on_lparen on_const on_rparen on_op on_const on_op on_const on_period # Discriminator for tests that attempts to unset HOME since that, for reasons currently unknown, # doesn't work in Ruby >= 2.4.0

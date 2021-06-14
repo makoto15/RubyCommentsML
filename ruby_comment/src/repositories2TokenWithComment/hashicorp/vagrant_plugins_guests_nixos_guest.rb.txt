@@ -1,1 +1,0 @@
-UNK UNK on_period UNK on_period UNK on_period UNK UNK UNK UNK on_nl UNK UNK on_nl UNK on_nl UNK UNK on_period # For some reason our test passes on Windows, so just short # circuit because we're not Windows.

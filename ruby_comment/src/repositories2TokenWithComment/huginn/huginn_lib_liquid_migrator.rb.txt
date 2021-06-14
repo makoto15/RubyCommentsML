@@ -1,7 +1,0 @@
-UNK on_op hash on_lbracket UNK on_rbracket if hash on_lbracket UNK on_rbracket on_period UNK on_nl UNK on_op UNK on_nl end on_nl # replace the value if the path is present
-UNK on_op UNK on_nl end on_nl hash on_lbracket key on_rbracket on_op UNK on_period UNK UNK on_comma options on_lbracket on_symbeg leading_dollarsign_is_jsonpath # in any case delete the path attibute
-end on_period UNK UNK on_op k on_comma UNK on_op on_op UNK on_period UNK k UNK on_nl end on_nl on_ignored_nl def # remove the unneeded *_path attributes
-string on_nl UNK string on_lbracket UNK on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_op leading_dollarsign_is_jsonpath on_nl UNK string on_nl UNK on_ignored_nl string # there might be empty *_path attributes for boolean defaults
-UNK string on_nl UNK on_ignored_nl string on_period UNK on_lparen UNK on_tstring_content UNK on_rparen on_period UNK UNK on_ignored_nl UNK on_op UNK # in most cases a *_path attribute
-string on_period UNK on_lparen UNK on_tstring_content UNK on_rparen on_period UNK UNK on_ignored_nl UNK on_op UNK on_nl if UNK on_op UNK # migrate the old interpolation syntax to the new liquid based
-self on_period UNK on_lparen UNK on_period UNK on_lparen UNK on_tstring_content UNK on_comma on_tstring_beg on_tstring_end on_rparen on_period UNK on_comma on_tstring_beg on_tstring_content # convert the old escape syntax to a liquid filter

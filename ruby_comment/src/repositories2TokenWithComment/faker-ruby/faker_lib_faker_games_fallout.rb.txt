@@ -1,5 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a character from the Fallout games. # # @return [String] # # @example # Faker::Games::Fallout.character #=> "Liberty Prime" # # @faker.version 1.9.2
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a faction from the Fallout games. # # @return [String] # # @example # Faker::Games::Fallout.faction #=> "Brotherhood of Steel" # # @faker.version 1.9.2
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a location from the Fallout games. # # @return [String] # # @example # Faker::Games::Fallout.location #=> "New Vegas" # # @faker.version 1.9.2
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from the Fallout games. # # @return [String] # # @example # Faker::Games::Fallout.quote # #=> "Democracy is non-negotiable" # # @faker.version 1.9.2

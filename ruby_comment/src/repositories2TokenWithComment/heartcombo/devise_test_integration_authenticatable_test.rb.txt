@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl class on_const on_op on_const on_op on_const on_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # frozen_string_literal: true
-assert_response on_symbeg UNK on_nl refute warden on_period authenticated? on_lparen on_symbeg user on_rparen on_nl end on_nl end on_nl on_ignored_nl test on_tstring_beg # NOTE: Bug is triggered by combination of XHR and */*.
-test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl swap on_const on_comma on_label on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg html on_rbracket do on_ignored_nl # Belt and braces ... Perhaps this test is not necessary?

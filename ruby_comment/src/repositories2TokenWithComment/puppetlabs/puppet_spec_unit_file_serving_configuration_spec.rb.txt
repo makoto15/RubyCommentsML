@@ -1,6 +1,0 @@
-expect on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg parse on_rparen on_period and_return on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op double on_lparen # Now parse again
-config on_period UNK on_lparen on_symbeg UNK on_comma false on_rparen on_nl expect on_lparen config on_period mounted? on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # Now parse again, so the exception gets thrown
-config on_op on_const on_op on_const on_op on_const on_period configuration on_nl expect on_lparen config on_period mounted? on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # the file doesn't exist
-modules on_op double on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg empty? on_op true on_rparen on_nl allow on_lparen on_const on_op on_const on_op # the file doesn't exist
-on_ignored_nl modules on_op double on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg empty? on_op false on_rparen on_nl allow on_lparen on_const on_op on_const # the file doesn't exist
-config on_op on_const on_op on_const on_op on_const on_period configuration on_nl expect on_lparen config on_period mounted? on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # the file doesn't exist

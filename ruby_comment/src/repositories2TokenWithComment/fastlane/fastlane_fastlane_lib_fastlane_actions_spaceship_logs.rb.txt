@@ -1,6 +1,0 @@
-files on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK UNK on_op UNK on_op on_const on_period UNK on_lparen # Get log files
-if UNK on_nl files on_op on_lbracket files on_period UNK on_rbracket on_nl end on_nl on_ignored_nl if UNK on_nl files on_period UNK # Filter to latest
-if UNK on_nl files on_period UNK UNK on_op file on_op on_ignored_nl UNK on_op on_const on_period UNK on_lparen file on_rparen on_nl # Print contents
-if UNK on_nl puts on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl puts on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl puts on_lparen on_tstring_beg # Print paths
-if copy_to_path on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_period UNK on_lparen copy_to_path on_rparen on_nl files on_period UNK UNK on_op # Copy to a directory
-if UNK on_nl UNK on_op files on_period UNK UNK on_op file on_op on_const on_period UNK on_lparen file on_rparen UNK on_period # Copy contents to clipboard

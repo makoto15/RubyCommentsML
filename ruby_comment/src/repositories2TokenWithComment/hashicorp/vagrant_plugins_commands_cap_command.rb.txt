@@ -1,5 +1,0 @@
-argv on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op argv on_nl UNK argv on_period UNK on_op UNK on_nl UNK # Parse the options
-UNK on_op UNK on_nl UNK UNK on_op on_symbeg UNK on_nl UNK on_op UNK on_period UNK on_nl UNK on_ignored_nl UNK on_lparen # Get the proper capability host to check
-UNK UNK UNK on_symbeg UNK UNK on_nl UNK UNK UNK UNK on_period UNK on_lparen UNK on_rparen on_nl UNK UNK on_nl # If we're just checking, then just return exit codes
-UNK on_period UNK on_lparen UNK UNK on_op argv on_rparen on_nl on_ignored_nl UNK on_nl end on_nl end on_nl end on_nl end # Otherwise, call it
-UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

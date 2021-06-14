@@ -1,2 +1,0 @@
-UNK on_const on_op on_const UNK UNK on_nl UNK require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg # is only needed to create the name space
-UNK on_const on_op on_const on_op on_const UNK UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # PUP-3274 This should probably go someplace else

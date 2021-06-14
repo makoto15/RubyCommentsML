@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_const on_op UNK on_ignored_nl UNK on_int on_op # frozen_string_literal: true
-UNK on_const on_nl on_const on_op UNK on_ignored_nl UNK on_int on_op on_int on_comma on_ignored_nl UNK on_int on_op on_int on_comma on_ignored_nl UNK # A Scope represents a context of local variable visibility. # This is a place where local variables belong to. # A scope instance holds a scope node and variable entries.
-if node on_period parent on_nl UNK on_const on_comma on_ignored_nl UNK UNK UNK on_const UNK UNK UNK UNK UNK UNK node # Accept any node type for top level scope

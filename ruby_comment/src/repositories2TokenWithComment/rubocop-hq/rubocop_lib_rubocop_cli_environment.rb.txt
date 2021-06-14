@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # Execution environment for a CLI command.
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK # Run a command in this environment.

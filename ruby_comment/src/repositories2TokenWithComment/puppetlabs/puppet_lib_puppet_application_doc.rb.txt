@@ -1,6 +1,0 @@
-text on_op UNK on_period UNK on_lparen options on_lbracket on_symbeg UNK on_rbracket on_comma UNK on_rparen on_nl UNK on_op detail on_nl on_const # Add the per-section text, but with no ToC
-on_ignored_nl if options on_lbracket on_symbeg mode on_rbracket on_op on_symbeg UNK on_nl on_const on_op on_const on_op on_const on_period UNK on_lparen text # We've only got one reference
-if UNK on_period UNK on_period UNK on_op on_int on_nl options on_lbracket on_symbeg mode on_rbracket on_op on_symbeg rdoc on_nl on_ivar on_op # sole manifest documentation
-require on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op on_const on_op on_const on_op on_const on_period references on_lparen on_const on_period UNK on_lparen on_symbeg # Don't add dynamic references to the "all" list.
-if on_ivar on_period UNK on_op on_int on_nl on_ivar on_period UNK do on_op option on_op on_ignored_nl if option on_lbracket on_symbeg UNK # consume the unknown options # and feed them as settings
-if option on_lbracket on_symbeg UNK on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl option on_lbracket on_symbeg arg on_rbracket on_op option on_lbracket on_symbeg # force absolute path for modulepath when passed on commandline

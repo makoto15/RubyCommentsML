@@ -1,1 +1,0 @@
-on_ignored_nl on_const on_period UNK on_lparen UNK UNK on_rparen UNK on_ignored_nl UNK on_const on_op on_const on_nl UNK UNK UNK UNK UNK # Delayed::Worker.logger = Logger.new(Rails.root.join('log', 'delayed_job.log')) # Delayed::Worker.logger.level = Logger::DEBUG

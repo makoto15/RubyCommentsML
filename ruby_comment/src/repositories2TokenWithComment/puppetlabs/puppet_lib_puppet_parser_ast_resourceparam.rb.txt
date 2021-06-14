@@ -1,2 +1,0 @@
-UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK on_symbeg UNK # The AST object for the parameters inside resource expressions #
-UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op on_ivar on_period UNK on_lparen UNK on_rparen on_nl UNK on_const on_op on_const on_op # Return the parameter and the value.

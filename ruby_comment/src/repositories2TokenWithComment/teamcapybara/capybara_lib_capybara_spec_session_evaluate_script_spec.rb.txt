@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_op UNK on_period UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_label UNK on_symbeg UNK UNK do on_ignored_nl it on_tstring_beg on_tstring_content # frozen_string_literal: true
-el on_op on_ivar on_period evaluate_script on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl expect on_lparen el on_rparen on_period to UNK on_lparen UNK # ensure page has loaded and element is available

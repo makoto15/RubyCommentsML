@@ -1,2 +1,0 @@
-on_const on_op on_const on_op on_const on_nl UNK on_const on_op on_const UNK UNK UNK on_const UNK UNK UNK UNK UNK UNK # you gotta love Ruby: Helper.* should use the Helper class contained in FastlaneCore
-on_const on_op on_const UNK UNK UNK on_const UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_const # Constant that captures the root Pathname for the project. Should be used for building paths to assets or other # resources that code needs to locate locally

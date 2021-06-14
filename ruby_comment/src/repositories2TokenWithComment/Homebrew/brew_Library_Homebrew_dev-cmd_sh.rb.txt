@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
-on_const on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_const on_period UNK UNK on_const on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket UNK on_period UNK # superenv stopped adding brew's bin but generally users will want it

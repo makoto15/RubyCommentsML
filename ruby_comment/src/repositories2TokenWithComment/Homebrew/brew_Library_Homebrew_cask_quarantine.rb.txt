@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_nl UNK on_const on_nl UNK on_nl on_ignored_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
-def UNK on_nl UNK on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl # @private
-def UNK on_nl UNK on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl on_ignored_nl def UNK on_nl # @private
-on_ignored_nl UNK on_lbracket on_int on_rbracket on_op on_lparen UNK on_lbracket on_int on_rbracket on_period UNK on_lparen on_int on_rparen on_op on_int on_rparen on_period # Fields: status, epoch, download agent, event ID # Let's toggle the app translocation bit, bit 8 # http://www.openradar.me/radar?id=5022734169931776

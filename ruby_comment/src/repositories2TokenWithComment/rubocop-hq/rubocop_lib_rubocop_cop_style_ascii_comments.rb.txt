@@ -1,3 +1,0 @@
-on_ignored_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl # frozen_string_literal: true
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # rubocop:disable Style/AsciiComments
-UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen UNK # This cop checks for non-ascii (non-English) characters # in comments. You could set an array of allowed non-ascii chars in # AllowedChars attribute (empty by default). # # @example # # bad # # Translates from English to 日本語。 # # # good # # Translates from English to Japanese

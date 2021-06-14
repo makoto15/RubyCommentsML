@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK # This module provides a list of methods that are: # 1. In the NilClass by default # 2. Added to NilClass by explicitly requiring any standard libraries # 3. Cop's configuration parameter AllowedMethods.

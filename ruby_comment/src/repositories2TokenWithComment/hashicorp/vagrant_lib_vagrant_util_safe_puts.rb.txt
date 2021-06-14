@@ -1,3 +1,0 @@
-UNK UNK on_nl UNK UNK UNK UNK on_op UNK UNK UNK on_op UNK UNK on_ignored_nl UNK on_op UNK UNK on_nl # This module provides a `safe_puts` method which outputs to # the given IO object, and rescues any broken pipe errors and # ignores them. This is useful in cases where you're outputting # to stdout, for example, and the stdout is closed, but you want to # keep running.
-UNK UNK UNK UNK on_op UNK UNK UNK on_op UNK UNK on_ignored_nl UNK on_op UNK UNK on_nl UNK on_op UNK # Uses `puts` on the given IO object and safely ignores any # Errno::EPIPE. # # @param [String] message Message to output. # @param [Hash] opts Options hash.
-UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl on_ignored_nl EMP EMP EMP EMP EMP EMP EMP # This is what makes this a `safe` puts.

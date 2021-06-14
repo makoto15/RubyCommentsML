@@ -1,2 +1,0 @@
-UNK on_const UNK on_const on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_const on_period UNK UNK UNK # Acts as a standard Rails Layout for use when logged # out or when rendering custom actions.
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK on_period UNK UNK on_const UNK on_const UNK # Render the content_for(:layout) into the main content area

@@ -1,8 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl UNK # frozen_string_literal: true
-def macho on_nl UNK on_op UNK on_ignored_nl on_const on_period UNK on_lparen UNK on_rparen on_nl end on_nl end on_nl on_ignored_nl def # @private
-def mach_data on_nl UNK on_op UNK on_ignored_nl UNK on_op UNK UNK on_nl mach_data on_op UNK UNK on_nl on_ignored_nl UNK on_const # @private
-UNK UNK on_nl UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK on_const on_op on_const on_period UNK # Silently ignore errors that indicate the file is not a Mach-O binary ...
-UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK on_const on_op on_const on_period UNK on_nl on_ignored_nl UNK UNK on_nl # ... but complain about other (parse) errors for further investigation.
-def UNK on_nl mach_data on_period UNK on_lbrace on_op m on_op m on_period UNK on_lparen on_symbeg type on_rparen on_op on_symbeg UNK # @private
-def UNK on_nl mach_data on_period UNK on_lbrace on_op m on_op m on_period UNK on_lparen on_symbeg type on_rparen on_op on_symbeg UNK # @private
-def UNK on_nl mach_data on_period UNK on_lbrace on_op m on_op m on_period UNK on_lparen on_symbeg type on_rparen on_op on_symbeg UNK # @private

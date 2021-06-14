@@ -1,3 +1,0 @@
-on_ignored_nl def UNK on_lparen query on_rparen on_ignored_nl on_tstring_beg UNK UNK UNK on_tstring_content UNK query on_period UNK UNK on_tstring_end on_nl end # ----------------------------------------------------------------
-UNK on_lbracket on_rbracket UNK query on_period UNK on_nl doc on_op UNK on_lparen query on_rparen on_nl UNK doc UNK doc on_period # don't look up a loopback or private address, just return the stored result
-def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_op UNK on_comma on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg # TODO: replace this hash with what's actually returned by Pointpin

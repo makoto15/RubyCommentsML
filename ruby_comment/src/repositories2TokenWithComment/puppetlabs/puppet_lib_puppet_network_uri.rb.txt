@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK uri UNK UNK UNK uri on_period UNK UNK on_nl uri # This module holds funtions for network URI's
-UNK UNK UNK uri UNK UNK UNK uri on_period UNK UNK on_nl uri UNK uri on_period UNK on_nl UNK UNK # Mask credentials in given URI or address as string. Resulting string will # contain '***' in place of password. It will only be replaced if actual # password is given. # # @param uri [URI|String] an uri or address to be masked # @return [String] a masked url

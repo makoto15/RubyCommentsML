@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK # frozen_string_literal: true
-UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK on_period UNK on_nl UNK on_const on_op # Checks that right braces for adjacent single line lets are aligned. # # @example # # # bad # let(:foobar) { blahblah } # let(:baz) { bar } # let(:a) { b } # # # good # let(:foobar) { blahblah } # let(:baz) { bar } # let(:a) { b } #

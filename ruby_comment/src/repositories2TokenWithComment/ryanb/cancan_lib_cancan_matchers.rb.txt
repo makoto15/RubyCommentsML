@@ -1,1 +1,0 @@
-UNK on_period UNK on_lparen UNK on_rparen on_op UNK on_period UNK UNK UNK UNK on_op on_op UNK on_op on_ignored_nl UNK UNK # for RSpec 1 compatability

@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_tstring_content UNK UNK UNK on_tstring_content UNK UNK UNK UNK # Escapes a pipes and backslashes: # # * | becomes \| # * \ becomes \\ # # This is used in the pretty formatter.

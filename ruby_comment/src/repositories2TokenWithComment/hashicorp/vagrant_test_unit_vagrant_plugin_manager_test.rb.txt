@@ -1,8 +1,0 @@
-expect on_lparen UNK on_rparen on_period to eql on_lparen specs on_lbracket on_int on_rbracket on_rparen on_nl on_ignored_nl expect on_lparen subject on_period installed_plugins # It should return the spec of the installed plugin
-expect on_lparen subject on_period installed_plugins on_rparen on_period to have_key on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl on_ignored_nl it on_tstring_beg # It should've added the plugin to the state
-expect on_lparen subject on_period installed_plugins on_rparen on_period to have_key on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl expect on_lparen bundler on_rparen # Sanity
-expect on_lparen bundler on_rparen on_period to receive on_lparen on_symbeg clean on_rparen on_period UNK on_period with on_lparen on_lbrace on_rbrace on_rparen on_nl # Test
-subject on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl expect on_lparen subject on_period installed_plugins on_rparen on_period UNK have_key on_lparen on_tstring_beg # Remove it
-expect on_lparen bundler on_rparen on_period to receive on_lparen on_symbeg clean on_rparen on_period UNK on_period with on_lparen UNK on_rparen on_nl on_ignored_nl # Test
-subject on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl plugins on_op subject on_period installed_plugins on_nl expect on_lparen plugins on_lbracket # Remove it
-sf on_op on_const on_op on_const on_op on_const on_period new on_lparen path on_rparen on_nl sf on_period add_plugin on_lparen on_tstring_beg on_tstring_content on_tstring_end # We just add "i18n" because it is a dependency of Vagrant and # we know it will be there.

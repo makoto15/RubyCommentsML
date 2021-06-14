@@ -1,1 +1,0 @@
-UNK on_lparen on_const on_rparen UNK on_ignored_nl on_const on_op on_const on_period UNK on_period UNK on_lparen on_const on_period UNK on_lparen on_tstring_beg on_tstring_content # TestDriver helps to create a label instance automatically, so directly test here

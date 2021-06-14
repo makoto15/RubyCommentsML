@@ -1,2 +1,0 @@
-on_ivar on_lbracket on_symbeg ui on_rbracket on_period UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK on_op on_const on_period UNK on_lparen # Clear the line a final time so the next data can appear # alone on the line.
-UNK on_const on_op on_const on_op on_const on_period UNK on_nl UNK on_op on_const on_op on_const on_op on_const on_period UNK on_lparen UNK # If we're within WSL, we should use the correct path rather than # the mnt path. GH-9059

@@ -1,2 +1,0 @@
-UNK on_op env on_lbracket on_symbeg machine on_rbracket on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl if on_op # If we already configured previously don't prompt for switch
-if on_op UNK on_period UNK on_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_op UNK on_op on_ignored_nl UNK # Create the sentinel

@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl ## # Produces a random animal name # # @return [String] # # @example # Faker::Creature::Animal.name #=> "fly" # # @faker.version 1.9.2

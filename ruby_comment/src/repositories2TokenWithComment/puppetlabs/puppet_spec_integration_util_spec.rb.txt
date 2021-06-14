@@ -1,1 +1,0 @@
-UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl destination_file on_op on_const on_period UNK on_lparen dir on_comma UNK on_rparen on_nl on_ignored_nl on_const on_op # http://www.fileformat.info/info/unicode/char/00e8/index.htm # dest_name = "somèfile.xml"

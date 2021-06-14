@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK do # frozen_string_literal: true
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl site on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op UNK on_rparen on_nl site on_period reader # no support for symlinks on Windows
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_ivar on_period reader on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_lbracket on_rbracket # no support for symlinks on Windows
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl site on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_op # no support for symlinks on Windows

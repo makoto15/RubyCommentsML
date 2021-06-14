@@ -1,5 +1,0 @@
-return on_symbeg UNK on_nl end on_nl on_ignored_nl UNK on_lparen UNK UNK UNK on_rparen do on_ignored_nl on_ivar on_lbracket on_symbeg UNK on_rbracket # We do nothing if the value is absent
-UNK on_lparen UNK UNK UNK on_rparen do on_ignored_nl on_ivar on_lbracket on_symbeg UNK on_rbracket on_op on_symbeg UNK if on_op on_ivar on_period # Anything else, basically
-UNK on_op on_ivar on_period UNK on_lparen on_symbeg UNK on_rparen on_period UNK on_nl UNK if on_ivar on_period UNK on_lparen on_symbeg UNK # Only call mklink if ensure didn't call us in the first place.
-UNK UNK on_nl UNK on_const on_op on_const UNK UNK UNK UNK if on_op UNK on_period UNK on_lparen on_symbeg UNK on_rparen # Create our link.
-on_ivar on_period UNK on_lparen UNK on_rparen on_nl on_ignored_nl UNK on_const on_op on_const UNK UNK UNK UNK if on_const on_op on_const # Clean up any existing objects. The argument is just for logging, # it doesn't determine what's removed.

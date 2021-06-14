@@ -1,4 +1,0 @@
-UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_op on_const on_op on_const on_op on_const on_nl UNK UNK on_nl # frozen_string_literal: true
-UNK on_const on_op on_op on_const on_op on_const on_op on_const on_nl UNK UNK on_nl on_op UNK UNK UNK UNK UNK UNK # Base strategy for Devise. Responsible for verifying correct scope and mapping.
-UNK UNK on_nl on_op UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK on_op UNK # Whenever CSRF cannot be verified, we turn off any kind of storage
-UNK UNK on_nl UNK on_op UNK UNK UNK on_op on_const UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK # Checks if a valid scope was given for devise and find mapping based on this scope.

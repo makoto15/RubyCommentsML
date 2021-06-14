@@ -1,6 +1,0 @@
-UNK on_const do on_ignored_nl UNK on_const on_op on_const do on_ignored_nl UNK on_lparen on_symbeg UNK on_rparen do on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end # 771D79501D9E69C900D840FA = demo # 77C503031DD3175E00AC8FF0 = today
-allow on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg success on_rparen on_nl expect on_lparen on_const on_rparen on_period to receive on_lparen # G3KGXDXQL9
-allow on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg success on_rparen on_nl expect on_lparen on_const on_rparen on_period to receive on_lparen # G3KGXDXQL9
-allow on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg success on_rparen on_nl expect on_lparen on_const on_rparen on_period to receive on_lparen # G3KGXDXQL9
-allow on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg success on_rparen on_nl expect on_lparen on_const on_rparen on_period to receive on_lparen # G3KGXDXQL9
-allow on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg success on_rparen on_nl expect on_lparen on_const on_rparen on_period to receive on_lparen # G3KGXDXQL9

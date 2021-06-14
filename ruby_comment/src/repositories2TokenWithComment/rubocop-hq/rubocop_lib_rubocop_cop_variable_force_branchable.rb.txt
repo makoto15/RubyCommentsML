@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK # Mix-in module for classes which own a node and need branch information # of the node. The user classes must implement #node and #scope.

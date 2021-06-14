@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
-UNK on_const UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const UNK UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK # This cop ensures that each key in a multi-line hash # starts on a separate line. # # @example # # # bad # { # a: 1, b: 2, # c: 3 # } # # # good # { # a: 1, # b: 2, # c: 3 # }
-UNK UNK UNK on_lparen node on_rparen on_nl on_ignored_nl UNK on_lparen node UNK node on_period UNK on_rparen UNK node on_period UNK # This cop only deals with hashes wrapped by a set of curly # braces like {foo: 1}. That is, not a kwargs hashes. # Style/MultilineMethodArgumentLineBreaks handles those.

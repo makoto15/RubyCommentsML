@@ -1,2 +1,0 @@
-it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_const on_nl class on_const on_op on_op on_const UNK end on_nl end on_nl on_ignored_nl # Rails includes namespace in params, see issue #349
-it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_ivar on_period merge! on_lparen on_symbeg action on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg UNK on_op # CVE-2012-5664

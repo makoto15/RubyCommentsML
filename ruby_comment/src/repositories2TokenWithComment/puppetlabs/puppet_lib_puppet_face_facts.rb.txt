@@ -1,1 +1,0 @@
-on_const on_period UNK on_period UNK on_op on_symbeg UNK on_nl on_const on_op on_const on_op on_const on_period UNK on_period UNK on_op on_symbeg # Use `agent` sections settings for certificates, Puppet Server URL, # etc. instead of `user` section settings.

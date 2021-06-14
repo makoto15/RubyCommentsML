@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_op UNK on_nl def user on_lparen UNK on_op on_const on_comma # frozen_string_literal: true
-UNK on_op on_const on_op on_const on_period UNK on_lparen on_label UNK on_comma on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl user on_op on_lbrace # TODO: Make the dimensions change
-UNK on_op on_const on_op on_const on_period UNK on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_op UNK on_nl on_lbrace on_ignored_nl # TODO: Dynamic image sizes # TODO: Return accurate indices

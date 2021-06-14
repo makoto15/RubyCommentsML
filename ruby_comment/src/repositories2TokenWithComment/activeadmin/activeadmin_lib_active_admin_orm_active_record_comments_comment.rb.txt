@@ -1,1 +1,0 @@
-UNK UNK on_period UNK on_lparen resource on_rparen on_ignored_nl on_const UNK on_const on_period UNK on_lparen resource on_rparen on_period UNK on_period UNK # @return [String] The name of the record to use for the polymorphic relationship

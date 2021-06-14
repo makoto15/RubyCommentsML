@@ -1,6 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl def UNK on_lparen # encoding: utf-8 # frozen_string_literal: true
-def UNK on_lparen UNK on_comma string on_comma replacement on_op UNK on_rparen on_ignored_nl on_ivar on_op UNK UNK on_nl on_ivar UNK UNK # Given a locale and a UTF-8 string, return the locale's ASCII # approximation for the string.
-def UNK on_period UNK on_lparen rule on_op UNK on_rparen on_ignored_nl UNK on_op rule on_op rule on_period UNK on_lparen on_const on_rparen # Get a transliterator instance.
-UNK on_const on_nl def UNK on_lparen rule on_rparen on_ignored_nl on_ivar on_op rule on_nl end on_nl on_ignored_nl def UNK on_lparen string # A transliterator which accepts a Proc as its transliteration rule.
-UNK on_const on_nl on_const on_op UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg # A transliterator which accepts a Hash of characters as its translation # rule.
-def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_period UNK UNK on_op UNK on_comma UNK on_op on_ignored_nl UNK UNK UNK on_period # Add transliteration rules to the approximations hash.

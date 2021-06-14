@@ -1,3 +1,0 @@
-on_const on_op on_const on_op on_const UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_op on_const # # Precompile #
-on_const on_op on_const on_op on_const UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_op on_tstring_beg on_tstring_content UNK on_const on_period UNK on_lparen on_tstring_beg on_tstring_content # FIXME: database connection shouldn't be required for `assets precompile`
-on_ignored_nl UNK on_lparen UNK on_rparen on_period UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_lparen UNK on_rparen on_period UNK # assert it's a well-formed JSON

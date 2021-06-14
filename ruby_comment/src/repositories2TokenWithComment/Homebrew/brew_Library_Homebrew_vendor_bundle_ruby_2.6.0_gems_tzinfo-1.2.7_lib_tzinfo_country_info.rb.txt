@@ -1,7 +1,0 @@
-UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK UNK # Represents a country and references to its timezones as returned by a # DataSource.
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK # The ISO 3166 country code.
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK UNK UNK # The name of the country.
-UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK UNK UNK on_nl end on_nl on_ignored_nl UNK # Constructs a new CountryInfo with an ISO 3166 country code and name
-UNK UNK on_nl UNK on_tstring_content UNK UNK UNK UNK UNK on_tstring_content UNK UNK on_tstring_content UNK on_nl end on_nl on_ignored_nl UNK # Returns internal object state as a programmer-readable string.
-UNK UNK on_nl UNK UNK UNK on_tstring_content UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK UNK UNK on_tstring_content # Returns a frozen array of all the zone identifiers for the country. # The identifiers are ordered by importance according to the DataSource.
-UNK UNK on_nl UNK UNK UNK on_tstring_content UNK UNK on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl UNK UNK UNK UNK # Returns a frozen array of all the timezones for the for the country as # CountryTimezone instances. # # The timezones are ordered by importance according to the DataSource.

@@ -1,7 +1,0 @@
-UNK on_op UNK on_lparen opts on_rparen on_nl UNK if on_op UNK on_nl on_ignored_nl UNK on_op on_lbracket on_ignored_nl on_lbracket on_tstring_beg on_tstring_content # Parse the options
-if UNK on_lbracket on_symbeg UNK on_rbracket on_op on_op entry on_period UNK on_lparen on_ivar on_period UNK on_rparen on_nl UNK on_op entry # If we're pruning and this entry is invalid, skip it # and prune it later.
-UNK if method on_op on_symbeg id on_nl on_ignored_nl widths on_lbracket method on_rbracket on_op on_int on_nl UNK on_op entry on_period UNK # Skip the id
-UNK on_period each do on_op entry on_op on_ignored_nl UNK on_op on_ivar on_period UNK on_period UNK on_lparen entry on_period id on_rparen # Prune all the entries to prune
-on_ivar on_period ui on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma entries on_period UNK on_period to_s on_rparen # Machine-readable (non-formatted) output
-UNK on_op on_int on_nl UNK on_period each do on_op UNK on_comma method on_op on_ignored_nl UNK on_op UNK on_period UNK on_lparen # Human-readable (table formatted) output
-on_int on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

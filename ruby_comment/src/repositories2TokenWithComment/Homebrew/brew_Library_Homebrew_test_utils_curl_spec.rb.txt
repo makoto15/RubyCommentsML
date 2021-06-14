@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK # frozen_string_literal: true
-UNK on_lparen UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_rparen on_period UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # --disable must be the first argument according to "man curl"

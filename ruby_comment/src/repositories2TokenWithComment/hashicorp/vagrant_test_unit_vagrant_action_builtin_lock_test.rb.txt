@@ -1,4 +1,0 @@
-expect on_lparen f on_period UNK on_lparen on_const on_op on_const on_op on_const on_op on_const on_rparen on_rparen on_period to UNK on_lparen UNK # Acquire lock
-instance on_op described_class on_period new on_lparen app on_comma env on_comma options on_rparen on_nl expect on_lbrace instance on_period UNK on_lparen env # Test!
-expect on_lparen f on_period UNK on_lparen on_const on_op on_const on_op on_const on_op on_const on_rparen on_rparen on_period to UNK on_lparen UNK # Acquire lock
-instance on_op described_class on_period new on_lparen app on_comma env on_comma options on_rparen on_nl expect on_lbrace instance on_period UNK on_lparen env # Test!

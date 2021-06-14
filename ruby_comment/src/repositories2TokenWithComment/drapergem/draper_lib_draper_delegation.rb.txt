@@ -1,1 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # @overload delegate(*methods, options = {}) # Overrides {http://api.rubyonrails.org/classes/Module.html#method-i-delegate Module.delegate} # to make `:object` the default delegation target. # # @return [void]

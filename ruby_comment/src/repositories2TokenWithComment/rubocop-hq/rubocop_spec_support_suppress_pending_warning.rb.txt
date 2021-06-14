@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl # # This is a file that supports testing. An open class has been applied to # `RuboCop::ConfigLoader.warn_on_pending_cops` to suppress pending cop # warnings during testing. #
-UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # noop

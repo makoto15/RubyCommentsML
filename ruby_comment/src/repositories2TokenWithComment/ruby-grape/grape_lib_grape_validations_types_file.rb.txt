@@ -1,4 +1,0 @@
-UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK UNK on_nl UNK UNK on_lparen # frozen_string_literal: true
-UNK on_const on_nl UNK UNK UNK on_nl UNK UNK on_lparen UNK on_rparen UNK UNK UNK UNK UNK UNK on_nl UNK # Implementation for parameters that are multipart file objects. # Actual handling of these objects is provided by +Rack::Request+; # this class is here only to assert that rack's handling has succeeded.
-UNK on_nl end on_nl UNK UNK UNK on_lparen UNK on_rparen UNK UNK UNK UNK on_lparen UNK on_const on_rparen UNK UNK # Processing of multipart file objects # is already taken care of by Rack::Request. # Nothing to do here.
-UNK UNK UNK on_lparen UNK on_const on_rparen UNK UNK UNK UNK on_lparen UNK UNK on_rparen UNK UNK UNK UNK UNK # Rack::Request creates a Hash with filename, # content type and an IO object. Do a bit of basic # duck-typing.

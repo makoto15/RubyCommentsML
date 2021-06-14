@@ -1,3 +1,0 @@
-on_const on_op on_lparen on_const on_period UNK on_op on_lparen on_int on_op on_int on_op on_int on_op on_int on_op on_int on_rparen on_rparen on_period # 1969-12-31 16:00:00 -0800
-on_ignored_nl on_const on_op on_lbracket on_ignored_nl on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rbracket on_comma on_ignored_nl on_lbracket on_tstring_beg # 10 years from now
-UNK on_op key on_period public_key on_nl UNK on_op on_const on_op on_const on_op on_const on_period new on_lparen UNK on_period UNK on_rparen # EC#public_key doesn't following the PKey API, # see https://github.com/ruby/openssl/issues/29

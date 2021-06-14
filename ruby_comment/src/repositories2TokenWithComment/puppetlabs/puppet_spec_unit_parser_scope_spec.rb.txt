@@ -1,3 +1,0 @@
-expect on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen do on_op UNK on_op on_ignored_nl expect on_lparen UNK on_lbracket # This is an internal impl detail test
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg on_op on_rparen on_period with on_lparen on_int on_rparen on_period and_return on_lparen on_symbeg # This is an internal impl detail test
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg on_op on_rparen on_period with on_lparen on_int on_rparen on_period and_return on_lparen on_symbeg # This is an internal impl detail test

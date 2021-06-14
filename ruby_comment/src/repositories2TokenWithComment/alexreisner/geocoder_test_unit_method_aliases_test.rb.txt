@@ -1,1 +1,0 @@
-UNK UNK UNK UNK on_nl UNK UNK on_const on_op on_const on_nl UNK UNK UNK on_nl v on_op on_const on_period UNK # encoding: utf-8

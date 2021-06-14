@@ -1,2 +1,0 @@
-on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl require on_tstring_beg # For more info see: https://github.com/schacon/ruby-git
-UNK on_const on_op on_const on_nl UNK UNK UNK on_comma UNK UNK on_nl on_ignored_nl def self on_period UNK on_lparen env on_rparen # ignore

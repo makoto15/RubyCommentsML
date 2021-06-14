@@ -1,2 +1,0 @@
-UNK screenshot on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op on_const on_period UNK on_lparen UNK on_comma on_tstring_beg on_tstring_content on_tstring_end # If the screen shot is for an appleTV we need to store it in a way that we'll know it's an appleTV # screen shot later as the screen size is the same as an iPhone 6 Plus in landscape.
-end on_nl UNK on_op on_const on_period UNK on_lparen UNK on_comma UNK on_rparen on_nl on_const on_period UNK on_lparen UNK on_comma UNK # if it's already there

@@ -1,1 +1,0 @@
-end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # For some reason this is reporting "The not_matches MetaWhere condition is not supported." # adapter.matches_condition?(article1, :name.nlike, "%helo%").should be_true # adapter.matches_condition?(article1, :name.nlike, "%ello worl%").should be_false

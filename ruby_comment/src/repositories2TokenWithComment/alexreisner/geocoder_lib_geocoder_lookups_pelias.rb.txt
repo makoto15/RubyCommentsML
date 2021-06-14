@@ -1,3 +1,0 @@
-on_ignored_nl def UNK on_lparen query on_rparen on_ignored_nl UNK on_op query on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end # ----------------------------------------------------------------
-UNK UNK on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl UNK on_op UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK UNK # not all responses include a meta
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_lparen on_const on_op on_const on_comma UNK on_rparen on_op on_const on_period UNK on_lparen on_symbeg UNK # nothing to see here

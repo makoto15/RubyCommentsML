@@ -1,1 +1,0 @@
-env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_op UNK UNK on_op env on_lbracket on_symbeg UNK on_rbracket on_nl on_ignored_nl UNK on_period # If the host machine isn't created, neither are we. It is # important we set this to nil here so that global-status # sees the right thing.

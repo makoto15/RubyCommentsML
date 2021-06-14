@@ -1,3 +1,0 @@
-UNK on_period UNK on_period UNK on_lparen UNK on_tstring_content UNK on_comma on_tstring_beg on_tstring_end on_rparen on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content # Drop end of line and an optional yaml end of document
-let on_lparen on_symbeg environmentpath on_rparen on_lbrace on_const on_period UNK on_lparen on_const on_period UNK on_lparen UNK on_lparen on_rparen on_comma on_tstring_beg on_tstring_content # There is a fully configured 'sample' environment in fixtures at this location
-on_const on_period UNK on_period UNK on_nl UNK on_op on_const on_op on_const on_op on_const on_period new on_lparen environmentpath on_comma on_lbracket on_rbracket # Initialize settings to get a full compile as close as possible to a real # environment load

@@ -1,6 +1,0 @@
-on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl UNK on_symbeg UNK on_comma on_label UNK on_symbeg UNK on_comma on_symbeg UNK UNK # frozen_string_literal: true
-def UNK on_nl UNK on_period resource on_op UNK on_period UNK on_lparen UNK on_rparen on_nl UNK on_lparen resource on_rparen on_nl UNK # GET /resource/sign_in
-def UNK on_nl UNK on_period resource on_op UNK on_period UNK on_lparen UNK on_rparen on_nl UNK on_lparen on_symbeg UNK on_comma on_symbeg # POST /resource/sign_in
-def UNK on_nl UNK on_op on_lparen on_const on_period UNK on_op UNK on_op UNK on_lparen UNK on_rparen on_rparen on_nl UNK on_symbeg # DELETE /resource/sign_out
-def UNK on_nl if UNK on_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_nl on_ignored_nl UNK on_nl end on_nl end on_nl # Check if there is no signed in user before doing the sign out. # # If there is no signed in user, it will set the flash message and redirect # to the after_sign_out path.
-UNK UNK on_op UNK on_op on_ignored_nl UNK on_period UNK on_lbrace UNK on_symbeg UNK on_rbrace on_nl UNK on_period UNK on_lparen on_op # We actually need to hardcode this as Rails default responder doesn't # support returning empty response on GET request

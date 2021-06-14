@@ -1,3 +1,0 @@
-UNK on_op UNK on_lparen UNK on_rparen on_nl return UNK on_op UNK on_nl on_ignored_nl UNK on_lparen UNK on_comma UNK UNK on_rparen # Parse the options
-UNK UNK on_lparen vm on_comma ports on_rparen on_ignored_nl on_ivar on_period ui on_period UNK on_lparen on_const on_period UNK on_lparen on_tstring_beg on_tstring_content # Print all the guest <=> host port mappings. # @return [0] the exit code
-UNK UNK on_lparen vm on_comma ports on_comma UNK on_rparen on_ignored_nl UNK on_op ports on_period UNK UNK on_op UNK on_comma guest # Print the host mapping that matches the given guest target. # @return [0,1] the exit code

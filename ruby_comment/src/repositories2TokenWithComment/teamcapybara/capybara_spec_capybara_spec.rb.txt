@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_period describe on_const do on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK # frozen_string_literal: true
-on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen described_class on_period UNK on_rparen on_period not_to UNK on_lparen UNK on_rparen on_nl # rubocop:disable RSpec/InstanceVariable
-end on_nl on_ignored_nl expect on_lparen described_class on_period UNK on_rparen on_period to UNK on_lparen on_symbeg UNK on_rparen on_nl end on_nl end # do nothing

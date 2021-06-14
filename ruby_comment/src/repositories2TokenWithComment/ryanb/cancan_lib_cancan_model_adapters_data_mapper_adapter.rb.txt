@@ -1,4 +1,0 @@
-UNK on_period UNK UNK on_op r on_op UNK on_op UNK on_period UNK on_lparen UNK conditions on_op r on_period conditions on_rparen # apply unions first, then differences. this mean cannot overrides can
-end end on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_const on_op on_const on_op on_const on_rparen on_nl EMP EMP EMP EMP # class DataMapper
-end on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_const on_op on_const on_op on_const on_rparen on_nl EMP EMP EMP EMP EMP # module ModelAdapters
-on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_const on_op on_const on_op on_const on_rparen on_nl EMP EMP EMP EMP EMP EMP # module CanCan

@@ -1,3 +1,0 @@
-UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK on_const on_op on_const on_op on_const on_nl # Broker access to the filesystem, converting local URIs into metadata # or content objects.
-UNK UNK UNK UNK UNK on_ignored_nl UNK UNK on_op UNK on_tstring_content UNK on_nl UNK on_const UNK UNK UNK on_tstring_beg on_tstring_content # Create our object. It must have a name.
-UNK UNK on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # A noop.

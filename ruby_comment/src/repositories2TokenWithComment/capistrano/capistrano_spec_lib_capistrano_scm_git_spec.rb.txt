@@ -1,4 +1,0 @@
-UNK on_lparen on_symbeg env on_rparen UNK on_const on_op on_const on_period env UNK on_nl on_ignored_nl UNK on_lparen on_symbeg backend on_rparen UNK # This allows us to easily use `set`, `fetch`, etc. in the examples.
-UNK on_lparen on_symbeg backend on_rparen UNK UNK UNK on_nl UNK UNK on_const on_op on_const on_period UNK on_lparen on_symbeg UNK on_rparen # Stub the SSHKit backend so we can set up expectations without the plugin # actually executing any commands.
-UNK do on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_op on_const on_period UNK on_lparen # Mimic the deploy flow tasks so that the plugin can register its hooks.
-UNK do on_ignored_nl on_const on_op on_const on_period UNK on_nl on_const on_op on_const on_period UNK on_nl end on_nl on_ignored_nl describe on_tstring_beg # Clean up any tasks or variables that the plugin defined.

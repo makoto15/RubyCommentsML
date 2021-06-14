@@ -1,5 +1,0 @@
-on_const on_op on_const on_period type on_lparen on_symbeg package on_rparen on_period defaultprovider on_op nil on_nl end on_nl on_ignored_nl UNK UNK on_lparen # the default provider is cached.
-UNK on_op on_lbrace on_ignored_nl on_symbeg UNK on_op on_lbrace on_ignored_nl on_symbeg UNK on_op nil on_comma on_ignored_nl on_symbeg UNK on_op on_tstring_beg on_tstring_content # Map of old state -> {new state -> change}
-on_symbeg UNK on_op on_lbrace on_ignored_nl on_symbeg UNK on_op nil on_comma on_ignored_nl on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_symbeg # 'installed' transitions to 'removed' or 'purged'
-on_symbeg UNK on_op on_lbrace on_ignored_nl on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_symbeg UNK on_op nil on_comma on_ignored_nl on_symbeg # 'absent' transitions to 'created' or 'purged'
-on_symbeg UNK on_op on_lbrace on_ignored_nl on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_symbeg UNK on_op nil on_comma on_ignored_nl on_symbeg # 'purged' transitions to 'created'

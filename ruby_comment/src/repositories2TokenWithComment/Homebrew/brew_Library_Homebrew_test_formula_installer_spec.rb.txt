@@ -1,5 +1,0 @@
-on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
-formula on_period UNK on_period UNK UNK formula on_period UNK on_period UNK on_nl end on_nl on_ignored_nl expect on_lparen keg on_rparen on_period # there will be log files when sandbox is enable.
-on_ignored_nl temporary_install on_lparen on_const on_period new on_rparen do on_op f on_op on_ignored_nl expect on_lparen f on_period prefix on_op on_tstring_beg on_tstring_content # added to ensure it doesn't fail install
-expect on_lparen f on_period prefix on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period to UNK on_nl on_ignored_nl expect on_lparen f on_period UNK # Test that things made it into the Keg
-keg on_op on_const on_period new f on_period prefix on_nl keg on_period UNK on_nl on_ignored_nl UNK on_op on_const on_op on_tstring_beg on_tstring_content # Test that things make it into the Cellar

@@ -1,2 +1,0 @@
-UNK UNK UNK on_const UNK UNK UNK on_const UNK UNK UNK on_const UNK UNK UNK UNK UNK on_comma on_tstring_beg on_tstring_content # To send custom user agents to identify your application to a web service (or mask as a specific browser for testing), send "User-Agent" as a hash to headers as shown below.
-UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # To show that User-Agent is Httparty

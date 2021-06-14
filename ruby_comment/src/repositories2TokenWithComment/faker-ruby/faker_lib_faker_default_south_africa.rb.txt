@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_op UNK on_nl def UNK on_nl on_const on_op on_const on_period # frozen_string_literal: true

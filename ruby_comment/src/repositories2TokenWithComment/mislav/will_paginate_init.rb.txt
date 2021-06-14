@@ -1,1 +1,0 @@
-UNK UNK UNK on_const UNK on_const on_nl UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK on_const UNK on_const # This is all duplication of what Railtie does, but is necessary because # the initializer defined by the Railtie won't ever run when loaded as plugin.

@@ -1,2 +1,0 @@
-on_ignored_nl on_const on_period UNK on_lparen on_symbeg UNK UNK UNK on_lbracket on_const UNK on_const on_rbracket on_rparen UNK on_ignored_nl UNK on_tstring_beg on_tstring_content # frozen_string_literal: true
-UNK on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_op on_op options on_op on_ignored_nl UNK UNK options on_period UNK on_lparen # Non element/regexp values were handled through the expression filter

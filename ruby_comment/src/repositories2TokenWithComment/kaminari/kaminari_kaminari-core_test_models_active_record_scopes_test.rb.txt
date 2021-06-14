@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_nl test on_tstring_beg # frozen_string_literal: true
-sub_test_case on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl begin on_ignored_nl model_class on_period max_paginates_per on_lparen on_int on_rparen # I know it's a bit strange to have this here, but I couldn't find any better place for this case
-assert_equal on_int on_comma relation on_period UNK on_nl assert_equal on_int on_comma relation on_period total_pages on_nl end on_nl on_ignored_nl test on_tstring_beg on_tstring_content # 0..10

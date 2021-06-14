@@ -1,5 +1,0 @@
-UNK on_const on_op on_const on_nl on_const on_op on_const on_nl on_ignored_nl UNK UNK UNK on_nl UNK on_const on_lbracket on_symbeg UNK on_rbracket # Configures validation suitable for 4.0 #
-UNK UNK UNK on_nl UNK on_const on_lbracket on_symbeg UNK on_rbracket on_nl UNK UNK UNK UNK on_nl on_const UNK UNK UNK # Produces the checker to use
-UNK UNK on_nl on_const on_op on_const UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl p on_op UNK # Produces the label provider to use
-UNK UNK on_nl p on_op UNK on_nl on_ignored_nl p on_lbracket on_const on_op on_const on_rbracket on_op on_const on_lbracket on_symbeg UNK on_rbracket # Produces the severity producer to use
-p on_lbracket on_const on_op on_const on_rbracket on_op on_const on_lbracket on_symbeg UNK on_rbracket on_op on_symbeg UNK on_op on_symbeg UNK on_nl p # Configure each issue that should **not** be an error # # Validate as per the current runtime configuration

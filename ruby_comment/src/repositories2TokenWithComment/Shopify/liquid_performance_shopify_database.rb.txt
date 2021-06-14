@@ -1,6 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_nl UNK UNK on_period UNK on_nl UNK on_op UNK on_ignored_nl db # frozen_string_literal: true
-UNK UNK on_period UNK on_nl UNK on_op UNK on_ignored_nl db on_op UNK on_period UNK on_lparen on_tstring_beg UNK UNK UNK on_tstring_content # Load the standard vision toolkit database and re-arrage it to be simply exportable # to liquid as assigns. All this is based on Shopify
-db on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period UNK UNK on_op UNK on_op on_ignored_nl UNK on_op db on_lbracket on_tstring_beg on_tstring_content on_tstring_end # From vision source
-db on_op db on_period UNK on_lparen on_lbrace on_rbrace on_rparen UNK on_op on_lparen UNK on_comma values on_rparen on_comma UNK on_op on_ignored_nl # key the tables by handles, as this is how liquid expects it.
-db on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op db on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period values on_period UNK on_nl db on_lbracket # Some standard direct accessors so that the specialized templates # render correctly
-end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # p Database.tables['blog']['articles']

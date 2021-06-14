@@ -1,3 +1,0 @@
-env on_op UNK on_nl env on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl env on_period UNK on_nl end on_nl on_ignored_nl let # We have to create a Vagrantfile so there is a root path
-allow on_lparen driver on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_lbrace on_lbracket on_rbracket on_rbrace on_nl allow on_lparen machine on_rparen #allow(driver).to receive(:read_bridged_interfaces) { [] }
-allow on_lparen machine on_rparen on_period to receive on_lparen on_symbeg guest on_rparen on_lbrace guest on_rbrace on_nl allow on_lparen driver on_rparen on_period #allow(driver).to receive(:read_dhcp_servers) { [] }

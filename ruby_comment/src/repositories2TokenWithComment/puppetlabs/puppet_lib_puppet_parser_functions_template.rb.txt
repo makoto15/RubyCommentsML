@@ -1,1 +1,0 @@
-UNK on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl on_ignored_nl UNK on_op on_const on_op on_const on_op on_const on_period UNK on_lparen UNK # Use a wrapper, so the template can't get access to the full # Scope object.

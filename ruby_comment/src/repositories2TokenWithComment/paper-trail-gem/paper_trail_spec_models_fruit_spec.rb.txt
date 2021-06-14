@@ -1,2 +1,0 @@
-UNK UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK # frozen_string_literal: true
-UNK UNK UNK on_period UNK on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end UNK on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_period UNK # As of PT 9.0.0, with_version_changes only supports json(b) columns, # so that's why were testing the have_a_version_with_changes matcher # here.

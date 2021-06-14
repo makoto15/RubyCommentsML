@@ -1,3 +1,0 @@
-UNK on_period foo on_op on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl expect on_lbrace subject on_period finalize! on_rbrace on_period on_ignored_nl to # Purposeful bad variable
-UNK on_period UNK on_lparen on_symbeg foo on_rparen do on_ignored_nl on_const on_period new on_const on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma # This plugin registers a dummy provisioner # without registering a provisioner config
-expect on_lbrace subject on_period finalize! on_rbrace on_period UNK UNK on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl allow # This should succeed without errors

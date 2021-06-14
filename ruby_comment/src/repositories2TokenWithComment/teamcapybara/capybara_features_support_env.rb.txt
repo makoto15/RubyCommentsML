@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK # frozen_string_literal: true
-on_ignored_nl on_const on_period UNK UNK UNK UNK on_op UNK on_op on_ignored_nl on_const on_op on_const on_op on_const on_period UNK UNK UNK # These drivers are only used for testing driver switching. # They don't actually need to process javascript so use RackTest

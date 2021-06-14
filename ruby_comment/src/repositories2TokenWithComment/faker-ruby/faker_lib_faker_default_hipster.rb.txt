@@ -1,7 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_op UNK on_nl def UNK on_nl UNK on_op UNK on_lparen # frozen_string_literal: true
-def UNK on_lparen legacy_number on_op on_const on_comma legacy_supplemental on_op on_const on_comma UNK on_op on_const on_comma on_label on_int on_comma on_label false # rubocop:disable Metrics/ParameterLists
-warn_for_deprecated_arguments do on_op keywords on_op on_ignored_nl keywords on_op on_symbeg number if legacy_number on_op on_const on_nl keywords on_op on_symbeg supplemental if # rubocop:enable Metrics/ParameterLists
-def UNK on_lparen UNK on_op on_const on_comma legacy_supplemental on_op on_const on_comma UNK on_op on_const on_comma on_label on_int on_comma on_label false # rubocop:disable Metrics/ParameterLists
-warn_for_deprecated_arguments do on_op keywords on_op on_ignored_nl keywords on_op on_symbeg UNK if UNK on_op on_const on_nl keywords on_op on_symbeg supplemental if # rubocop:enable Metrics/ParameterLists
-def paragraph on_lparen UNK on_op on_const on_comma legacy_supplemental on_op on_const on_comma UNK on_op on_const on_comma on_label on_int on_comma on_label false # rubocop:disable Metrics/ParameterLists
-warn_for_deprecated_arguments do on_op keywords on_op on_ignored_nl keywords on_op on_symbeg UNK if UNK on_op on_const on_nl keywords on_op on_symbeg supplemental if # rubocop:enable Metrics/ParameterLists

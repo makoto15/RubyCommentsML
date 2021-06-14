@@ -1,2 +1,0 @@
-UNK on_const on_op on_const on_nl def in_applyexpression? on_nl UNK on_op UNK on_lparen UNK on_rparen on_nl UNK on_op on_op UNK on_nl # Validator that limits the set of allowed expressions to not include catalog related operations # @api private
-if in_applyexpression? on_nl if o on_period UNK on_period UNK on_lparen on_const on_op on_const on_op on_const on_op on_const on_rparen on_nl super # Only virtual resource queries are allowed in apply blocks, not exported # resource queries

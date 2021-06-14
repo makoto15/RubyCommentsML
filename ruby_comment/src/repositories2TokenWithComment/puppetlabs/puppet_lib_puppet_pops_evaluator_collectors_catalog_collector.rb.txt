@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_op UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK # Creates a CatalogCollector using the AbstractCollector's # constructor to set the scope and overrides # # param [Puppet::CompilableResourceType] type the resource type to be collected # param [Proc] query the query which defines which resources to match
-UNK UNK on_nl UNK on_op UNK on_nl UNK on_op UNK on_nl on_ignored_nl UNK on_period UNK on_period UNK on_period UNK UNK # Collects virtual resources based off a collection in a manifest

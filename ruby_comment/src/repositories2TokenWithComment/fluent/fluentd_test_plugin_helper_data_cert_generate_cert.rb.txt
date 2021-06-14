@@ -1,4 +1,0 @@
-UNK on_op passphrase on_op key on_period UNK on_lparen on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_comma passphrase # Write the secret key (raw or encrypted by AES256) in PEM format
-end on_nl on_ignored_nl def UNK on_nl on_const on_period UNK on_lparen on_const on_rparen on_nl cert_path on_op on_const on_period join on_lparen on_const # with passphrase
-UNK on_lparen UNK on_comma UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_comma UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end # with passphrase
-on_const on_period UNK on_lparen cert_path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_op f on_op on_ignored_nl f on_period UNK on_lparen cert # write chained cert

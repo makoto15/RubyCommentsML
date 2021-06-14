@@ -1,9 +1,0 @@
-UNK on_const on_nl on_ignored_nl UNK on_symbeg namespace on_nl on_ignored_nl UNK on_symbeg name on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK # Page is the primary data storage for page configuration in Active Admin # # When you register a page (ActiveAdmin.register_page "Status") you are actually creating # a new Page instance within the given Namespace. # # The instance of the current page is available in PageController and views # by calling the #active_admin_config method. #
-UNK on_symbeg namespace on_nl on_ignored_nl UNK on_symbeg name on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl # The namespace this config belongs to
-UNK on_symbeg name on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_const on_nl def UNK # The name of the page
-UNK on_symbeg UNK on_nl on_ignored_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK on_const on_nl def UNK on_lparen namespace on_comma name on_comma # An array of custom actions defined for this page
-UNK on_symbeg UNK on_nl on_ignored_nl UNK on_const on_nl def UNK on_lparen namespace on_comma name on_comma UNK on_rparen on_ignored_nl on_ivar on_op # Set breadcrumb builder
-def UNK on_nl name on_nl end on_nl on_ignored_nl def UNK on_nl on_ivar on_op on_const on_op on_const on_period UNK on_lparen UNK # label is singular
-def UNK on_nl UNK on_nl end on_nl on_ignored_nl def UNK on_nl end on_nl on_ignored_nl def UNK on_nl end on_nl on_ignored_nl # Override from `ActiveAdmin::Resource::Controllers`
-def UNK on_nl on_ivar on_op UNK UNK on_nl end on_nl on_ignored_nl def UNK on_lparen UNK on_comma UNK on_op UNK UNK # Clears all the custom actions this page knows about
-def UNK on_nl on_op on_op UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_lparen on_symbeg on_ivar on_rparen on_op on_ivar # Do we belong to another resource?

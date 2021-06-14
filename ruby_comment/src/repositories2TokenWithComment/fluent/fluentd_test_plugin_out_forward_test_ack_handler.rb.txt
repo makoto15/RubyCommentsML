@@ -1,8 +1,0 @@
-chunk_id on_op on_tstring_beg on_tstring_content on_tstring_end on_nl ack on_op ack_handler on_period UNK on_lparen chunk_id on_comma node on_rparen on_nl on_ignored_nl r on_comma # for log
-ack on_period UNK on_lparen r on_rparen on_nl on_ignored_nl a1 on_op a2 on_op a3 on_op a4 on_op nil on_nl ack_handler on_period # IO does not have recv
-a1 on_op cid on_semicolon a2 on_op n on_semicolon a3 on_op s on_semicolon a4 on_op ret on_nl end on_nl on_ignored_nl assert_equal # This block is rescued by ack_handler so it needs to invoke assetion outside of this block
-chunk_id on_op on_tstring_beg on_tstring_content on_tstring_end on_nl ack on_op ack_handler on_period UNK on_lparen chunk_id on_comma node on_rparen on_nl on_ignored_nl r on_comma # for log
-ack on_period UNK on_lparen r on_rparen on_nl on_ignored_nl a1 on_op a2 on_op a3 on_op a4 on_op nil on_nl ack_handler on_period # IO does not have recv
-a1 on_op cid on_semicolon a2 on_op n on_semicolon a3 on_op s on_semicolon a4 on_op ret on_nl end on_nl on_ignored_nl UNK # This block is rescued by ack_handler so it needs to invoke assetion outside of this block
-chunk_id on_op on_tstring_beg on_tstring_content on_tstring_end on_nl ack on_op ack_handler on_period UNK on_lparen chunk_id on_comma node on_rparen on_nl on_ignored_nl r on_comma # for log
-a1 on_op cid on_semicolon a2 on_op n on_semicolon a3 on_op s on_semicolon a4 on_op ret on_nl end on_nl on_ignored_nl assert_equal # This block is rescued by ack_handler so it needs to invoke assetion outside of this block

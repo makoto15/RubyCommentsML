@@ -1,1 +1,0 @@
-guest_capability on_lparen on_symbeg linux on_comma on_symbeg UNK on_rparen do on_ignored_nl require_relative on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_nl end # For the Docker provider

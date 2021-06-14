@@ -1,4 +1,0 @@
-UNK UNK on_period UNK on_lparen query on_comma options on_op UNK UNK on_rparen on_ignored_nl query on_op on_const on_op on_const on_period UNK ## # Search for information about an address or a set of coordinates. #
-UNK UNK on_period UNK on_lparen UNK on_comma options on_op UNK UNK on_rparen on_ignored_nl if on_lparen UNK on_op UNK on_lparen UNK ## # Look up the coordinates of the given street or IP address. #
-UNK UNK on_period UNK on_lparen query on_comma options on_op UNK UNK on_rparen on_ignored_nl if on_lparen UNK on_op UNK on_lparen query ## # Look up the address of the given coordinates ([lat,lon]) # or IP address (string). #
-if UNK on_lparen on_const on_rparen on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP # load Railtie if Rails exists

@@ -1,9 +1,0 @@
-table on_period UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK # Allows some jobs to jump to the front of the queue
-table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK # Provides for retries, but still fail eventually.
-table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK # YAML-encoded string of the object that will do work
-table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK # reason for last failure (See Note below)
-table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK # When to run. Could be Time.zone.now for immediately, or sometime in the future.
-table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_nl UNK # Set when a client is working on this object
-table on_period UNK on_symbeg UNK table on_period UNK on_symbeg UNK table on_period UNK on_nl UNK on_nl UNK UNK on_symbeg UNK # Set when all retries have failed (actually, by default, the record is deleted instead)
-table on_period UNK on_symbeg UNK table on_period UNK on_nl UNK on_nl UNK UNK on_symbeg UNK on_comma UNK on_symbeg UNK on_comma # Who is working on this object (if locked)
-table on_period UNK on_nl UNK on_nl UNK UNK on_symbeg UNK on_comma UNK on_symbeg UNK on_comma on_symbeg UNK UNK on_comma on_symbeg # The name of the queue this job is in

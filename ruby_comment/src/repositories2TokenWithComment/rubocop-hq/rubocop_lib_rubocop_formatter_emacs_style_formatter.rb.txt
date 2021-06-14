@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_comma UNK UNK on_ignored_nl # frozen_string_literal: true
-UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_comma UNK UNK on_ignored_nl UNK on_period UNK UNK UNK UNK UNK # This formatter displays the report data in format that's # easy to process in the Emacs text editor. # The output is machine-parsable.

@@ -1,7 +1,0 @@
-UNK on_const on_nl on_ignored_nl def UNK UNK UNK on_op UNK UNK on_op UNK UNK on_ignored_nl UNK UNK on_op UNK on_nl # @!macro thread_local_var # @!macro internal_implementation_note # @!visibility private
-def UNK UNK UNK on_op UNK UNK on_op UNK UNK on_ignored_nl UNK UNK on_op UNK on_nl UNK on_const UNK UNK # @!macro thread_local_var_method_initialize
-def value on_nl UNK on_const on_nl end on_nl on_ignored_nl def UNK UNK value UNK on_ignored_nl UNK on_const on_nl end on_nl # @!macro thread_local_var_method_get
-def UNK UNK value UNK on_ignored_nl UNK on_const on_nl end on_nl on_ignored_nl def UNK UNK value UNK on_op UNK UNK # @!macro thread_local_var_method_set
-def UNK UNK value UNK on_op UNK UNK on_ignored_nl UNK UNK on_nl UNK on_op UNK UNK value on_nl UNK on_ignored_nl # @!macro thread_local_var_method_bind
-def UNK on_nl UNK on_const on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_ivar on_nl UNK UNK value on_op on_ivar # @!visibility private
-def UNK on_nl UNK on_ivar on_nl UNK UNK value on_op on_ivar UNK UNK on_nl UNK on_ignored_nl on_ivar on_nl end on_nl # @!visibility private

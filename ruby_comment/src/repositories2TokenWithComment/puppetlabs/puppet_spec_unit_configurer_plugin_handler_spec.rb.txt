@@ -1,1 +1,0 @@
-expect on_lparen on_const on_rparen on_period UNK receive on_lparen on_symbeg UNK on_rparen on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do # PluginHandler#load_plugin has an extra-strong rescue clause # this mock is to make sure that we don't silently ignore errors

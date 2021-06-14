@@ -1,7 +1,0 @@
-end on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def metadata on_lparen on_label # drop
-assert on_const on_period exist? on_lparen on_ivar on_rparen on_nl assert on_const on_period UNK on_lparen on_ivar on_rparen on_nl on_ignored_nl buf_conf on_op config_element # create and close the file
-on_const on_period delete on_lparen path on_rparen UNK nil on_nl end on_nl end on_nl end on_nl on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end # Windows does not permit to delete files which are used in another process. # Just ignore for removing failure.
-c2id on_comma _ on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl on_ivar on_period start on_nl UNK on_lparen on_ivar on_period # create staged empty chunk file
-on_ignored_nl on_ivar on_period start on_nl UNK on_lparen on_ivar on_period stage on_comma c1id on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_int on_comma on_symbeg # create staged broken meta file
-c2id on_comma _ on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl on_ivar on_period start on_nl UNK on_lparen on_ivar on_period # create enqueued empty chunk file
-on_ignored_nl on_ivar on_period start on_nl UNK on_lparen on_ivar on_period queue on_comma c1id on_comma on_int on_comma on_symbeg queued on_rparen on_nl UNK # create enqueued broken meta file

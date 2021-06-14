@@ -1,6 +1,0 @@
-UNK on_const on_nl def UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op json on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl on_ivar # Represents an argument to the ActionCommand
-UNK on_const on_nl attr_reader on_symbeg UNK attr_reader on_symbeg UNK attr_reader on_symbeg UNK attr_reader on_symbeg UNK on_ignored_nl def UNK UNK UNK # Represents a command that is meant to execute an Action on the client's behalf
-attr_reader on_symbeg UNK attr_reader on_symbeg UNK attr_reader on_symbeg UNK on_ignored_nl def UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op json # always present
-attr_reader on_symbeg UNK attr_reader on_symbeg UNK on_ignored_nl def UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op json on_lbracket on_tstring_beg on_tstring_content # always present
-attr_reader on_symbeg UNK on_ignored_nl def UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op json on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl # always present
-on_ignored_nl def UNK UNK UNK UNK UNK on_ignored_nl on_ivar on_op json on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_nl on_ivar on_op json # only present when executing a class-method

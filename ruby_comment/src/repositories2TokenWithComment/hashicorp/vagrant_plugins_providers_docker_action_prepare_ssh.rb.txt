@@ -1,7 +1,0 @@
-UNK UNK on_period UNK on_lparen env on_rparen UNK on_op env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_period UNK on_nl on_ignored_nl # If we aren't using a host VM, then don't worry about it
-env on_lbracket on_symbeg UNK on_rbracket on_op env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_period UNK on_period UNK on_nl on_ignored_nl ssh_opts # Modify the SSH info to be the host VM's info
-ssh_opts on_op env on_lbracket on_symbeg ssh_opts on_rbracket on_op UNK UNK on_nl on_ignored_nl UNK on_op env on_lbracket on_symbeg UNK on_rbracket on_period # Modify the SSH options for when we `vagrant ssh`...
-UNK on_op env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_period UNK on_nl UNK on_op on_const on_lparen ssh_opts on_lbracket on_symbeg UNK # Build the command we'll execute within the Docker host machine:
-ssh_opts on_lbracket on_symbeg UNK on_rbracket on_op on_lbracket UNK UNK UNK on_rbracket on_nl UNK env on_lbracket on_symbeg UNK on_rbracket on_period UNK # Modify the SSH options for the original command: # Append "-t" to force a TTY allocation
-UNK env on_lbracket on_symbeg UNK on_rbracket on_period UNK on_lbracket on_symbeg UNK on_rbracket on_nl ssh_opts on_lbracket on_symbeg UNK on_rbracket on_op UNK # Enable Agent forwarding when requested for the target VM
-env on_lbracket on_symbeg ssh_opts on_rbracket on_op ssh_opts on_nl on_ignored_nl UNK on_period UNK on_lparen env on_rparen on_nl end on_nl end on_nl # Set the opts

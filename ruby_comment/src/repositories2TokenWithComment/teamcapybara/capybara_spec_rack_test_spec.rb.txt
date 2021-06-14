@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op UNK on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_nl UNK on_const on_nl # frozen_string_literal: true
-UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_symbeg session on_rparen on_lbrace on_const on_op on_const on_rbrace on_nl on_ignored_nl describe on_tstring_beg # rubocop:disable RSpec/MultipleDescribes

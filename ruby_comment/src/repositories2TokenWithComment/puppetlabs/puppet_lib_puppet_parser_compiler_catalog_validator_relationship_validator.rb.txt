@@ -1,5 +1,0 @@
-UNK on_const on_op on_const on_op on_const on_nl UNK UNK on_nl UNK on_period UNK on_period UNK UNK on_op UNK on_op on_ignored_nl # Validator that asserts that only 'require', 'consume', and 'export' is used when declaring relationships # to capability resources.
-on_const on_op UNK UNK UNK on_op UNK on_comma UNK UNK on_op UNK on_comma UNK UNK on_op UNK UNK on_period UNK # A hash lookup is 6x avg times faster than find among 3 values.
-UNK UNK on_lparen param on_period value on_rparen on_nl UNK on_const UNK param on_period UNK UNK on_nl UNK on_const on_period UNK # when relationship is to a capability
-UNK on_op param on_period value on_period UNK on_lparen on_const on_rparen on_op param on_period value on_period UNK on_op UNK param on_period # all other relationships requires the referenced resource to exist
-UNK on_const on_period UNK on_lparen UNK on_period UNK on_comma param on_period UNK on_comma param on_period UNK on_rparen on_nl end on_nl # Raise again but with file and line information

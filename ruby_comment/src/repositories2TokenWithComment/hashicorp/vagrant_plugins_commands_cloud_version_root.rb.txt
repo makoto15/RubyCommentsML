@@ -1,5 +1,0 @@
-UNK UNK on_nl end on_nl on_ignored_nl UNK on_op on_ivar on_period UNK on_lparen on_ivar on_period UNK on_rparen UNK on_ivar on_nl UNK # Print the help for all the version commands.
-UNK on_op on_ivar on_period UNK on_lparen on_ivar on_period UNK on_rparen UNK on_ivar on_nl UNK UNK UNK on_op UNK on_op on_op # If we reached this far then we must have a subcommand. If not, # then we also just print the help and exit.
-UNK on_period UNK on_lparen on_ivar on_comma on_ivar on_rparen on_period UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl opts on_op on_const # Initialize and execute the command class
-UNK UNK on_nl opts on_op on_const on_period UNK do on_op opts on_op on_ignored_nl opts on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end # Prints the help out for this command
-UNK on_op UNK UNK on_nl on_ivar on_period UNK UNK on_op UNK on_comma UNK on_op UNK on_op UNK on_period UNK UNK # Add the available subcommands as separators in order to print them # out as well.

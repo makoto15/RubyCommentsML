@@ -1,2 +1,0 @@
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK UNK UNK UNK # Converts a *nix 'chmod' command to a PowerShell equivalent (none)
-UNK UNK on_nl end on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Not supported on Windows, the communicator should skip this command

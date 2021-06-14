@@ -1,3 +1,0 @@
-UNK UNK on_nl UNK UNK UNK on_nl UNK on_nl UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK # Adds #active_admin_comments to the show page for use # and sets it up on the default main content
-UNK UNK on_nl UNK on_nl UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK UNK UNK UNK UNK # Add admin comments to the main content if they are # turned on for the current resource
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Display the comments for the resource. Same as calling # #active_admin_comments_for with the current resource

@@ -1,5 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_nl on_ignored_nl def UNK on_nl on_const on_period configure on_lparen on_symbeg # encoding: utf-8
-lookup on_op on_const on_op on_const on_period get on_lparen l on_rparen on_nl set_api_key! on_lparen l on_rparen on_nl UNK on_const on_op on_const # local, does not use cache
-lookup on_op on_const on_op on_const on_period get on_lparen l on_rparen on_nl set_api_key! on_lparen l on_rparen on_nl UNK on_const do on_ignored_nl # local, does not use cache
-lookup on_op on_const on_op on_const on_period get on_lparen l on_rparen on_nl set_api_key! on_lparen l on_rparen on_nl UNK on_const on_op on_const # local, does not use cache
-lookup on_op on_const on_op on_const on_period get on_lparen l on_rparen on_nl set_api_key! on_lparen l on_rparen on_nl UNK on_const on_op on_const # local, does not use cache

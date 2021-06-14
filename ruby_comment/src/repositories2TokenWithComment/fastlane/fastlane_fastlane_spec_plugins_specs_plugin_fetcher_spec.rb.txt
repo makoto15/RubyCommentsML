@@ -1,1 +1,0 @@
-UNK on_lparen UNK UNK on_comma on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_rparen on_period on_ignored_nl UNK on_lparen on_label on_int on_comma on_label # We have to stub both a specific search, and the general listing

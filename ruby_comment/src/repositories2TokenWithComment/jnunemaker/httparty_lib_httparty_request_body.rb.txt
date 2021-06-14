@@ -1,1 +1,0 @@
-memo on_op on_tstring_beg on_tstring_content UNK UNK on_lparen value on_rparen UNK on_tstring_content on_tstring_end if UNK on_lparen value on_rparen on_nl memo on_op # value.path is used to support ActionDispatch::Http::UploadedFile # https://github.com/jnunemaker/httparty/pull/585

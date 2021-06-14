@@ -1,2 +1,0 @@
-UNK UNK UNK UNK on_comma UNK UNK on_ignored_nl UNK UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end UNK # This adds common download command line flags to the given # OptionParser, storing the result in the `options` dictionary. # # @param [OptionParser] parser # @param [Hash] options
-UNK UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_op UNK on_op on_ignored_nl UNK UNK UNK # Add the options

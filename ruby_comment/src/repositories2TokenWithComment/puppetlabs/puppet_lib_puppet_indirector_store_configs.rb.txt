@@ -1,1 +1,0 @@
-UNK on_op UNK on_period UNK on_const UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK UNK target on_nl on_ignored_nl def # This will raise if the indirection can't be found, so we can assume it # is always set to a valid instance from here on in.

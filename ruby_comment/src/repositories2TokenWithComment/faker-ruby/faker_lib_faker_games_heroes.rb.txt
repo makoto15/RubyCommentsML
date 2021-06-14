@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a hero from Heroes 3. # # @return [String] # # @example # Faker::Games::Heroes.name #=> "Christian" # # @faker.version 1.9.2
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a specialty from Heroes 3. # # @return [String] # # @example # Faker::Games::Heroes.specialty #=> "Ballista" # # @faker.version 1.9.2
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces the name of a class from Heroes 3. # # @return [String] # # @example # Faker::Games::Heroes.klass #=> "Knight" # # @faker.version 1.9.2

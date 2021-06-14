@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a random name for a cat # # @return [String] # # @example # Faker::Creature::Cat.name #=> "Felix" # # @faker.version 1.9.2
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a random cat breed # # @return [String] # # @example # Faker::Creature::Cat.breed #=> "Scottish Fold" # # @faker.version 1.9.2
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a random cat breed registry # # @return [String] # # @example # Faker::Creature::Cat.registry #=> "Fancy Southern Africa Cat Council" # # @faker.version 1.9.2

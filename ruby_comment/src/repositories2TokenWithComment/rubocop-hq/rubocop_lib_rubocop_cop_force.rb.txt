@@ -1,3 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl def UNK on_period UNK on_nl # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl def UNK on_period UNK on_nl UNK on_op UNK UNK on_nl end on_nl # A scaffold for concrete forces.
-end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Do custom processing and invoke #run_hook at arbitrary timing.

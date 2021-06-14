@@ -1,1 +1,0 @@
-hash on_op on_lbrace on_rbrace on_period UNK on_lparen event on_period UNK on_rparen on_nl on_ignored_nl matchers on_period UNK do on_op UNK on_comma # event.payload.dup does not work; HashWithIndifferentAccess is # a source of trouble here.

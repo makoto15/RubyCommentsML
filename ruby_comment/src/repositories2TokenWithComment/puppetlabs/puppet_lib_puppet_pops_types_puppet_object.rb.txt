@@ -1,3 +1,0 @@
-UNK on_const on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK # Marker module for implementations that are mapped to Object types # @api public
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK # Returns the Puppet Type for this instance. The implementing class must # add the {#_pcore_type} as a class method. # # @return [PObjectType] the type
-UNK UNK on_const UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl end on_nl UNK # Create a parameterized type based on the values of this instance that # contains a parameter value for each type parameter that matches an # attribute by name and type of value

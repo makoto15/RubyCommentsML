@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_period UNK on_lparen UNK on_comma UNK on_comma on_op on_duplicated on_rparen on_ignored_nl # frozen_string_literal: true
-UNK on_const on_nl UNK UNK on_period UNK on_lparen UNK on_comma UNK on_comma on_op on_duplicated on_rparen on_ignored_nl tree on_op UNK on_const # Find duplicated keys from YAML.
-tree on_op UNK on_const on_op on_const on_period UNK on_lparen on_const on_op on_const on_rparen on_op on_const on_op on_const on_period UNK on_lparen # Ruby 2.6+
-on_const on_period UNK on_lparen UNK on_comma UNK UNK on_rparen on_nl UNK on_ignored_nl on_const on_period UNK on_lparen UNK on_comma UNK on_rparen # Specify filename to display helpful message when it raises # an error.

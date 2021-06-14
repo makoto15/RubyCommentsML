@@ -1,5 +1,0 @@
-result on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK response on_lbracket on_symbeg code on_rbracket on_op on_int on_op response on_lbracket on_symbeg # This is considered a success
-result on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl result on_period UNK on_op true on_nl UNK response on_lbracket on_symbeg code on_rbracket # This is temporary. They might fix their server so it should soft fail.
-result on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl result on_period UNK on_op true on_nl result on_period UNK on_op true on_nl # Connection/SSL etc... errors
-result on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl result on_period UNK on_op true on_nl UNK on_ignored_nl result on_period UNK on_op # Rate limit exceeded, treat as a hard fail and don't send bounces
-result on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl result on_period UNK on_op on_lparen on_const on_period UNK on_op UNK # This is permanent. Any other error isn't cool with us.

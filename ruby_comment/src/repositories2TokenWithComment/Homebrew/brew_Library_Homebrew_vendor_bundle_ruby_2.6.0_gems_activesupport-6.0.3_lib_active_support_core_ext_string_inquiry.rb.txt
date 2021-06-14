@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP EMP # Wraps the current string in the <tt>ActiveSupport::StringInquirer</tt> class, # which gives you a prettier way to test for equality. # # env = 'production'.inquiry # env.production? # => true # env.development? # => false

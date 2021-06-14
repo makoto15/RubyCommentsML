@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK UNK on_comma # frozen_string_literal: true
-UNK on_const on_nl UNK UNK UNK on_comma UNK tag_expressions on_comma UNK UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_comma UNK # TODO: Kill pointless wrapper for Before, After and AfterStep hooks with fire
-tag_expressions on_period UNK UNK on_op tag_expression on_op tag_expression on_op on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_op tag_expression UNK on_nl # TODO: remove when '~@no-clobber' has been changed to 'not @no-clobber' in aruba

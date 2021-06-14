@@ -1,2 +1,0 @@
-on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK UNK UNK UNK on_op agent on_op on_ignored_nl target on_op agent UNK UNK on_lparen on_tstring_beg on_tstring_content # file type and file bucket interop
-on_ignored_nl UNK UNK UNK UNK on_op agent on_op on_ignored_nl target on_op agent UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # look into combining with ticket_4622_filebucket_diff_test.rb # Use block style `test_run`

@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK rainbow on_nl UNK on_op UNK on_ignored_nl rainbow on_op UNK # frozen_string_literal: true
-UNK UNK on_nl UNK rainbow on_nl UNK on_op UNK on_ignored_nl rainbow on_op UNK on_period UNK on_nl UNK UNK UNK UNK # This mix-in module provides string coloring methods for terminals. # It automatically disables coloring if coloring is disabled in the process # globally or the formatter's output is not a terminal.

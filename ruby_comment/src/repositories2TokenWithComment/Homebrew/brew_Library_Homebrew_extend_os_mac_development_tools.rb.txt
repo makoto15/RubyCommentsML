@@ -1,5 +1,0 @@
-on_ignored_nl UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_op UNK on_nl UNK UNK UNK on_nl UNK UNK # frozen_string_literal: true
-UNK on_const on_nl UNK on_op UNK on_nl UNK UNK UNK on_nl UNK UNK on_comma UNK on_comma UNK on_comma on_ignored_nl UNK # @private
-def UNK on_nl on_const on_op on_const on_period UNK on_op on_const on_op on_const on_period UNK on_nl end on_nl on_ignored_nl def UNK # Checks if the user has any developer tools installed, either via Xcode # or the CLT. Convenient for guarding against formula builds when building # is impossible.
-on_const UNK UNK on_tstring_content UNK UNK on_period UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_const on_period UNK on_op UNK # The system Curl is too old for some modern HTTPS certificates on # older macOS versions.
-on_const on_period UNK on_op UNK UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_nl UNK on_tstring_content UNK on_tstring_content UNK # The system Subversion is too old for some HTTPS certificates on # older macOS versions.

@@ -1,3 +1,0 @@
-UNK UNK on_period UNK UNK UNK UNK UNK UNK on_op UNK on_nl UNK on_op UNK on_nl UNK UNK on_nl UNK # Converts a Windows shortname to a long name. This only works # for ASCII paths currently and doesn't use the wide character # support.
-UNK on_op UNK on_nl UNK on_op UNK on_nl UNK UNK on_nl UNK on_op UNK UNK UNK on_op UNK on_nl UNK # We loop over the API call in case we didn't allocate enough # buffer space. In general it is usually enough.
-UNK on_op UNK on_nl UNK on_nl end on_nl UNK UNK on_nl end on_nl UNK UNK UNK on_period UNK on_period UNK # If the length returned is larger than our buffer length, # it is the API telling us it needs more space. Allocate it # and retry.

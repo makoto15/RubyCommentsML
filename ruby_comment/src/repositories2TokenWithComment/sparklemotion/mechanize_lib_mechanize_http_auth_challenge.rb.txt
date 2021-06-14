@@ -1,9 +1,0 @@
-on_ignored_nl UNK on_const on_nl on_ignored_nl on_ignored_nl on_ignored_nl on_ignored_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK UNK on_nl end on_nl ## # A parsed WWW-Authenticate header
-on_ignored_nl on_ignored_nl on_ignored_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl on_ignored_nl UNK UNK UNK ## # :attr_accessor: scheme # # The authentication scheme
-on_ignored_nl on_ignored_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl on_ignored_nl UNK UNK UNK on_nl ## # :attr_accessor: params # # The authentication parameters
-on_ignored_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl on_ignored_nl UNK UNK UNK on_nl UNK ## # :method: initialize # # :call-seq: # initialize(scheme = nil, params = nil) # # Creates a new AuthChallenge header with the given scheme and parameters
-on_ignored_nl UNK on_op UNK on_nl UNK UNK UNK UNK on_nl end on_nl on_ignored_nl on_ignored_nl UNK UNK UNK on_nl UNK UNK ## # Retrieves +param+ from the params list
-on_ignored_nl UNK UNK UNK on_nl UNK UNK on_nl UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_ignored_nl UNK on_const on_comma on_tstring_beg on_tstring_content on_tstring_end ## # Constructs an AuthRealm for this challenge
-on_ignored_nl UNK UNK on_nl UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_const on_op UNK end on_nl on_ignored_nl on_ignored_nl UNK UNK ## # The name of the realm for this challenge
-end on_nl on_ignored_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl end on_nl on_ignored_nl end on_nl on_ignored_nl EMP EMP EMP EMP EMP # NTLM has a string for params
-on_ignored_nl UNK UNK UNK on_nl on_ignored_nl end on_nl on_ignored_nl end on_nl on_ignored_nl EMP EMP EMP EMP EMP EMP EMP EMP ## # The raw authentication challenge

@@ -1,5 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK # The country index file includes CountryIndexDefinition which provides # a country method used to define each country in the index. # # @private
-UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK #:nodoc:
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Class methods for inclusion. # # @private
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK #:nodoc: # Defines a country with an ISO 3166 country code, name and block. The # block will be evaluated to obtain all the timezones for the country. # Calls Country.country_defined with the definition of each country.
-UNK UNK on_nl UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP # Returns a frozen hash of all the countries that have been defined in # the index.

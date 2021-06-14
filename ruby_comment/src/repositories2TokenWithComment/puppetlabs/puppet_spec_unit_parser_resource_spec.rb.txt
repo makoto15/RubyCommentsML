@@ -1,3 +1,0 @@
-edges on_op catalog on_period edges on_period UNK on_lbrace on_op e on_op on_lbracket e on_period source on_period ref on_comma e on_period # Stringify them to make for easier lookup
-expect on_lparen result on_lbracket on_symbeg foo on_rbracket on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl expect on_lparen result # The name will be in here, also.
-it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl resource on_op on_const on_op on_const on_op on_const on_period new on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg # part of #629 -- the undef keyword. Make sure 'undef' params get skipped.

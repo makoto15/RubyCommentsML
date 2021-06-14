@@ -1,2 +1,0 @@
-task_file on_op UNK on_symbeg name on_op task_file on_comma on_symbeg content on_op on_tstring_beg on_tstring_content on_tstring_end UNK on_nl end on_nl on_const on_period # default content to acceptable metadata
-plan_file on_op UNK on_symbeg name on_op plan_file on_comma on_symbeg content on_op on_tstring_beg on_tstring_content on_tstring_end UNK on_nl end on_nl on_const on_period # default content to acceptable metadata

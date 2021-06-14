@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_tstring_beg UNK on_tstring_end on_nl UNK on_tstring_beg UNK on_tstring_end on_nl UNK on_tstring_beg UNK on_tstring_end on_nl UNK on_tstring_beg UNK on_tstring_end # frozen_string_literal: true
-def UNK on_nl UNK on_nl UNK on_const on_op on_const on_op on_const on_nl on_tstring_beg on_tstring_end on_nl end on_nl on_ignored_nl def UNK # Allow a config to be started without a file present

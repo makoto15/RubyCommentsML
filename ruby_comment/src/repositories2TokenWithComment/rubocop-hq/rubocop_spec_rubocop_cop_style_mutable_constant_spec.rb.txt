@@ -1,2 +1,0 @@
-on_ignored_nl on_const on_period UNK on_const on_op on_const on_op on_const on_op on_const on_comma on_symbeg UNK do on_ignored_nl UNK on_lparen on_symbeg UNK # frozen_string_literal: true
-UNK on_const on_op on_const on_period UNK on_period UNK on_lparen UNK on_rparen on_nl context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl let on_lparen # TODO : It is not yet decided when frozen string will be the default. # It has been abandoned in the Ruby 3.0 period, but may default in # the long run. So these tests are left with a provisional value of 4.0.

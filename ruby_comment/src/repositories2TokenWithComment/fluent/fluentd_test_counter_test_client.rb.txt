@@ -1,5 +1,0 @@
-UNK on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_period UNK on_lparen UNK on_rparen on_nl on_ivar on_op # timecop isn't compatible with EventTime
-on_const on_period UNK on_lparen on_const on_period UNK on_op UNK on_rparen on_nl end on_nl on_ignored_nl sub_test_case on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # Since Timecop.travel() causes test failures on Windows/AppVeyor by inducing # rounding errors to Time.now, we need to use Timecop.freeze() instead.
-UNK on_lparen travel_sec on_rparen on_nl on_ignored_nl v2 on_op on_ivar on_period reset on_lparen on_ivar on_rparen on_period get on_nl data on_op v2 # greater than reset_interval
-UNK on_lparen travel_sec on_rparen on_nl on_ignored_nl v2 on_op on_ivar on_period reset on_lparen on_ivar on_rparen on_period get on_nl data on_op v2 # less than reset_interval
-UNK on_lparen travel_sec on_rparen on_nl on_ignored_nl response on_op on_ivar on_period reset on_lparen on_ivar on_comma unknown_name on_rparen on_period get on_nl data # greater than reset_interval

@@ -1,5 +1,0 @@
-on_ignored_nl on_const on_op on_const on_period UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK do on_ignored_nl on_ivar on_period UNK on_lparen on_tstring_beg on_tstring_content # frozen_string_literal: true
-expect do on_ignored_nl expect on_lparen on_ivar on_rparen on_period to have_current_path on_lparen nil on_rparen on_nl end on_period not_to UNK on_nl on_ignored_nl # Without ignore_query option
-expect do on_ignored_nl expect on_lparen on_ivar on_rparen on_period to have_current_path on_lparen nil on_comma on_label true on_rparen on_nl end on_period not_to # With ignore_query option
-expect do on_ignored_nl expect on_lparen on_ivar on_rparen on_period not_to have_current_path on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_period not_to UNK # Without ignore_query option
-expect do on_ignored_nl expect on_lparen on_ivar on_rparen on_period not_to have_current_path on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_label true on_rparen on_nl end # With ignore_query option

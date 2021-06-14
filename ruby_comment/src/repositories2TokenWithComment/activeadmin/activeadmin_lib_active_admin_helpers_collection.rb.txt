@@ -1,1 +1,0 @@
-UNK UNK UNK c on_op UNK UNK UNK UNK c on_period UNK UNK c on_period UNK UNK UNK UNK on_nl # 1. removes `select` and `order` to prevent invalid SQL # 2. correctly handles the Hash returned when `group by` is used

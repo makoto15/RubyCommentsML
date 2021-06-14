@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl def UNK on_lparen name on_comma UNK on_comma # frozen_string_literal: true
-end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # rubocop:disable Style/CaseEquality

@@ -1,4 +1,0 @@
-on_ignored_nl def UNK on_nl result on_op UNK on_period UNK on_lparen self on_period name on_comma on_const on_op on_const on_op on_const on_op # # SPF #
-on_ignored_nl def UNK on_nl domain on_op on_tstring_beg on_embexpr_beg UNK on_embexpr_end on_tstring_content on_embexpr_beg name on_embexpr_end on_tstring_end on_nl result on_op UNK on_period # # DKIM #
-on_ignored_nl def UNK on_nl result on_op UNK on_period UNK on_lparen self on_period name on_comma on_const on_op on_const on_op on_const on_op # # MX #
-on_ignored_nl def UNK on_nl result on_op UNK on_period UNK on_lparen self on_period UNK on_comma on_const on_op on_const on_op on_const on_op # # Return Path #

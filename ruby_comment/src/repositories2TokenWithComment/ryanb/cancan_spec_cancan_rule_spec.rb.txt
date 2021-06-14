@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_op on_const do on_ignored_nl UNK UNK on_symbeg UNK UNK do on_ignored_nl on_ivar on_op on_lbrace on_rbrace on_nl on_ivar # for OpenStruct below
-UNK on_const on_op on_const do on_ignored_nl UNK UNK on_symbeg UNK UNK do on_ignored_nl on_ivar on_op on_lbrace on_rbrace on_nl on_ivar on_op # Most of Rule functionality is tested in Ability specs

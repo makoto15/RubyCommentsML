@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # frozen_string_literal: true
-UNK UNK on_nl user on_op UNK on_nl UNK UNK on_lparen on_label on_symbeg UNK on_rparen on_comma on_label UNK on_tstring_beg on_tstring_content on_tstring_end # Sign in with oauth2 token. This is just to test that it isn't misinterpreted as basic authentication

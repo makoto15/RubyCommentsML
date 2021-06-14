@@ -1,5 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK on_ignored_nl UNK on_const on_op on_const # frozen_string_literal: true
-UNK on_const on_op on_const on_nl on_const on_op UNK on_ignored_nl UNK on_const on_op on_const UNK on_ignored_nl UNK on_const on_op on_const UNK # A node extension for `regexp` nodes. This will be used in place of a plain # node when the builder constructs the AST, making its methods available # to all `regexp` nodes within RuboCop.
-UNK UNK on_nl UNK on_op UNK on_period UNK on_period UNK UNK on_op UNK on_op on_const UNK UNK UNK UNK on_period # @return [Regexp] a regexp of this node
-UNK UNK on_nl UNK on_period UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK on_period UNK UNK on_op UNK UNK # @return [RuboCop::AST::Node] a regopt node
-UNK UNK on_nl UNK on_period UNK UNK on_op UNK UNK UNK on_period UNK UNK on_op UNK UNK UNK on_period UNK # @return [String] a string of regexp content

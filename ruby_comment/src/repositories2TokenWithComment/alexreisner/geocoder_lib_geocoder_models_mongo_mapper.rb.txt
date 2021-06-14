@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_semicolon UNK UNK UNK on_semicolon end on_nl UNK UNK on_semicolon UNK UNK UNK on_semicolon end on_nl on_ignored_nl # --------------------------------------------------------------
-end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # create 2d index

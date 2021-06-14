@@ -1,2 +1,0 @@
-UNK UNK machine on_period UNK on_period UNK on_lparen UNK UNK UNK UNK UNK UNK UNK on_rparen on_nl on_ignored_nl UNK UNK # If the configured name matches the current name, then bail # We cannot use %ComputerName% because it truncates at 15 chars
-UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_ignored_nl machine on_period UNK on_period UNK on_lparen on_ignored_nl UNK on_comma # Rename and reboot host if rename succeeded

@@ -1,2 +1,0 @@
-it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_op on_heredoc_beg on_nl on_tstring_content on_heredoc_end on_ignored_nl UNK UNK on_nl provider on_period password on_op # This preserves the current semantics, but is it right? --daniel 2012-02-05
-UNK on_heredoc_beg on_nl on_tstring_content on_heredoc_end provider on_period password on_op on_tstring_beg on_tstring_content on_tstring_end on_nl expect on_lparen on_const on_period UNK on_lparen path # 15837 days after 1970-01-01

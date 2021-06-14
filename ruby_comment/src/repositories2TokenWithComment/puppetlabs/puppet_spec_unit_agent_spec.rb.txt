@@ -1,9 +1,0 @@
-end on_nl def UNK on_nl end on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_op UNK on_nl UNK on_op UNK # no-op
-end on_nl end on_nl on_ignored_nl def UNK on_nl UNK on_op UNK on_nl UNK on_op UNK on_nl UNK on_nl UNK on_op # no-op
-UNK on_lbrace on_const on_op on_const on_op on_const on_period new on_lparen on_const on_op on_const on_rparen on_rbrace on_nl allow on_lparen on_const on_op # make Puppet::Application safe for stubbing; restore in an :after block; silence warnings for this.
-UNK on_lbrace on_const on_op on_const on_op on_const on_op on_const on_period UNK on_rbrace on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end # restore Puppet::Application from stub-safe subclass, and silence warnings
-expect on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period with on_lparen UNK on_tstring_content UNK on_rparen on_nl on_ivar # This is the actual test that we inform the user why the run is skipped. # We assume this information is contained in # Puppet::Application.run_status
-on_ivar on_period run on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl client on_op on_const on_period new on_nl expect # if it doesn't run, then we know our yield is what triggers it
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_yield on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content # So we don't actually try to hit the filesystem.
-def UNK UNK end on_nl def UNK UNK end on_nl on_ignored_nl def run on_lparen UNK on_op on_lbrace on_rbrace on_rparen on_ignored_nl # Stub methods used to set test expectations.
-UNK on_ignored_nl on_op on_const on_period UNK on_lparen on_int on_rparen on_nl UNK on_lparen on_rparen on_nl UNK on_nl UNK on_lparen on_rparen on_nl # Simulate a hanging agent operation that also traps errors.

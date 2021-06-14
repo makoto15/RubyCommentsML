@@ -1,3 +1,0 @@
-UNK on_op UNK UNK UNK UNK on_nl UNK UNK on_op UNK on_nl UNK on_const on_op on_const on_op on_const UNK UNK # Parse the options
-UNK on_period UNK UNK on_op UNK on_op on_ignored_nl UNK UNK on_const on_period UNK UNK UNK UNK UNK UNK UNK UNK # Uninstall the gems
-UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

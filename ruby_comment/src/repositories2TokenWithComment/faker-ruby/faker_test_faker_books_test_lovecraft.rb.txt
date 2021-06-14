@@ -1,5 +1,0 @@
-on_ignored_nl UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl on_ivar # frozen_string_literal: true
-def UNK on_nl on_ivar on_op on_ivar on_period words on_lparen on_label on_int on_rparen on_nl on_ivar on_period UNK UNK on_op UNK on_op # Words delivered by this request should be on the wordlist.
-def UNK on_nl on_ivar on_op on_ivar on_period words on_lparen on_label on_int on_rparen on_nl on_ivar on_period UNK UNK on_op UNK on_op # Words should not return any word with spaces
-def UNK on_nl on_int on_period UNK UNK assert on_ivar on_period UNK on_lparen on_ivar on_period UNK on_rparen UNK on_nl end on_nl # Faker::Lovecraft.word generates random word from wordlist
-def UNK on_nl on_int on_period UNK UNK assert on_op on_ivar on_period UNK on_period match on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen UNK # Word should not return any word with spaces

@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK env UNK on_ignored_nl UNK UNK env UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK env UNK on_ignored_nl UNK UNK env UNK UNK UNK UNK env UNK on_nl UNK # Checks the scope in the given environment and returns the associated failure app.

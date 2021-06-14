@@ -1,1 +1,0 @@
-expect on_lparen controller on_period UNK on_period UNK on_rparen on_period to eq on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma # make controller recalculate :action_methods on the next call

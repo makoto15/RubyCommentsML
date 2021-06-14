@@ -1,1 +1,0 @@
-UNK on_period UNK on_op UNK on_nl UNK on_nl on_ignored_nl config on_period UNK on_const on_nl on_ignored_nl config on_period UNK UNK on_ignored_nl # Prevents you from mocking or stubbing a method that does not exist on a # real object. This is generally recommended, and will default to `true` in # RSpec 4.

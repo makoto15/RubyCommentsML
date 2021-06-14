@@ -1,2 +1,0 @@
-on_ivar on_lbracket on_symbeg output on_rbracket on_op UNK value on_op on_const on_op on_const on_period print_values on_lparen on_label on_ivar on_rparen on_nl expect # compulsory without default
-value on_op on_const on_op on_const on_period print_values on_lparen on_label on_ivar on_rparen on_nl expect on_lparen value on_lbracket on_symbeg rows on_rbracket on_rparen # compulsory with default

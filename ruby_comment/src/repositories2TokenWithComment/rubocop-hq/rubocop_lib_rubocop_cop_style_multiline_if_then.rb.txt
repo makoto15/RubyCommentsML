@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_period UNK on_nl # Checks for uses of the `then` keyword in multi-line if statements. # # @example # # bad # # This is considered bad practice. # if cond then # end # # # good # # If statements can contain `then` on the same line. # if cond then a # elsif cond then b # end

@@ -1,5 +1,0 @@
-UNK on_op on_const on_op on_const on_period UNK on_lparen project_path on_rparen on_nl on_ignored_nl targets on_op UNK on_period UNK on_nl UNK UNK # Load .xcodeproj
-targets on_op UNK on_period UNK on_nl UNK UNK on_nl UNK on_op UNK on_op targets on_period UNK on_lparen on_op on_symbeg UNK # Fetch target
-UNK on_op UNK on_op targets on_period UNK on_lparen on_op on_symbeg UNK on_rparen on_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg # Error to user if invalid target
-targets on_period UNK UNK on_op UNK on_op on_ignored_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg params on_lbracket on_symbeg UNK on_rbracket # Set teamid in target
-UNK on_period UNK on_period UNK UNK on_op UNK on_op on_ignored_nl UNK on_period UNK on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op params # Update the build settings

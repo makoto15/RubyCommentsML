@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK UNK # When included, this module adds configuration options to the model class's # friendly_id_config.
-UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP # This module adds the `:reserved_words` configuration option to # {FriendlyId::Configuration FriendlyId::Configuration}.

@@ -1,4 +1,0 @@
-def UNK on_lparen resource on_comma condition on_rparen on_ignored_nl on_ivar on_op resource on_nl on_ivar on_op condition on_nl on_ivar on_op UNK UNK # Instantiate a `ActiveFilter` # # @param resource [ActiveAdmin::Resource] current resource # @param condition [Ransack::Nodes::Condition] applied ransack condition
-def condition_attribute on_nl condition on_period UNK on_lbracket UNK on_rbracket on_nl end on_nl on_ignored_nl def name on_nl condition_attribute on_period UNK on_nl #@return Ransack::Nodes::Attribute
-def UNK on_nl UNK condition_attribute on_period UNK on_op UNK on_op condition_attribute on_period UNK on_period UNK on_op name on_period UNK on_nl # detect related class for Ransack::Nodes::Attribute
-UNK UNK on_op UNK on_op UNK on_period UNK on_period UNK on_op name on_period UNK UNK on_nl end on_nl end on_nl #skip polymorphic

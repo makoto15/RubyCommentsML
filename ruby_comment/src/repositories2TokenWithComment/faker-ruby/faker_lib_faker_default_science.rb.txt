@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a element. # # @return [String] # # @example # Faker::Science.element #=> "Carbon" # # @faker.version 1.8.5
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the symbol of an element. # # @return [String] # # @example # Faker::Science.element_symbol #=> "Pb" # # @faker.version 1.9.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP ## # Produces the name of a scientist. # # @return [String] # # @example # Faker::Science.scientist #=> "Isaac Newton" # # @faker.version 1.8.5

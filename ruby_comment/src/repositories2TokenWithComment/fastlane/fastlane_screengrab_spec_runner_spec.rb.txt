@@ -1,5 +1,0 @@
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl expect on_lparen mock_executor on_rparen on_period to receive # Don't actually try to pull screenshot from device
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl expect on_lparen UNK on_rparen on_period to receive # Don't actually try to pull screenshot from device
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl expect on_lparen UNK on_rparen on_period to receive # Don't actually try to pull screenshot from device
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl expect on_lparen mock_executor on_rparen on_period to receive # Don't actually try to pull screenshot from device
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl expect on_lparen mock_executor on_rparen on_period to receive # Don't actually try to pull screenshot from device

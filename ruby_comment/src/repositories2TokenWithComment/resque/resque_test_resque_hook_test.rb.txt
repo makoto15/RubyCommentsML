@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_ignored_nl on_const on_period open on_lparen file on_period path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbrace on_op f on_op f # to share state with forked process
-on_ignored_nl UNK on_ignored_nl on_const on_period open on_lparen file on_period path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbrace on_op f on_op f # to share state with forked process
-file on_op on_const on_period new on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl file2 on_op on_const on_period new on_lparen on_tstring_beg on_tstring_content on_tstring_end # use tempfiles to share state with forked process
-file on_op on_const on_period new on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl file2 on_op on_const on_period new on_lparen on_tstring_beg on_tstring_content on_tstring_end # use tempfiles to share state with forked process

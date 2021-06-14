@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a character from Breaking Bad. # # @return [String] # # @example # Faker::TvShows::BreakingBad.character #=> "Walter White" # # @faker.version 1.8.8
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces the name of an episode from Breaking Bad. # # @return [String] # # @example # Faker::TvShows::BreakingBad.episode #=> "Fly" # # @faker.version 1.8.8

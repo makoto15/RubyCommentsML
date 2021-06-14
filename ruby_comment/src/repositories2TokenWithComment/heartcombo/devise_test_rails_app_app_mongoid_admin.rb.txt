@@ -1,7 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const UNK on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
-field on_symbeg UNK on_comma on_label on_const on_nl field on_symbeg UNK on_comma on_label on_const on_nl on_ignored_nl field on_symbeg UNK on_comma on_label ## Database authenticatable
-field on_symbeg UNK on_comma on_label on_const on_nl field on_symbeg UNK on_comma on_label on_const on_nl on_ignored_nl field on_symbeg UNK on_comma on_label ## Recoverable
-field on_symbeg UNK on_comma on_label on_const on_nl on_ignored_nl field on_symbeg UNK on_comma on_label on_const on_nl field on_symbeg UNK on_comma on_label ## Rememberable
-field on_symbeg UNK on_comma on_label on_const on_nl field on_symbeg UNK on_comma on_label on_const on_nl field on_symbeg UNK on_comma on_label on_const ## Confirmable
-on_ignored_nl field on_symbeg UNK on_comma on_label on_const on_nl on_ignored_nl field on_symbeg UNK on_comma on_label on_const on_comma on_label UNK on_nl UNK # Only if using reconfirmable
-field on_symbeg UNK on_comma on_label on_const on_nl on_ignored_nl field on_symbeg UNK on_comma on_label on_const on_comma on_label UNK on_nl UNK on_nl ## Lockable

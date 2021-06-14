@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK UNK on_nl UNK UNK on_const on_op on_const on_op on_const # frozen_string_literal: true
-UNK UNK on_nl UNK UNK on_const on_op on_const on_op on_const UNK on_const on_op on_const on_op on_const UNK on_nl UNK on_nl # @private

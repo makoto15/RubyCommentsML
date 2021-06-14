@@ -1,1 +1,0 @@
-on_ivar on_op on_const on_op on_const on_op on_const on_period UNK on_lparen on_symbeg on_ivar on_rparen on_nl on_ivar on_op on_const on_op on_const on_op # Other tests may have created an authconfig, so we have to undo that.

@@ -1,3 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen path on_rparen # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen path on_rparen on_ignored_nl UNK UNK on_op UNK on_op UNK # We cannot decorate with prepend + super because Kernel has already been # included in Object, and changes in ancestors don't get propagated into # already existing ancestor chains.
-UNK UNK on_lparen path on_rparen on_ignored_nl UNK UNK on_op UNK on_op UNK on_period UNK on_lparen path on_rparen on_nl UNK path # @param path [String] # @return [Boolean]

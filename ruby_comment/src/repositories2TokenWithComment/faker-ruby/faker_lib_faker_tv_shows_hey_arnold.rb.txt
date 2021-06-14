@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Hey Arnold! # # @return [String] # # @example # Faker::TvShows::HeyArnold.character #=> "Arnold" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a location from Hey Arnold! # # @return [String] # # @example # Faker::TvShows::HeyArnold.location #=> "Big Bob's Beeper Emporium" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Hey Arnold! # # @return [String] # # @example # Faker::TvShows::HeyArnold.quote #=> "Stoop Kid's afraid to leave his stoop!" # # @faker.version 1.8.0

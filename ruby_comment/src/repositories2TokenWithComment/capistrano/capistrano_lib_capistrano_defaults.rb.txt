@@ -1,1 +1,0 @@
-set_if_empty on_symbeg UNK on_comma on_const on_op on_const on_op on_const on_op on_const on_nl set_if_empty on_symbeg UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_nl # We use a special :_default_git value so that SCMResolver can tell whether the # default has been replaced by the user via `set`.

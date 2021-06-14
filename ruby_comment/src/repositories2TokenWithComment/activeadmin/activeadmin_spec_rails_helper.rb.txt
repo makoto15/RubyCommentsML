@@ -1,2 +1,0 @@
-on_const on_period UNK on_period UNK on_op UNK on_nl on_const on_period UNK on_period UNK on_op UNK on_nl on_ignored_nl on_const on_period UNK # Disabling authentication in specs so that we don't have to worry about # it allover the place
-on_const on_op on_const on_period UNK on_op UNK UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Force deprecations to raise an exception.

@@ -1,2 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_period UNK # The TypeDefinitionInstantiator instantiates a type alias or a type definition #
-UNK on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op on_lbrace UNK name on_comma UNK UNK on_period UNK on_rbrace on_nl UNK # Not strictly a parser error but from the users perspective, the file content didn't parse properly. The # ParserError also conveys file info (even though line is unknown)

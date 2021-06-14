@@ -1,1 +1,0 @@
-UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK env UNK UNK UNK UNK UNK env ## # Prevented attack:: IP spoofing # Supported browsers:: all # More infos:: http://blog.c22.cc/2011/04/22/surveymonkey-ip-spoofing/ # # Detect (some) IP spoofing attacks.

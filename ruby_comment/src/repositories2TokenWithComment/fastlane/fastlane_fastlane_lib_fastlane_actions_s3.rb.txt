@@ -1,2 +1,0 @@
-on_const on_op on_symbeg on_const on_nl on_const on_op on_symbeg on_const on_nl on_const on_op on_symbeg on_const on_nl on_const on_op on_symbeg on_const on_nl # Using ||= because these MAY be defined by the the # preferred aws_s3 plugin
-end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # rubocop:enable Metrics/ClassLength

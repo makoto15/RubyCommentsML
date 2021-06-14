@@ -1,3 +1,0 @@
-on_ignored_nl on_ignored_nl on_ignored_nl UNK on_const on_lbracket on_int on_rbracket on_period UNK on_op on_const on_lbracket on_int on_rbracket on_period UNK on_nl UNK on_tstring_beg #!/usr/bin/env ruby
-on_ignored_nl on_ignored_nl UNK on_const on_lbracket on_int on_rbracket on_period UNK on_op on_const on_lbracket on_int on_rbracket on_period UNK on_nl UNK on_tstring_beg on_tstring_content # This script will insert a message into your database that looks like a bounce # for a message that you specify.
-on_ignored_nl UNK on_const on_lbracket on_int on_rbracket on_period UNK on_op on_const on_lbracket on_int on_rbracket on_period UNK on_nl UNK on_tstring_beg on_tstring_content on_embexpr_beg # usage: insert-bounce.rb [serverid] [messageid]

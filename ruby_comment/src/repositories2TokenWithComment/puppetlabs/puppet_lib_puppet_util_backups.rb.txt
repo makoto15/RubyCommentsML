@@ -1,6 +1,0 @@
-UNK UNK on_lparen file on_op UNK on_rparen on_ignored_nl return true UNK self on_lbracket on_symbeg backup on_rbracket on_nl on_ignored_nl file on_op # Deal with backups.
-return true UNK self on_lbracket on_symbeg backup on_rbracket on_nl on_ignored_nl file on_op self on_lbracket on_symbeg UNK on_rbracket on_nl return true # if they specifically don't want a backup, then just say # we're good
-file on_op self on_lbracket on_symbeg UNK on_rbracket on_nl return true UNK on_const on_op on_const on_period UNK on_lparen file on_rparen on_nl # let the path be specified
-return true UNK self on_lbracket on_symbeg UNK on_rbracket on_nl UNK _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_period UNK # we don't need to backup directories when recurse is on
-on_const on_period UNK on_lparen file on_comma UNK on_comma on_symbeg UNK on_op true on_rparen on_nl return true on_nl UNK on_op detail # N.B. cp_r works on both files and directories
-self on_period UNK on_const on_op on_const on_comma _ on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_op on_lbrace on_label file on_comma on_label detail # since they said they want a backup, let's error out # if we couldn't make one

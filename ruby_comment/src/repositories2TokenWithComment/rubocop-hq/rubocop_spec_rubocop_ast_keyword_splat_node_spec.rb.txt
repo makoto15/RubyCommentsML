@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_period describe UNK UNK UNK UNK UNK do on_ignored_nl let on_lparen on_symbeg kwsplat_node on_rparen on_lbrace parse_source on_lparen source # frozen_string_literal: true

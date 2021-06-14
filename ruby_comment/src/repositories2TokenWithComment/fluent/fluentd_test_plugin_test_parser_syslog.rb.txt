@@ -1,2 +1,0 @@
-data on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl test # examples from rfc3164
-UNK param on_op on_tstring_beg on_tstring_content on_tstring_end on_nl expected on_op on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content # 'message' is correct but regexp set it as 'ident'

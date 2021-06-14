@@ -1,8 +1,0 @@
-UNK on_const on_nl UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op on_const on_period UNK on_nl UNK on_op UNK on_nl on_ignored_nl # This class imports and processes CLI aliases stored in ~/.vagrant.d/aliases
-keyword on_comma command on_op UNK on_lparen line on_rparen on_nl on_ignored_nl UNK keyword on_op command on_nl UNK on_lparen keyword on_comma command # separate keyword-command pairs
-UNK UNK on_nl UNK on_nl end on_nl on_ignored_nl UNK UNK on_lparen line on_rparen on_ignored_nl UNK UNK UNK line on_period UNK # This returns all the registered alias commands.
-UNK UNK on_lparen line on_rparen on_ignored_nl UNK UNK UNK line on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # This interprets a raw line from the aliases file.
-UNK UNK UNK line on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl keyword on_comma command on_op line # is it a comment?
-UNK keyword on_period UNK on_lparen UNK on_tstring_content UNK on_rparen on_nl UNK on_const on_op on_const on_comma UNK line on_comma UNK on_tstring_beg # validate the keyword
-UNK UNK on_lparen keyword on_comma command on_rparen on_ignored_nl UNK on_period UNK on_lparen keyword on_period UNK on_rparen UNK on_ignored_nl UNK UNK # This registers an alias.
-UNK command on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_const on_op on_const on_period UNK on_tstring_beg UNK command UNK # directly execute shell commands

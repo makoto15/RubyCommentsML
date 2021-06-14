@@ -1,2 +1,0 @@
-on_const on_op on_const on_period new on_lparen on_label on_symbeg UNK on_comma on_ignored_nl on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_label false on_comma # Deprecating this in favor of a rename from "enabled_features" to "enable_services"
-on_label true on_comma on_ignored_nl on_label on_const on_op on_const on_period try_fetch_value on_lparen on_symbeg UNK on_rparen on_comma on_ignored_nl on_label true on_comma on_ignored_nl # as we also allow integers, which we convert to strings anyway

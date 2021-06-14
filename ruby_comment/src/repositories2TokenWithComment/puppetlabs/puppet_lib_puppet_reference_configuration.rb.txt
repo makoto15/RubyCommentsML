@@ -1,4 +1,0 @@
-UNK on_op name on_period to_s on_nl str on_op UNK UNK UNK on_comma UNK UNK on_nl on_ignored_nl UNK on_ignored_nl str on_op # Make each name an anchor
-UNK on_ignored_nl str on_op on_const on_op on_const on_op on_const on_period UNK UNK UNK on_period UNK UNK on_nl UNK on_op UNK # Print the doc string itself
-val on_op UNK on_period UNK on_nl UNK name on_period to_s on_op on_tstring_beg on_tstring_content on_tstring_end on_nl val on_op on_tstring_beg on_tstring_content on_tstring_end # Now print the data about the item.
-UNK val on_op on_tstring_beg on_tstring_end on_nl str on_op on_tstring_beg on_tstring_content UNK val UNK on_tstring_content on_tstring_end on_nl end on_nl str on_op # Leave out the section information; it was apparently confusing people. #str << "- **Section**: #{object.section}\n"

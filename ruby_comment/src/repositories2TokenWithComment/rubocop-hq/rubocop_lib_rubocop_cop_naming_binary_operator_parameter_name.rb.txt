@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK on_tstring_content UNK # frozen_string_literal: true
-UNK on_const on_op on_const on_nl on_const on_op UNK on_tstring_content UNK UNK on_tstring_content UNK on_nl on_ignored_nl on_const on_op UNK on_tstring_content on_words_sep # This cop makes sure that certain binary operator methods have their # sole parameter named `other`. # # @example # # # bad # def +(amount); end # # # good # def +(other); end

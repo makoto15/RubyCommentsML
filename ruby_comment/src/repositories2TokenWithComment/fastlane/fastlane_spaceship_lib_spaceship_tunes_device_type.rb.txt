@@ -1,1 +1,0 @@
-UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK # identifiers of devices that App Store Connect accepts screenshots for

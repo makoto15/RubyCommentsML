@@ -1,4 +1,0 @@
-UNK on_const UNK on_const UNK end on_nl UNK UNK on_const UNK on_const UNK end on_nl UNK UNK on_const UNK on_const # Super class for exception types that we do not want to record # explicitly as crashes or user errors
-UNK on_const UNK on_const UNK end on_nl UNK UNK on_const UNK on_const UNK end on_nl UNK UNK on_const UNK on_const # Raised when there is a build failure in xcodebuild
-UNK on_const UNK on_const UNK end on_nl UNK UNK on_const UNK on_const UNK end on_nl end on_nl end on_nl EMP # Raised when a test fails when being run by tools such as scan or snapshot
-UNK on_const UNK on_const UNK end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP # Raise this type of exception when a failure caused by a third party # dependency (i.e. xcodebuild, gradle, slather) happens.

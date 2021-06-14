@@ -1,6 +1,0 @@
-on_const on_op UNK on_nl on_ignored_nl UNK UNK on_period UNK UNK UNK UNK on_ignored_nl UNK on_op UNK UNK on_nl on_ignored_nl UNK # The chunk size for reading from subprocess IO.
-UNK UNK on_period UNK UNK UNK UNK on_ignored_nl UNK on_op UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK on_ignored_nl UNK # Reads data from an IO object while it can, returning the data it reads. # When it encounters a case when it can't read anymore, it returns the # data. # # @return [String]
-on_ignored_nl UNK on_op on_op on_const on_period UNK UNK UNK UNK UNK on_comma UNK on_comma UNK on_comma UNK UNK on_nl UNK # Windows doesn't support non-blocking reads on # file descriptors or pipes so we have to get # a bit more creative.
-UNK on_op on_op on_const on_period UNK UNK UNK UNK UNK on_comma UNK on_comma UNK on_comma UNK UNK on_nl UNK UNK # Check if data is actually ready on this IO device. # We have to do this since `readpartial` will actually block # until data is available, which can cause blocking forever # in some cases.
-UNK on_op UNK on_period UNK UNK on_const UNK on_period UNK UNK on_ignored_nl UNK UNK UNK on_comma on_const on_period UNK on_comma # Read!
-UNK on_op UNK on_period UNK UNK on_const UNK on_nl end on_nl UNK on_const on_comma on_const on_op on_const on_comma on_op on_const # Do a simple non-blocking read on the IO object

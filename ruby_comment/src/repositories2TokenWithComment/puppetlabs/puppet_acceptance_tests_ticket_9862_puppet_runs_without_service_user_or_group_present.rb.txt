@@ -1,6 +1,0 @@
-on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK # startup/configuration, high impact, low risk
-on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_symbeg UNK on_comma on_symbeg # Use block style `test_name`
-on_ignored_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK # could easily be acceptance, not package dependant, # but changing a person running the tests users and # groups can be very onerous
-UNK on_symbeg UNK on_comma on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK on_tstring_content # puppet doesn't try to manage ownership on windows.
-UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK on_tstring_content UNK on_nl UNK on_symbeg UNK on_comma on_symbeg UNK on_op UNK on_tstring_content # See PUP-5200
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_op UNK on_op UNK on_nl UNK on_nl on_ignored_nl UNK UNK on_lparen agent # See PUP-5828

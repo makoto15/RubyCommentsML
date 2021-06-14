@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl require_relative on_tstring_beg # frozen_string_literal: true
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK UNK UNK UNK on_nl UNK on_const on_op # We have to register our autocorrect incompatibilies in RuboCop's cops as well # so we do not hit infinite loops
-UNK UNK UNK UNK on_nl UNK on_const on_op on_const UNK on_const on_op on_const UNK on_nl UNK on_nl UNK on_nl UNK # rubocop:disable Style/Documentation

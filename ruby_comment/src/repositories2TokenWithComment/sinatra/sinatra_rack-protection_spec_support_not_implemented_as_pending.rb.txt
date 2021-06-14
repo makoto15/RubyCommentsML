@@ -1,1 +1,0 @@
-UNK UNK on_nl UNK UNK on_period UNK UNK UNK UNK on_ignored_nl UNK on_period UNK UNK on_ignored_nl UNK UNK UNK UNK # see http://blog.101ideas.cz/posts/pending-examples-via-not-implemented-error-in-rspec.html

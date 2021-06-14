@@ -1,2 +1,0 @@
-on_const on_op on_const on_period UNK on_lparen on_symbeg UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_comma # Create the Generate face
-UNK on_op UNK on_period UNK on_period UNK on_nl outputdir on_op on_const on_period UNK on_lparen UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen # get the common output directory (in <envroot>/.resource_types) - create it if it does not exists # error if it exists and is not a directory #

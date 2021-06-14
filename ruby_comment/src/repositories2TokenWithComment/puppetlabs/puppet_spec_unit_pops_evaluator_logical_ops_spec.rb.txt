@@ -1,2 +1,0 @@
-UNK UNK on_period UNK on_lparen UNK on_period UNK on_lparen UNK on_rparen UNK on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl UNK on_tstring_beg # relative to this spec file (./) does not work as this file is loaded by rspec
-expect UNK evaluate on_lparen literal on_lparen true on_rparen on_period and on_lparen literal on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK literal on_lparen # TODO: Change the exception type

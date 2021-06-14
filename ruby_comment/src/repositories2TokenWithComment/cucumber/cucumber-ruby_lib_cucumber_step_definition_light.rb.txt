@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK regexp_source UNK UNK location on_nl on_ignored_nl UNK UNK UNK regexp_source UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK regexp_source UNK UNK location on_nl on_ignored_nl UNK UNK UNK regexp_source UNK location UNK on_ignored_nl UNK # TODO: pointless, ancient, kill with fire. # Only used for keeping track of available and invoked step definitions # in a way that also works for other programming languages (i.e. cuke4duke) # Used for reporting purposes only (usage formatter).

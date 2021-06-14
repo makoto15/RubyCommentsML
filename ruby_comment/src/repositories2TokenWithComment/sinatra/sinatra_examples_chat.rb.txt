@@ -1,2 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_symbeg UNK UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op UNK UNK on_nl on_ignored_nl UNK #!/usr/bin/env ruby -I ../lib -I lib # coding: utf-8
-UNK on_nl on_ignored_nl UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # response without entity body

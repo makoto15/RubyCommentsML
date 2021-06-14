@@ -1,2 +1,0 @@
-UNK on_lparen compiler on_period UNK on_rparen on_period to UNK on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # For a module that does not have the file
-UNK on_lparen compiler on_period UNK on_rparen on_period to UNK on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # For a module that does not exist

@@ -1,4 +1,0 @@
-on_ignored_nl log on_tstring_beg on_tstring_content on_embexpr_beg hit_id on_embexpr_end on_tstring_end on_nl on_ignored_nl UNK on_op on_lbrace on_rbrace on_nl assignments on_period each do on_op # handle completed polls
-payload on_op on_lbrace on_tstring_beg on_tstring_content on_tstring_end on_op assignments on_period UNK on_lparen on_op on_symbeg answers on_rparen on_rbrace on_nl on_ignored_nl if UNK # handle normal completed HITs
-end on_nl memory on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_lbrace on_rbrace on_nl memory on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_lbracket hit #hit.qualifications.add :approval_rate, { :gt => 80 }
-on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl UNK on_symbeg title on_comma on_symbeg description on_comma on_symbeg questions on_nl on_ignored_nl def # RTurk Question Form

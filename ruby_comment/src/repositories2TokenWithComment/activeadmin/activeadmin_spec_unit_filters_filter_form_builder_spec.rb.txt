@@ -1,4 +1,0 @@
-let on_lparen on_symbeg UNK on_rparen do on_ignored_nl view on_op UNK on_nl def view on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl # Setup an ActionView::Base object which can be used for # generating the form for.
-expect on_lparen body on_rparen on_period to have_selector on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl expect on_lparen body on_rparen on_period to have_selector # really this should be Author ID :/)
-on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do # belongs to
-let on_lparen on_symbeg UNK on_rparen do on_ignored_nl view on_op UNK on_nl def view on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl # Setup an ActionView::Base object which can be used for # generating the form for.

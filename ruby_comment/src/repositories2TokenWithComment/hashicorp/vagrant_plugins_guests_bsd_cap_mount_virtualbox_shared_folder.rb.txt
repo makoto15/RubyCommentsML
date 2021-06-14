@@ -1,1 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_const UNK on_const UNK on_const # BSD-based guests do not currently support VirtualBox synced folders. # Instead of raising an error about a missing capability, this defines # the capability and then provides a more detailed error message, # linking to sources on the Internet where the problem is # better-described.

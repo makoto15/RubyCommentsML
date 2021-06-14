@@ -1,2 +1,0 @@
-UNK on_op UNK on_period UNK UNK on_op UNK on_op UNK on_period UNK on_lparen UNK on_tstring_content UNK on_rparen UNK on_nl UNK # remove arguments that are probably coordinates so they are not # processed as arguments (eg: -31.96047031,115.84274631)
-query on_op on_lparen UNK on_op UNK on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl if query on_op on_tstring_beg # concatenate args with coords that might have been removed # before option processing

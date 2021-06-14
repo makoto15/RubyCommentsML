@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_period UNK on_lparen collection on_comma from on_comma to on_rparen on_ignored_nl if # frozen_string_literal: true
-if collection on_period UNK on_lparen on_const on_rparen on_nl UNK collection on_period UNK on_op UNK UNK on_op UNK collection UNK on_nl # Maintains Ruby 1.8.7 String#each behaviour on 1.9

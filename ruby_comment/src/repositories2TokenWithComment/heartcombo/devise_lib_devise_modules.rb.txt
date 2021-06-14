@@ -1,6 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_period UNK on_label UNK UNK on_op d on_op on_ignored_nl d on_period UNK # frozen_string_literal: true
-d on_period UNK on_label UNK UNK on_op UNK on_op on_ignored_nl routes on_op UNK UNK on_comma on_symbeg UNK on_comma on_symbeg UNK # Strategies first
-d on_period add_module on_symbeg UNK on_comma on_label on_symbeg UNK on_comma on_label on_symbeg UNK on_nl on_ignored_nl routes on_op UNK UNK on_comma # Other authentications
-routes on_op UNK UNK on_comma on_symbeg UNK on_comma on_symbeg UNK UNK on_nl d on_period add_module on_symbeg UNK on_comma on_label on_symbeg # Misc after
-routes on_op UNK UNK on_comma on_symbeg UNK UNK on_nl d on_period add_module on_symbeg UNK on_comma on_label on_symbeg UNK on_comma on_label # The ones which can sign out after
-d on_period add_module on_symbeg UNK on_nl UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Stats for last, so we make sure the user is really signed in

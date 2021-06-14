@@ -1,1 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Tests whether the given object appears to respond to `call` with # zero parameters. In Capistrano, such a proc is used to represent a # "deferred value". That is, a value that is resolved by invoking `call` at # the time it is first needed.

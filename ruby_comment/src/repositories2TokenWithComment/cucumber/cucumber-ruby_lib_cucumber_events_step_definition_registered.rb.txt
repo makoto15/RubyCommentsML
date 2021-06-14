@@ -1,4 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK # Event fired after each step definition has been registered
-UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK # The step definition that was just registered. # # @return [RbSupport::RbStepDefinition]
-UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP # _@private

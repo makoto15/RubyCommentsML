@@ -1,5 +1,0 @@
-if record on_period UNK on_lparen on_symbeg UNK on_rparen on_nl UNK on_op record on_period UNK on_nl end on_nl on_ignored_nl value on_op # always pass routing in case record is deleted # before the queue job runs
-value on_op UNK on_lparen record on_period UNK on_period UNK on_rparen on_nl value on_op on_tstring_beg UNK value UNK on_tstring_content UNK UNK # escape pipe with double pipe
-if record on_period UNK on_lparen on_symbeg UNK on_rparen on_nl UNK on_op record on_period UNK on_nl end on_nl on_ignored_nl on_const on_op # always pass routing in case record is deleted # before the async job runs
-UNK on_lparen method_name on_rparen on_nl on_ignored_nl index on_period UNK if UNK on_nl end on_nl end on_nl on_ignored_nl UNK on_nl on_ignored_nl # bulk, inline/true/nil
-end on_nl UNK on_ignored_nl if method_name on_nl index on_period UNK on_lparen record on_comma method_name on_rparen on_nl UNK on_ignored_nl index on_period # do nothing

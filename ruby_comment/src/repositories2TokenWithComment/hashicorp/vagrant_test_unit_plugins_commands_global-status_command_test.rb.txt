@@ -1,6 +1,0 @@
-UNK on_op UNK on_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl UNK on_period UNK on_lparen UNK on_rparen on_nl end # We have to create a Vagrantfile so there is a root path
-iso_env on_period machine_index on_period set on_lparen new_entry on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rparen on_nl iso_env on_period machine_index on_period set on_lparen # Let's put some things in the index
-UNK on_op new_entry on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_period UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl locked on_op iso_env # Invalid entry because vagrantfile path is gone
-UNK on_op UNK on_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl UNK on_op new_entry on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # Invalid entry because that specific machine doesn't exist anymore.
-UNK on_op UNK on_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl UNK on_op UNK on_period UNK on_nl UNK on_op # Valid entry because the machine does exist
-UNK on_op on_lbracket on_rbracket on_nl iso_env on_period machine_index on_period UNK on_lparen UNK on_rparen on_lbrace on_op UNK on_op UNK on_op UNK # Reload the data and see that we got things correct

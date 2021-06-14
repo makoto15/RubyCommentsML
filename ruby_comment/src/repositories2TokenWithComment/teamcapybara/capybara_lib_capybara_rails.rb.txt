@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl on_const on_period UNK on_op on_const on_op on_const on_period UNK UNK on_ignored_nl UNK UNK # frozen_string_literal: true
-on_const on_period UNK UNK UNK UNK on_op UNK on_op on_ignored_nl on_const on_op on_const on_op on_const on_period UNK UNK UNK UNK # Override default rack_test driver to respect data-method attributes.

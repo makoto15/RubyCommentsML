@@ -1,2 +1,0 @@
-machine on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_end on_rparen on_nl end on_nl on_ignored_nl UNK on_op on_const # fallback to assumption that user has permission # to create the specified mountpoint
-on_const on_op on_const on_op on_const on_period UNK on_lparen UNK on_rparen on_nl on_ignored_nl UNK on_op options UNK on_symbeg UNK UNK UNK # Ensure password is scrubbed

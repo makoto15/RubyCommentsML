@@ -1,2 +1,0 @@
-prepare on_lparen on_symbeg total_pages on_op on_int on_rparen on_nl on_ivar on_period UNK on_lparen on_symbeg total_pages on_rparen on_period should on_op on_int on_nl # prepare with different object:
-showing_pages on_int on_op on_int on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl prepare on_lparen on_lbrace on_symbeg page on_op # pages 4 and 8 appear instead of the gap

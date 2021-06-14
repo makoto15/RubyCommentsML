@@ -1,1 +1,0 @@
-res on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_content on_tstring_end on_nl res on_period UNK on_op UNK on_nl on_rbrace on_nl on_ignored_nl # locales mount was added in 5.3.4

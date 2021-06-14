@@ -1,1 +1,0 @@
-UNK on_const UNK on_const UNK on_const on_nl UNK on_const on_nl UNK UNK UNK UNK on_lparen UNK on_rparen UNK on_const UNK # The Enumeration class provides default Enumerable::Enumerator creation for Puppet Programming Language # runtime objects that supports the concept of enumeration. #

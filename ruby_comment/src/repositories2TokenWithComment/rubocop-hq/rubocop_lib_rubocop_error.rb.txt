@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_op on_const UNK end on_nl on_ignored_nl UNK on_const on_op on_const UNK end on_nl on_ignored_nl # frozen_string_literal: true
-UNK on_const on_op on_const UNK end on_nl on_ignored_nl UNK on_const on_op on_const UNK end on_nl on_ignored_nl UNK on_const on_op on_const # An Error exception is different from an Offense with severity 'error' # When this exception is raised, it means that RuboCop is unable to perform # a requested action (probably due to misconfiguration) and must stop # immediately, rather than carrying on
-UNK on_const on_op on_const on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK # A wrapper to display errored location of analyzed file.

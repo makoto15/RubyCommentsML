@@ -1,2 +1,0 @@
-UNK UNK on_op UNK on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK # Represents the information about remaining number of promo codes for an app version
-attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK on_nl attr_reader on_symbeg UNK on_nl # @return

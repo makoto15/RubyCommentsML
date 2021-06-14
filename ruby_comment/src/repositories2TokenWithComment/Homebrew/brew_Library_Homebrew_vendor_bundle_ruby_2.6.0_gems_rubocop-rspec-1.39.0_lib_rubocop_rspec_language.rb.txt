@@ -1,3 +1,0 @@
-on_ignored_nl module on_const on_nl module on_const on_nl module on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
-module on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl def UNK on_lparen selectors on_rparen on_ignored_nl UNK # RSpec public API methods that are commonly used in cops
-UNK on_const on_nl def UNK on_lparen selectors on_rparen on_ignored_nl UNK on_op selectors on_nl end on_nl on_ignored_nl def on_op on_lparen UNK # Set of method selectors

@@ -1,4 +1,0 @@
-UNK on_op UNK on_period UNK on_period UNK on_lparen on_ignored_nl on_symbeg UNK on_comma opts on_lbracket on_symbeg UNK on_rbracket on_rparen on_nl on_ignored_nl # Expand the guest path so we can handle things like "~/vagrant"
-UNK on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_end on_rparen on_nl on_ignored_nl UNK on_op opts on_lbracket on_symbeg # Do the actual creating and mounting
-UNK on_op opts on_lbracket on_symbeg UNK on_rbracket on_period UNK on_nl UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content # Mount
-UNK on_op on_lbracket on_tstring_beg on_tstring_content on_embexpr_beg opts on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_end on_rbracket on_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end # Figure out any options

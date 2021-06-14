@@ -1,2 +1,0 @@
-UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
-UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK # Checks that the first argument to an example group is not empty. # # @example # # bad # describe do # end # # RSpec.describe do # end # # # good # describe TestedClass do # end # # describe "A feature example" do # end

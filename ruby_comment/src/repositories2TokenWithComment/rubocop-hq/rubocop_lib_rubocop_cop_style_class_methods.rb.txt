@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK # frozen_string_literal: true
-UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen node on_rparen on_ignored_nl UNK UNK # This cop checks for uses of the class/module name instead of # self, when defining class/module methods. # # @example # # bad # class SomeClass # def SomeClass.class_method # # ... # end # end # # # good # class SomeClass # def self.class_method # # ... # end # end
-UNK UNK UNK on_op node on_period UNK on_nl on_ignored_nl UNK on_lparen node on_period UNK on_comma UNK UNK UNK on_rparen on_nl # check if the class/module name matches the definee for the defs node

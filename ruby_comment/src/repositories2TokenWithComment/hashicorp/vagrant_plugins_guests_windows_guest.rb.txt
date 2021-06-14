@@ -1,1 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP # See if the Windows directory is present.

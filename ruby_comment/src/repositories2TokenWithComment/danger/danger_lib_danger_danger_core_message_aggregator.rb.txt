@@ -1,7 +1,0 @@
-UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK UNK on_period # frozen_string_literal: true
-UNK UNK on_nl on_ivar on_period UNK UNK on_op UNK on_comma UNK on_op UNK on_period UNK on_lparen UNK on_rparen UNK on_nl # aggregates the messages into an array of MessageGroups # @return [[MessageGroup]]
-on_ivar on_period UNK UNK on_op UNK on_comma UNK on_op UNK on_period UNK on_lparen UNK on_rparen UNK on_nl on_ignored_nl UNK on_op # oookay I took some shortcuts with this one. # first, sort messages by file and line
-UNK on_op on_const on_period UNK on_lparen on_label UNK on_comma on_ignored_nl on_label UNK on_rparen on_nl on_ivar on_op on_ivar on_period UNK on_lparen # now create an initial empty message group
-UNK UNK on_period UNK on_op UNK on_nl UNK on_nl UNK on_ignored_nl UNK on_op on_const on_period UNK on_lparen on_label UNK on_period # We get to take a shortcut because we sorted the messages earlier - only # have to see if we can append msg to the last group in the list
-UNK on_nl UNK on_ignored_nl UNK on_op on_const on_period UNK on_lparen on_label UNK on_period UNK on_comma on_ignored_nl on_label UNK on_period UNK # we appended it, so return groups unchanged
-UNK on_op on_const on_period UNK on_lparen on_label UNK on_period UNK on_comma on_ignored_nl on_label UNK on_period UNK on_rparen on_nl UNK on_op # have to create a new group since msg wasn't appended to the other # group

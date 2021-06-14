@@ -1,4 +1,0 @@
-attr_accessor on_symbeg application on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl on_ignored_nl # @return (Spaceship::Tunes::Application) A reference to the application
-attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl attr_accessor # @return (String) the IAP Referencename
-attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg # @return (String) the IAP Product-Id
-attr_accessor on_symbeg UNK on_nl on_ignored_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK on_nl attr_accessor on_symbeg UNK # @return (String) Family Reference Name

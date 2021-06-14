@@ -1,1 +1,0 @@
-UNK on_nl end on_nl on_ignored_nl def UNK on_nl UNK prompt on_op default on_period UNK on_nl on_const on_period UNK on_lparen on_symbeg # when stdio gets closed

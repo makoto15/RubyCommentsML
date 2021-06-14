@@ -1,2 +1,0 @@
-UNK on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl UNK on_period UNK on_nl end on_nl on_ignored_nl let on_lparen on_symbeg UNK on_rparen # We have to create a Vagrantfile so there is a root path
-allow on_lparen subject on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period on_ignored_nl and_return on_lparen on_lbracket ipaddr on_rbracket on_rparen on_nl # mock the call to PrepareNetworks.list_interfaces so that we don't depend # on the current network interfaces

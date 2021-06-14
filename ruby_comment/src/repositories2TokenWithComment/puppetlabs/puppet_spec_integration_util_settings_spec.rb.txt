@@ -1,3 +1,0 @@
-config on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl define_settings on_lparen on_symbeg main on_comma on_ignored_nl on_symbeg config on_op on_lbrace on_ignored_nl # ᚠᛇᚻ
-settings on_period UNK on_nl on_ignored_nl UNK UNK on_nl on_ignored_nl on_const on_period UNK on_lparen config on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen do # First reparse establishes WatchedFiles
-settings on_period UNK on_nl UNK on_lparen settings on_lbracket on_symbeg UNK on_rbracket on_rparen on_period UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen # Second reparse if later than filetimeout, reparses if changed

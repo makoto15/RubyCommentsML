@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_const on_op UNK on_nl UNK on_tstring_content UNK # frozen_string_literal: true
-UNK on_const on_nl on_const on_op UNK on_nl UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content UNK on_ignored_nl def UNK on_lparen # A class that injects a require directive into the root RuboCop file. # It looks for other directives that require files in the same (cop) # namespace and injects the provided one in alpha

@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op # frozen_string_literal: true
-def UNK on_lparen key on_comma on_op attributes on_rparen on_ignored_nl UNK on_op UNK on_lparen key on_comma on_op attributes on_rparen on_nl UNK # TODO: translate attribute first # if BASE_ATTRIBUTES_KEY.key respond to a string message, then short_message is returned # if BASE_ATTRIBUTES_KEY.key respond to a Hash, means it may have problem , summary and resolution

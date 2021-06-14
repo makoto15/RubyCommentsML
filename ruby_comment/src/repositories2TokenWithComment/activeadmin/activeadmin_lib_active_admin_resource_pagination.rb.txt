@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK # The default number of records to display per page
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK on_ignored_nl UNK on_nl UNK # The default number of records to display per page
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK on_ignored_nl UNK on_nl UNK UNK UNK on_nl UNK UNK # Enable / disable pagination (defaults to true)

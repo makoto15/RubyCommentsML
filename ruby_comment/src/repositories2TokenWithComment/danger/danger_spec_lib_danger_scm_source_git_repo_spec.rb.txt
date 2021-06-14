@@ -1,4 +1,0 @@
-UNK on_lparen on_ivar on_period env on_period scm on_rparen on_period to UNK on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content # This is the thing we care about
-expect on_lparen on_ivar on_period git on_period UNK on_period UNK on_rparen on_period to eq on_lparen on_const on_op on_const on_period UNK on_lparen # Need to compact here because c50713a changes make AppVeyor fail
-expect on_lparen on_ivar on_period git on_period UNK on_period UNK on_rparen on_period to eq on_lparen on_const on_op on_const on_period UNK on_lparen # Need to compact here because c50713a changes make AppVeyor fail
-on_backtick on_tstring_content on_tstring_end on_nl on_backtick on_tstring_content on_tstring_end on_nl on_ignored_nl on_ivar on_op testing_dangerfile on_nl on_ivar on_period env on_period scm on_period diff_for_folder # Use -A here cause for older versions of git # add . don't add removed files to index

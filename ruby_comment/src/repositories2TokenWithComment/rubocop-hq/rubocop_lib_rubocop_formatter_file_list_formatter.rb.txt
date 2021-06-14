@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK # This formatter displays just a list of the files with offenses in them, # separated by newlines. The output is machine-parsable. # # Here's the format: # # /some/file # /some/other/file

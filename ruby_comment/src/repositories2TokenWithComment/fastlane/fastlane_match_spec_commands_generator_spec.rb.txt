@@ -1,2 +1,0 @@
-stub_commander_runner_args on_lparen on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_comma type on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_rparen on_nl on_ignored_nl # leaving out the command name defaults to 'run'
-end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # :init is not tested here because it does not use any tool options

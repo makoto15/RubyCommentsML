@@ -1,1 +1,0 @@
-UNK UNK on_lparen UNK on_comma UNK on_rparen on_ignored_nl UNK on_nl end on_nl end on_nl on_ignored_nl let on_lparen on_symbeg interpolator on_rparen # ignore requests for lookup options when testing interpolation

@@ -1,1 +1,0 @@
-UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK UNK UNK UNK on_const on_op on_const # This specialized {Puppet::Parameter} handles Boolean options, accepting lots # of strings and symbols for both truth and falsehood. #

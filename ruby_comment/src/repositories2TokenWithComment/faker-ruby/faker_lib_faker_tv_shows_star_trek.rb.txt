@@ -1,5 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Star Trek. # # @return [String] # # @example # Faker::TvShows::StarTrek.character #=> "Spock" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a location from Star Trek. # # @return [String] # # @example # Faker::TvShows::StarTrek.location #=> "Cardassia" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a species from Star Trek. # # @return [String] # # @example # Faker::TvShows::StarTrek.specie #=> "Ferengi" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a villain from Star Trek. # # @return [String] # # @example # Faker::TvShows::StarTrek.villain #=> "Khan Noonien Singh" # # @faker.version 1.8.0

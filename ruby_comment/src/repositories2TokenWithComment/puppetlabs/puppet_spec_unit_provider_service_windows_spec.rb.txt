@@ -1,2 +1,0 @@
-allow on_lparen provider on_period UNK on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl allow on_lparen provider on_rparen on_period to # make sure we never actually execute anything (there are two execute methods)
-UNK on_const on_period UNK on_period UNK on_nl on_lbracket on_ignored_nl on_symbeg on_const on_comma on_ignored_nl on_symbeg on_const on_comma on_ignored_nl on_symbeg on_const on_nl # We need to guard this section explicitly since rspec will always # construct all examples, even if it isn't going to run them.

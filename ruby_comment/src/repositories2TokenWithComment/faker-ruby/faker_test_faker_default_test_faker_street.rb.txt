@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_op on_const on_nl def UNK on_nl on_ivar # frozen_string_literal: true
-shire on_op UNK on_ignored_nl on_label UNK on_ignored_nl on_label UNK on_ignored_nl on_label on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_comma on_ignored_nl on_label on_lbracket # rubocop:disable Lint/InterpolationCheck
-on_const on_period UNK on_period UNK on_op on_lbracket on_symbeg shire on_rbracket on_nl on_const on_period UNK on_period UNK on_lparen on_symbeg shire on_comma # rubocop:enable Lint/InterpolationCheck

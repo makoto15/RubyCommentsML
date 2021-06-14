@@ -1,1 +1,0 @@
-UNK on_symbeg UNK on_op UNK UNK UNK on_nl UNK UNK UNK on_symbeg UNK on_op UNK UNK UNK on_nl UNK on_nl # On windows, we put our ruby ahead of anything that already # existed on the system PATH. This means that we do not need to # sort out the absolute path.

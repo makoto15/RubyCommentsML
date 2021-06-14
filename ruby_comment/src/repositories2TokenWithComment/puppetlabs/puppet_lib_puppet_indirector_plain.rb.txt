@@ -1,2 +1,0 @@
-UNK on_const UNK on_const UNK on_const UNK on_const UNK on_const UNK on_const UNK UNK UNK UNK UNK UNK UNK UNK # An empty terminus type, meant to just return empty objects.
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Just return nothing.

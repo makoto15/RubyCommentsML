@@ -1,6 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_op UNK on_period # This example logs a user in to rubygems and prints out the body of the # page after logging the user in.
-UNK on_op UNK on_period UNK on_nl UNK on_period UNK on_op UNK on_period UNK UNK on_nl UNK on_period UNK on_period UNK # Create a new mechanize object
-page on_op UNK on_period UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_nl page on_op UNK on_period UNK page on_period UNK UNK # Load the rubygems website
-form on_op page on_period UNK on_lbracket UNK on_rbracket form on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op UNK on_lbracket UNK on_rbracket on_nl # Click the login link
-form on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op UNK on_lbracket UNK on_rbracket on_nl form on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op UNK # Select the first form
-page on_op form on_period UNK form on_period UNK on_period UNK on_nl UNK UNK page on_period UNK EMP EMP EMP EMP # Submit the form

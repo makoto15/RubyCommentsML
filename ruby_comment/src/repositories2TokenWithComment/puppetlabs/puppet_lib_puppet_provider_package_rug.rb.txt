@@ -1,8 +1,0 @@
-UNK UNK on_nl UNK on_op UNK on_period UNK UNK on_symbeg UNK UNK on_nl UNK on_period UNK on_tstring_beg on_tstring_content UNK UNK # Install a package using 'rug'.
-UNK UNK on_nl UNK UNK on_comma UNK on_comma on_const on_nl UNK on_ignored_nl UNK on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end # XXX: We don't actually deal with epochs here.
-UNK on_ignored_nl UNK on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg UNK # pass
-UNK on_op on_tstring_beg on_tstring_content UNK UNK UNK on_tstring_end on_nl end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg UNK on_comma on_tstring_beg # Add the package version
-UNK UNK on_nl UNK on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_op UNK UNK on_const on_period UNK UNK # What's the latest package version available?
-UNK on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_op UNK UNK on_const on_period UNK UNK UNK on_symbeg UNK #rug can only get a list of *all* available packages?
-UNK UNK UNK on_symbeg UNK UNK on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK on_period UNK on_nl end # rug didn't find updates, pretend the current # version is the latest
-UNK on_period UNK on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # rug install can be used for update, too

@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_const on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end # frozen_string_literal: true
-do_block on_op on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content on_tstring_end on_nl multiline_argument on_period UNK on_lparen do_block on_rparen on_nl do_block on_op on_tstring_beg # rubocop:disable Style/EmptyLiteral
-multiline_argument on_period UNK on_lparen UNK on_rparen on_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl # rubocop:disable Style/EmptyLiteral

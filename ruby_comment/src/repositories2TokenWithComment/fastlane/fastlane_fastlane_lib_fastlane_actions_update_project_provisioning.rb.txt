@@ -1,7 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl end on_nl on_ignored_nl UNK on_const on_op on_const on_nl on_const on_op # coding: utf-8
-UNK on_op params on_lbracket on_symbeg UNK on_rbracket on_op on_const on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period UNK on_nl on_ignored_nl UNK on_op # assign folder from parameter or search for xcodeproj file
-UNK on_op on_const on_period UNK on_lparen UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_period user_error! on_lparen on_tstring_beg on_tstring_content on_embexpr_beg # validate folder
-unless on_const on_period UNK on_lparen params on_lbracket on_symbeg certificate on_rbracket on_rparen on_nl on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg on_const # download certificate
-on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg params on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_content on_tstring_end on_rparen on_nl UNK on_op on_const # parsing mobileprovision file
-on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content on_tstring_end on_rparen on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK # manipulate project file
-on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg UNK on_embexpr_end on_tstring_content on_tstring_end on_rparen on_nl end on_nl on_ignored_nl def self on_period UNK # complete

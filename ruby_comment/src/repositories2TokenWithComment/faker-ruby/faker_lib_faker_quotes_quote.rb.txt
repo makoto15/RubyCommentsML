@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl def UNK on_nl fetch on_lparen on_tstring_beg on_tstring_content # frozen_string_literal: true
-def UNK on_nl fetch on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP # from: http://morecoolquotes.com/famous-yoda-quotes/

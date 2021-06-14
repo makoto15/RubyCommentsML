@@ -1,3 +1,0 @@
-UNK UNK on_ignored_nl on_const on_op on_const on_op on_const on_period UNK on_lparen on_symbeg on_ivar on_comma UNK on_rparen on_nl allow on_lparen on_const # This only works if the shared behaviour is included before # the 'before' block in the including context.
-on_ivar on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ivar # Use a real mount, so the integration is a bit deeper.
-on_ivar on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl on_ivar on_op on_const on_op on_const on_op on_const on_period UNK on_lparen # Stub out the modules terminus

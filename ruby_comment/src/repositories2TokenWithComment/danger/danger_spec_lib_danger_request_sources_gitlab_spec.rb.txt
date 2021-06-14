@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_period describe on_const on_op on_const on_op # coding: utf-8
-allow on_lparen subject on_period client on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl expect on_lparen subject on_period client # Global comment gets updated as its sticky
-expect on_lparen subject on_period client on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period with on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma # Inline comment

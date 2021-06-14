@@ -1,2 +1,0 @@
-UNK UNK on_period UNK on_lparen gem_name on_rparen UNK UNK UNK on_const on_period UNK on_lparen UNK gem_name UNK UNK UNK on_rparen # will make sure a gem is installed. If it's not an appropriate error message is shown # this will *not* 'require' the gem
-UNK on_const UNK on_const on_nl on_const on_period error on_lparen on_tstring_beg on_tstring_content UNK gem_name UNK on_tstring_content on_tstring_end on_rparen on_nl on_const on_period # We don't import this by default, as it's not always the same # also e.g. cocoapods is just required and not imported

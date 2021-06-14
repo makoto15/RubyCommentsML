@@ -1,1 +1,0 @@
-version on_period UNK on_lparen on_regexp_beg on_tstring_content on_regexp_end on_rparen on_period UNK UNK on_op UNK on_comma UNK on_op UNK on_op on_int on_op # See https://github.com/rails/rails/blob/0d0c30e534af7f80ec8b18eb946aaa613ca30444/tasks/release.rb#L26

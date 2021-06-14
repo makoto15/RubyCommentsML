@@ -1,5 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a basketball team. # # @return [String] # # @example # Faker::Sports::Basketball.team #=> "Golden State Warriors" # # @faker.version 1.9.4
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a basketball player. # # @return [String] # # @example # Faker::Sports::Basketball.player #=> "LeBron James" # # @faker.version 1.9.4
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a basketball coach. # # @return [String] # # @example # Faker::Sports::Basketball.coach #=> "Gregg Popovich" # # @faker.version 1.9.4
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a position in basketball. # # @return [String] # # @example # Faker::Sports::Basketball.position #=> "Point Guard" # # @faker.version 1.9.4

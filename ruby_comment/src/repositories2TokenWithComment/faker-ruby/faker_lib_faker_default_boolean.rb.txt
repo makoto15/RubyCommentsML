@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_op UNK on_nl UNK on_op UNK on_nl UNK UNK UNK UNK on_op UNK UNK # frozen_string_literal: true
-UNK UNK UNK UNK on_op UNK UNK UNK UNK UNK UNK UNK UNK on_op UNK on_op UNK UNK on_op UNK ## # Produces a boolean # # @param true_ratio [Float] The likelihood (as a float, out of 1.0) for the method to return `true`. # @return [Boolean] # # @example # Faker::Boolean.boolean #=> true # @example # Faker::Boolean.boolean(true_ratio: 0.2) #=> false # # @faker.version 1.6.2

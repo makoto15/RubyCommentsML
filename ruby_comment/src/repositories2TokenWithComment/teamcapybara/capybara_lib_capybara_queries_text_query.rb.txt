@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl def UNK on_lparen UNK on_op UNK on_comma UNK # frozen_string_literal: true
-UNK on_const on_nl UNK on_const on_op on_const on_nl def UNK on_lparen UNK on_op UNK on_comma UNK on_comma on_label on_comma on_op # @api private
-on_ivar on_op UNK on_period UNK on_op UNK on_op UNK on_nl on_ivar on_op UNK on_nl UNK on_lparen on_ivar on_rparen on_nl UNK # rubocop:disable Style/OptionalArguments
-UNK on_nl end on_nl on_ignored_nl def UNK on_nl on_const on_op UNK on_tstring_content UNK on_tstring_content UNK on_tstring_content on_tstring_end on_nl end on_nl # An error getting the non-visible text (if element goes out of scope) should not affect the response

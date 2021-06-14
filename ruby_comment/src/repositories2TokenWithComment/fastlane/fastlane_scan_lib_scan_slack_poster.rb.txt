@@ -1,1 +1,0 @@
-end on_nl on_ignored_nl UNK on_op on_const on_period config on_lbracket on_symbeg UNK on_rbracket on_op UNK on_op on_const on_period config on_lbracket on_symbeg # send message to channel by default

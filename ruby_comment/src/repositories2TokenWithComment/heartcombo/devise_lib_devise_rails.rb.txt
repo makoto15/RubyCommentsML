@@ -1,3 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_op on_op on_const # frozen_string_literal: true
-config on_period UNK on_period UNK on_const on_op on_const do on_op config on_op on_ignored_nl on_const on_period UNK on_op config on_nl end # Initialize Warden and copy its configurations.
-config on_period UNK do on_op app on_op on_ignored_nl app on_period UNK UNK on_const on_period UNK on_nl end on_nl on_ignored_nl UNK # Force routes to be loaded if we are doing any eager load.

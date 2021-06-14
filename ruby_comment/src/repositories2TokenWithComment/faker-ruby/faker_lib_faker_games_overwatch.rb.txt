@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a hero from Overwatch. # # @return [String] # # @example # Faker::Games::Overwatch.hero #=> "Tracer" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a location from Overwatch. # # @return [String] # # @example # Faker::Games::Overwatch.location #=> "Numbani" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Overwatch. # # @return [String] # # @example # Faker::Games::Overwatch.quote #=> "It's high noon" # # @faker.version 1.8.0

@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_ignored_nl on_const on_op UNK UNK # frozen_string_literal: true
-UNK on_const on_nl UNK on_const on_op on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl def UNK on_lparen for_node # This class auto-corrects `for` iteration to `#each` enumeration.

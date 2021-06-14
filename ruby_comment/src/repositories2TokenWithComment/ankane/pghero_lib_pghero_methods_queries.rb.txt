@@ -1,1 +1,0 @@
-UNK UNK on_nl UNK on_op UNK on_nl on_tstring_content UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # from https://wiki.postgresql.org/wiki/Lock_Monitoring # and https://big-elephants.com/2013-09/exploring-query-locks-in-postgres/

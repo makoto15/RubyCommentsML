@@ -1,2 +1,0 @@
-address_components on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op on_tstring_beg on_tstring_end on_nl end on_nl UNK on_symbeg UNK UNK on_symbeg UNK on_nl on_ignored_nl # Postal code is not returned for Canada geocode results
-on_ignored_nl UNK UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl # Geocodio supports US and Canada, however they don't return the full # country name.

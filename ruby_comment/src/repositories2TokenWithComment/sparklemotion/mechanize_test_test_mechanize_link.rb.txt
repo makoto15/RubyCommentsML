@@ -1,5 +1,0 @@
-on_ignored_nl def UNK on_nl page on_op on_ivar on_period get on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl link on_op page on_period UNK # NekoHTML does not parse body of NOFRAMES
-on_ignored_nl def UNK on_nl page on_op on_ivar on_period get on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl page on_op page on_period UNK # NekoHTML does not parse body of NOFRAMES
-end on_nl on_ignored_nl def UNK on_nl page on_op on_ivar on_period get on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_const UNK # HACK no assertion
-on_ignored_nl def UNK on_nl UNK on_op on_const on_op on_const on_op on_const on_period new on_nl on_ignored_nl node on_op on_const on_op on_const # NekoHTML does not parse IFRAME
-end on_nl on_ignored_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # NekoHTML does not parse body of NOFRAMES

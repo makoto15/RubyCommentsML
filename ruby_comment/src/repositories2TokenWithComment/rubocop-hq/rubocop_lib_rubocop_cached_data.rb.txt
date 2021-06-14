@@ -1,5 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl def UNK on_lparen UNK on_rparen on_ignored_nl UNK # frozen_string_literal: true
-UNK on_const on_nl def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op UNK on_nl end on_nl on_ignored_nl def UNK on_lparen UNK # Converts RuboCop objects to and from the serialization format JSON.
-on_label offense on_period UNK on_period UNK on_comma on_ignored_nl on_label UNK on_ignored_nl on_label offense on_period UNK on_period UNK on_comma on_ignored_nl on_label # Calling #to_s here ensures that the serialization works when using # other json serializers such as Oj. Some of these gems do not call # #to_s implicitly.
-offense on_period UNK on_period UNK on_period UNK on_lparen on_op on_const on_op on_const on_rparen on_period UNK on_nl end on_nl on_ignored_nl def # JSON.dump will fail if the offense message contains text which is not # valid UTF-8
-def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_op on_const on_op on_const on_op on_const on_period UNK on_lparen UNK on_rparen on_nl UNK # Restore an offense object loaded from a JSON file.

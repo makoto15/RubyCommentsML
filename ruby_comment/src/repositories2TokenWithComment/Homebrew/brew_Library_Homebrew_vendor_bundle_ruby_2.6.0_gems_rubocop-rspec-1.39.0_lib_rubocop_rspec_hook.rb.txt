@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_symbeg UNK UNK UNK on_nl on_ignored_sp on_tstring_content # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK on_symbeg UNK UNK UNK on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp # Wrapper for RSpec hook
-meta on_period UNK on_period UNK UNK on_op UNK on_op UNK UNK on_period UNK on_op UNK on_lparen UNK on_period UNK on_rparen # This check is to be able to compare those two hooks: # # before(:example, :special) { ... } # before(:example, special: true) { ... } # # In the second case it's a node with a pair that has a value # of a `true_type?`.

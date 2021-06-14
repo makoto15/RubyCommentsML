@@ -1,1 +1,0 @@
-allow on_lparen UNK on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period and_return on_lparen UNK on_rparen on_nl allow on_lparen UNK # prevent attempting to log in with iTC

@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of a programming language. # # @return [String] # # @example # Faker::ProgrammingLanguage.name #=> "Ruby" # # @faker.version 1.8.5
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP ## # Produces the name of a programming language's creator. # # @return [String] # # @example # Faker::ProgrammingLanguage.creator #=> "Yukihiro Matsumoto" # # @faker.version 1.8.5

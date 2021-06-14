@@ -1,8 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_nl UNK on_const on_op on_const on_nl on_ignored_nl on_ivar on_op UNK # The class that handles testing whether our providers # actually work or not.
-UNK on_op on_const UNK UNK UNK UNK on_nl on_ivar UNK name UNK on_op UNK on_nl end on_nl end on_nl end # Could not find file
-UNK UNK UNK on_nl def UNK on_nl UNK on_nl end on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl def UNK on_lparen # Mark that this confine is used for testing binary existence.
-UNK UNK UNK on_nl on_ignored_nl def UNK on_lparen values on_rparen on_ignored_nl values on_op UNK values UNK UNK values on_period UNK # Used for logging.
-def UNK on_lparen value on_rparen on_ignored_nl on_tstring_beg on_tstring_end on_nl end on_nl on_ignored_nl def UNK on_nl values on_period UNK UNK on_op # Provide a hook for the message when there's a failure.
-def UNK on_nl values on_period UNK UNK on_op value on_op UNK on_lparen value on_rparen UNK on_nl end on_nl on_ignored_nl def # Collect the results of all of them.
-def UNK on_nl values on_period UNK UNK on_op value on_op on_ignored_nl UNK UNK on_lparen value on_rparen on_nl on_const on_period UNK # Test whether our confine matches.
-def UNK on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Provide a hook for subclasses.

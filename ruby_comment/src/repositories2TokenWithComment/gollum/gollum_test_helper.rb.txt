@@ -1,4 +1,0 @@
-require on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_period UNK on_op UNK on_nl on_ignored_nl on_const on_op on_const on_period UNK on_nl on_ignored_nl UNK # Silence locale validation warning
-UNK on_op UNK on_nl on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_const on_period UNK on_lparen UNK on_rparen on_comma on_op UNK # Disable the metadata feature
-on_const on_op on_const on_period UNK on_lparen on_const on_period UNK on_lparen UNK on_rparen on_comma on_op UNK on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl # Make sure we're in the test dir, the tests expect that to be the current # directory.
-def UNK on_lparen on_op UNK on_comma on_op block on_rparen on_ignored_nl UNK UNK UNK on_lparen name on_op UNK on_period UNK on_rparen # test/spec/mini 3 # http://gist.github.com/25455 # chris@ozmm.org # file:lib/test/spec/mini.rb

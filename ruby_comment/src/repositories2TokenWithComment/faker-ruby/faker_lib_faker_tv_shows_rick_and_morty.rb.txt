@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Rick and Morty. # # @return [String] # # @example # Faker::TvShows::RickAndMorty.character #=> "Rick Sanchez" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a location from Rick and Morty. # # @return [String] # # @example # Faker::TvShows::RickAndMorty.location #=> "Dimension C-132" # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Rick and Morty. # # @return [String] # # @example # Faker::TvShows::RickAndMorty.quote # #=> "Ohh yea, you gotta get schwifty." # # @faker.version 1.8.0

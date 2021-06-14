@@ -1,2 +1,0 @@
-UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK minlength on_lparen UNK on_op UNK on_rparen on_ignored_nl UNK UNK on_symbeg # frozen_string_literal: true
-UNK UNK on_nl UNK minlength on_lparen UNK on_op UNK on_rparen on_ignored_nl UNK UNK on_symbeg minlength UNK on_op UNK on_nl UNK # Needs to be enabled in order to do automatic lookups.

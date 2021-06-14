@@ -1,5 +1,0 @@
-UNK on_const on_period UNK on_lparen on_const on_period UNK on_lparen on_const on_period UNK on_lparen UNK on_rparen on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen # ~*~ encoding: utf-8 ~*~
-UNK on_op on_ivar on_period title on_nl assert_equal on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_nl end on_nl on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end # Test page_header_from_content(@content)
-title on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ivar on_period write_page on_lparen title on_comma on_symbeg markdown on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # With invalid style
-UNK on_op on_ivar on_period title on_nl assert_equal title on_comma UNK on_nl end on_nl on_ignored_nl test on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl # Title is based on file name when h1_title is false.
-on_ivar on_period write_page on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg markdown on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_nl page on_op # No breadcrumb on unnested page

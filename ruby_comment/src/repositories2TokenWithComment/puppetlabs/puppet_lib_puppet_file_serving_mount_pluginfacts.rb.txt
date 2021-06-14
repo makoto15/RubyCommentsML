@@ -1,4 +1,0 @@
-UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl UNK UNK UNK UNK UNK # Find files in the modules' pluginfacts directories. # This is a very strange mount because it merges # many directories into one.
-UNK UNK UNK UNK UNK request UNK on_ignored_nl mod on_op request on_period UNK on_period UNK on_period UNK UNK on_op UNK # Return an instance of the appropriate class.
-on_const on_period UNK UNK UNK UNK UNK UNK UNK request on_period UNK on_period UNK on_period UNK on_nl UNK on_op request # We currently only support one kind of search on plugins - return # them all.
-request on_period UNK UNK UNK UNK UNK on_op UNK on_nl request on_period UNK on_period UNK on_period UNK on_op UNK on_op # If the modulepath is valid then we still need to return a valid root # directory for the search, but make sure nothing inside it is # returned.

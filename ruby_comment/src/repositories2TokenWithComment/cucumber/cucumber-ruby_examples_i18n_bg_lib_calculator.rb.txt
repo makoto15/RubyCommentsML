@@ -1,1 +1,0 @@
-on_ivar on_period UNK UNK on_op UNK on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP # Hm, @stack.pop(2) doesn't work

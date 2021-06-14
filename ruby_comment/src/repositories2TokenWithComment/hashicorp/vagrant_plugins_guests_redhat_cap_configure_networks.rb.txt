@@ -1,5 +1,0 @@
-UNK on_op UNK on_lparen UNK on_rparen on_nl UNK on_op machine on_period UNK on_period UNK on_period UNK on_period UNK UNK on_op # Check if NetworkManager is installed on the system
-nm_controlled on_op UNK on_lparen UNK on_comma network on_lbracket on_symbeg device on_rbracket on_rparen on_nl end on_nl on_ignored_nl if on_op extra_opts on_period # Now check if the device is actively being managed by NetworkManager
-UNK on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg network on_lbracket on_symbeg UNK on_rbracket on_embexpr_end on_tstring_end on_comma on_ignored_nl UNK extra_opts # Render a new configuration
-UNK on_op on_tstring_beg on_tstring_content on_embexpr_beg network on_lbracket on_symbeg device on_rbracket on_embexpr_end on_tstring_content on_embexpr_beg on_const on_period UNK on_period UNK on_embexpr_end on_tstring_content # Upload the new configuration
-UNK on_op on_tstring_beg on_embexpr_beg UNK on_embexpr_end on_tstring_content on_embexpr_beg network on_lbracket on_symbeg device on_rbracket on_embexpr_end on_tstring_end on_nl on_ignored_nl if nm_controlled on_nl # Add the new interface and bring it back up

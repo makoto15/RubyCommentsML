@@ -1,5 +1,0 @@
-UNK on_op on_const on_period new do on_op UNK on_comma my_value on_op on_ignored_nl expect on_lparen all_devices on_rparen on_period to UNK on_lparen # a block to use in a few places later to validate the updated settings
-expect on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg on_op on_comma on_op UNK on_rparen on_period with on_lparen UNK on_comma UNK ## one occurrence of set / run / set("/dummy") for each device
-UNK on_op on_const on_period new do on_op UNK on_comma my_value on_op on_ignored_nl expect on_lparen all_devices on_rparen on_period to UNK on_lparen # a block to use in a few places later to validate the updated settings
-expect on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg on_op on_comma on_op UNK on_rparen on_period with on_lparen on_symbeg certname on_comma ## one occurrence of set / run / set("certname") for each device
-expect on_lparen found_devices on_rparen on_period to eq on_lparen all_devices on_rparen on_nl end on_nl end on_nl end on_nl end on_nl end # make sure that we were called with each of the defined devices

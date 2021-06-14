@@ -1,2 +1,0 @@
-UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK # after each item is checked for rule conformance to a single rule, a result is generated # a result can have a status of success or fail for a given rule/item
-UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK # RuleReturn

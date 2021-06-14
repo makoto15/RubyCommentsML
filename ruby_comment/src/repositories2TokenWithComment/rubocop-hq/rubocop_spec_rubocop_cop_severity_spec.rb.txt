@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_period describe UNK on_op UNK on_op UNK do on_ignored_nl UNK on_lparen on_symbeg refactor on_rparen on_lbrace described_class on_period new # frozen_string_literal: true

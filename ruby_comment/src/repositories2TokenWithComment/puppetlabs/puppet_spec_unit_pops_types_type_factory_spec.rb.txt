@@ -1,2 +1,0 @@
-expect on_lparen block_t on_rparen on_period to be on_lparen t on_rparen on_nl expect on_lparen block_t on_period class on_rparen on_period to be # given t is returned after mutation
-expect on_lparen UNK on_rparen on_period to be on_lparen t on_rparen on_nl expect on_lparen block_t on_rparen on_period to be on_lparen UNK # given t is returned after mutation

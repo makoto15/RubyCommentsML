@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl # frozen_string_literal: true
-UNK UNK UNK UNK on_op on_const on_op on_const UNK on_ignored_nl UNK UNK on_nl UNK on_ignored_nl UNK on_op UNK on_nl UNK # Silences the logger for the duration of the block.

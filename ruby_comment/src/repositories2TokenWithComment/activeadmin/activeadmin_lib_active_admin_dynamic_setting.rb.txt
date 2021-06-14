@@ -1,1 +1,0 @@
-UNK on_const on_op on_const on_nl UNK UNK on_lparen UNK on_op UNK on_rparen on_ignored_nl UNK UNK on_nl UNK on_const UNK on_const # Many configuration options (Ex: site_title, title_image) could either be # static (String), methods (Symbol) or procs (Proc). This wrapper takes care of # returning the content when String or using instance_eval when Symbol or Proc. #

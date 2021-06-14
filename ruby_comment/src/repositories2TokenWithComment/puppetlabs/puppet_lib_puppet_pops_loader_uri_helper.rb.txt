@@ -1,2 +1,0 @@
-UNK UNK on_lparen uri UNK UNK on_op UNK on_tstring_content UNK on_rparen UNK UNK uri on_period UNK on_nl UNK UNK on_tstring_content # Raises an exception if specified gem can not be located #
-on_const on_period UNK on_lparen UNK on_period UNK UNK uri on_period UNK on_period UNK on_lparen on_rparen on_op UNK on_op uri on_period # if path given append that, else append given subdir

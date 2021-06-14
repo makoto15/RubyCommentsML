@@ -1,1 +1,0 @@
-UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP # If we got this far, there are no addressable IPs

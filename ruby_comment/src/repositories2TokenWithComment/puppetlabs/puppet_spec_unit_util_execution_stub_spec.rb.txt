@@ -1,2 +1,0 @@
-expect on_lparen on_const on_op on_const on_op on_const on_period UNK on_rparen on_period to eq on_lparen UNK on_rparen on_nl end on_nl on_ignored_nl # Note: this test relies on the previous test creating a stub.
-UNK on_const on_op on_const on_op on_const on_period UNK on_nl UNK on_op UNK on_const on_op on_const on_period UNK on_lparen on_tstring_beg on_tstring_content # Note: "true" exists at different paths in different OSes

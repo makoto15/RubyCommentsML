@@ -1,3 +1,0 @@
-on_ignored_nl UNK UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Here is an example of a simple dashboard with columns and panels. # # columns do # column do # panel "Recent Posts" do # ul do # Post.recent(5).map do |post| # li link_to(post.title, admin_post_path(post)) # end # end # end # end
-UNK UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # column do # panel "Info" do # para "Welcome to ActiveAdmin." # end # end # end
-UNK on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # content

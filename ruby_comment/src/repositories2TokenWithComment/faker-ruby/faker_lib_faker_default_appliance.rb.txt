@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces the name of an appliance brand. # # @return [String] # # @example # Faker::Appliance.brand #=> "Bosch" # # @faker.version 1.9.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP ## # Produces the name of a type of appliance equipment. # # @return [String] # # @example # Faker::Appliance.equipment #=> "Appliance plug" # # @faker.version 1.9.0

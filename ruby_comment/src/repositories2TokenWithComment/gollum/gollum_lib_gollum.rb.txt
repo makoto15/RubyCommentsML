@@ -1,3 +1,0 @@
-require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl require on_tstring_beg on_tstring_content on_tstring_end # ~*~ encoding: utf-8 ~*~ # stdlib
-require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end UNK on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl require on_const UNK # external
-require on_const UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl on_const on_op on_tstring_beg on_tstring_content # internal

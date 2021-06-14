@@ -1,2 +1,0 @@
-expect on_lbrace on_const on_period UNK on_lparen UNK on_rparen on_rbrace on_period to UNK on_const on_op on_const on_nl env on_lbracket on_symbeg box_urls # Ensure the bad URL does cause an exception
-expect on_lparen UNK on_period UNK on_rparen on_period to eq on_lparen UNK on_period UNK on_rparen on_nl end on_nl on_ignored_nl it on_tstring_beg # NOTE: The behavior of URI.parse changes on Ruby 2.5 to produce # the same string value. To make the test worthwhile in checking # for the same value, check that the object IDs are still the same.

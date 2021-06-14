@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_op on_const on_period UNK on_lparen on_op on_const UNK on_label UNK UNK UNK on_label # frozen_string_literal: true
-UNK on_op on_const on_period UNK on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_op on_const on_period UNK on_lparen on_label on_tstring_beg # Create, update, and destroy a Management and a Customer
-expect on_lparen on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_nl on_rparen on_period UNK # All versions end up with an `item_type` of Customer
-expect on_lparen on_ignored_nl on_const on_op on_const on_period UNK on_lparen on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_nl on_rparen on_period UNK # The item_subtype, on the other hand, is 3 and 3

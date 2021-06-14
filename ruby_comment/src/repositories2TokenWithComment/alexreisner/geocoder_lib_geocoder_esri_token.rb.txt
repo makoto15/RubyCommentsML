@@ -1,2 +1,0 @@
-UNK on_op on_const on_op on_const on_period UNK on_const on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_comma on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_comma # creates a new token that will expire in 1 day by default
-on_ignored_nl UNK on_op on_const on_period UNK on_lparen UNK on_period UNK on_rparen on_nl on_ignored_nl UNK UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK # (minutes) max: 20160, default: 1 day

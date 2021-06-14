@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_op # frozen_string_literal: true
-UNK UNK UNK on_op UNK UNK on_ignored_nl UNK on_nl end on_nl on_ignored_nl UNK UNK on_nl message on_nl end on_nl end # remove all the unnecessary stuff from Grape::Exceptions::Base like status # and headers when converting a validation error to json or string

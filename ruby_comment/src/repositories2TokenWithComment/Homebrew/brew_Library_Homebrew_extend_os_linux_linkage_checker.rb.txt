@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK UNK on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep # frozen_string_literal: true
-UNK UNK UNK on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep # Libraries provided by glibc and gcc.
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl # glibc and gcc are implicit dependencies. # No other linkage to system libraries is expected or desired.

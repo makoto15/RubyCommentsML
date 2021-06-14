@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_const UNK on_const UNK on_const UNK UNK UNK UNK on_ignored_nl UNK on_lparen UNK UNK on_rparen UNK on_const UNK # frozen_string_literal: true

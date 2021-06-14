@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op # frozen_string_literal: true
-_ on_lparen find on_lparen on_symbeg css on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rparen on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg # deprecated
-UNK on_lparen UNK on_period UNK on_rparen on_period UNK UNK on_lparen UNK on_tstring_content UNK on_rparen on_nl end on_nl end on_nl EMP # Make sure error messages are displayed

@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen UNK UNK # frozen_string_literal: true
-UNK on_period UNK UNK UNK UNK UNK UNK on_op UNK on_nl on_ignored_nl UNK on_nl end on_nl end on_nl end on_nl # removes the rogue empty element at the beginning of the array

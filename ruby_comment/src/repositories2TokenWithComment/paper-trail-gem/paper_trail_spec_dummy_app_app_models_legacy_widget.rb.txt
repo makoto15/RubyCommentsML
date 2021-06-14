@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP # The `legacy_widgets` table has a `version` column that would conflict with our # `version` method. It is configured to define a method named `custom_version` # instead.

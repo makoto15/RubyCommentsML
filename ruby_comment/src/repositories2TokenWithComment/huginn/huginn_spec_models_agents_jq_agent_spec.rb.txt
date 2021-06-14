@@ -1,1 +1,0 @@
-agent on_period options on_lbracket on_symbeg UNK on_rbracket on_op on_tstring_beg on_tstring_end on_nl expect on_lparen agent on_rparen on_period to be_valid on_nl end # An empty expression is OK

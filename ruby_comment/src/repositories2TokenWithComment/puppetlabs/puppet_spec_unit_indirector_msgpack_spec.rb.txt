@@ -1,2 +1,0 @@
-on_ignored_nl with_content on_lparen model on_period new on_lparen UNK on_rparen on_period UNK on_rparen do on_ignored_nl instance on_op subject on_period find on_lparen # ᚠᛇᚻ
-expect on_lparen on_const on_op on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen file on_comma on_lbrace on_symbeg # I don't like this, but there isn't a credible alternative that # also works on Windows, so a stub it is. At least the expectation # will fail if the implementation changes. Sorry to the next dev.

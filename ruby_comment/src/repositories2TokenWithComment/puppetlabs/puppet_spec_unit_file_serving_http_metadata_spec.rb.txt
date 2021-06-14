@@ -1,2 +1,0 @@
-UNK on_op on_const on_period UNK on_lparen on_const on_period UNK on_period UNK on_rparen on_nl metadata on_op described_class on_period new on_lparen http_response # Stringifying Time.now does some rounding; do so here so we don't end up with a time # that's greater than the stringified version returned by collect.
-allow on_lparen http_response on_rparen on_period to receive on_lparen on_symbeg on_op on_rparen on_period with on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period and_return # HTTP uses "GMT" not "UTC"

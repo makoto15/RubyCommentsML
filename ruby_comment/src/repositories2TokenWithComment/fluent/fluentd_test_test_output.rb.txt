@@ -1,8 +1,0 @@
-d on_op create_driver on_nl assert_equal on_tstring_beg on_tstring_content on_tstring_end on_comma d on_period instance on_period UNK on_nl assert_equal on_int on_comma d on_period # default
-d on_op create_driver on_lparen on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert_equal on_int on_comma d on_period instance on_period UNK on_nl # max_retry_wait
-d on_op create_driver on_lparen on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl assert_equal true on_comma d on_period instance on_period UNK on_nl # disable_retry_limit
-end on_nl on_ignored_nl class on_const on_op on_const on_op on_const on_nl def UNK on_nl UNK on_nl on_ivar on_op UNK on_nl end #### retry_state cares it # # retry_wait is converted to Float for calc_retry_wait # d = create_driver(CONFIG + %[retry_wait 1s]) # assert_equal Float, d.instance.retry_wait.class
-UNK on_nl UNK UNK on_nl UNK on_op on_ivar on_nl UNK on_nl UNK UNK on_nl end on_nl end on_nl on_ignored_nl def # ensure OutputThread to start successfully
-d on_op on_const on_op on_const on_op on_const on_period new on_lparen on_const on_op on_const on_rparen on_nl on_ignored_nl UNK on_lparen d on_period # ObjectBufferedOutput doesn't implement `custom_filter`
-d on_op create_driver on_nl assert_equal true on_comma d on_period instance on_period UNK on_nl end on_nl end on_nl on_ignored_nl class on_const # default
-end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl d on_op create_driver on_lparen on_const on_op on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl # default timezone is UTC

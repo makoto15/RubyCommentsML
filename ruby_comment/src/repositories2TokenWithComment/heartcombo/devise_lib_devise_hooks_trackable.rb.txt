@@ -1,2 +1,0 @@
-UNK UNK on_op UNK on_period UNK UNK UNK UNK UNK on_op UNK UNK UNK UNK UNK on_op UNK UNK UNK # frozen_string_literal: true
-UNK on_op UNK on_period UNK UNK UNK UNK UNK on_op UNK UNK UNK UNK UNK on_op UNK UNK UNK on_period # After each sign in, update sign in time, sign in count and sign in IP. # This is only triggered when the user is explicitly set (with set_user) # and on authentication. Retrieving the user from session (:fetch) does # not trigger it.

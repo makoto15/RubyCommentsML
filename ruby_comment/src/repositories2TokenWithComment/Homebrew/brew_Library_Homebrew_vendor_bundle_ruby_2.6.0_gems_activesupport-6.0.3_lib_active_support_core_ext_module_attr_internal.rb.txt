@@ -1,5 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_lparen on_op attrs on_rparen on_ignored_nl attrs UNK UNK UNK on_op attr_name on_op UNK on_lparen # frozen_string_literal: true
-UNK UNK on_lparen on_op attrs on_rparen on_ignored_nl attrs UNK UNK UNK on_op attr_name on_op UNK on_lparen attr_name on_comma on_symbeg UNK # Declares an attribute reader backed by an internally-named instance variable.
-UNK UNK on_lparen on_op attrs on_rparen on_ignored_nl attrs UNK UNK UNK on_op attr_name on_op UNK on_lparen attr_name on_comma on_symbeg UNK # Declares an attribute writer backed by an internally-named instance variable.
-UNK UNK on_lparen on_op attrs on_rparen on_ignored_nl UNK on_lparen on_op attrs on_rparen on_nl UNK on_lparen on_op attrs on_rparen on_nl end # Declares an attribute reader and writer backed by an internally-named instance # variable.
-UNK on_lparen UNK UNK UNK UNK UNK UNK on_comma internal_name on_rparen on_nl attr_name on_comma internal_name on_op UNK UNK attr_name UNK # use native attr_* methods as they are faster on some Ruby implementations

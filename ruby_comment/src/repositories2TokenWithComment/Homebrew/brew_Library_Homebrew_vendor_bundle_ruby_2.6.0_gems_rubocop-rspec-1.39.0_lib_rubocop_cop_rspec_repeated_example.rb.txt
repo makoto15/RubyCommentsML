@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK # frozen_string_literal: true
-UNK on_const on_op on_const on_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_rparen on_ignored_nl UNK UNK # Check for repeated examples within example groups. # # @example # # it 'is valid' do # expect(user).to be_valid # end # # it 'validates the user' do # expect(user).to be_valid # end #

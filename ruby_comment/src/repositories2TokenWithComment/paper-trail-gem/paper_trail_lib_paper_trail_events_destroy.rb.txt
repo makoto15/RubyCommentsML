@@ -1,4 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_op UNK on_nl UNK data # frozen_string_literal: true
-UNK UNK on_op UNK on_nl UNK data on_nl data on_op UNK on_ignored_nl UNK UNK on_period UNK on_comma on_ignored_nl UNK UNK # See docs in `Base`. # # @api private
-UNK data on_nl data on_op UNK on_ignored_nl UNK UNK on_period UNK on_comma on_ignored_nl UNK UNK on_period UNK on_period UNK on_period # Return attributes of nascent `Version` record. # # @api private
-UNK UNK on_nl UNK on_period UNK on_period UNK UNK on_op UNK on_comma UNK on_op UNK UNK on_comma UNK UNK on_comma # Rails' implementation (eg. `@record.saved_changes`) returns nothing on # destroy, so we have to build the hash we want. # # @override

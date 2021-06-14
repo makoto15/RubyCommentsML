@@ -1,7 +1,0 @@
-UNK UNK on_op UNK on_op UNK on_op UNK on_nl UNK on_op self on_nl UNK UNK UNK on_nl end on_nl on_ignored_nl # A type of log destination.
-def self on_period UNK on_lparen obj on_rparen on_ignored_nl on_ivar on_op UNK UNK on_nl on_ivar on_op obj on_nl end on_nl on_ignored_nl # Mark the things we're supposed to match.
-def self on_period UNK on_lparen obj on_rparen on_ignored_nl UNK obj on_period UNK UNK UNK obj on_op UNK UNK UNK on_nl # See whether we match a given thing.
-UNK obj on_period UNK UNK UNK obj on_op UNK UNK UNK on_nl obj on_op obj on_period UNK on_period UNK on_nl # Convert single-word strings into symbols like :console and :syslog
-UNK UNK UNK UNK on_op obj UNK UNK on_op obj on_period UNK on_period UNK on_nl end on_nl UNK on_nl end # Search for direct matches or class matches
-def self on_period UNK on_lparen on_op UNK on_rparen on_ignored_nl UNK on_lparen UNK UNK UNK on_op UNK on_rparen on_nl end on_nl # Set how to handle a message.
-def self on_period UNK on_lparen on_op UNK on_rparen on_ignored_nl UNK on_lparen UNK UNK UNK on_op UNK on_rparen on_nl end on_nl # Mark how to initialize our object.

@@ -1,2 +1,0 @@
-test_iso_env on_period UNK on_lparen on_tstring_beg on_tstring_end on_rparen on_nl test_iso_env on_period UNK on_nl end on_nl let on_lparen on_symbeg test_iso_env on_rparen on_lbrace # We have to create a Vagrantfile so there is a root path
-expect on_lparen machine on_rparen on_period to receive on_lparen on_symbeg box on_rparen on_period and_return on_lparen nil on_rparen on_nl expect on_lparen on_const # First call gets nil result to for lookup

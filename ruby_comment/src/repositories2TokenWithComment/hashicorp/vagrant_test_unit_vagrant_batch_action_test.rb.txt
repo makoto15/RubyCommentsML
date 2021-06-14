@@ -1,3 +1,0 @@
-UNK on_lparen machine on_rparen on_period to UNK on_lparen on_symbeg action on_rparen do on_op action on_comma UNK on_op on_ignored_nl UNK on_op # Doesn't need to be tested on Windows since Windows doesn't # support fork(1)
-UNK on_nl end on_nl on_ignored_nl on_const on_period UNK on_lparen UNK on_rparen do on_ignored_nl on_const on_period UNK on_lparen UNK on_rparen on_nl # Child process
-on_const on_period UNK on_lparen UNK on_rparen do on_ignored_nl on_const on_period UNK on_lparen UNK on_rparen on_nl end on_nl end on_nl on_ignored_nl # Parent process, wait for the child to exit

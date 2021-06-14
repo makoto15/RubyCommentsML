@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl # Common functionality for nodes that can be used as modifiers: # `if`, `while`, `until`
-UNK UNK on_nl UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl EMP EMP EMP # Checks whether the node is in a modifier form, i.e. a condition # trailing behind an expression. # # @return [Boolean] whether the node is a modifier

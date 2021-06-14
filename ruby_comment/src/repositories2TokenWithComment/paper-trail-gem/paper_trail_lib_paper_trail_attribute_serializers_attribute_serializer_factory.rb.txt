@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_const UNK UNK UNK # frozen_string_literal: true
-UNK on_const on_nl on_const UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_period UNK UNK UNK UNK UNK UNK on_ignored_nl # Values returned by some Active Record serializers are # not suited for writing JSON to a text column. This factory # replaces certain default Active Record serializers # with custom PaperTrail ones.

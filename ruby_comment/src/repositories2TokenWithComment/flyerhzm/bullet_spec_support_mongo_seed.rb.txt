@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_nl on_ignored_nl UNK UNK on_nl UNK on_op on_const on_op on_const on_period create # frozen_string_literal: true
-on_const on_op on_const on_period UNK on_period UNK on_op on_const on_op on_const on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_nl # Increase the level from DEBUG in order to avoid excessive logging to the screen

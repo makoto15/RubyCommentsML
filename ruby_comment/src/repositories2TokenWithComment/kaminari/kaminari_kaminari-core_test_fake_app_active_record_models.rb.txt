@@ -1,6 +1,0 @@
-on_ignored_nl class on_const on_op on_const on_op on_const on_nl has_many on_symbeg UNK on_nl has_many on_symbeg UNK on_nl has_many on_symbeg UNK on_comma # frozen_string_literal: true
-class on_const on_op on_const on_op on_const on_nl has_many on_symbeg UNK on_nl has_many on_symbeg UNK on_nl has_many on_symbeg UNK on_comma on_label # models
-class on_const on_op on_const on_nl end on_nl class on_const on_op on_const on_op on_const on_op on_const on_nl belongs_to on_symbeg user on_nl # a model that is a descendant of AR::Base but doesn't directly inherit AR::Base
-class on_const on_op on_const on_op on_const on_op on_const on_nl belongs_to on_symbeg user on_nl end on_nl class on_const on_op on_const on_op # a model with namespace
-class on_const on_op on_const on_op on_const on_nl UNK on_period UNK on_op UNK on_nl end on_nl class on_const on_op on_const on_nl # a class that uses abstract class
-on_const on_op on_const on_period UNK on_op UNK on_nl on_const on_op on_const on_op on_const on_period UNK on_op on_const on_period UNK on_nl # migrations

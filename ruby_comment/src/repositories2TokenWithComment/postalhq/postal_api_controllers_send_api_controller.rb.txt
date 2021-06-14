@@ -1,8 +1,0 @@
-param on_symbeg UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg type on_op on_const on_nl param on_symbeg UNK on_comma on_tstring_beg on_tstring_content on_tstring_end # Acceptable Parameters
-error on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_symbeg attributes on_op on_lbrace on_symbeg UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_rbrace # Errors
-UNK on_const on_nl UNK do on_ignored_nl attributes on_op on_lbrace on_rbrace on_nl attributes on_lbracket on_symbeg UNK on_rbracket on_op params on_period UNK # Return
-UNK do on_ignored_nl attributes on_op on_lbrace on_rbrace on_nl attributes on_lbracket on_symbeg UNK on_rbracket on_op params on_period UNK on_nl attributes on_lbracket # Action
-UNK on_op on_const on_period UNK on_lparen params on_period UNK on_rparen on_nl on_ignored_nl UNK on_op on_const on_period UNK on_lparen UNK on_period # Decode the raw message
-UNK on_op on_const on_period UNK on_lparen UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_rparen on_period UNK on_rparen on_nl # Parse through mail to get the from/sender headers
-UNK UNK on_period UNK on_nl error on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl result on_op on_lbrace on_symbeg message_id on_op UNK # If we're not authenticated, don't continue
-result on_op on_lbrace on_symbeg message_id on_op UNK on_comma on_symbeg UNK on_op on_lbrace on_rbrace on_rbrace on_nl params on_period rcpt_to on_period UNK # Store the result ready to return

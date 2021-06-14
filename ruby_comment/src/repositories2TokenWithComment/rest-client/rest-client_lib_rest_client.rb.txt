@@ -1,1 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP # This file exists for backward compatbility with require 'rest_client'

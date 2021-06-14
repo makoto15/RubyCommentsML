@@ -1,1 +1,0 @@
-tag_name on_op on_qwords_beg on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_words_sep on_tstring_content on_tstring_end on_period shelljoin on_nl describe on_op on_words_beg on_tstring_content on_words_sep on_tstring_content # In test mode, Actions.sh returns command to be executed rather than # actual command output.

@@ -1,4 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const UNK on_const UNK on_const on_nl UNK on_const on_nl on_ignored_nl UNK UNK # frozen_string_literal: true
-UNK on_ivar on_period send on_lparen action on_comma on_symbeg user on_comma provider on_rparen on_comma on_ignored_nl on_ivar on_period send on_lparen on_tstring_beg on_tstring_content # Resource param
-UNK on_ivar on_period send on_lparen action on_comma on_const on_period UNK on_comma provider on_rparen on_comma on_ignored_nl on_ivar on_period send on_lparen on_tstring_beg # With an object
-UNK on_ivar on_period send on_lparen action on_comma on_symbeg user on_comma provider on_comma UNK UNK on_rparen on_comma on_ignored_nl on_ivar on_period send # Default url params

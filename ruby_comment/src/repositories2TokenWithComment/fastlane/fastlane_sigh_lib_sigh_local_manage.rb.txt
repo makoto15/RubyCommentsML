@@ -1,3 +1,0 @@
-UNK on_const on_period UNK on_lparen profile_path on_rparen on_nl on_const on_period UNK on_lparen profile_path on_rparen on_nl end on_nl on_ignored_nl on_const on_period # If the directory doesn't exist, make it first
-on_const on_period UNK on_lparen profile on_comma UNK on_rparen on_nl on_ignored_nl if on_const on_period UNK on_lparen UNK on_rparen on_nl on_const on_period # copy to Xcode provisioning profile directory
-profile on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_op profile_path on_nl profiles on_op profile on_nl end on_nl on_ignored_nl profiles on_op profiles on_period # /dev/null: https://github.com/fastlane/fastlane/issues/6387

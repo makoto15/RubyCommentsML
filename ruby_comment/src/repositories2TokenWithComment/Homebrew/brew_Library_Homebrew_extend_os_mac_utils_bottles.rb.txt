@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_op UNK on_nl UNK tag on_nl on_ignored_nl UNK tag on_nl on_const on_period # frozen_string_literal: true
-UNK on_const on_op on_const on_period UNK on_op on_const on_op on_const on_period UNK on_op on_ignored_nl on_const on_op on_const on_period UNK on_nl # Used primarily by developers testing beta macOS releases.
-UNK UNK on_lparen tag on_rparen on_ignored_nl UNK on_op UNK on_ignored_nl on_const on_op on_const on_period UNK on_lparen tag on_rparen on_nl UNK # Find a bottle built for a previous version of macOS.

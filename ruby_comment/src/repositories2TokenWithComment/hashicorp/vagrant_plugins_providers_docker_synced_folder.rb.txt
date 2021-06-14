@@ -1,2 +1,0 @@
-UNK UNK on_period UNK on_op on_symbeg UNK on_nl UNK UNK on_nl UNK on_const on_op on_const on_comma on_ignored_nl UNK UNK on_period # These synced folders only work if the provider is Docker
-UNK on_op UNK UNK on_symbeg UNK UNK on_nl UNK on_op UNK UNK UNK on_op UNK on_nl UNK on_period UNK on_period # Append consistency option if it exists, otherwise let it nil out

@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a quote from RuPaul's Drag Race. # # @return [String] # # @example # Faker::TvShows::RuPaul.quote #=> "That's Funny, Tell Another One." # # @faker.version 1.8.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a queen from RuPaul's Drag Race. # # @return [String] # # @example # Faker::TvShows::RuPaul.queen #=> "Latrice Royale" # # @faker.version 1.8.0

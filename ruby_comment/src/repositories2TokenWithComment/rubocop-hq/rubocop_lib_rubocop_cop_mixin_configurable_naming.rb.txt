@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # This module provides functionality for checking if names match the # configured EnforcedStyle.

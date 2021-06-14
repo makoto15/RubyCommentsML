@@ -1,2 +1,0 @@
-instance on_period register on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_lbrace on_lbracket on_rbracket on_rbrace on_nl on_ignored_nl expect on_lparen instance on_period get on_lparen # Make the proc generate a NEW array each time
-expect on_lparen instance on_period get on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_rparen on_period to eq on_lparen on_lbracket on_rbracket on_rparen on_nl instance # Test that modifying the result modifies the actual cached # value. This verifies we're caching.

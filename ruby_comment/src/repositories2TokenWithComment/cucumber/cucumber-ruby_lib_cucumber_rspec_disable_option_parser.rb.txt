@@ -1,5 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK on_const UNK on_const UNK on_const on_op on_op on_const on_const on_op on_const UNK # frozen_string_literal: true
-UNK on_const UNK on_const on_op on_op on_const on_const on_op on_const UNK UNK on_nl UNK on_const UNK UNK UNK UNK UNK #:nodoc:
-UNK on_const on_op on_op on_const on_const on_op on_const UNK UNK on_nl UNK on_const UNK UNK UNK UNK UNK on_op UNK #:nodoc: # Neuters RSpec's option parser. # (RSpec's option parser tries to parse ARGV, which # will fail when running cucumber)
-on_const on_op on_const UNK UNK on_nl UNK on_const UNK UNK UNK UNK UNK on_op UNK UNK UNK on_op UNK on_nl #:nodoc:
-UNK on_op UNK on_nl end on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK # rubocop:disable Style/MissingRespondToMissing

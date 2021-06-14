@@ -1,6 +1,0 @@
-env UNK UNK UNK UNK on_period UNK on_lparen on_const on_period UNK on_lparen UNK UNK UNK on_rparen on_rparen on_nl driver on_period # Login!
-UNK on_period UNK on_lparen env on_rparen on_nl on_ignored_nl driver on_period UNK on_lparen config on_period UNK on_rparen on_nl end on_nl on_ignored_nl # Continue, so that the auth is protected # from meddling.
-driver on_period UNK on_lparen config on_period UNK on_rparen on_nl end on_nl on_ignored_nl UNK UNK on_lparen env on_rparen on_ignored_nl config on_op # Log out
-UNK UNK on_period UNK on_lparen env on_rparen UNK config on_period UNK on_op UNK UNK on_nl on_ignored_nl UNK on_op env UNK # If we don't have a password set, don't auth
-UNK on_lparen env on_comma config on_comma driver on_rparen on_nl UNK on_ignored_nl env UNK UNK UNK UNK on_period UNK on_period UNK # no host vm in use, using docker directly
-env UNK UNK UNK UNK on_period UNK on_period UNK UNK on_ignored_nl UNK on_lparen env on_comma config on_comma driver on_rparen on_nl # Grab a host VM lock to do the login so that we only login # once per container for the rest of this process.

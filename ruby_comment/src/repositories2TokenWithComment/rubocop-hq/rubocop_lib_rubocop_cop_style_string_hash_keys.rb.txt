@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK on_tstring_content UNK # frozen_string_literal: true
-UNK on_const UNK on_const on_nl on_const UNK UNK on_tstring_content UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_nl on_ignored_sp on_tstring_content # This cop checks for the use of strings as keys in hashes. The use of # symbols is preferred instead. # # @example # # bad # { 'one' => 1, 'two' => 2, 'three' => 3 } # # # good # { one: 1, two: 2, three: 3 }

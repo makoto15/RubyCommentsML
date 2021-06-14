@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Stranger Things. # # @return [String] # # @example # Faker::TvShows::StrangerThings.character #=> "six" # # @faker.version 1.9.0
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Stranger Things. # # @return [String] # # @example # Faker::TvShows::StrangerThings.quote # #=> "Friends don't lie." # # @faker.version 1.9.0

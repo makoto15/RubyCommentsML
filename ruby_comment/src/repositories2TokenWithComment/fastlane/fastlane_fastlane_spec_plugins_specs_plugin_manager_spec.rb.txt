@@ -1,1 +1,0 @@
-on_ignored_nl on_const on_op on_const on_period new on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_period UNK on_lparen on_symbeg UNK # We don't need to set this, since this method shouldn't even be called when the plugin is available # expect(Fastlane::Actions).to receive(:formerly_bundled_actions).and_return(["crashlytics"])

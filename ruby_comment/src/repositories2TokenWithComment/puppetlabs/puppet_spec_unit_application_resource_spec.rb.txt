@@ -1,3 +1,0 @@
-on_ivar on_period UNK on_op on_lbracket on_symbeg UNK on_rbracket on_nl on_ignored_nl expect on_lbrace on_ivar on_period main on_rbrace on_period to UNK on_lparen # provider is a parameter that should always be available
-expect on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_lbrace on_op args on_op expect on_lparen args on_period UNK # All of our output should be in external encoding
-on_const on_op on_const on_period UNK on_lparen on_const on_op on_const on_rparen do on_ignored_nl expect on_lbrace on_ivar on_period main on_rbrace on_period UNK # This would raise an error if we weren't handling it

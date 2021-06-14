@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
-UNK on_const UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen node # This cop checks if the length of a method exceeds some maximum value. # Comment lines can optionally be ignored. # The maximum allowed length is configurable.

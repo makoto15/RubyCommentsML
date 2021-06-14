@@ -1,3 +1,0 @@
-UNK on_const on_nl UNK UNK on_lparen UNK on_comma env on_rparen on_ignored_nl on_ivar on_op UNK on_nl on_ivar on_op on_const on_op on_const # This middleware attempts to repair installed plugins. # # In general, if plugins are failing to properly load the # core issue will likely be one of two issues: # 1. manual modifications within ~/.vagrant.d/ # 2. vagrant upgrade # Running an install on configured plugin set will most # likely fix these issues, which is all this action does.
-on_ivar on_period UNK on_lparen env on_rparen on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_nl UNK UNK on_lparen UNK on_comma # Continue
-on_ivar on_period UNK on_lparen env on_rparen on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP # Continue

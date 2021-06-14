@@ -1,3 +1,0 @@
-class on_const on_op on_const on_op on_const on_nl UNK on_const on_op on_const on_nl on_ignored_nl UNK on_symbeg name on_comma on_symbeg mime on_nl # A simple class for modeling encoding formats for moving # instances around the network.
-UNK on_nl on_ignored_nl UNK on_op UNK on_ignored_nl on_symbeg intern_method on_op on_tstring_beg on_tstring_content on_embexpr_beg name on_embexpr_end on_tstring_end on_comma on_ignored_nl on_symbeg intern_multiple_method # This must be done early the values can be used to set required_methods
-return UNK UNK UNK UNK on_period class on_period send on_lparen render_multiple_method on_comma UNK on_rparen if UNK UNK UNK UNK on_period # This method implicitly assumes that all instances are of the same type.

@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_ignored_nl UNK on_const on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK on_const UNK on_const UNK on_const on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP # Simulate a gem providing a subclass of ActiveRecord::Base before the Railtie is loaded.

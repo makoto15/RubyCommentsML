@@ -1,4 +1,0 @@
-UNK on_const on_op on_const on_nl UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_nl UNK on_symbeg UNK # Represents the information about the generation of promocodes
-UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_nl # @return
-UNK on_symbeg UNK on_nl UNK on_symbeg UNK on_nl on_ignored_nl UNK UNK UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_op on_symbeg UNK UNK # the AppVersionPromocodes this relates to
-UNK on_symbeg UNK on_nl on_ignored_nl UNK UNK UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end on_op on_symbeg UNK UNK on_ignored_nl on_tstring_beg on_tstring_content on_tstring_end # Array of String

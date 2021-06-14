@@ -1,1 +1,0 @@
-UNK UNK on_const on_nl UNK UNK UNK UNK on_nl on_const UNK UNK UNK UNK UNK UNK UNK on_nl UNK on_const # Becoming first responder can trigger Pasteboard sync, which can stall and crash the simulator # See https://twitter.com/steipete/status/1227551552317140992

@@ -1,1 +1,0 @@
-UNK UNK UNK on_symbeg UNK UNK on_nl UNK on_lparen download_options on_rparen on_nl UNK UNK on_nl end on_nl on_ignored_nl UNK on_lparen # If we're checking the boxes globally, then do that.

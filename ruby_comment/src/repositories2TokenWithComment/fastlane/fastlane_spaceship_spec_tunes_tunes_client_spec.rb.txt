@@ -1,2 +1,0 @@
-expect on_lparen response on_rparen on_period to eq on_lparen UNK on_rparen on_nl end on_nl end on_nl on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end # the response does not include any data when it is successful.
-expect on_lbrace subject on_period UNK on_rbrace on_period to UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl end on_nl end # pass it twice, to call the team selection

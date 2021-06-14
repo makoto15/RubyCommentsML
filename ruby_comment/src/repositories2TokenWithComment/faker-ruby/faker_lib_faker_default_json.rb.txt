@@ -1,2 +1,0 @@
-def UNK on_lparen UNK on_op on_const on_comma UNK on_op on_const on_comma UNK on_op on_const on_comma on_label UNK on_comma on_label UNK # rubocop:disable Metrics/ParameterLists
-UNK do on_op keywords on_op on_ignored_nl keywords on_op on_symbeg UNK if UNK on_op on_const on_nl end on_nl UNK do on_op # rubocop:enable Metrics/ParameterLists

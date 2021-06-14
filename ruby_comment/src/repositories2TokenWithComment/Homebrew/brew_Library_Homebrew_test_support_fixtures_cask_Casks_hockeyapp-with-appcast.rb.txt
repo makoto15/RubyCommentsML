@@ -1,1 +1,0 @@
-UNK on_tstring_beg on_tstring_content UNK UNK UNK UNK UNK on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end # rink.hockeyapp.net/api/2/apps/67503a7926431872c4b6c1549f5bd6b1 was verified as official when first introduced to the cask

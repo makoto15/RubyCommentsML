@@ -1,5 +1,0 @@
-UNK UNK on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_comma UNK UNK on_symbeg UNK UNK on_nl on_ignored_nl UNK UNK on_period UNK on_nl # Install a package using 'up2date'.
-UNK UNK on_nl UNK on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_op UNK on_tstring_content UNK UNK on_period UNK # What's the latest package version available?
-UNK on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK UNK on_op UNK on_tstring_content UNK UNK on_period UNK UNK UNK on_symbeg #up2date can only get a list of *all* available packages?
-UNK UNK UNK on_symbeg UNK UNK on_nl end on_nl end on_nl on_ignored_nl UNK UNK on_nl UNK on_period UNK on_nl end # up2date didn't find updates, pretend the current # version is the latest
-UNK on_period UNK on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Install in up2date can be used for update, too

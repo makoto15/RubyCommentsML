@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from Back to the Future. # # @return [String] # # @example # Faker::Movies::BackToTheFuture.character #=> "Marty McFly" # # @faker.version 1.8.5
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a date from Back to the Future. # # @return [String] # # @example # Faker::Movies::BackToTheFuture.date #=> "November 5, 1955" # # @faker.version 1.8.5
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from Back to the Future. # # @return [String] # # @example # Faker::Movies::BackToTheFuture.quote # #=> "Roads? Where we're going, we don't need roads." # # @faker.version 1.8.5

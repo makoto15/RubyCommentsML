@@ -1,3 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl # For docs, please see ActiveAdmin::Filters::ResourceExtension#add_filter
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK # For docs, please see ActiveAdmin::Filters::ResourceExtension#remove_filter
-UNK UNK on_nl UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP # For docs, please see ActiveAdmin::Filters::ResourceExtension#preserve_default_filters!

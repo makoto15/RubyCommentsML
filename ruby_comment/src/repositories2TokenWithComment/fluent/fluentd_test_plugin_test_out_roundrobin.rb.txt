@@ -1,3 +1,0 @@
-assert_equal on_int on_comma os on_lbracket on_int on_rbracket on_period events on_period size assert_equal on_int on_comma os on_lbracket on_int on_rbracket on_period events # weight=3
-assert_equal on_int on_comma os on_lbracket on_int on_rbracket on_period events on_period size end on_nl end on_nl on_ignored_nl EMP EMP EMP EMP # weight=3
-end on_nl end on_nl on_ignored_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # weight=1

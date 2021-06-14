@@ -1,2 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl UNK on_nl ## # Produces a character from Aqua Teen Hunger Force. # # @return [String] # # @example # Faker::TvShows::AquaTeenHungerForce.character #=> "Master Shake" # # @faker.version 1.8.5

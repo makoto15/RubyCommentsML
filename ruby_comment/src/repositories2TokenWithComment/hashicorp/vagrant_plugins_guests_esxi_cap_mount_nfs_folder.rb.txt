@@ -1,1 +1,0 @@
-UNK comm on_period UNK on_lparen on_tstring_beg on_tstring_content on_embexpr_beg guestpath on_embexpr_end on_tstring_content on_tstring_end on_rparen on_nl comm on_period execute on_lparen on_tstring_beg on_tstring_content # symlink vmfs volume to :guestpath

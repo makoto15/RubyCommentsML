@@ -1,2 +1,0 @@
-expect on_lparen on_ivar on_period memory on_lbracket on_symbeg filter_counts on_rbracket on_lbracket on_symbeg UNK on_rbracket on_rparen on_period to eq on_lparen on_int on_rparen # it stores on the first keyword
-on_ivar on_period UNK on_lparen UNK on_comma on_const on_period UNK on_rparen on_nl end on_nl on_ignored_nl context on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl #mock(@worker).schedule_in(Agents::TwitterStreamAgent::Worker::RELOAD_TIMEOUT)

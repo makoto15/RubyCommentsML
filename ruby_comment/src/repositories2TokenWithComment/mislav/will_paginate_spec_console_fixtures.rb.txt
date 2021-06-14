@@ -1,2 +1,0 @@
-UNK on_op on_const on_op on_const on_period UNK on_period UNK on_nl on_ignored_nl on_const on_op UNK on_tstring_content UNK on_nl on_ignored_nl on_const on_op # used just for the `color` method
-on_const on_op on_const on_period UNK on_const on_op on_const UNK on_const on_op on_const on_period UNK on_period UNK on_nl EMP EMP EMP # load all fixtures

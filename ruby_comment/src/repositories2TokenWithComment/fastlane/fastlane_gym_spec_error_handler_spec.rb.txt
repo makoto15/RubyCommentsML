@@ -1,2 +1,0 @@
-on_ignored_nl on_const on_op on_const on_period UNK on_lparen UNK on_rparen on_nl end on_nl on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl mock_gym_path # as this is called multiple times before
-UNK on_nl on_ignored_nl expect on_lparen on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period with on_lparen UNK on_tstring_content UNK # `enterprise` take precedence over `ad-hoc`

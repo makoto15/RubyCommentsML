@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK UNK node UNK on_ignored_nl body UNK node on_period # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK node UNK on_ignored_nl body UNK node on_period UNK on_period UNK UNK UNK UNK on_nl # Common methods shared by TrailingBody cops

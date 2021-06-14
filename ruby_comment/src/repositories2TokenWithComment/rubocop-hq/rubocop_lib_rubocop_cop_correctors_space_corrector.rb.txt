@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK on_nl on_ignored_nl UNK on_op UNK on_nl UNK UNK processed_source on_nl on_ignored_nl UNK UNK on_lparen processed_source # This auto-corrects whitespace

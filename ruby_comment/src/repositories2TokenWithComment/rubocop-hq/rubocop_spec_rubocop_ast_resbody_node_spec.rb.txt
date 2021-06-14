@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_period UNK UNK UNK UNK UNK UNK do on_ignored_nl let on_lparen on_symbeg resbody_node on_rparen do on_ignored_nl UNK UNK # frozen_string_literal: true

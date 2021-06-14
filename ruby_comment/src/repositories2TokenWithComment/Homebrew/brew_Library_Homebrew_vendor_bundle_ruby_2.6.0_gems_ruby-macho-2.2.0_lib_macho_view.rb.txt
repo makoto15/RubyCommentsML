@@ -1,6 +1,0 @@
-UNK UNK on_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK # A representation of some unspecified Mach-O data.
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK # @return [String] the raw Mach-O data
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl # @return [Symbol] the endianness of the data (`:big` or `:little`)
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK # @return [Integer] the offset of the relevant data (in {#raw_data})
-UNK UNK UNK UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK # Creates a new MachOView. # @param raw_data [String] the raw Mach-O data # @param endianness [Symbol] the endianness of the data # @param offset [Integer] the offset of the relevant data
-UNK UNK on_nl UNK on_ignored_nl UNK UNK UNK UNK UNK UNK on_ignored_nl UNK UNK UNK UNK UNK UNK on_ignored_nl UNK # @return [Hash] a hash representation of this {MachOView}.

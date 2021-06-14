@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK UNK UNK UNK EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # A Warning exception is different from an Offense with severity 'warning' # When a Warning is raised, this means that RuboCop was unable to perform a # requested operation (such as inspecting or correcting a source file) due to # user error # For example, a configuration value in .rubocop.yml might be malformed

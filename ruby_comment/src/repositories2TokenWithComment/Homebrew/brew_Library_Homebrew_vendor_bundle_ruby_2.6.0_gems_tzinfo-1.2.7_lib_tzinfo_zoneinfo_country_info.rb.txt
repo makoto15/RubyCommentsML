@@ -1,5 +1,0 @@
-UNK UNK on_op UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # Represents information about a country returned by ZoneinfoDataSource. # # @private
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl on_ivar on_op UNK #:nodoc: # Constructs a new CountryInfo with an ISO 3166 country code, name and # an array of CountryTimezones.
-UNK UNK on_nl UNK UNK on_ivar on_nl UNK on_op UNK UNK UNK UNK on_op UNK on_op UNK UNK UNK UNK # Returns a frozen array of all the zone identifiers for the country ordered # geographically, most populous first.
-UNK UNK on_ivar on_nl UNK on_op UNK UNK UNK UNK on_op UNK on_op UNK UNK UNK UNK UNK UNK on_nl # Thread-safety: It is possible that the value of @zone_identifiers may be # calculated multiple times in concurrently executing threads. It is not # worth the overhead of locking to ensure that @zone_identifiers is only # calculated once.
-UNK UNK on_nl on_ivar on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP # Returns a frozen array of all the timezones for the for the country # ordered geographically, most populous first.

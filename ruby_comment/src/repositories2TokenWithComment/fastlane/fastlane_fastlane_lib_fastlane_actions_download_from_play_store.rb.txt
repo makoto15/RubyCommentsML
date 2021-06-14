@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_period UNK on_period UNK on_nl end on_nl on_ignored_nl on_ignored_nl def self # we already have the finished config
-on_ignored_nl def self on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def self on_period UNK on_nl on_tstring_beg on_tstring_content ##################################################### # @!group Documentation #####################################################
-UNK on_op UNK on_symbeg UNK on_comma on_symbeg UNK on_comma on_symbeg UNK on_comma on_symbeg UNK on_comma on_symbeg UNK on_comma on_symbeg UNK # remove all the unnecessary (for this action) options

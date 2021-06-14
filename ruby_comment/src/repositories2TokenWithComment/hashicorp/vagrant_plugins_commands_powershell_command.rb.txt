@@ -1,6 +1,0 @@
-UNK on_op on_ivar on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl if UNK on_nl options on_lbracket on_symbeg UNK on_rbracket on_op # Parse out the extra args to send to the ps session, which # is everything after the "--"
-UNK on_op UNK on_lparen UNK on_rparen on_nl UNK if on_op UNK on_nl on_ignored_nl raise on_const on_op on_const if on_op options # Parse the options and return if we don't have any target.
-raise on_const on_op on_const if on_op options on_lbracket on_symbeg command on_rbracket on_op options on_lbracket on_symbeg UNK on_rbracket on_nl on_ignored_nl UNK # Elevated option enabled means we can only execute commands
-UNK on_lparen UNK on_comma on_label UNK on_rparen UNK on_op machine on_op on_ignored_nl if on_op machine on_period UNK on_period UNK on_nl # Execute ps session if we can
-raise on_const on_op on_const if on_op on_ivar on_period UNK on_period UNK on_lparen on_symbeg UNK on_rparen on_nl on_ignored_nl ps_info on_op on_const # Check if the host even supports ps remoting
-ps_info on_lbracket on_symbeg UNK on_rbracket on_op options on_lbracket on_symbeg UNK on_rbracket on_nl on_ignored_nl result on_op UNK on_lparen machine on_comma ps_info # Extra arguments if we have any

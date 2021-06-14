@@ -1,3 +1,0 @@
-UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_nl UNK on_const # Please use this app only for: # # * spec/unit/application_spec.rb # * spec/isolation/application_configure_spec.rb
-UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_nl end on_nl end on_nl on_ignored_nl UNK on_const on_nl UNK UNK # Please use this app only for: # # * spec/unit/application_configuration_spec.rb
-UNK on_const on_nl UNK UNK UNK on_op UNK on_ignored_nl end on_nl on_ignored_nl UNK UNK UNK on_op UNK on_ignored_nl end on_nl # Please use this mock logger only for: # # * spec/isolation/components/logger/with_custom_logger_spec.rb

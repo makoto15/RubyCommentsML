@@ -1,2 +1,0 @@
-on_tstring_beg on_tstring_content on_tstring_end on_ignored_nl UNK UNK UNK on_period UNK UNK on_op agent on_op agent UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_op # Use block style `test_name` # Use mk_temp_environment_with_teardown # Combine with Service resource tests
-on_ignored_nl UNK UNK UNK on_period UNK UNK on_op agent on_op agent UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_op UNK on_tstring_content UNK # Service provider functionality

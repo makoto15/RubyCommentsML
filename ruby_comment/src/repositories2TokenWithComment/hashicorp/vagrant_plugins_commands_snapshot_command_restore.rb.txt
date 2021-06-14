@@ -1,3 +1,0 @@
-argv on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op argv on_nl UNK argv on_period UNK on_op argv on_period UNK # Parse the options
-UNK on_lparen options on_comma argv on_rparen on_nl on_ignored_nl UNK on_op argv on_period UNK on_nl options UNK on_symbeg UNK UNK on_op # Validate the provisioners
-UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # Success, exit status 0

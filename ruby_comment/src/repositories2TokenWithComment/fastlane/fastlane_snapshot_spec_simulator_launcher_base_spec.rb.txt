@@ -1,1 +1,0 @@
-expect on_lparen on_const on_op on_const on_rparen on_period to receive on_lparen on_symbeg backticks on_rparen on_period with on_lparen UNK on_rparen on_period and_return # Verify that backticks isn't called for the fallback to addphoto/addvideo

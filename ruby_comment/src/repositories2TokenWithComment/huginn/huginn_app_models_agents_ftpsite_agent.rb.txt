@@ -1,3 +1,0 @@
-UNK on_ignored_nl if on_op options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_op # Check for required fields
-if on_lparen UNK on_op options on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket on_rparen on_period UNK on_nl UNK on_ignored_nl on_const on_period UNK on_lparen # Check for optional fields
-UNK on_op ftp on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl UNK on_period UNK do on_op UNK on_op on_ignored_nl # Do not use a block style call because we need to call other # commands during iteration.

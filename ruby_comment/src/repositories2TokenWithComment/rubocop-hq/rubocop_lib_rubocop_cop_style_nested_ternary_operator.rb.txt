@@ -1,2 +1,0 @@
-UNK UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK # frozen_string_literal: true
-UNK on_const UNK on_const on_nl on_const UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK # This cop checks for nested ternary op expressions. # # @example # # bad # a ? (b ? b1 : b2) : a2 # # # good # if a # b ? b1 : b2 # else # a2 # end

@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_op on_const on_op # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl # Checks if there is an empty line after subject block. # # @example # # bad # subject(:obj) { described_class } # let(:foo) { bar } # # # good # subject(:obj) { described_class } # # let(:foo) { bar }

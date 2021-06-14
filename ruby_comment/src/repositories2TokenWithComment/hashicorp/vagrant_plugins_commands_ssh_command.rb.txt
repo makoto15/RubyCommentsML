@@ -1,5 +1,0 @@
-UNK on_op on_ivar on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK UNK on_nl options on_lbracket on_symbeg UNK on_rbracket on_op # Parse out the extra args to send to SSH, which is everything # after the "--"
-UNK on_op UNK on_lparen UNK on_rparen on_nl UNK UNK on_op UNK on_nl on_ignored_nl UNK on_lparen UNK on_comma on_label UNK on_rparen # Parse the options and return if we don't have any target.
-UNK on_lparen UNK on_comma on_label UNK on_rparen UNK on_op UNK on_op on_ignored_nl UNK on_op UNK on_ignored_nl on_label options on_lbracket on_symbeg # Execute the actual SSH
-UNK on_op UNK on_lbracket on_symbeg UNK on_rbracket on_op UNK on_nl UNK UNK on_nl UNK on_ignored_nl on_const on_op on_const on_period UNK # Exit with the exit status of the command or a 0 if we didn't # get one.
-UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP # We should never reach this point, since the point of `ssh` # is to exec into the proper SSH shell, but we'll just return # an exit status of 0 anyways.

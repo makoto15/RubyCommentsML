@@ -1,1 +1,0 @@
-end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Error if not the same except Timestamp and Timespan that accepts Numeric on either side # Error for non supported - Boolean, Regexp, etc

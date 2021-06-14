@@ -1,1 +1,0 @@
-on_const on_op on_const on_period new on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_rparen on_nl expect on_lbrace subject on_period UNK on_lparen on_tstring_beg # Note: The initialize for WinRMAuthorizationError may require a status_code as # the second argument in a future WinRM release. Currently it doesn't track the # status code.

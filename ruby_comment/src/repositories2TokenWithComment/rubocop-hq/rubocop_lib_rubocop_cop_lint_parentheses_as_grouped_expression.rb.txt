@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen node # Checks for space between the name of a called method and a left # parenthesis. # # @example # # # bad # do_something (foo) # # # good # do_something(foo) # do_something (2 + 3) * 4 # do_something (foo * bar).baz
-UNK on_op on_const on_period UNK on_lparen node on_period UNK on_rparen on_nl on_ignored_nl UNK on_op UNK on_period UNK on_lparen UNK UNK # Escape question mark if any.

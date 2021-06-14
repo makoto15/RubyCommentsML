@@ -1,3 +1,0 @@
-on_ignored_nl def UNK on_lparen query on_rparen on_ignored_nl on_tstring_beg UNK UNK UNK on_tstring_content UNK UNK UNK on_tstring_content UNK UNK on_lparen query # ---------------------------------------------------------------
-on_const on_period UNK query on_period UNK on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_period UNK on_period UNK on_nl # truncate at first semicolon so Mapbox doesn't go into batch mode # (see Github issue #1299)
-UNK on_period UNK UNK on_op UNK on_op on_ignored_nl on_lbracket UNK on_lbracket on_tstring_beg on_tstring_content on_tstring_end on_rbracket UNK on_op UNK on_period UNK # Sort by descending relevance; Favor original order for equal relevance (eg occurs for reverse geocoding)

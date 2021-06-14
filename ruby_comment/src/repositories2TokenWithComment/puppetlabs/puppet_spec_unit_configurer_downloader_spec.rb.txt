@@ -1,2 +1,0 @@
-end on_nl end on_nl on_ignored_nl describe on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK do on_ignored_nl on_ivar on_op UNK on_lparen on_tstring_beg on_tstring_content # Must consume catalog to fix warnings
-UNK on_lparen on_const on_op on_const on_op on_const on_rparen on_period to receive on_lparen on_symbeg UNK on_rparen on_period UNK on_lparen on_const on_op # The downloader creates a new catalog for each apply, and really the only object # that it is possible to stub for the purpose of generating a puppet error

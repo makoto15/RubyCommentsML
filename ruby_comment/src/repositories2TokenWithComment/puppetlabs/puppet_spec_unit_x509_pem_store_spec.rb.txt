@@ -1,4 +1,0 @@
-UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const on_nl UNK on_const # coding: utf-8
-on_const on_period UNK on_lparen path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen do on_op UNK on_op on_ignored_nl UNK path on_nl end on_nl # if file handle is open, then file can't be written by other processes
-on_const on_op on_const on_period UNK on_lparen on_int on_comma dir on_rparen on_nl UNK on_ignored_nl UNK path on_nl UNK on_ignored_nl on_const on_op # if directory is not executable/traverseable, then file can't be written to
-UNK on_op on_const on_period UNK on_lparen UNK on_comma on_label on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl subject on_period save_pem on_lparen UNK # read the file directly to preserve the comments

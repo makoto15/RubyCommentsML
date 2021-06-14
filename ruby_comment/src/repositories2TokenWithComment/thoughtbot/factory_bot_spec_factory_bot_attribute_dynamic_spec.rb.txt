@@ -1,1 +1,0 @@
-subject on_period UNK on_lparen on_const on_rparen on_nl on_ignored_nl UNK on_lparen subject on_rparen on_period on_ignored_nl UNK UNK on_lparen on_symbeg UNK on_rparen # Define an '#attribute_defined_on_attribute' instance method allowing it # be mocked. Ususually this is determined via '#method_missing'

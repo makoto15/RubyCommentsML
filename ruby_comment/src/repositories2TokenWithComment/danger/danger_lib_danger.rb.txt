@@ -1,3 +1,0 @@
-on_const UNK on_const on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end UNK on_const on_period UNK on_lparen UNK on_rparen on_rparen UNK on_period UNK # Import all the Sources (CI, Request and SCM)
-UNK UNK on_period UNK on_nl UNK on_const on_op on_const on_period UNK on_lparen on_const on_rparen on_period UNK on_nl UNK on_tstring_beg on_tstring_content # @return [String] The path to the local gem directory
-UNK UNK on_period UNK on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_op on_const on_period UNK on_nl on_ignored_nl UNK on_const on_op # @return [String] Latest version of Danger on https://rubygems.org

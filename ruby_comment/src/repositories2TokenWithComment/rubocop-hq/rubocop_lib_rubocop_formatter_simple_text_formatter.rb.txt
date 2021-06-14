@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK on_ignored_nl on_label on_symbeg UNK on_comma # A basic formatter that displays only files with offenses. # Offenses are displayed at compact form - just the # location of the problem and the associated message.
-UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl def UNK on_lparen UNK on_comma UNK on_comma UNK on_comma UNK # A helper class for building the report summary text.

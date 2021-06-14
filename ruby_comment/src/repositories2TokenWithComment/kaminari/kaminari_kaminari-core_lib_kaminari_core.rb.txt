@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK on_nl UNK UNK UNK require on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_nl UNK on_nl UNK # frozen_string_literal: true
-UNK UNK require on_tstring_beg on_tstring_content on_tstring_end on_nl UNK UNK on_nl UNK on_nl UNK require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg # load Rails/Railtie
-UNK on_nl UNK require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg #do nothing
-require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl require on_tstring_beg on_tstring_content on_tstring_end on_nl # load Kaminari components

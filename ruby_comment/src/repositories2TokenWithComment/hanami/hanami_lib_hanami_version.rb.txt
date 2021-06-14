@@ -1,7 +1,0 @@
-UNK on_const on_nl on_const UNK UNK UNK UNK on_period UNK on_nl on_ignored_nl UNK UNK on_period UNK on_nl on_const on_nl end # Hanami version # # @since 0.9.0 # @api private
-on_const UNK UNK UNK UNK on_period UNK on_nl on_ignored_nl UNK UNK on_period UNK on_nl on_const on_nl end on_nl on_ignored_nl UNK # @since 0.9.0 # @api private
-UNK UNK on_period UNK on_nl on_const on_nl end on_nl on_ignored_nl UNK UNK on_period UNK on_nl UNK UNK on_nl UNK on_nl # @since 0.9.0 # @api private
-UNK UNK on_period UNK on_nl UNK UNK on_nl UNK on_nl UNK on_ignored_nl UNK UNK UNK UNK UNK UNK on_nl end # @since 0.9.0 # @api private
-UNK UNK on_period UNK on_nl UNK UNK UNK UNK UNK on_nl end on_nl on_ignored_nl UNK UNK on_period UNK on_nl UNK # @since 0.9.0 # @api private
-UNK UNK on_period UNK on_nl UNK on_period UNK UNK UNK UNK UNK UNK on_period UNK on_nl end on_nl end on_nl # @since 0.9.0 # @api private
-on_const UNK on_const on_period UNK on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP EMP # Defines the full version # # @since 0.1.0

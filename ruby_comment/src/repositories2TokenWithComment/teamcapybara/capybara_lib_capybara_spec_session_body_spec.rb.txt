@@ -1,4 +1,0 @@
-on_ignored_nl UNK UNK UNK on_period UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_ignored_nl on_ivar on_period UNK # frozen_string_literal: true
-expect on_lparen on_ivar on_period UNK on_rparen on_period UNK UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl UNK on_nl on_ignored_nl UNK on_tstring_beg # wait for content to appear if visit is async
-expect UNK on_ivar on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_period UNK UNK on_nl UNK on_nl on_ignored_nl # wait for content to appear if visit is async
-expect UNK on_ivar on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_period UNK UNK on_nl UNK on_nl UNK # wait for content to appear if visit is async

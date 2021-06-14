@@ -1,1 +1,0 @@
-generate on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl rewrite on_tstring_beg on_tstring_content on_tstring_end on_comma on_heredoc_beg on_nl on_tstring_content on_heredoc_end end on_nl on_ignored_nl UNK setup_production_env # rubocop:disable Metrics/MethodLength

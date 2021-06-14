@@ -1,3 +1,0 @@
-UNK on_const on_nl UNK on_nl UNK def UNK on_period log on_lparen UNK on_comma message on_rparen UNK on_const on_period UNK on_period # Include this module in classes you wish to have logging facilities
-def UNK on_period log on_lparen UNK on_comma message on_rparen UNK on_const on_period UNK on_period UNK on_lparen UNK on_comma message on_rparen # Thunk to the logger's own log method (if configured)
-def UNK on_lparen message on_rparen on_semicolon on_const on_period log UNK UNK on_comma message on_semicolon end on_nl def UNK on_lparen message # Log level aliases

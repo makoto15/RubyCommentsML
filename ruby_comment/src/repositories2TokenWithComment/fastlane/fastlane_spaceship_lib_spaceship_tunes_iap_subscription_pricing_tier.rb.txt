@@ -1,3 +1,0 @@
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_ignored_nl UNK UNK # @return (String) Number of the subscription price tier (e.g. "1" for Tier 1 )
-UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_nl on_ignored_nl UNK UNK on_ignored_nl UNK UNK UNK on_op UNK UNK UNK # @return (String) Name of the tier (e.g. "ITC.addons.pricing.tier.1" for Tier 1)
-UNK UNK UNK on_nl on_ignored_nl UNK UNK on_ignored_nl UNK UNK UNK on_op UNK UNK UNK on_ignored_nl UNK UNK UNK on_op # @return ([Spaceship::Tunes::IAPSubscriptionPricingInfo]) A list of all prices for the respective countries

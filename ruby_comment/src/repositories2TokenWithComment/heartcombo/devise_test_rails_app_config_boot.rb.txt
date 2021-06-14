@@ -1,3 +1,0 @@
-on_ignored_nl UNK UNK UNK on_const UNK on_nl on_const on_op UNK on_const UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_op UNK UNK UNK # frozen_string_literal: true
-on_ignored_nl def self on_period UNK on_nl on_const on_period UNK on_period UNK on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def self # Detection for minor differences between Rails versions in tests.
-on_const UNK on_tstring_beg on_tstring_content on_tstring_end UNK on_op on_const on_period UNK UNK on_tstring_beg on_tstring_content on_tstring_end UNK UNK UNK on_nl UNK on_tstring_beg # Set up gems listed in the Gemfile.

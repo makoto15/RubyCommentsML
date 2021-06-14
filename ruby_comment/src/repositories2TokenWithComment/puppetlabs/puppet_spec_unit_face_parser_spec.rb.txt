@@ -1,1 +1,0 @@
-on_const on_period UNK on_lparen on_symbeg current_environment on_rparen on_period UNK on_op UNK on_nl end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do # Reset cache of loaders (many examples run in the *root* environment # which exists in "eternity")

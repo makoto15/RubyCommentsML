@@ -1,5 +1,0 @@
-on_const on_period UNK on_lparen data_path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_op on_const on_op on_const on_period compile on_lparen node # Change content size!
-on_const on_period UNK on_lparen data_path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl on_const on_period UNK on_lparen data_path on_comma on_symbeg UNK # Write content with the same size
-on_const on_period UNK on_lparen data_path on_comma on_symbeg UNK on_op UNK on_op on_int on_rparen on_nl on_ignored_nl on_const on_op on_const on_op on_const # Ensure mtime is at least 1 second ahead
-on_const on_period UNK on_lparen data_path on_rparen UNK on_ignored_nl on_const on_period UNK on_lparen data_path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const # Change inode!
-on_const on_period UNK on_lparen data_path on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_const on_op on_const on_op on_const on_period compile on_lparen node # Write content with the same size

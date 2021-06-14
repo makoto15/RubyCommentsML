@@ -1,3 +1,0 @@
-UNK on_const on_nl UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_op on_lbrace on_rbrace on_rparen on_ignored_nl # NOTE: This code is garbage. It probably has deadlocks, it might leak # threads, and otherwise cause problems in a real system. It's really only # intended for testing HTTParty.
-UNK UNK UNK on_nl on_ignored_nl UNK UNK on_lparen UNK on_op on_lbrace on_rbrace on_rparen on_ignored_nl on_ivar on_op on_const on_op on_const on_op # SSLContext object
-on_ivar on_op UNK on_lbracket UNK UNK on_rbracket on_op UNK on_nl on_ivar on_op UNK on_nl on_ivar on_op on_const on_period new on_nl # Don't verify client certificate

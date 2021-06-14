@@ -1,2 +1,0 @@
-UNK UNK UNK on_tstring_content UNK on_nl UNK UNK on_const UNK on_const UNK on_const UNK on_const UNK on_const UNK on_const on_nl # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK UNK UNK on_tstring_content UNK UNK UNK UNK on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content # super # optimize to one script call

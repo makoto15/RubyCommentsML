@@ -1,1 +1,0 @@
-on_ivar on_lbracket on_symbeg ui on_rbracket on_period UNK on_nl end on_nl on_ignored_nl end on_nl end on_nl end on_nl end on_nl EMP # Clear the line a final time so the next data can appear # alone on the line.

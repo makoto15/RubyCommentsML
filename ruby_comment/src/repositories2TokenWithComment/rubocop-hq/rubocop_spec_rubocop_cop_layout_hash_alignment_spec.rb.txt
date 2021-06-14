@@ -1,2 +1,0 @@
-on_ignored_nl on_const UNK UNK on_const on_op on_const on_op on_const on_op on_const on_comma on_symbeg UNK do on_ignored_nl UNK on_lparen on_symbeg UNK # frozen_string_literal: true
-expect_offense on_lparen on_heredoc_beg on_rparen on_nl on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_ignored_sp on_tstring_content on_heredoc_end on_ignored_nl expect_correction on_lparen on_heredoc_beg # regression test; see GH issue 2582

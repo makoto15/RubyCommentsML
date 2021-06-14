@@ -1,1 +1,0 @@
-declaration_list on_op on_const on_op on_const on_period new on_nl on_ignored_nl declaration_list on_period declare_attribute on_lparen declaration1 on_rparen on_nl expect on_lparen declaration_list on_period # DeclarationList's `@overridable` attr is set to false by default

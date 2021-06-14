@@ -1,4 +1,0 @@
-on_ignored_nl class on_const on_nl class on_const on_op on_const on_nl end on_nl on_ignored_nl on_const on_op UNK on_tstring_content UNK on_period UNK on_const # frozen_string_literal: true
-on_const on_op UNK on_tstring_content UNK on_period UNK on_const on_op UNK on_tstring_content UNK on_period UNK on_ignored_nl on_const on_op UNK on_tstring_content on_embexpr_beg # ISO 639-1 or ISO 639-2
-on_const on_op UNK on_tstring_content UNK on_period UNK on_ignored_nl on_const on_op UNK on_tstring_content on_embexpr_beg on_const on_embexpr_end on_tstring_content on_embexpr_beg on_const on_embexpr_end on_tstring_content # ISO 3166-1 or UN M.49
-on_ignored_nl on_const on_op UNK on_tstring_content on_embexpr_beg on_const on_embexpr_end on_tstring_content on_embexpr_beg on_const on_embexpr_end on_tstring_content on_embexpr_beg on_const on_embexpr_end on_tstring_content UNK on_period UNK # ISO 15924

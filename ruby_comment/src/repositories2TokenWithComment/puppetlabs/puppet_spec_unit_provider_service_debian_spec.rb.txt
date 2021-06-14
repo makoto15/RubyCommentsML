@@ -1,5 +1,0 @@
-UNK on_op on_tstring_beg on_tstring_content on_tstring_end on_nl on_const on_op on_const on_op on_const on_period UNK on_lparen UNK on_comma UNK on_symbeg UNK on_op # Get a pid for $CHILD_STATUS to latch on to
-on_ivar on_op UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl on_ivar on_op UNK on_period UNK on_nl on_ignored_nl allow on_lparen on_ivar # Create a mock resource
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg on_op on_rparen on_period and_return on_lparen UNK on_rparen on_nl on_ignored_nl allow on_lparen # A catch all; no parameters set
-allow on_lparen on_ivar on_rparen on_period to receive on_lparen on_symbeg on_op on_rparen on_period with on_lparen on_symbeg name on_rparen on_period and_return on_lparen # But set name, source and path
-on_lbracket on_op on_int on_comma on_op on_int on_comma on_int on_comma on_int on_comma on_int on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_end on_comma # pick a range of non-[104.106] numbers, strings and booleans to test with.

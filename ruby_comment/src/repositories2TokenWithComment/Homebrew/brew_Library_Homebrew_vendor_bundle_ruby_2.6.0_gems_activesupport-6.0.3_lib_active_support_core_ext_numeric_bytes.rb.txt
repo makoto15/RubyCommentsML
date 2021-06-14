@@ -1,8 +1,0 @@
-on_ignored_nl UNK on_const on_nl on_const on_op on_int on_nl on_const on_op on_const on_op on_int on_nl on_const on_op on_const on_op on_int on_nl # frozen_string_literal: true
-def UNK on_nl self on_nl end on_nl alias on_symbeg UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_nl self on_op on_const # Enables the use of byte calculations and declarations, like 45.bytes + 2.6.megabytes # # 2.bytes # => 2
-def UNK on_nl self on_op on_const on_nl end on_nl alias on_symbeg UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_nl self # Returns the number of bytes equivalent to the kilobytes provided. # # 2.kilobytes # => 2048
-def UNK on_nl self on_op on_const on_nl end on_nl alias on_symbeg UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_nl self # Returns the number of bytes equivalent to the megabytes provided. # # 2.megabytes # => 2_097_152
-def UNK on_nl self on_op on_const on_nl end on_nl alias on_symbeg UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_nl self # Returns the number of bytes equivalent to the gigabytes provided. # # 2.gigabytes # => 2_147_483_648
-def UNK on_nl self on_op on_const on_nl end on_nl alias on_symbeg UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_nl self # Returns the number of bytes equivalent to the terabytes provided. # # 2.terabytes # => 2_199_023_255_552
-def UNK on_nl self on_op on_const on_nl end on_nl alias on_symbeg UNK on_symbeg UNK on_nl on_ignored_nl def UNK on_nl self # Returns the number of bytes equivalent to the petabytes provided. # # 2.petabytes # => 2_251_799_813_685_248
-def UNK on_nl self on_op on_const on_nl end on_nl alias on_symbeg UNK on_symbeg UNK on_nl end on_nl EMP EMP EMP # Returns the number of bytes equivalent to the exabytes provided. # # 2.exabytes # => 2_305_843_009_213_693_952

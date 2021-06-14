@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
-e on_period UNK on_lparen on_const on_rparen on_nl UNK on_lparen e on_rparen UNK on_const on_period UNK on_lparen e on_rparen on_op on_symbeg # rubocop:disable Lint/RescueException
-UNK on_lparen e on_rparen on_nl UNK on_ignored_nl UNK on_op UNK on_nl end on_nl end on_nl on_ignored_nl def UNK on_period UNK # rubocop:disable Lint/RescueException

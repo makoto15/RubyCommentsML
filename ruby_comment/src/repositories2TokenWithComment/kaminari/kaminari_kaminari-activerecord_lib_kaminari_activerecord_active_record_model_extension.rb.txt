@@ -1,2 +1,0 @@
-UNK UNK UNK UNK UNK on_nl UNK UNK on_const on_nl UNK on_const on_nl UNK on_const UNK on_const on_nl UNK UNK # frozen_string_literal: true
-UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK on_const UNK UNK UNK UNK UNK UNK # Fetch the values at the specified page number # Model.page(5)

@@ -1,2 +1,0 @@
-expect on_lparen UNK on_period UNK on_period UNK on_rparen on_period to eq on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen end on_nl on_ignored_nl it # custom
-end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl expect on_lparen spaceship1 on_period UNK on_period all on_period count on_rparen on_period # default

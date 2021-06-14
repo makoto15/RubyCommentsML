@@ -1,3 +1,0 @@
-on_ignored_nl UNK on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl UNK on_const on_op on_const on_op on_const do on_ignored_nl subject do on_ignored_nl on_const on_period # frozen_string_literal: true
-UNK on_op UNK on_tstring_content on_words_sep on_tstring_content on_tstring_end on_nl UNK on_op on_lbracket on_lbrace on_rbrace on_comma on_lbrace on_label on_qwords_beg on_tstring_content on_words_sep on_tstring_content # build test cases from all combinations of declarations and options
-subject on_period params do on_ignored_nl UNK UNK on_comma on_symbeg a on_comma on_op UNK on_nl given on_lparen on_label on_tlambda on_lparen val # puts "a_decl: #{a_decl}, a_opts: #{a_opts}, b_opts: #{b_opts}"

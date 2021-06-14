@@ -1,4 +1,0 @@
-on_const on_op UNK on_tstring_content UNK on_nl on_const on_op UNK on_tstring_content UNK on_nl def self on_period output on_lparen path on_rparen on_ignored_nl # Print out the result of `generate`
-return on_lbrace on_tstring_beg on_tstring_end on_op UNK on_rbrace on_nl end on_nl on_ignored_nl def self on_period UNK on_lparen on_label nil on_comma on_label # "" because that will be interpreted as general platform # (we don't detect platform right now)
-on_ignored_nl UNK on_period UNK UNK on_op platform on_op on_ignored_nl next if on_lparen lanes on_lbracket platform on_rbracket on_op on_lbracket on_rbracket on_rparen # because we want root elements on top. always! They have key nil
-def self on_period UNK on_lparen path on_rparen on_ignored_nl output on_op on_lbrace on_rbrace on_nl return output if path on_period UNK on_nl # Returns a hash

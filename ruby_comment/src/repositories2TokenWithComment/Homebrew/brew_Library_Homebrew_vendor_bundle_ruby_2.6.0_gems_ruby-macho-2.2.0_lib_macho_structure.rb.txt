@@ -1,6 +1,0 @@
-UNK on_const on_nl on_const on_op UNK UNK on_period UNK on_nl on_ignored_nl on_const on_op UNK on_nl on_ignored_nl UNK self on_period UNK # A general purpose pseudo-structure. # @abstract
-on_const on_op UNK UNK on_period UNK on_nl on_ignored_nl on_const on_op UNK on_nl on_ignored_nl UNK self on_period UNK on_nl self on_op # The String#unpack format of the data structure. # @return [String] the unpacking format # @api private
-on_const on_op UNK on_nl on_ignored_nl UNK self on_period UNK on_nl self on_op on_const on_nl UNK on_nl on_ignored_nl UNK self on_period # The size of the data structure, in bytes. # @return [Integer] the size, in bytes # @api private
-UNK self on_period UNK on_nl self on_op on_const on_nl UNK on_nl on_ignored_nl UNK self on_period UNK UNK UNK UNK UNK # @return [Integer] the size, in bytes, of the represented structure.
-UNK self on_period UNK UNK UNK UNK UNK UNK on_ignored_nl UNK on_op on_const on_period UNK UNK self on_op on_const UNK # @param endianness [Symbol] either `:big` or `:little` # @param bin [String] the string to be unpacked into the new structure # @return [MachO::MachOStructure] the resulting structure # @api private
-UNK UNK on_nl UNK on_ignored_nl UNK UNK UNK on_op UNK on_ignored_nl UNK UNK UNK on_op self on_period UNK on_op on_const # @return [Hash] a hash representation of this {MachOStructure}.

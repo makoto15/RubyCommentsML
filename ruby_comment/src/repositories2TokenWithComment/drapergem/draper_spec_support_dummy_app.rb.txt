@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_const on_nl on_ignored_nl def UNK on_lparen UNK on_rparen on_ignored_nl UNK on_const on_comma on_tstring_beg on_tstring_content on_tstring_end UNK UNK on_tstring_beg # Adapted from code by Jon Leighton # https://github.com/jonleighton/focused_controller/blob/ec7ccf1/test/acceptance/app_test.rb

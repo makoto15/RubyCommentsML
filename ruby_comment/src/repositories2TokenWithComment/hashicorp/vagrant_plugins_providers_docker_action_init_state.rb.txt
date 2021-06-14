@@ -1,1 +1,0 @@
-UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # We set the ID of the machine to "preparing" so that we can use # the data dir without it being deleted with the not_created state.

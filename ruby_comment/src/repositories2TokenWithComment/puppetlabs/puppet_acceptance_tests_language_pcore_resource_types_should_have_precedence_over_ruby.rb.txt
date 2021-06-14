@@ -1,4 +1,0 @@
-on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl environment on_op on_tstring_beg on_tstring_content on_tstring_end on_nl UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_op master # use `mk_temp_environment_with_teardown` helper to build environment
-UNK on_op master on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl codedir on_op on_tstring_beg on_embexpr_beg UNK on_embexpr_end on_tstring_content on_tstring_end on_nl #{{{
-UNK on_lparen master on_comma on_tstring_beg on_tstring_content on_embexpr_beg UNK on_lparen master on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_tstring_beg on_tstring_content on_tstring_end on_rparen # See PUP-6995
-on_ignored_nl catalog_results on_op UNK UNK on_nl catalog_results on_lbracket master on_period hostname on_rbracket on_op UNK on_tstring_beg on_tstring_content on_tstring_end on_op on_tstring_beg on_tstring_end #}}}

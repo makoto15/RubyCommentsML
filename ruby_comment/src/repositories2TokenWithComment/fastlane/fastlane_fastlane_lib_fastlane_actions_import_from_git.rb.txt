@@ -1,2 +1,0 @@
-end on_nl on_ignored_nl on_ignored_nl def self on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def self on_period UNK # this is implemented in the fast_file.rb
-on_ignored_nl def self on_period UNK on_nl on_tstring_beg on_tstring_content on_tstring_end on_nl end on_nl on_ignored_nl def self on_period UNK on_nl on_tstring_beg on_tstring_content ##################################################### # @!group Documentation #####################################################

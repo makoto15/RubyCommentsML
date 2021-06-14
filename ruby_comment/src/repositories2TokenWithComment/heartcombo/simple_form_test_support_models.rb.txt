@@ -1,2 +1,0 @@
-on_const on_op on_const on_period new on_lparen on_symbeg UNK on_comma on_symbeg name on_comma on_symbeg UNK on_comma on_symbeg UNK on_comma on_symbeg UNK # frozen_string_literal: true
-class on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_op on_const on_nl def UNK UNK on_symbeg text UNK # :text is no longer an ActiveModel::Type # But we don't want our tests to depend on ActiveRecord

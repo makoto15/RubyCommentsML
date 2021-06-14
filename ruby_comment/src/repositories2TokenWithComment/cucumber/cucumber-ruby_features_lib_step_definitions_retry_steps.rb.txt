@@ -1,1 +1,0 @@
-on_ignored_nl UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen UNK on_op full_name on_op on_ignored_nl name on_op UNK on_lparen full_name on_rparen on_nl write_file # frozen_string_literal: true

@@ -1,4 +1,0 @@
-format on_op on_const on_op on_const on_op on_const on_period UNK on_lparen UNK on_rparen on_nl on_ignored_nl UNK format UNK UNK on_lparen format # strip any charset
-UNK on_const on_op on_const on_op on_const on_op on_const on_op on_const on_period new on_lparen on_ignored_nl UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen #TRANSLATORS "mime-type" is a keyword and should not be translated
-UNK on_lparen format on_rparen on_nl end on_nl on_ignored_nl UNK UNK UNK UNK on_period UNK on_nl on_ignored_nl UNK on_const on_op on_const # we are only passed supported_formats that are suitable # and whose klass implements the required_methods
-format on_op UNK on_op format on_period UNK on_op on_symbeg UNK on_op format on_period UNK on_op on_symbeg UNK on_nl end on_nl # YAML in network requests is not supported. See http://links.puppet.com/deprecate_yaml_on_network

@@ -1,1 +1,0 @@
-UNK UNK on_period UNK on_lparen path on_rparen on_ignored_nl xml on_op UNK on_period UNK on_lparen path on_rparen on_nl UNK xml on_period # Fetches the app version from the given pkg file.

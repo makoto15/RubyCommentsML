@@ -1,2 +1,0 @@
-UNK UNK on_nl UNK UNK UNK on_comma UNK UNK on_comma UNK UNK on_comma UNK UNK on_comma UNK UNK on_nl on_ignored_nl # :nodoc: # A struct-like class for passing around a client request. It's mostly # just used for validation and authorization.
-UNK UNK on_nl UNK UNK on_comma UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK # A common way of talking about the full call. Individual servers # are responsible for setting the values correctly, but this common # format makes it possible to check rights.

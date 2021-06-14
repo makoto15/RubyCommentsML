@@ -1,1 +1,0 @@
-on_const on_op on_const UNK UNK UNK on_symbeg UNK UNK UNK on_ignored_nl UNK UNK on_symbeg UNK UNK on_symbeg UNK on_op on_const # The new type allows us a test that is guaranteed to go direct to our # validation code, without passing through any "real type" overrides or # whatever on the way.

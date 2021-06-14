@@ -1,1 +1,0 @@
-UNK UNK UNK on_tstring_content UNK UNK UNK UNK on_tstring_content UNK UNK UNK UNK on_period UNK UNK UNK on_period UNK UNK # frozen_string_literal: true

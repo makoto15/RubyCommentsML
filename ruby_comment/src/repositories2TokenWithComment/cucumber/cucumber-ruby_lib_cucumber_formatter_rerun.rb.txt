@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK UNK UNK on_nl on_ignored_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_nl UNK UNK on_op UNK # frozen_string_literal: true
-on_ivar on_op UNK on_lparen UNK on_period UNK on_rparen on_nl on_ivar on_op UNK on_nl on_ivar on_op UNK UNK on_nl UNK on_period # rubocop:disable Metrics/PerceivedComplexity

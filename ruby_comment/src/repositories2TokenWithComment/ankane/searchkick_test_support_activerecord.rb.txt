@@ -1,4 +1,0 @@
-on_const on_op on_const on_period UNK on_op UNK on_nl on_ignored_nl on_const on_op on_const on_period UNK on_op on_symbeg UNK on_nl on_const on_op # for debugging
-on_const on_op on_const on_period UNK on_op on_symbeg UNK on_nl on_const on_op on_const on_period UNK on_op UNK on_nl on_ignored_nl on_const on_op # rails does this in activerecord/lib/active_record/railtie.rb
-on_const on_op on_const on_period UNK on_label on_tstring_beg on_tstring_content on_tstring_end on_comma on_label on_tstring_beg on_tstring_content on_tstring_end on_nl on_ignored_nl on_const on_op on_const on_period # migrations
-end on_nl on_const on_op on_const on_period UNK UNK UNK UNK on_nl on_ignored_nl on_const on_op on_const on_period create_table on_symbeg UNK on_comma # do nothing

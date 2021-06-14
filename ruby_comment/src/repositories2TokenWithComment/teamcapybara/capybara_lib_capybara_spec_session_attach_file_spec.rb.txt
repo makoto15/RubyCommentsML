@@ -1,4 +1,0 @@
-on_ignored_nl on_const on_op on_const on_period UNK on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl UNK on_lparen on_symbeg test_file_path on_rparen on_lbrace on_const on_period UNK # frozen_string_literal: true
-end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_ivar on_period attach_file on_lparen on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl on_lbracket test_file_path # number of files
-expect on_lparen on_ivar on_period UNK on_rparen on_period to UNK on_lparen on_const on_period read on_lparen test_file_path on_rparen on_rparen on_nl expect on_lparen # number of files
-expect on_lparen on_ivar on_period UNK on_rparen on_period to UNK on_lparen on_const on_period read on_lparen another_test_file_path on_rparen on_rparen on_nl expect on_lparen # number of files

@@ -1,4 +1,0 @@
-on_ignored_nl on_const UNK on_ignored_nl on_const on_period UNK on_op UNK on_nl on_const on_period UNK on_period UNK on_op UNK on_nl on_const on_period # frozen_string_literal: true
-on_const UNK on_ignored_nl on_const on_period UNK on_op UNK on_nl on_const on_period UNK on_period UNK on_op UNK on_nl on_const on_period UNK # before hook for Cucumber
-UNK on_const on_nl on_ignored_nl UNK UNK on_nl UNK on_op on_op on_const on_period UNK on_nl on_op on_const on_period UNK on_op UNK # Helper method for enabling PT in Cucumber features.
-on_ignored_nl UNK UNK on_nl UNK on_op on_op on_const on_period UNK on_nl on_op on_const on_period UNK on_op UNK on_nl UNK on_ignored_nl # :call-seq: # with_versioning # # enable versioning for specific blocks

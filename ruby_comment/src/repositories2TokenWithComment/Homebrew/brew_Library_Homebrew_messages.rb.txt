@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK UNK on_comma UNK UNK on_comma UNK UNK on_nl on_ignored_nl def UNK on_nl on_ivar on_op # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK on_comma UNK UNK on_comma UNK UNK on_nl on_ignored_nl def UNK on_nl on_ivar on_op UNK # A Messages object collects messages that may need to be displayed together # at the end of a multi-step `brew` command run.

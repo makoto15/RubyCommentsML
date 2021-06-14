@@ -1,1 +1,0 @@
-UNK on_op indirection on_period search on_lparen uri on_rparen on_nl expect on_lparen UNK on_rparen on_period to UNK on_lparen one on_rparen on_nl # order can't be guaranteed

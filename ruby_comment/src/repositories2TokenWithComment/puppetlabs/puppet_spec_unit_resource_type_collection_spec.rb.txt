@@ -1,1 +1,0 @@
-before on_lparen on_symbeg UNK on_rparen do on_ignored_nl on_const on_period UNK on_op UNK on_nl end on_nl on_ignored_nl UNK on_lparen on_symbeg UNK # This test requires that debugging is on, it will otherwise not make a call to debug, # which is the easiest way to detect that that a certain path has been taken.

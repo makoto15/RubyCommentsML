@@ -1,2 +1,0 @@
-UNK on_const on_nl UNK on_const on_op on_const on_op on_const on_nl on_ignored_nl UNK UNK UNK on_nl UNK UNK on_lparen UNK on_rparen # Control the install location for modules.
-UNK UNK on_lparen UNK on_comma UNK on_rparen on_ignored_nl UNK UNK UNK on_period UNK on_nl on_ignored_nl UNK on_ignored_nl UNK on_period UNK # prepare the module install location. This will create the location if # needed.

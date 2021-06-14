@@ -1,2 +1,0 @@
-UNK UNK UNK do on_op UNK on_op on_ignored_nl UNK do on_op actual on_op on_ignored_nl actual on_period UNK on_period UNK UNK # Checks if an Acceptor has a specific issue in its list of diagnostics
-UNK UNK UNK do on_ignored_nl UNK do on_op actual on_op on_ignored_nl on_op actual on_period UNK on_period UNK on_nl end on_nl # Checks if an Acceptor has any issues

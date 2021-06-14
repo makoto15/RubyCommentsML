@@ -1,4 +1,0 @@
-UNK UNK UNK on_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK on_nl UNK UNK on_nl UNK # frozen_string_literal: true
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces an actor from The Big Lebowski. # # @return [String] # # @example # Faker::Movies::Lebowski.actor #=> "John Goodman" # # @faker.version 1.8.8
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl UNK UNK UNK on_nl UNK UNK UNK UNK ## # Produces a character from The Big Lebowski. # # @return [String] # # @example # Faker::Movies::Lebowski.character #=> "Jackie Treehorn" # # @faker.version 1.8.8
-UNK UNK on_nl UNK UNK UNK UNK UNK UNK on_nl end on_nl end on_nl end on_nl end on_nl end on_nl ## # Produces a quote from The Big Lebowski. # # @return [String] # # @example # Faker::Movies::Lebowski.quote #=> "Forget it, Donny, you're out of your element!" # # @faker.version 1.8.8

@@ -1,3 +1,0 @@
-UNK UNK on_nl UNK on_op UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK on_nl # Find max_num_violations in lib/danger/comment_generators/github.md.erb.
-UNK on_op UNK on_nl on_ignored_nl UNK UNK UNK UNK UNK on_ignored_nl UNK on_op UNK on_nl UNK on_nl on_ignored_nl UNK UNK # Save ~ 5000 for contents other than violations to avoid exceeded 65536 max comment length limit.
-on_ignored_nl UNK UNK on_op UNK on_op UNK on_nl UNK on_op UNK on_nl UNK on_op UNK on_nl UNK on_ignored_nl UNK on_nl # 80 is ~ the size of html wraps violation message.

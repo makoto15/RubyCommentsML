@@ -1,3 +1,0 @@
-on_const on_op on_const on_op on_const on_nl UNK UNK on_tstring_content UNK on_nl on_const on_op on_const on_op on_const on_nl UNK UNK on_tstring_content # - "Status is a duplicate."
-on_const on_op on_const on_op on_const on_nl UNK UNK on_tstring_content UNK on_nl on_const on_op on_const on_op on_const on_nl end on_nl end # - "You have already favorited this status."
-on_const on_op on_const on_op on_const on_nl end on_nl end on_nl end on_nl EMP EMP EMP EMP EMP EMP EMP EMP # - "You have already retweeted this Tweet." (Nov 2017-) # - "You have already retweeted this tweet." (?-Nov 2017) # - "sharing is not permissible for this status (Share validations failed)" (-? 2017)

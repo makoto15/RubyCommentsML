@@ -1,2 +1,0 @@
-else on_ignored_nl UNK on_period UNK on_lparen UNK on_tstring_content UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl UNK on_nl end # Encoding is unknown from the Content-Type, so let the SAX # parser detect it from the content.
-UNK on_period UNK on_lparen UNK on_tstring_content UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl end on_nl UNK on_nl end on_nl on_ignored_nl # Encoding is already known, so do not let the parser detect # it from the XML declaration in the content.

@@ -1,4 +1,0 @@
-def UNK on_lparen on on_comma app on_comma options on_rparen on_ignored_nl UNK on_op UNK on_lparen options on_rparen on_period UNK on_nl on_ignored_nl # rubocop:disable Metrics/PerceivedComplexity
-if options on_period UNK on_nl on_const on_period message on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl if on on_nl app on_period # deprecated
-UNK app on_period UNK on_period UNK on_period UNK on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl app on_period update_service on_lparen on_const on_period # Don't enable push notifications if already enabled # Enabling push notifications when already on revokes certs # https://github.com/fastlane/fastlane/issues/15315 # https://github.com/fastlane/fastlane/issues/8883
-if options on_period UNK on_nl on_const on_period message on_lparen on_tstring_beg on_tstring_content on_tstring_end on_rparen on_nl on_ignored_nl if on on_nl app on_period # deprecated

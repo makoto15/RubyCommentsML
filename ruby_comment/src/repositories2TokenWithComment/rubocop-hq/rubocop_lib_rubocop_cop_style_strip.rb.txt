@@ -1,2 +1,0 @@
-on_ignored_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_nl UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const # frozen_string_literal: true
-UNK on_const on_op on_const on_nl UNK on_const on_nl on_ignored_nl on_const on_op UNK UNK UNK on_nl on_ignored_nl UNK UNK UNK on_comma # This cop identifies places where `lstrip.rstrip` can be replaced by # `strip`. # # @example # # bad # 'abc'.lstrip.rstrip # 'abc'.rstrip.lstrip # # # good # 'abc'.strip

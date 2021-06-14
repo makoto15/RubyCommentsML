@@ -1,2 +1,0 @@
-expect on_lparen data on_lbracket on_symbeg agents on_rbracket on_lbracket guid_order on_lparen agent_list on_comma on_symbeg jane_rain_notifier_agent on_rparen on_rbracket on_rparen on_period UNK UNK # can't receive events
-end on_nl on_ignored_nl it on_tstring_beg on_tstring_content on_tstring_end do on_ignored_nl on_const on_period UNK on_lparen on_symbeg UNK on_op agents on_lparen on_symbeg jane_weather_agent # can't be scheduled

@@ -1,2 +1,0 @@
-on_ignored_nl UNK UNK on_nl UNK UNK UNK UNK on_nl UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK # frozen_string_literal: true
-UNK on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma UNK on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_tstring_beg on_tstring_content on_tstring_end on_comma on_ignored_nl # OK to unconditionally trust here because we're just checking if # a URL exists.
