@@ -117,6 +117,7 @@ Dir.glob("../repositories/*") do |i|
           tokensWithComment << temp_token
           temp_token = []
         elsif (lex[index][1] == :on_comment) && ((index+1) < lex.size) && (lex[index+1][1] == :on_comment)
+          p lex[index][2]
           comment_token << lex[index][2].split(' ')
           comment_token.flatten!
         end
