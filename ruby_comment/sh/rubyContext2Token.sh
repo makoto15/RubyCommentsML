@@ -2,7 +2,7 @@
 #SBATCH -p big
 #SBATCH -t 25:0:00
 #SBATCH --mem=64G
-#SBATCH -o "./sample.txt"
+#SBATCH -o "../slurm-output/rubyContext2Token.txt"
 
 srun hostname
 srun sh -c "ruby ../src/rubyContext2Token.rb"

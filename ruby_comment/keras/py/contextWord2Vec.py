@@ -11,8 +11,10 @@ sys.path.append('..')
 sys.path.append('../..')
 
 #学習データのファイル群を取得
-file = glob.glob("../../src/repositories2Token/all.txt")
+file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2Token/all.txt")
 print(file)
+
+vectorSize = 30
 
 context = []
 f = open(file[0])
@@ -28,9 +30,9 @@ print(len(context))
 print(context[0:10])
 
 
-model = Word2Vec(sentences=[context], size=15,window=20,iter=60)
+model = Word2Vec(sentences=[context], vector_size=vectorSize,window=20)
 model.save("context2Vec.model")
 print(model.__dict__)
-model.most_similar( positive="if")
-model.wv.index2word
-model.wv["for"]
+# model.most_similar( positive="if")
+# model.wv.index2word
+# model.wv["for"]
