@@ -1,6 +1,7 @@
+
+import tensorflow as tf
 from gensim.models import Word2Vec
 from tensorflow import keras
-import tensorflow as tf
 from keras.models import load_model
 import time
 import glob
@@ -11,7 +12,7 @@ import sys
 import numpy as np
 import nltk
 nltk.download('punkt')
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 from gensim.test.utils import common_texts
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
@@ -24,14 +25,14 @@ sys.path.append('..')
 sys.path.append('../..')
 
 maxLen=19
+vectorSize = 30
 
-
-context2VecModel = Word2Vec.load("context2Vec.model")
-# comment2VecModel = Doc2Vec.load("comment2Vec.model")
-context2SeqModel = keras.models.load_model("context2Seq.model")
+context2VecModel = Word2Vec.load("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2Vec.model")
+# comment2VecModel = Doc2Vec.load("/home/u00545/comments/RubyCommentsML/ruby_comment/models/comment2Vec.model")
+context2SeqModel = keras.models.load_model("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2Seq.model")
 
 #学習データのファイル群を取得
-file = glob.glob("../../src/repositories2TokenWithComment/all.txt")
+file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithComment/all.txt")
 print(file)
 
 contexts = []
@@ -84,7 +85,7 @@ def distributedRepresentation(AllContexts,AllComments):
         seq2Vec.append(np.array(seqVec))
         
     #ここでコメントの分散表現を得る
-    comment2VecModel = Doc2Vec(documents=AllComments, vector_size=15,min_count=5,window=5,epochs=20,dm=0)
+    comment2VecModel = Doc2Vec(documents=AllComments, vector_size=vectorSize,min_count=5,window=5,epochs=20,dm=0)
     for i in range(len(seq2Vec)):
         comments2Vec.append(comment2VecModel.docvecs[i])
     
@@ -113,10 +114,10 @@ seq2Vec, comments2Vec, comment2VecModel = distributedRepresentation(contexts[0:t
 predictionModel = Sequential()
 
 #モデルにレイヤーを積み上げていく
-predictionModel.add(Dense(128, input_dim=15))
+predictionModel.add(Dense(128, input_dim=vectorSize))
 predictionModel.add(Activation('relu'))
-predictionModel.add(Dense(units=15))
-optimizer = RMSprop(lr=0.01)
+predictionModel.add(Dense(units=vectorSize))
+optimizer = RMSprop(learning_rate=0.01)
 
 #損失関数は平均２条誤差を使用
 predictionModel.compile(loss='mean_squared_error',optimizer=optimizer)
@@ -166,8 +167,8 @@ print(predictions[0])
 print(comment2VecModel.docvecs[0])
 comment2VecModel.docvecs.most_similar(0)
 
-comment2VecModel.docvecs.__dict__
-
+print("this is comment2VecModel.docvecs attributes")
+print(comment2VecModel.docvecs.__dict__)
 prediction_index = 1000
 
 def cosine_norm(model,ary,limit=10):

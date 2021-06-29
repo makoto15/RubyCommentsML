@@ -17,14 +17,16 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 
 from keras.models import Sequential
 from keras.layers import Dense, Activation, LSTM
-from keras.optimizers import RMSprop
+# from keras.optimizers import RMSprop
 
 sys.path.append('..')
 sys.path.append('../..')
 
+file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithComment/all.txt")
 
-file = glob.glob("../../src/repositories2TokenWithComment/all.txt")
 print(file)
+
+vectorSize = 30
 
 comments = []
 contexts = []
@@ -50,13 +52,13 @@ print(contexts[0])
 print(comments[0])
 
 
-model = Doc2Vec(documents=comments, vector_size=15,min_count=5,window=5,epochs=20,dm=0)
+model = Doc2Vec(documents=comments, vector_size=vectorSize,min_count=5,window=5,epochs=20,dm=0)
 
 print(comments[0])
 print(model.docvecs[0])
 
 # 文章IDが0の文章と似た文章とその内積を得ることが出来る。
-model.docvecs.most_similar(2)
+# model.docvecs.most_similar(2)
 
 print(comments[2])
 print(comments[39185])

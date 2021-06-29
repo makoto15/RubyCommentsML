@@ -30,9 +30,9 @@ print(len(context))
 print(context[0:10])
 
 
-model = Word2Vec(sentences=[context], vector_size=vectorSize,window=20)
+model = Word2Vec(sentences=[context], size=vectorSize,window=20,iter=60)
 model.save("context2Vec.model")
 print(model.__dict__)
-# model.most_similar( positive="if")
-# model.wv.index2word
-# model.wv["for"]
+print(model.most_similar( positive="if"))
+model.wv.index2word
+print(model.wv["for"])
