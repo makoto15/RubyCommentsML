@@ -27,7 +27,7 @@ Dir.glob("../repositories/*") do |i|
       contents = File.read(file)
       lex = Ripper.lex(contents)
       lex = lex.select do |l|
-        l[1] != :on_sp
+        (l[1] != :on_sp) && (l[1] != :on_ignored_nl) && (l[1] != :on_nl)
       end
       tokens = []
       lex.each do |l|

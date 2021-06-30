@@ -1,0 +1,4 @@
+./src/rubyComment2Label.rb
+Rubyのコメント部分の内、コメントの下にある20トークンをラベルかしたファイル
+
+
