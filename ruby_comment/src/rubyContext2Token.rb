@@ -3,9 +3,9 @@
 require 'ripper'
 require 'pp'
 
-root_folder_name = "repositories2Token"
+root_folder_name = "repositories2TokenDownOnly50Tokens"
 minAppear2UNK = 5
-sizeOfContext = 20
+sizeOfContext = 50
 
 Dir.mkdir(root_folder_name)
 

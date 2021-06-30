@@ -5,9 +5,9 @@ require 'ripper'
 require 'pp'
 
 
-root_folder_name = "repositories2TokenWithComment"
+root_folder_name = "repositories2TokenWithCommentDownOnly50Tokens"
 minAppear2UNK = 5
-sizeOfContext = 20
+sizeOfContext = 50
 
 Dir.mkdir(root_folder_name)
 Dir.glob("../repositories/*") do |i|

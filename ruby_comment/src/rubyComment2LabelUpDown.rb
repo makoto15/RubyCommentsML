@@ -5,9 +5,9 @@ require 'ripper'
 require 'pp'
 
 
-root_folder_name = "repositories2TokenWithCommentUpDown"
+root_folder_name = "repositories2TokenWithCommentUpDown40Tokens"
 minAppear2UNK = 5
-sizeOfContext = 20
+sizeOfContext = 40
 
 if !File.directory?('../test')
   Dir.mkdir('../test')
