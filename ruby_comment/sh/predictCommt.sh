@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH -p v
+#SBATCH -p p
 #SBATCH --gres=gpu:2
 #SBATCH -t 25:0:00
 #SBATCH --mem=64G

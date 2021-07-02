@@ -19,9 +19,10 @@ sys.path.append('../..')
 
 #単語の分散表現のベクトルの次元数
 vecSize = 30
+tokenSize = 20
 
 model = Word2Vec.load("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2Vec.model")
-file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithComment/all.txt")
+file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithCommentUpDown20Tokens/all.txt")
 
 
 context = []
@@ -29,7 +30,7 @@ f = open(file[0])
 lines = f.readlines()
 for line in lines:
     temp_data = line.replace('\n','')
-    temp_data = temp_data.split(' ')[0:20]
+    temp_data = temp_data.split(' ')[0:tokenSize]
     context.append(temp_data)
 f.close()
 print(len(context))
@@ -38,7 +39,7 @@ print(context[0])
 print(context[0][0])
 
 #テキストのベクトル化
-#context2Vec 20トークンに区切った配列を格納している。
+#context2Vec tokenSizeトークンに区切った配列を格納している。
 context2Vec = []
 
 for i in range(len(context)):
@@ -52,7 +53,7 @@ print(context2Vec[0][0])
 
 print(len(context2Vec))
 
-maxLen = 19
+maxLen = tokenSize-1
 
 sentences = []
 next_chars = []
@@ -90,7 +91,7 @@ models.compile(loss='mean_squared_error', optimizer=optimizer)
 def sample(preds):
     return model.most_similar( [ np.array(preds) ], [], 5)[0][0]
 
-for iteration in range(1,100):
+for iteration in range(1,50):
     print()
     print('-'*50)
     print('繰り返し回数: ', iteration)
@@ -123,14 +124,14 @@ for iteration in range(1,100):
         sys.stdout.flush()
     print()
     
-models.save("context2Seq.model")    
+models.save("context2SeqUpDown20Tokens.model")
 
 #ここからはmodelをloadしてきて遊んでみる
 
-models = keras.models.load_model("context2Seq.model")
-print(np.array([context2Vec[0][:19]]).shape)
+models = keras.models.load_model("context2SeqUpDown20Tokens.model")
+print(np.array([context2Vec[0][:maxLen]]).shape)
 
-preds = models.predict(np.array([context2Vec[1][:19]]),verbose=2)
+preds = models.predict(np.array([context2Vec[1][:maxLen]]),verbose=2)
 print(preds[0])
 
 

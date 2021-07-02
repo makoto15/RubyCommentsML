@@ -15,6 +15,7 @@ file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories
 print(file)
 
 vectorSize = 30
+windowSize = 20
 
 context = []
 f = open(file[0])
@@ -30,7 +31,7 @@ print(len(context))
 print(context[0:10])
 
 
-model = Word2Vec(sentences=[context], size=vectorSize,window=20,iter=60)
+model = Word2Vec(sentences=[context], size=vectorSize,window=windowSize,iter=60)
 model.save("context2Vec.model")
 print(model.__dict__)
 print(model.most_similar( positive="if"))

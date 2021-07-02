@@ -1,4 +1,5 @@
 
+
 import tensorflow as tf
 from gensim.models import Word2Vec
 from tensorflow import keras
@@ -24,15 +25,15 @@ from keras.optimizers import RMSprop
 sys.path.append('..')
 sys.path.append('../..')
 
-maxLen=19
+maxLen=49
 vectorSize = 30
 
 context2VecModel = Word2Vec.load("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2Vec.model")
-# comment2VecModel = Doc2Vec.load("/home/u00545/comments/RubyCommentsML/ruby_comment/models/comment2Vec.model")
-context2SeqModel = keras.models.load_model("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2Seq.model")
+# comment2VecModel = Doc2Vec.load("/home/u00545/comments/RubyCommentsML/ruby_comment/models/comment2VecUpDown50Tokens.model")
+context2SeqModel = keras.models.load_model("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2SeqUpDown50Tokens.model")
 
 #学習データのファイル群を取得
-file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithComment/all.txt")
+file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithCommentUpDown50Tokens/all.txt")
 print(file)
 
 contexts = []
@@ -143,7 +144,7 @@ print(predictionModel.history.params)
 # plt.legend()
 # plt.show()
 
-predictionModel.save("seq2CommentPrediction.model")
+predictionModel.save("seq2CommentPredictionUpDown50Tokens.model")
 
 
 

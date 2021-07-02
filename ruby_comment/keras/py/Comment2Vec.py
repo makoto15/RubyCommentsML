@@ -22,11 +22,12 @@ from keras.layers import Dense, Activation, LSTM
 sys.path.append('..')
 sys.path.append('../..')
 
-file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithComment/all.txt")
+file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithCommentUpDown20Tokens/all.txt")
 
 print(file)
 
 vectorSize = 30
+tokenSize= 20
 
 comments = []
 contexts = []
@@ -36,8 +37,8 @@ lines = f.readlines()
 i=0
 for line in lines:
     temp_data = line.replace("\n","")
-    temp_context = temp_data.split(' ')[0:20]
-    temp_comment = " ".join(temp_data.split(' ')[20:])
+    temp_context = temp_data.split(' ')[0:tokenSize]
+    temp_comment = " ".join(temp_data.split(' ')[tokenSize:])
     morph = nltk.word_tokenize(temp_comment)
     contexts.append(temp_context)
     comments.append(TaggedDocument(morph,[i]))
@@ -65,4 +66,4 @@ print(comments[39185])
 print(comments[39457])
 
 
-model.save("comment2Vec.model")
+model.save("comment2VecUpDown20Tokens.model")
