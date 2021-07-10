@@ -9,12 +9,21 @@ root_folder_name = "repositories2TokenWithCommentDownOnly50Tokens"
 minAppear2UNK = 5
 sizeOfContext = 50
 
-Dir.mkdir(root_folder_name)
+
+if !File.directory?("../repositories_cleansing/")
+  Dir.mkdir("../repositories_cleansing")
+end
+
+if !File.directory?("../repositories_cleansing/#{root_folder_name}")
+  Dir.mkdir("../repositories_cleansing/#{root_folder_name}")
+end
+
+
 Dir.glob("../repositories/*") do |i|
   folder_name = i.split('/')[-1]
 
   # プロジェクト名と名前が一致するフォルダを作成
-  Dir.mkdir("#{root_folder_name}/#{folder_name}")
+  Dir.mkdir("../repositories_cleansing/#{root_folder_name}/#{folder_name}")
 
   #ここから先はできたtokenのハッシュを使ってファイルに出力
 
@@ -37,7 +46,9 @@ Dir.glob("../repositories/*") do |i|
       #ここからUNKに置き換えるトークンを計算
       lex.each do |l|
         if l[1] == :on_ident
-          tokens << (l[2].to_s).split(' ').join('_').downcase
+          temp = l[2].to_s.downcase
+          tokens << temp.split(' ')
+          tokens.flatten!
         elsif l[1] == :on_kw
           tokens << l[2].to_s.downcase
         elsif l[1] != :on_comment
@@ -124,12 +135,12 @@ Dir.glob("../repositories/*") do |i|
         index += 1
       end
 
-      File.open("#{root_folder_name}/#{folder_name}/#{rep}.txt",mode="a"){ |f|
+      File.open("../repositories_cleansing/#{root_folder_name}/#{folder_name}/#{rep}.txt",mode="a"){ |f|
         tokensWithComment.each do |file|
           f.puts file.join(" ")
         end
       }
-      File.open("#{root_folder_name}/all.txt",mode="a"){ |f|
+      File.open("../repositories_cleansing/#{root_folder_name}/all.txt",mode="a"){ |f|
       tokensWithComment.each do |file|
         f.puts file.join(" ")
       end
