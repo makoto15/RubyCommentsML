@@ -36,7 +36,7 @@ Dir.glob("../repositories/*") do |i|
       end
       tokens = []
       lex.each do |l|
-        if l[1] == :on_ident
+        if l[1] == :on_ident || l[1] == :on_const
           temp = l[2].to_s.downcase
           tokens << temp.split(' ')
           tokens.flatten!

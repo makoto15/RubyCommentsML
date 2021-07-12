@@ -1,13 +1,16 @@
-#Rubyのリポジトリのうちコメントがあるものだけを取り出して、txtファイルに出力するコード
+#Rubyのリポジトリのうちコメントがあるものとその下のコードだけを取り出して、txtファイルに出力するコード
+# ここでトークンは:on_tstring_content,:on_intとスペース、改行以外はそのまま出力している。
 
 
 require 'ripper'
 require 'pp'
 
 
-root_folder_name = "repositories2TokenWithCommentDownOnly50Tokens"
+root_folder_name = "repositories2TokenWithCommentDownOnlyRawData20Tokens"
+
+#そのプロジェクトに現れる最小回数
 minAppear2UNK = 5
-sizeOfContext = 50
+sizeOfContext = 20
 
 
 if !File.directory?("../repositories_cleansing/")
@@ -23,39 +26,32 @@ Dir.glob("../repositories/*") do |i|
   folder_name = i.split('/')[-1]
 
   # プロジェクト名と名前が一致するフォルダを作成
-  Dir.mkdir("../repositories_cleansing/#{root_folder_name}/#{folder_name}")
+  if !File.directory?("../repositories_cleansing/#{root_folder_name}/#{folder_name}")
+    Dir.mkdir("../repositories_cleansing/#{root_folder_name}/#{folder_name}")
+  end
+  token_appear = {}
 
-  #ここから先はできたtokenのハッシュを使ってファイルに出力
-
+  #minAppear2UNKの作成
   Dir.glob("#{i}/**/*.rb") do |file|
     if File.file?(file)
-  
-      token_appear = {}
-
-      #ファイル名をrep変数に格納
-      rep = file.split('/')[3..-1].join("_")
-      p file
       contents = File.read(file)
       lex = Ripper.lex(contents)
       lex = lex.select do |l|
         (l[1] != :on_sp) && (l[1] != :on_ignored_nl) && (l[1] != :on_nl)
       end
       tokens = []
-      tokensWithComment = []
 
       #ここからUNKに置き換えるトークンを計算
       lex.each do |l|
-        if l[1] == :on_ident || l[1] == :on_const
+        #コードの中にある適当な文字列
+        if (l[1] == :on_tstring_content) || (l[1] == :on_int)
+          tokens << l[1]
+        elsif l[1] != :on_comment
           temp = l[2].to_s.downcase
           tokens << temp.split(' ')
           tokens.flatten!
-        elsif l[1] == :on_kw
-          tokens << l[2].to_s.downcase
-        elsif l[1] != :on_comment
-          tokens << l[1].to_s.downcase
         end
       end
-
 
       tokens.each do |token|
         temp_tok = token
@@ -65,8 +61,30 @@ Dir.glob("../repositories/*") do |i|
           token_appear[temp_tok] += 1
         end
       end
+      p token_appear.keys.size
 
       #ここまで
+    end
+  end
+
+  p "done making token_appear"
+
+
+  #ここから先はできたtokenのハッシュを使ってファイルに出力
+
+  Dir.glob("#{i}/**/*.rb") do |file|
+    if File.file?(file)
+
+      #ファイル名をrep変数に格納
+      rep = file.split('/')[3..-1].join("_")
+      p file
+      contents = File.read(file)
+      lex = Ripper.lex(contents)
+      lex = lex.select do |l|
+        #スペース、改行を除いてる
+        (l[1] != :on_sp) && (l[1] != :on_ignored_nl) && (l[1] != :on_nl)
+      end
+      tokensWithComment = []
 
 
       index = 0
@@ -79,26 +97,23 @@ Dir.glob("../repositories/*") do |i|
           count_num = index+1
           while flag
             #コメントの後のコードの内コメントが含まれないトークンを記録
-            #もしcount_numがlexのサイズより小さい場合
-            if (count_num < lex.size)
+            #もしcount_numがlexのサイズより小さい場合かつtemp_tokenのサイズがsizeOfContextよりも小さい場合
+            if (count_num < lex.size) && (temp_token.size < sizeOfContext)
               if (lex[count_num][1] != :on_comment) && (lex[count_num][1] != :on_sp) && (lex[count_num][1] != :on_ignored_nl) && (lex[count_num][1] != :on_nl)
-                if lex[count_num][1] == :on_ident || lex[count_num][1] == :on_const
-                  if token_appear[lex[count_num][2].to_s.split(' ').join('_').downcase] <= minAppear2UNK
-                    temp_token << "UNK"
-                  else
-                    temp_token << lex[count_num][2].to_s.downcase
-                  end
-                elsif lex[count_num][1] == :on_kw
-                  if token_appear[lex[count_num][2].to_s.downcase] <= minAppear2UNK
-                    temp_token << "UNK"
-                  else
-                    temp_token << lex[count_num][2].to_s.downcase
+                if (lex[count_num][1] != :on_tstring_content) && (lex[count_num][1] != :on_int)
+                  temp_ary = lex[count_num][2].to_s.downcase.split(' ')
+                  temp_ary.each do |temp|
+                    if token_appear[temp] <= minAppear2UNK
+                      temp_token << "UNK"
+                    else
+                      temp_token << temp
+                    end
                   end
                 else
-                  if token_appear[lex[count_num][1].to_s.downcase] <= minAppear2UNK
+                  if token_appear[lex[count_num][1]] <= minAppear2UNK
                     temp_token << "UNK"
                   else
-                    temp_token << lex[count_num][1].to_s.downcase
+                    temp_token << lex[count_num][1]
                   end
                 end
               end
@@ -107,6 +122,10 @@ Dir.glob("../repositories/*") do |i|
               if temp_token.size < sizeOfContext
                 while temp_token.size < sizeOfContext
                   temp_token << "EMP"
+                end
+              elsif temp_token.size > sizeOfContext
+                while temp_token.size > sizeOfContext
+                  temp_token.pop
                 end
               end
             end
