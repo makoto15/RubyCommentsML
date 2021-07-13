@@ -47,6 +47,8 @@ Dir.glob("../repositories/*") do |i|
         if (l[1] == :on_tstring_content) || (l[1] == :on_int)
           tokens << l[1]
         elsif l[1] != :on_comment
+          p l
+          p file
           temp = l[2].to_s.downcase
           tokens << temp.split(' ')
           tokens.flatten!
