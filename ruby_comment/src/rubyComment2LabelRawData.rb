@@ -1,5 +1,5 @@
 #Rubyのリポジトリのうちコメントがあるものとその下のコードだけを取り出して、txtファイルに出力するコード
-# ここでトークンは:on_tstring_content,:on_intとスペース、改行以外はそのまま出力している。
+# ここでトークンは:on_tstring_content,:on_int,on_identとスペース、改行以外はそのまま出力している。
 
 
 require 'ripper'
@@ -44,7 +44,7 @@ Dir.glob("../repositories/*") do |i|
       #ここからUNKに置き換えるトークンを計算
       lex.each do |l|
         #コードの中にある適当な文字列
-        if (l[1] == :on_tstring_content) || (l[1] == :on_int)
+        if (l[1] == :on_tstring_content) || (l[1] == :on_int) || (l[1] == :on_ident)
           tokens << l[1]
         elsif l[1] != :on_comment
           p l
@@ -102,7 +102,7 @@ Dir.glob("../repositories/*") do |i|
             #もしcount_numがlexのサイズより小さい場合かつtemp_tokenのサイズがsizeOfContextよりも小さい場合
             if (count_num < lex.size) && (temp_token.size < sizeOfContext)
               if (lex[count_num][1] != :on_comment) && (lex[count_num][1] != :on_sp) && (lex[count_num][1] != :on_ignored_nl) && (lex[count_num][1] != :on_nl)
-                if (lex[count_num][1] != :on_tstring_content) && (lex[count_num][1] != :on_int)
+                if (lex[count_num][1] != :on_tstring_content) && (lex[count_num][1] != :on_int)&& (lex[count_num][1] != :on_ident)
                   temp_ary = lex[count_num][2].to_s.downcase.split(' ')
                   temp_ary.each do |temp|
                     if token_appear[temp] <= minAppear2UNK

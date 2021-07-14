@@ -5,9 +5,9 @@ require 'ripper'
 require 'pp'
 
 
-root_folder_name = "repositories2TokenWithCommentDownOnly50Tokens"
-minAppear2UNK = 5
-sizeOfContext = 50
+root_folder_name = "repositories2TokenWithCommentDownOnly20Tokens"
+minAppear2UNK = 3
+sizeOfContext = 20
 
 
 if !File.directory?("../repositories_cleansing/")
@@ -83,10 +83,13 @@ Dir.glob("../repositories/*") do |i|
             if (count_num < lex.size)
               if (lex[count_num][1] != :on_comment) && (lex[count_num][1] != :on_sp) && (lex[count_num][1] != :on_ignored_nl) && (lex[count_num][1] != :on_nl)
                 if lex[count_num][1] == :on_ident || lex[count_num][1] == :on_const
-                  if token_appear[lex[count_num][2].to_s.split(' ').join('_').downcase] <= minAppear2UNK
-                    temp_token << "UNK"
-                  else
-                    temp_token << lex[count_num][2].to_s.downcase
+                  temp_ary = lex[count_num][2].to_s.downcase.split(' ')
+                  temp_ary.each do |ary|
+                    if token_appear[ary] <= minAppear2UNK
+                      temp_token << "UNK"
+                    else
+                      temp_token << lex[count_num][2].to_s.downcase
+                    end
                   end
                 elsif lex[count_num][1] == :on_kw
                   if token_appear[lex[count_num][2].to_s.downcase] <= minAppear2UNK

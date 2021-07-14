@@ -40,7 +40,7 @@ Dir.glob("../repositories/*") do |i|
       #ここからUNKに置き換えるトークンを計算
       lex.each do |l|
         #コードの中にある適当な文字列
-        if (l[1] == :on_tstring_content) || (l[1] == :on_int)
+        if (l[1] == :on_tstring_content) || (l[1] == :on_int) || (l[1] == :on_ident)
           tokens << l[1]
         elsif l[1] != :on_comment
           temp = l[2].to_s.downcase
@@ -103,7 +103,7 @@ Dir.glob("../repositories/*") do |i|
               temp_token << "EMP"
             end
             stack.size.times do |i|
-              if (stack[i][1] != :on_tstring_content) && (stack[i][1] != :on_int)
+              if (stack[i][1] != :on_tstring_content) && (stack[i][1] != :on_int) && (stack[i][1] != :on_ident)
                 temp_ary = stack[i][2].to_s.downcase.split(' ')
                 temp_ary.each do |temp|
                   if token_appear[temp] <= minAppear2UNK
@@ -123,7 +123,7 @@ Dir.glob("../repositories/*") do |i|
           else
             temp_stack = stack[-sizeOfContext..-1]
             temp_stack.size.times do |i|
-              if (temp_stack[i][1] != :on_tstring_content) && (temp_stack[i][1] != :on_int)
+              if (temp_stack[i][1] != :on_tstring_content) && (temp_stack[i][1] != :on_int) && (temp_stack[i][1] != :on_ident)
                 temp_ary = temp_stack[i][2].to_s.downcase.split(' ')
                 temp_ary.each do |temp|
                   if token_appear[temp] <= minAppear2UNK
@@ -151,7 +151,7 @@ Dir.glob("../repositories/*") do |i|
             #もしcount_numがlexのサイズより小さい場合かつtemp_tokenのサイズがsizeOfContextよりも小さい場合
             if (count_num < lex.size) && (temp_token.size < 2*sizeOfContext)
               if (lex[count_num][1] != :on_comment) && (lex[count_num][1] != :on_sp) && (lex[count_num][1] != :on_ignored_nl) && (lex[count_num][1] != :on_nl)
-                if (lex[count_num][1] != :on_tstring_content) && (lex[count_num][1] != :on_int)
+                if (lex[count_num][1] != :on_tstring_content) && (lex[count_num][1] != :on_int) && (lex[count_num][1] != :on_ident)
                   temp_ary = lex[count_num][2].to_s.downcase.split(' ')
                   temp_ary.each do |temp|
                     if token_appear[temp] <= minAppear2UNK
