@@ -6,11 +6,11 @@ require 'ripper'
 require 'pp'
 
 
-root_folder_name = "repositories2TokenWithCommentDownOnlyRawData20Tokens"
+root_folder_name = "repositories2TokenWithCommentDownOnlyRawData50Tokens"
 
 #そのプロジェクトに現れる最小回数
 minAppear2UNK = 5
-sizeOfContext = 20
+sizeOfContext = 50
 
 
 if !File.directory?("../repositories_cleansing/")

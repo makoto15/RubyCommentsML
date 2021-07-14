@@ -3,9 +3,9 @@
 require 'ripper'
 require 'pp'
 
-root_folder_name = "repositories2TokenDownOnly50Tokens"
+root_folder_name = "repositories2TokenDownOnly40Tokens"
 minAppear2UNK = 5
-sizeOfContext = 50
+sizeOfContext = 40
 
 if !File.directory?('../repositories_cleansing')
   Dir.mkdir('../repositories_cleansing')
