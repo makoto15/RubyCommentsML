@@ -5,16 +5,18 @@ require 'ripper'
 require 'pp'
 
 
-root_folder_name = "repositories2TokenWithCommentUpDown20Tokens"
-minAppear2UNK = 3
+root_folder_name = "repositories2TokenWithCommentUpDownRawDataWithIdent20Tokens"
+minAppear2UNK = 5
 sizeOfContext = 20
 
 if !File.directory?('../repositories_cleansing')
   Dir.mkdir('../repositories_cleansing')
 end
+
 if !File.directory?("../repositories_cleansing/#{root_folder_name}")
   Dir.mkdir("../repositories_cleansing/#{root_folder_name}")
 end
+
 Dir.glob("../repositories/*") do |i|
   folder_name = i.split('/')[-1]
 
@@ -23,37 +25,29 @@ Dir.glob("../repositories/*") do |i|
     Dir.mkdir("../repositories_cleansing/#{root_folder_name}/#{folder_name}")
   end
 
-  #ここから先は出てきたtokenのハッシュを使ってファイルに出力
+  token_appear = {}
 
-  Dir.glob("#{i}/**/*.rb") do |file|
+    #minAppear2UNKの作成
+    Dir.glob("#{i}/**/*.rb") do |file|
     if File.file?(file)
-  
-      token_appear = {}
-
-      #ファイル名をrep変数に格納
-      rep = file.split('/')[3..-1].join("_")
-      p file
       contents = File.read(file)
       lex = Ripper.lex(contents)
       lex = lex.select do |l|
         (l[1] != :on_sp) && (l[1] != :on_ignored_nl) && (l[1] != :on_nl)
       end
       tokens = []
-      tokensWithComment = []
 
       #ここからUNKに置き換えるトークンを計算
       lex.each do |l|
-        if l[1] == :on_ident || l[1] == :on_const
+        #コードの中にある適当な文字列
+        if (l[1] == :on_tstring_content) || (l[1] == :on_int)
+          tokens << l[1]
+        elsif l[1] != :on_comment
           temp = l[2].to_s.downcase
           tokens << temp.split(' ')
           tokens.flatten!
-        elsif l[1] == :on_kw
-          tokens << l[2].to_s.downcase
-        elsif l[1] != :on_comment
-          tokens << l[1].to_s.downcase
         end
       end
-
 
       tokens.each do |token|
         temp_tok = token
@@ -63,8 +57,30 @@ Dir.glob("../repositories/*") do |i|
           token_appear[temp_tok] += 1
         end
       end
+      p token_appear.keys.size
 
       #ここまで
+    end
+  end
+
+  p "done making token_appear"
+
+  #ここから先は出てきたtokenのハッシュを使ってファイルに出力
+
+  Dir.glob("#{i}/**/*.rb") do |file|
+    if File.file?(file)
+  
+
+      #ファイル名をrep変数に格納
+      rep = file.split('/')[3..-1].join("_")
+      p file
+      contents = File.read(file)
+      lex = Ripper.lex(contents)
+      lex = lex.select do |l|
+        #スペース,改行を除いてる
+        (l[1] != :on_sp) && (l[1] != :on_ignored_nl) && (l[1] != :on_nl)
+      end
+      tokensWithComment = []
 
       index = 0
       comment_token = []
@@ -87,7 +103,7 @@ Dir.glob("../repositories/*") do |i|
               temp_token << "EMP"
             end
             stack.size.times do |i|
-              if stack[i][1] == :on_ident || stack[i][1] == :on_const
+              if (stack[i][1] != :on_tstring_content) && (stack[i][1] != :on_int)
                 temp_ary = stack[i][2].to_s.downcase.split(' ')
                 temp_ary.each do |temp|
                   if token_appear[temp] <= minAppear2UNK
@@ -96,24 +112,18 @@ Dir.glob("../repositories/*") do |i|
                     temp_token << temp
                   end
                 end
-              elsif stack[i][1] == :on_kw
-                if token_appear[stack[i][2].to_s.downcase] <= minAppear2UNK
-                  temp_token << "UNK"
-                else
-                  temp_token << stack[i][2].to_s.downcase
-                end
               else
-                if token_appear[stack[i][1].to_s.downcase] <= minAppear2UNK
+                if token_appear[stack[i][1]] <= minAppear2UNK
                   temp_token << "UNK"
                 else
-                  temp_token << stack[i][1].to_s.downcase
+                  temp_token << stack[i][1]
                 end
               end
             end
           else
             temp_stack = stack[-sizeOfContext..-1]
             temp_stack.size.times do |i|
-              if temp_stack[i][1] == :on_ident || temp_stack[i][1] == :on_const
+              if (temp_stack[i][1] != :on_tstring_content) && (temp_stack[i][1] != :on_int)
                 temp_ary = temp_stack[i][2].to_s.downcase.split(' ')
                 temp_ary.each do |temp|
                   if token_appear[temp] <= minAppear2UNK
@@ -122,25 +132,13 @@ Dir.glob("../repositories/*") do |i|
                     temp_token << temp
                   end
                 end
-              elsif temp_stack[i][1] == :on_kw
-                if token_appear[temp_stack[i][2].to_s.downcase] <= minAppear2UNK
-                  temp_token << "UNK"
-                else
-                  temp_token << temp_stack[i][2].to_s.downcase
-                end
               else
-                if token_appear[temp_stack[i][1].to_s.downcase] <= minAppear2UNK
+                if token_appear[temp_stack[i][1]] <= minAppear2UNK
                   temp_token << "UNK"
                 else
-                  temp_token << temp_stack[i][1].to_s.downcase
+                  temp_token << temp_stack[i][1]
                 end
               end
-            end
-          end
-
-          if temp_token.size > sizeOfContext
-            while temp_token.size > sizeOfContext
-              temp_token.pop
             end
           end
 
@@ -150,10 +148,10 @@ Dir.glob("../repositories/*") do |i|
           count_num = index+1
           while flag
             #コメントの後のコードの内コメントが含まれないトークンを記録
-            #もしcount_numがlexのサイズより小さい場合
-            if (count_num < lex.size)
+            #もしcount_numがlexのサイズより小さい場合かつtemp_tokenのサイズがsizeOfContextよりも小さい場合
+            if (count_num < lex.size) && (temp_token.size < 2*sizeOfContext)
               if (lex[count_num][1] != :on_comment) && (lex[count_num][1] != :on_sp) && (lex[count_num][1] != :on_ignored_nl) && (lex[count_num][1] != :on_nl)
-                if lex[count_num][1] == :on_ident || lex[count_num][1] == :on_const
+                if (lex[count_num][1] != :on_tstring_content) && (lex[count_num][1] != :on_int)
                   temp_ary = lex[count_num][2].to_s.downcase.split(' ')
                   temp_ary.each do |temp|
                     if token_appear[temp] <= minAppear2UNK
@@ -162,18 +160,11 @@ Dir.glob("../repositories/*") do |i|
                       temp_token << temp
                     end
                   end
-                elsif lex[count_num][1] == :on_kw
-                  if token_appear[lex[count_num][2].to_s.downcase] <= minAppear2UNK
-                    temp_token << "UNK"
-                  else
-                    temp_token << lex[count_num][2].to_s.downcase.split(' ')
-                    temp_token.flatten!
-                  end
                 else
-                  if token_appear[lex[count_num][1].to_s.downcase] <= minAppear2UNK
+                  if token_appear[lex[count_num][1]] <= minAppear2UNK
                     temp_token << "UNK"
                   else
-                    temp_token << lex[count_num][1].to_s.downcase
+                    temp_token << lex[count_num][1]
                   end
                 end
               end
@@ -183,15 +174,14 @@ Dir.glob("../repositories/*") do |i|
                 while temp_token.size < 2*sizeOfContext
                   temp_token << "EMP"
                 end
+              elsif temp_token.size > 2*sizeOfContext
+                while temp_token.size > 2*sizeOfContext
+                  temp_token.pop
+                end
               end
             end
-            if temp_token.size >= 2*sizeOfContext
+            if temp_token.size == 2*sizeOfContext
               flag = false
-            end
-          end
-          if temp_token.size > 2*sizeOfContext
-            while temp_token.size > 2*sizeOfContext
-              temp_token.pop
             end
           end
           comment_token << lex[index][2].split(' ')
@@ -202,6 +192,7 @@ Dir.glob("../repositories/*") do |i|
           tokensWithComment << temp_token
           temp_token = []
         elsif (lex[index][1] == :on_comment) && ((index+1) < lex.size) && (lex[index+1][1] == :on_comment)
+          p lex[index][2]
           comment_token << lex[index][2].split(' ')
           comment_token.flatten!
         elsif (lex[index][1] != :on_comment) && (lex[index][1] != :on_sp) && (lex[index][1] != :on_ignored_nl) && (lex[index][1] != :on_nl)
