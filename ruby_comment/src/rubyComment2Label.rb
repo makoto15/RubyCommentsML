@@ -85,7 +85,7 @@ Dir.glob("../repositories/*") do |i|
                 if lex[count_num][1] == :on_ident || lex[count_num][1] == :on_const
                   temp_ary = lex[count_num][2].to_s.downcase.split(' ')
                   temp_ary.each do |temp|
-                    if token_appear[ary] <= minAppear2UNK
+                    if token_appear[temp] <= minAppear2UNK
                       temp_token << "UNK"
                     else
                       temp_token << temp
