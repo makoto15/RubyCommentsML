@@ -15,7 +15,7 @@ file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories
 print(file)
 
 #単語の分散表現のベクトルの次元数
-vecSize = 100
+vecSize = 700
 minCount = 3
 windowSize = 20
 
@@ -39,7 +39,7 @@ print(context[0:1000])
 
 
 model = Word2Vec(sentences=[context], size=vecSize,window=20,iter=60, min_count=minCount)
-model.save("../../models/context2Vec.model")
+model.save("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2Vec700dim.model")
 print(model.__dict__)
 print("list of words detected")
 print(model.wv.index2word)

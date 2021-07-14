@@ -19,13 +19,13 @@ sys.path.append('../..')
 
 #単語の分散表現のベクトルの次元数
 vecSize = 100
-tokenSize = 20
+tokenSize = 50
 
 #コンテキストのサイズ
-contextSize = 20
+contextSize = 50
 
-model = Word2Vec.load("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2Vec.model")
-file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithCommentUpDown20Tokens/all.txt")
+model = Word2Vec.load("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2Vec100dim.model")
+file = glob.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithCommentDownOnlyRawData50Tokens/all.txt")
 
 print(len(model.wv.vocab))
 
@@ -138,11 +138,11 @@ for iteration in range(1,30):
     print()
     
     
-models.save("../../models/context2SeqUpDown20Tokens.model")
+models.save("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2SeqOnlyDownRawData50Tokens100dim")
 
 #ここからはmodelをloadしてきて遊んでみる
 
-models = keras.models.load_model("../../models/context2SeqUpDown20Tokens.model")
+models = keras.models.load_model("/home/u00545/comments/RubyCommentsML/ruby_comment/models/context2SeqDownOnlyRawData50Tokens100dim")
 print(np.array([context2Vec[0][:maxLen]]).shape)
 
 preds = models.predict(np.array([context2Vec[1][:maxLen]]),verbose=2)
