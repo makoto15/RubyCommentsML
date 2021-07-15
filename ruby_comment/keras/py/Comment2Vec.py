@@ -66,4 +66,4 @@ print(comments[39185])
 print(comments[39457])
 
 
-model.save("comment2VecUpDown20Tokens.model")
+model.save("comment2VecUpDown20Tokens100dim.model")
