@@ -1,13 +1,13 @@
-#Rubyのリポジトリのうちコメントがあるものの上下のトークンだけを取り出して、txtファイルに出力するコード
+Rubyのリポジトリのうちコメントがあるものの上下のトークンだけを取り出して、txtファイルに出力するコード
 
 
 require 'ripper'
 require 'pp'
 
 
-root_folder_name = "repositories2TokenWithCommentUpDownRawDataWithIdent20Tokens"
+root_folder_name = "repositories2TokenWithCommentUpDownRawDataWithIdent50Tokens"
 minAppear2UNK = 5
-sizeOfContext = 20
+sizeOfContext = 50
 
 if !File.directory?('../repositories_cleansing')
   Dir.mkdir('../repositories_cleansing')
