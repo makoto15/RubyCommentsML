@@ -1,6 +1,6 @@
 #!/bin/sh
 #SBATCH -p big
-#SBATCH -t 25:0:00
+#SBATCH -t 48:0:00
 #SBATCH --mem=64G
 #SBATCH -o "../slurm-output/rubyContext2Token.txt"
 
