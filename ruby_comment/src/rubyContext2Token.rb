@@ -31,20 +31,12 @@ end
 
 #各リポジトリのループ
 unkToken = []
-<<<<<<< HEAD
-Dir.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories/*") do |i|
-  folder_name = i.split('/')[-1]
-
-  #プロジェクト名と名前が一致するフォルダを作成
-  Dir.mkdir("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}/#{folder_name}")
-=======
 #ここもrepositoriesに治す
 Dir.glob("../repositories_ssh/*") do |i|
   folder_name = i.split('/')[-1]
 
   #プロジェクト名と名前が一致するフォルダを作成
   Dir.mkdir("../test_repositories/#{root_folder_name}/#{folder_name}")
->>>>>>> 19f3e4041788587b045c675b52659bcc42653323
   token_appear = {}
 
   #各ファイルのループ
@@ -118,17 +110,10 @@ Dir.glob("../repositories_ssh/*") do |i|
         end
       end
 
-<<<<<<< HEAD
-      File.open("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}/#{folder_name}/all.txt",mode="a"){ |f|
-        f.puts tokens.join(" ")
-      }
-      File.open("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}/all.txt",mode="a"){ |f|
-=======
       File.open("../test_repositories/#{root_folder_name}/#{folder_name}/all.txt",mode="a"){ |f|
         f.puts tokens.join(" ")
       }
       File.open("../test_repositories/#{root_folder_name}/all.txt",mode="a"){ |f|
->>>>>>> 19f3e4041788587b045c675b52659bcc42653323
         f.puts tokens.join(" ")
       }
 
@@ -139,11 +124,7 @@ Dir.glob("../repositories_ssh/*") do |i|
   end
 end
 
-<<<<<<< HEAD
-File.open("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}/all.txt",mode="a"){ |f|
-=======
 File.open("../test_repositories/#{root_folder_name}/all.txt",mode="a"){ |f|
->>>>>>> 19f3e4041788587b045c675b52659bcc42653323
   f.puts (["EMP"]*sizeOfContext).join(' ')
 }
 
