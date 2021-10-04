@@ -7,7 +7,7 @@ require 'pp'
 
 root_folder_name = "repositories2TokenWithComment"
 minAppear2UNK = 3
-sizeOfContext = 50
+sizeOfContext = 30
 
 
 if !File.directory?("../repositories_cleansing/")
@@ -81,6 +81,7 @@ Dir.glob("../repositories/*") do |i|
       lex = lex.select do |l|
         (l[1] != :on_sp) && (l[1] != :on_ignored_nl) && (l[1] != :on_nl)
       end
+      tokensWithComment = []
 
 
       index = 0
