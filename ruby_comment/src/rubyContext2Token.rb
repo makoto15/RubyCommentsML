@@ -12,11 +12,11 @@ root_folder_name = "repositories2Token"
 minAppear2UNK = 3
 sizeOfContext = 150
 
-if !File.directory?('/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing')
-  Dir.mkdir('/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing')
+if !File.directory?('../repositories_cleansing/')
+  Dir.mkdir('../repositories_cleansing/')
 end
-if !File.directory?("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}")
-  Dir.mkdir("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}")
+if !File.directory?("../repositories_cleansing/#{root_folder_name}")
+  Dir.mkdir("../repositories_cleansing/#{root_folder_name}")
 end
 
 
@@ -31,11 +31,11 @@ end
 
 #各リポジトリのループ
 unkToken = []
-Dir.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories/*") do |i|
+Dir.glob("../repositories/*") do |i|
   folder_name = i.split('/')[-1]
 
   #プロジェクト名と名前が一致するフォルダを作成
-  Dir.mkdir("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}/#{folder_name}")
+  Dir.mkdir("../repositories_cleansing/#{root_folder_name}/#{folder_name}")
   token_appear = {}
 
   #各ファイルのループ
@@ -109,10 +109,10 @@ Dir.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories/*") do 
         end
       end
 
-      File.open("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}/#{folder_name}/all.txt",mode="a"){ |f|
+      File.open("../repositories_cleansing/#{root_folder_name}/#{folder_name}/all.txt",mode="a"){ |f|
         f.puts tokens.join(" ")
       }
-      File.open("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}/all.txt",mode="a"){ |f|
+      File.open("../repositories_cleansing/#{root_folder_name}/all.txt",mode="a"){ |f|
         f.puts tokens.join(" ")
       }
 
@@ -123,7 +123,7 @@ Dir.glob("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories/*") do 
   end
 end
 
-File.open("/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/#{root_folder_name}/all.txt",mode="a"){ |f|
+File.open("../repositories_cleansing/#{root_folder_name}/all.txt",mode="a"){ |f|
   f.puts (["EMP"]*sizeOfContext).join(' ')
 }
 
