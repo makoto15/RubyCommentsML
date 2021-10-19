@@ -1,0 +1,260 @@
+v102
+2021-10-18 02:34:08.728586: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2021-10-18 02:34:15.108683: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcuda.so.1
+2021-10-18 02:34:16.888349: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:05:00.0 name: Tesla V100-SXM2-16GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-10-18 02:34:16.890237: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 1 with properties: 
+pciBusID: 0000:09:00.0 name: Tesla V100-SXM2-16GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-10-18 02:34:16.890308: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2021-10-18 02:34:17.072981: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-10-18 02:34:17.073143: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2021-10-18 02:34:17.142589: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcufft.so.10
+2021-10-18 02:34:17.316941: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcurand.so.10
+2021-10-18 02:34:17.423372: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcusolver.so.11
+2021-10-18 02:34:17.470247: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcusparse.so.11
+2021-10-18 02:34:17.473105: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-10-18 02:34:17.503748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0, 1
+2021-10-18 02:34:17.504353: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-10-18 02:34:17.830281: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:05:00.0 name: Tesla V100-SXM2-16GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-10-18 02:34:17.832146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 1 with properties: 
+pciBusID: 0000:09:00.0 name: Tesla V100-SXM2-16GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-10-18 02:34:17.839047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0, 1
+2021-10-18 02:34:17.842138: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2021-10-18 02:34:22.955562: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1258] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-10-18 02:34:22.955605: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1264]      0 1 
+2021-10-18 02:34:22.955618: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1277] 0:   N Y 
+2021-10-18 02:34:22.955625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1277] 1:   Y N 
+2021-10-18 02:34:22.963302: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14643 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:05:00.0, compute capability: 7.0)
+2021-10-18 02:34:22.971236: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 14643 MB memory) -> physical GPU (device: 1, name: Tesla V100-SXM2-16GB, pci bus id: 0000:09:00.0, compute capability: 7.0)
+[nltk_data] Downloading package punkt to /home/u00545/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package averaged_perceptron_tagger to
+[nltk_data]     /home/u00545/nltk_data...
+[nltk_data]   Package averaged_perceptron_tagger is already up-to-
+[nltk_data]       date!
+WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually.
+2021-10-18 02:34:44.874078: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:176] None of the MLIR Optimization Passes are enabled (registered 2)
+2021-10-18 02:34:44.882540: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2099915000 Hz
+2021-10-18 02:34:45.341600: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-10-18 02:34:49.421243: I tensorflow/stream_executor/cuda/cuda_dnn.cc:359] Loaded cuDNN version 8100
+scipy version : 1.5.4
+numpy version : 1.19.5
+tensorflow version :  2.5.0
+keras version :  2.5.0
+gensim version :  3.8.0
+<class 'dict'>
+<class 'dict'>
+<class 'dict'>
+['on_ident----cfg', 'on_period', 'on_ident----gsub!', 'on_regexp_beg', 'on_tstring_content', 'on_regexp_end', 'on_comma', 'on_tstring_beg', 'on_tstring_end', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP', 'EMP']
+['#', 'Omit', 'constantly', 'changing', 'uptime', 'info', '/home/u00545/comments/RubyCommentsML/ruby_comment/repositories/ytti/oxidized/lib/oxidized/model/voltaire.rb17']
+[-9.17869329e-01  6.82602823e-01  7.59570658e-01 -1.71175729e-02
+  2.59786630e-05  5.61442673e-01 -1.63454897e-04 -1.14161022e-01
+ -2.72073328e-01  9.12374496e-01  9.45629358e-01  7.90790081e-01
+ -7.74140120e-04 -9.99999464e-01  1.79603330e-06 -7.06273437e-01
+ -9.89271998e-01  1.08761701e-03  7.53939688e-01 -1.42099947e-01
+  1.47263485e-03 -1.15887099e-03  4.83102817e-03  3.19598621e-05
+  8.69876325e-01  4.12488123e-04  4.82527286e-01  7.48192012e-01
+  6.70500755e-01  3.14743757e-01 -2.37228379e-01 -8.55624378e-01
+ -6.61582017e-05  5.15097260e-01  9.87740695e-01 -9.27609503e-02
+  8.51189611e-07  9.05147567e-03 -8.01999927e-01 -2.30727158e-03
+  1.42313250e-09 -2.49008387e-02 -4.53069486e-04  9.99867678e-01
+  8.36217344e-01 -9.03603137e-01 -5.17921150e-01  5.83894253e-01
+  1.24101765e-01  3.55933230e-06  9.05998766e-01 -1.37778227e-06
+ -8.46294045e-01 -2.47344896e-02  2.62792013e-03 -5.75966060e-01
+  9.42733228e-01  5.03549166e-03 -9.95468616e-01  9.99392986e-01
+ -7.68076134e-05 -2.33382240e-01  7.95583248e-01 -3.52666944e-01
+ -4.62408798e-06  2.00936938e-05  9.98707414e-01  3.83704752e-02
+ -8.67780268e-01 -9.99793231e-01 -1.40074917e-04 -9.99793231e-01
+ -6.50636733e-01 -9.99903142e-01  1.33771691e-02 -5.91478893e-04
+  8.23486373e-02 -1.84186846e-01  2.23114520e-01 -2.89186253e-03
+ -8.84181738e-01 -9.70629917e-04 -9.92785394e-01 -3.42659764e-02
+ -4.53835011e-01 -2.24832579e-01  7.30487402e-04  9.55131233e-01
+ -2.92018126e-06  9.41241069e-06  7.14541018e-01 -2.14046182e-07
+  9.11292672e-01 -3.85758989e-02 -5.75941801e-03  3.92208755e-01
+  5.32411737e-03  9.99999881e-01  8.33200336e-01  7.52036497e-02
+ -8.11239108e-02 -9.82358642e-07 -2.56422460e-01  8.72955099e-02
+ -5.62237144e-01  3.16507248e-05  5.59501874e-04 -4.23552393e-07
+  6.80097088e-04 -1.87490508e-03  6.79393947e-01  3.28248233e-01
+  1.01584271e-02  2.29357287e-01  3.81003687e-04 -9.97643173e-01
+  4.63227816e-02 -5.02688825e-01  2.02829895e-08 -5.84646344e-01
+ -1.53008997e-01 -9.14155748e-07 -9.97513175e-01 -4.83398229e-01
+  2.42283940e-02 -7.38144368e-02  9.19976532e-01 -3.77320725e-06
+ -1.99457392e-01  9.98484850e-01  1.46158159e-01  1.46126561e-03
+ -9.97787476e-01 -2.20505539e-02 -7.97986359e-05  3.88209533e-04
+ -8.53609860e-01  1.45597477e-03  1.02563263e-06  2.12641746e-01
+  9.96467590e-01  2.02145815e-01  1.47293434e-02 -2.85479516e-01
+ -9.98274088e-01  9.85082090e-01 -9.48203981e-01 -4.44557428e-01
+  9.94313657e-01  3.94296288e-01 -7.68890679e-01  2.12287143e-01
+  9.33762789e-01  1.18155320e-07 -9.68119428e-02 -3.51523638e-01
+ -6.85301274e-02 -8.33791852e-01 -5.55223703e-01  4.00151038e-07
+ -7.60243058e-01 -2.10792050e-01 -9.02015745e-06  5.44018261e-02
+  1.94533786e-05  9.99239087e-01  5.09447515e-01  7.09929883e-01
+  2.40448695e-02 -9.98240948e-01 -9.37554578e-05 -1.16913028e-01
+  1.67028938e-05  1.65063399e-03  8.65908325e-01 -8.01548769e-04
+ -3.53294797e-02  6.44447625e-01 -5.66469431e-01 -1.13463718e-02
+ -4.47612464e-01  3.17243248e-01 -3.76141216e-08 -1.17155071e-03
+  1.45227155e-02  5.49497120e-02 -2.91683793e-01 -3.93059343e-01
+  4.25122567e-02 -2.89717014e-03 -1.96043111e-08 -5.63761452e-03
+ -9.90588665e-01  2.76431948e-01 -6.22059584e-01 -1.32111147e-01
+ -2.02226685e-04  2.62086421e-01 -2.55740853e-03  7.92682827e-01
+  5.53631842e-01  2.28542899e-06 -1.09445959e-04 -1.89853438e-06
+  4.04553920e-01  9.89328563e-01 -4.38322574e-01  2.00767875e-01
+ -2.70947820e-09  1.28840054e-06  1.16901301e-05  2.30770670e-02
+  9.99994218e-01  2.95142265e-04  6.50280416e-02  1.17757160e-09
+  1.64646544e-02 -9.67408478e-01 -9.99746025e-01 -3.98797721e-01
+  7.98484206e-01 -3.25812507e-05  1.95129724e-05  3.88902605e-01
+ -1.34115577e-01 -8.62523735e-01  7.49184430e-01 -1.40296323e-02
+ -1.26640452e-02  5.14748514e-01  7.24210292e-02 -1.03453340e-06
+ -1.08499137e-06  8.80650163e-01 -1.71155408e-01 -1.04348501e-03
+  8.07954311e-01 -1.19502373e-01  2.35410511e-01  2.28003468e-02
+  6.77343249e-01 -9.99964714e-01  1.25104338e-01  9.99997854e-01
+  2.64985766e-02 -9.52882528e-01  9.99991119e-01  9.35713106e-05
+  4.88357246e-03 -8.17438588e-02 -1.82458442e-02  1.06915370e-01
+  9.09281671e-02 -9.22606978e-06 -9.33236659e-01 -2.47158050e-06]
+['/home/u00545/comments/RubyCommentsML/ruby_comment/repositories_cleansing/repositories2TokenWithComment30Tokens__v2/all.txt']
+288231
+Number of samples: 288231
+Number of unique input tokens: 100
+Number of unique output tokens: 100
+Max sequence length for inputs: 30
+Max sequence length for outputs: 32
+
+['on_ident----require', 'on_tstring_beg', 'on_tstring_content', 'on_tstring_end', 'on_ignored_nl', 'on_const', 'on_period', 'on_ident----reverse', 'on_period', 'on_ident----each', 'on_lbrace', 'on_op', 'on_ident----dir', 'on_op', 'on_gvar', 'on_period', 'on_ident----unshift', 'on_lparen', 'on_ident----dir', 'on_rparen', 'on_kw----if', 'on_const----file', 'on_period', 'on_ident----directory?', 'on_lparen', 'on_ident----dir', 'on_rparen', 'on_rbrace', 'on_kw----if', 'on_kw----defined?']
+['\t', 'on_ident----require', 'on_tstring_beg', 'on_tstring_content', 'on_tstring_end', 'on_ignored_nl', 'on_const', 'on_period', 'on_ident----reverse', 'on_period', 'on_ident----each', 'on_lbrace', 'on_op', 'on_ident----dir', 'on_op', 'on_gvar', 'on_period', 'on_ident----unshift', 'on_lparen', 'on_ident----dir', 'on_rparen', 'on_kw----if', 'on_const----file', 'on_period', 'on_ident----directory?', 'on_lparen', 'on_ident----dir', 'on_rparen', 'on_rbrace', 'on_kw----if', 'on_kw----defined?', '\n']
+=======================================================
+RawでBLEUScoreを測る。
+=======================================================
+RawでBLEUScoreを測る。
+Commentもコードもそのままで測った
+The average Bleu score for code is 
+0.520465922255395
+
+The average Bleu score for comment is 
+0.22601812087907067
+
+Best BleuScore for comments
+1.0
+1
+Size of valid comments
+7000
+相関係数は
+[[1.         0.56462066]
+ [0.56462066 1.        ]]
+the distribution of source code is
+{0: 2100, 1: 691, 2: 344, 3: 189, 4: 125, 5: 121, 6: 155, 7: 158, 8: 227, 9: 401, 10: 2489}
+the distribution of comment is
+{0: 5199, 1: 47, 2: 63, 3: 67, 4: 41, 5: 45, 6: 44, 7: 74, 8: 61, 9: 51, 10: 1308}
+=======================================================
+nltkを使用してbleuScoreを測ってみる(Commentsのみ)
+=======================================================
+nltkを使用してbleuScoreを測る(Commentsのみ)
+The average Bleu score for code is 
+0.520465922255395
+
+The average Bleu score for comment is 
+0.26591370911853546
+
+Best BleuScore for comments
+1.0
+1
+Size of valid comments
+7000
+相関係数は
+[[1.        0.5975754]
+ [0.5975754 1.       ]]
+the distribution of source code is
+{0: 2100, 1: 691, 2: 344, 3: 189, 4: 125, 5: 121, 6: 155, 7: 158, 8: 227, 9: 401, 10: 2489}
+the distribution of comment is
+{0: 4776, 1: 183, 2: 79, 3: 73, 4: 81, 5: 54, 6: 40, 7: 57, 8: 67, 9: 38, 10: 1552}
+=======================================================
+nltkを使用してbleuScoreを測ってみる(Commentsのみ) 短いCommentは削除(20トークン以下は削除)
+=======================================================
+nltkを使用してbleuScoreを測ってみる(Commentsのみ) 短いCommentは削除(20トークン以下は削除)
+The average Bleu score for code is 
+0.6430328322060871
+
+The average Bleu score for comment is 
+0.5314380817269336
+
+Best BleuScore for comments
+1.0
+5
+Size of valid comments
+1181
+相関係数は
+[[1.         0.79060426]
+ [0.79060426 1.        ]]
+the distribution of source code is
+/home/u00545/.local/lib/python3.6/site-packages/nltk/translate/bleu_score.py:516: UserWarning: 
+The hypothesis contains 0 counts of 3-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/home/u00545/.local/lib/python3.6/site-packages/nltk/translate/bleu_score.py:516: UserWarning: 
+The hypothesis contains 0 counts of 4-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+/home/u00545/.local/lib/python3.6/site-packages/nltk/translate/bleu_score.py:516: UserWarning: 
+The hypothesis contains 0 counts of 2-gram overlaps.
+Therefore the BLEU score evaluates to 0, independently of
+how many N-gram overlaps of lower order it contains.
+Consider using lower n-gram order or use SmoothingFunction()
+  warnings.warn(_msg)
+{0: 246, 1: 82, 2: 54, 3: 25, 4: 18, 5: 15, 6: 34, 7: 25, 8: 37, 9: 97, 10: 548}
+the distribution of comment is
+{0: 373, 1: 116, 2: 31, 3: 25, 4: 31, 5: 19, 6: 17, 7: 32, 8: 44, 9: 30, 10: 463}
+=======================================================
+# bleuScoreを測ってみる(Codeのみ) 短いCommentは削除  IdentとConstはマスキングする,Commentは何もしていない
+=======================================================
+# bleuScoreを測ってみる(Codeのみ) 短いCommentは削除  IdentとConstはマスキングする,Commentは何もしていない
+The average Bleu score for code is 
+0.7625117773088912
+
+The average Bleu score for comment is 
+0.48163050552203396
+
+Best BleuScore for comments
+1.0
+8
+Size of valid comments
+1181
+相関係数は
+[[1.         0.71742967]
+ [0.71742967 1.        ]]
+the distribution of source code is
+{0: 48, 1: 40, 2: 71, 3: 96, 4: 73, 5: 49, 6: 31, 7: 24, 8: 17, 9: 20, 10: 712}
+the distribution of comment is
+{0: 506, 1: 24, 2: 29, 3: 21, 4: 25, 5: 25, 6: 27, 7: 36, 8: 36, 9: 45, 10: 407}
+=======================================================
+# bleuScoreを測ってみる(Codeのみ) 短いCommentも含む IdentとConstはマスキングする,Commentは何もしていない
+=======================================================
+# bleuScoreを測ってみる(Codeのみ) 短いCommentも含む IdentとConstはマスキングする,Commentは何もしていない
+The average Bleu score for code is 
+0.6488385508930622
+
+The average Bleu score for comment is 
+0.22601812087907067
+
+Best BleuScore for comments
+1.0
+1
+Size of valid comments
+7000
+相関係数は
+[[1.        0.5269248]
+ [0.5269248 1.       ]]
+the distribution of source code is
+{0: 549, 1: 413, 2: 715, 3: 719, 4: 493, 5: 316, 6: 216, 7: 158, 8: 120, 9: 127, 10: 3174}
+the distribution of comment is
+{0: 5199, 1: 47, 2: 63, 3: 67, 4: 41, 5: 45, 6: 44, 7: 74, 8: 61, 9: 51, 10: 1308}
+The test data used in this comment WAS random
+end
